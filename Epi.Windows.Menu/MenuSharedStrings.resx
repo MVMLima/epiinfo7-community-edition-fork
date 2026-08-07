@@ -160,10 +160,10 @@
     <value>EXIT</value>
   </data>
   <data name="MENU_FOOTER_ABOUTEPIINFO" xml:space="preserve">
-    <value>ABOUT EPI INFO™</value>
+    <value>VERSÃO MANTIDA POR MVML</value>
   </data>
   <data name="MENU_FOOTER_EPIINFOWEBSITE" xml:space="preserve">
-    <value>EPI INFO™ WEBSITE</value>
+    <value>GITHUB</value>
   </data>
   <data name="MENU_HOW_TO_VIDEOS" xml:space="preserve">
     <value>HOW TO' VIDEOS</value>

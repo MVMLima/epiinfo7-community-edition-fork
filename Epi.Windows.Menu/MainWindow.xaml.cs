@@ -211,7 +211,7 @@ namespace Epi.Windows.Menu
         private void epiInfoWebsite_Click(object sender, EventArgs e)
         {
             HideStoryBoard();
-            System.Diagnostics.Process.Start("http://www.cdc.gov/epiinfo/");
+            System.Diagnostics.Process.Start("https://github.com/MVMLima/epiinfo7-community-edition-fork");
         }
 
         private void howToVideo_Click(object sender, EventArgs e)
@@ -638,18 +638,12 @@ namespace Epi.Windows.Menu
             if (e.Key == Key.Space)
             {
                 HideStoryBoard();
-                System.Diagnostics.Process.Start("http://www.cdc.gov/epiinfo/");
+                System.Diagnostics.Process.Start("https://github.com/MVMLima/epiinfo7-community-edition-fork");
             }
         }
 
-        private void aboutEpiInfo_Keydown(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.Space)
-            {
-                HideStoryBoard();
-                OnAboutClicked();
-            }
-        }
+        // aboutEpiInfo_click / aboutEpiInfo_Keydown intentionally left unused: the footer's
+        // "ABOUT EPI INFO" link became a plain "VERSÃO MANTIDA POR MVML" label, not a control.
 
         private void language_Keydown(object sender, KeyEventArgs e)
         {

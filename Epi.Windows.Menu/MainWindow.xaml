@@ -325,17 +325,12 @@
                                 <StackPanel Grid.Row="0" Grid.Column="0" Margin="15, 10, 0,0"  Orientation="Horizontal" HorizontalAlignment="Left">
                                     <Button TabIndex="6" Style="{StaticResource buttonfooterLinks}" KeyUp="epiInfoWebsite_Keydown" Click="epiInfoWebsite_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="#d2dfee " >
                                         <Button.ToolTip>
-                                            <ToolTip Visibility="Hidden">EPI INFO™ WEBSITE</ToolTip>
+                                            <ToolTip Visibility="Hidden">GITHUB</ToolTip>
                                         </Button.ToolTip>
-                                        <TextBlock x:Name="epiInfoWebsite"> EPI INFO™ WEBSITE</TextBlock>
+                                        <TextBlock x:Name="epiInfoWebsite"> GITHUB</TextBlock>
                                     </Button>
                                     <TextBlock Foreground="#d2dfee" Padding="10 0 10 0">|</TextBlock>
-                                    <Button Style="{StaticResource buttonfooterLinks}" TabIndex="7" KeyUp="aboutEpiInfo_Keydown" Cursor="Hand" Click="aboutEpiInfo_click">
-                                        <Button.ToolTip>
-                                            <ToolTip Visibility="Hidden">ABOUT EPI INFO™</ToolTip>
-                                        </Button.ToolTip>
-                                        <TextBlock x:Name="aboutEpiInfo" Foreground="#d2dfee">ABOUT EPI INFO™</TextBlock>
-                                    </Button>
+                                    <TextBlock x:Name="aboutEpiInfo" Foreground="#d2dfee" VerticalAlignment="Center">VERSÃO MANTIDA POR MVML</TextBlock>
                                 </StackPanel>
                                 <StackPanel Grid.Row="0" Grid.Column="1"  Margin="0,10,0,0">
                                     <TextBlock x:Name="testingOnly" TextAlignment="Center" FontWeight="Bold" Foreground="#d2dfee" >FOR BETA TESTING</TextBlock>
