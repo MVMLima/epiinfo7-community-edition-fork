@@ -4,6 +4,7 @@ using System.Text;
 using System.IO;
 
 using Epi.Data;
+using Serilog;
 
 namespace Epi
 {
@@ -14,6 +15,13 @@ namespace Epi
     {
         #region Fields
         private static string logFilePath = string.Empty;
+
+        /// <summary>
+        /// Lazily-created, process-wide Serilog logger. Configured once, on first use, writing daily rolling
+        /// plain-text files named "epiinfo-&lt;yyyyMMdd&gt;.txt" into the same LogDir the hand-rolled writer used
+        /// to target, with a 14-day retention window.
+        /// </summary>
+        private static readonly Lazy<Serilog.Core.Logger> serilogLoggerLazy = new Lazy<Serilog.Core.Logger>(CreateSerilogLogger);
         #endregion Fields
 
         #region Public Methods
@@ -26,12 +34,7 @@ namespace Epi
         {
             try
             {
-                if (EnsureLogFileExists())
-                {
-                    TextWriter tw = new StreamWriter(logFilePath, true);
-                    tw.WriteLine(msg);
-                    tw.Close();
-                }
+                serilogLoggerLazy.Value.Information(msg);
             }
             catch (Exception ex)
             {
@@ -70,49 +73,70 @@ namespace Epi
         }
 
         /// <summary>
+        /// Logs an application error, capturing the full exception (including stack trace).
+        /// </summary>
+        /// <param name="message">Description of what was happening when the error occurred.</param>
+        /// <param name="ex">The exception that was encountered.</param>
+        public static void LogError(string message, Exception ex)
+        {
+            try
+            {
+                serilogLoggerLazy.Value.Error(ex, message);
+            }
+            catch (Exception)
+            {
+                //absorb exception
+            }
+        }
+
+        /// <summary>
         /// Returns the current log file path.
         /// </summary>
         /// <returns></returns>
         public static string GetLogFilePath()
         {
-            EnsureLogFileExists();
+            EnsureLogFilePath();
             return logFilePath;
         }
-        
+
         #endregion Public Methods
 
         #region Private Methods
-        private static bool EnsureLogFileExists()
+
+        /// <summary>
+        /// Creates the underlying Serilog logger, ensuring the log directory exists first — mirrors the
+        /// directory-creation behavior of the old EnsureLogFileExists().
+        /// </summary>
+        private static Serilog.Core.Logger CreateSerilogLogger()
         {
             Configuration config = Configuration.GetNewInstance();
-            
+
+            if (!Directory.Exists(config.Directories.LogDir))
+            {
+                Directory.CreateDirectory(config.Directories.LogDir);
+            }
+
+            string logFileTemplate = Path.Combine(config.Directories.LogDir, "epiinfo-.txt");
+
+            return new Serilog.LoggerConfiguration()
+                .WriteTo.File(
+                    logFileTemplate,
+                    rollingInterval: Serilog.RollingInterval.Day,
+                    retainedFileCountLimit: 14,
+                    shared: true)
+                .CreateLogger();
+        }
+
+        /// <summary>
+        /// Computes the path of today's rolling log file, matching the "epiinfo-yyyyMMdd.txt" naming pattern
+        /// that Serilog.Sinks.File produces for the "epiinfo-.txt" template with a Day rolling interval.
+        /// </summary>
+        private static bool EnsureLogFilePath()
+        {
             try
             {
-                // If the log file name is not availabe, create it.
-                if (string.IsNullOrEmpty(logFilePath))
-                {
-                    string dateStamp = DateTime.Now.ToString();
-                    dateStamp = dateStamp.Replace(StringLiterals.FORWARD_SLASH, StringLiterals.UNDER_SCORE);
-                    dateStamp = dateStamp.Replace(StringLiterals.BACKWARD_SLASH, StringLiterals.UNDER_SCORE);
-                    dateStamp = dateStamp.Replace(StringLiterals.COLON, StringLiterals.UNDER_SCORE);
-                    dateStamp = dateStamp.Replace(StringLiterals.SPACE, StringLiterals.UNDER_SCORE);
-                    string logFileName = "EpiInfo_Log_" + dateStamp + ".txt";
-                    
-                    config = Configuration.GetNewInstance();
-                    logFilePath = Path.Combine(config.Directories.LogDir, logFileName);
-                }
-
-                if (Directory.Exists(config.Directories.LogDir) == false)
-                {
-                    Directory.CreateDirectory(config.Directories.LogDir);
-                }
-                
-                // if log file doesn't exist, create the file.
-                if (!File.Exists(logFilePath))
-                {
-                    FileStream stream = File.Create(logFilePath);
-                    stream.Close();
-                }
+                Configuration config = Configuration.GetNewInstance();
+                logFilePath = Path.Combine(config.Directories.LogDir, "epiinfo-" + DateTime.Now.ToString("yyyyMMdd") + ".txt");
                 return true;
             }
             catch (Exception)

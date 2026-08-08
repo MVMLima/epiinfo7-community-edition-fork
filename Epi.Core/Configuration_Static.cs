@@ -117,6 +117,16 @@ namespace Epi
 		private static ExecutionEnvironment environment = ExecutionEnvironment.Unknown;
 		private static FileSystemEventHandler configUpdateCallback = new FileSystemEventHandler(OnConfigChanged);
 
+		/// <summary>
+		/// Guarantees TLS 1.2 is explicitly configured the first time <see cref="Configuration"/> is touched,
+		/// which happens very early in every executable's startup (via ApplicationManager.LoadConfiguration) —
+		/// well before any network code path could plausibly run.
+		/// </summary>
+		static Configuration()
+		{
+			Epi.Security.TlsConfiguration.Ensure();
+		}
+
 		public string InitVectorDroid
 		{
 			get

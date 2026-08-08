@@ -224,6 +224,7 @@ namespace Epi.Windows
         /// <param name="ex">Unhandled exception</param>
         private static void OnUnhandledException(Exception ex)
         {
+            Epi.Logger.LogError("Unhandled thread exception", ex);
             //#if(!DEBUG)
             Epi.Windows.MsgBox.ShowException(ex);
             //#endif
@@ -894,7 +895,7 @@ namespace Epi.Windows
         {
             // TODO: hard coded string
             string msg = "A fatal error was encountered. The application cannot continue. \n\nCause: " + e.Exception.Message;
-            Logger.Log(msg);
+            Epi.Logger.LogError("A fatal error was encountered. The application cannot continue.", e.Exception);
             MessageBox.Show(msg);
 
             // hard exit

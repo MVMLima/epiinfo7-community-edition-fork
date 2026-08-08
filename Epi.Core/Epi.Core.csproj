@@ -187,6 +187,12 @@
       <HintPath>..\Assemblies\GoldParserEngine.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\packages\Serilog.2.12.0\lib\net47\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.File, Version=5.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\packages\Serilog.Sinks.File.5.0.0\lib\net45\Serilog.Sinks.File.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -432,6 +438,7 @@
     <Compile Include="Delegates.cs" />
     <Compile Include="Diagnostics\Debugger.cs" />
     <Compile Include="Security\InstallationKeyProvider.cs" />
+    <Compile Include="Security\TlsConfiguration.cs" />
     <Compile Include="IniProvider.cs" />
     <Compile Include="Exceptions\CurrentProjectInvalidException.cs">
       <SubType>Code</SubType>
@@ -1501,6 +1508,7 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="packages.config" />
     <None Include="ClassDiagram1.cd" />
     <None Include="DataSets\ANSI\TableColumnSchema.xsc">
       <DependentUpon>TableColumnSchema.xsd</DependentUpon>

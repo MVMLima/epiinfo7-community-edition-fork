@@ -25,25 +25,33 @@ namespace Epi.Windows.EpiInfo
 
         private void StartUp(string[] args)
         {
-            string PluginAssemblyName = System.Configuration.ConfigurationManager.AppSettings["PluginAssemblyName"].ToString();
+            try
+            {
+                string PluginAssemblyName = System.Configuration.ConfigurationManager.AppSettings["PluginAssemblyName"].ToString();
 
-            IApplicationPlugin ApplicationPlugin = null;
+                IApplicationPlugin ApplicationPlugin = null;
 
-            // to do set the enter interpreter
-            // application domain.
-            Assembly a = Assembly.Load(PluginAssemblyName);
-            // Get the type to use.
-            Type myType = a.GetType(System.Configuration.ConfigurationManager.AppSettings["PluginStartupClass"].ToString());
+                // to do set the enter interpreter
+                // application domain.
+                Assembly a = Assembly.Load(PluginAssemblyName);
+                // Get the type to use.
+                Type myType = a.GetType(System.Configuration.ConfigurationManager.AppSettings["PluginStartupClass"].ToString());
 
-            // Create an instance.
-            ApplicationPlugin = (IApplicationPlugin)Activator.CreateInstance(myType);
-            ApplicationPlugin.Host = this;
+                // Create an instance.
+                ApplicationPlugin = (IApplicationPlugin)Activator.CreateInstance(myType);
+                ApplicationPlugin.Host = this;
 
 
-            WriteGC(ApplicationPlugin);
-            // instantiate module launcher instance
-            //ApplicationManager.Start(args);
-            ApplicationPlugin.Start(args);
+                WriteGC(ApplicationPlugin);
+                // instantiate module launcher instance
+                //ApplicationManager.Start(args);
+                ApplicationPlugin.Start(args);
+            }
+            catch (Exception ex)
+            {
+                Epi.Logger.LogError("Fatal error during application startup", ex);
+                throw;
+            }
         }
 
         public bool Register(IApplicationPlugin applicationPlugin)
