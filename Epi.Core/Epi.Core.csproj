@@ -431,6 +431,7 @@
     </Compile>
     <Compile Include="Delegates.cs" />
     <Compile Include="Diagnostics\Debugger.cs" />
+    <Compile Include="Security\InstallationKeyProvider.cs" />
     <Compile Include="IniProvider.cs" />
     <Compile Include="Exceptions\CurrentProjectInvalidException.cs">
       <SubType>Code</SubType>

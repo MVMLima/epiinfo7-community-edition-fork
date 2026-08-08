@@ -86,6 +86,9 @@ namespace Epi
         /// </summary>
         public const string WebDriver = "Epi.Data.WebDriver";
 
+        // LEGACY key — DO NOT use for new encryption, kept only so pre-existing encrypted project files still decrypt.
+        // New encryption uses a per-installation random key (see Epi.Security.InstallationKeyProvider) instead of
+        // this key, which used to be hardcoded in source and is no longer secret now that the repo is public.
         private const string passPhrase = "80787d6053694493be171dd712e51c61";
         private const string saltValue = "476ba16073764022bc7f262c6d67ebef";
         private const string initVector = "0f8f*d5bd&cb4~9f";
@@ -96,6 +99,7 @@ namespace Epi
 		public const string initVectorDroid = "00000000000000000000000000000000";
 		public const string saltDroid = "00000000000000000000";
 
+		// LEGACY debug key — DO NOT use for new encryption, kept only so pre-existing encrypted project files still decrypt.
 		private const string passPhraseDebug = "80787d6053694493be171dd712e51c61";
 		private const string saltValueDebug = "476ba16073764022bc7f262c6d67ebef";
 		private const string initVectorDebug = "0f8f*d5bd&cb4~9f";
@@ -1231,10 +1235,10 @@ namespace Epi
             }
             else
             {
-                byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);
-                byte[] saltValueBytes = Encoding.ASCII.GetBytes(saltValue);
+                byte[] initVectorBytes = Epi.Security.InstallationKeyProvider.InitVectorBytes;
+                byte[] saltValueBytes = Epi.Security.InstallationKeyProvider.SaltValueBytes;
                 byte[] plainTextBytes = Encoding.UTF8.GetBytes(plainText);
-                PasswordDeriveBytes password = new PasswordDeriveBytes(passPhrase, saltValueBytes, "MD5", 1);
+                PasswordDeriveBytes password = new PasswordDeriveBytes(Epi.Security.InstallationKeyProvider.PassPhrase, saltValueBytes, "MD5", 1);
                 byte[] keyBytes = password.GetBytes(16);
                 RijndaelManaged symmetricKey = new RijndaelManaged();
                 symmetricKey.Mode = CipherMode.CBC;
@@ -1284,10 +1288,11 @@ namespace Epi
             {
                 try
                 {
-                    byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);
-                    byte[] saltValueBytes = Encoding.ASCII.GetBytes(saltValue);
+                    // 1st attempt: new per-installation key.
+                    byte[] initVectorBytes = Epi.Security.InstallationKeyProvider.InitVectorBytes;
+                    byte[] saltValueBytes = Epi.Security.InstallationKeyProvider.SaltValueBytes;
                     byte[] cipherTextBytes = Convert.FromBase64String(cipherText);
-                    PasswordDeriveBytes password = new PasswordDeriveBytes(passPhrase, saltValueBytes, "MD5", 1);
+                    PasswordDeriveBytes password = new PasswordDeriveBytes(Epi.Security.InstallationKeyProvider.PassPhrase, saltValueBytes, "MD5", 1);
                     byte[] keyBytes = password.GetBytes(16);
                     RijndaelManaged symmetricKey = new RijndaelManaged();
                     symmetricKey.Mode = CipherMode.CBC;
@@ -1305,24 +1310,50 @@ namespace Epi
                 }
                 catch
                 {
-                    byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVectorDebug);
-                    byte[] saltValueBytes = Encoding.ASCII.GetBytes(saltValueDebug);
-                    byte[] cipherTextBytes = Convert.FromBase64String(cipherText);
-                    PasswordDeriveBytes password = new PasswordDeriveBytes(passPhraseDebug, saltValueBytes, "MD5", 1);
-                    byte[] keyBytes = password.GetBytes(16);
-                    RijndaelManaged symmetricKey = new RijndaelManaged();
-                    symmetricKey.Mode = CipherMode.CBC;
-                    ICryptoTransform decryptor = symmetricKey.CreateDecryptor(keyBytes, initVectorBytes);
-                    string plainText = string.Empty;
-                    MemoryStream memoryStream = new MemoryStream(cipherTextBytes);
-                    using (CryptoStream cryptoStream = new CryptoStream(memoryStream, decryptor, CryptoStreamMode.Read))
+                    try
                     {
-                        byte[] plainTextBytes = new byte[cipherTextBytes.Length];
-                        int decryptedByteCount = cryptoStream.Read(plainTextBytes, 0, plainTextBytes.Length);
-                        memoryStream.Close();
-                        plainText = Encoding.UTF8.GetString(plainTextBytes, 0, decryptedByteCount);
+                        // 2nd attempt: legacy hardcoded key (pre-existing data encrypted before this fix shipped).
+                        byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);
+                        byte[] saltValueBytes = Encoding.ASCII.GetBytes(saltValue);
+                        byte[] cipherTextBytes = Convert.FromBase64String(cipherText);
+                        PasswordDeriveBytes password = new PasswordDeriveBytes(passPhrase, saltValueBytes, "MD5", 1);
+                        byte[] keyBytes = password.GetBytes(16);
+                        RijndaelManaged symmetricKey = new RijndaelManaged();
+                        symmetricKey.Mode = CipherMode.CBC;
+                        ICryptoTransform decryptor = symmetricKey.CreateDecryptor(keyBytes, initVectorBytes);
+                        string plainText = string.Empty;
+                        MemoryStream memoryStream = new MemoryStream(cipherTextBytes);
+                        using (CryptoStream cryptoStream = new CryptoStream(memoryStream, decryptor, CryptoStreamMode.Read))
+                        {
+                            byte[] plainTextBytes = new byte[cipherTextBytes.Length];
+                            int decryptedByteCount = cryptoStream.Read(plainTextBytes, 0, plainTextBytes.Length);
+                            memoryStream.Close();
+                            plainText = Encoding.UTF8.GetString(plainTextBytes, 0, decryptedByteCount);
+                        }
+                        return plainText;
                     }
-                    return plainText;
+                    catch
+                    {
+                        // 3rd attempt: legacy debug key.
+                        byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVectorDebug);
+                        byte[] saltValueBytes = Encoding.ASCII.GetBytes(saltValueDebug);
+                        byte[] cipherTextBytes = Convert.FromBase64String(cipherText);
+                        PasswordDeriveBytes password = new PasswordDeriveBytes(passPhraseDebug, saltValueBytes, "MD5", 1);
+                        byte[] keyBytes = password.GetBytes(16);
+                        RijndaelManaged symmetricKey = new RijndaelManaged();
+                        symmetricKey.Mode = CipherMode.CBC;
+                        ICryptoTransform decryptor = symmetricKey.CreateDecryptor(keyBytes, initVectorBytes);
+                        string plainText = string.Empty;
+                        MemoryStream memoryStream = new MemoryStream(cipherTextBytes);
+                        using (CryptoStream cryptoStream = new CryptoStream(memoryStream, decryptor, CryptoStreamMode.Read))
+                        {
+                            byte[] plainTextBytes = new byte[cipherTextBytes.Length];
+                            int decryptedByteCount = cryptoStream.Read(plainTextBytes, 0, plainTextBytes.Length);
+                            memoryStream.Close();
+                            plainText = Encoding.UTF8.GetString(plainTextBytes, 0, decryptedByteCount);
+                        }
+                        return plainText;
+                    }
                 }
             }
         }
