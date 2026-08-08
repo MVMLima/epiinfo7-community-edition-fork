@@ -315,39 +315,35 @@
                         <StackPanel x:Name="versionFooter" Background="#123b6a" Height="33">
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="280" />
                                     <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="280" />
+                                    <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="33"/>
                                 </Grid.RowDefinitions>
-                                <StackPanel Grid.Row="0" Grid.Column="0" Margin="15, 10, 0,0"  Orientation="Horizontal" HorizontalAlignment="Left">
-                                    <Button TabIndex="6" Style="{StaticResource buttonfooterLinks}" KeyUp="epiInfoWebsite_Keydown" Click="epiInfoWebsite_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="#d2dfee " >
+                                <StackPanel Grid.Row="0" Grid.Column="0" Margin="15,0,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                    <Button TabIndex="6" Style="{StaticResource buttonfooterLinks}" KeyUp="epiInfoWebsite_Keydown" Click="epiInfoWebsite_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="#d2dfee " VerticalAlignment="Center" VerticalContentAlignment="Center">
                                         <Button.ToolTip>
                                             <ToolTip Visibility="Hidden">GITHUB</ToolTip>
                                         </Button.ToolTip>
-                                        <TextBlock x:Name="epiInfoWebsite"> GITHUB</TextBlock>
+                                        <TextBlock x:Name="epiInfoWebsite" VerticalAlignment="Center"> GITHUB</TextBlock>
                                     </Button>
-                                    <TextBlock Foreground="#d2dfee" Padding="10 0 10 0">|</TextBlock>
+                                    <TextBlock Foreground="#d2dfee" Padding="10 0 10 0" VerticalAlignment="Center">|</TextBlock>
                                     <TextBlock x:Name="aboutEpiInfo" Foreground="#d2dfee" VerticalAlignment="Center">VERSÃO MANTIDA POR MVML</TextBlock>
                                 </StackPanel>
-                                <StackPanel Grid.Row="0" Grid.Column="1"  Margin="0,10,0,0">
-                                    <TextBlock x:Name="testingOnly" TextAlignment="Center" FontWeight="Bold" Foreground="#d2dfee" >FOR BETA TESTING</TextBlock>
-                                </StackPanel>
-                                <StackPanel Grid.Row="0" Grid.Column="2" Margin="0, 10, 15,0" x:Name="LangandVer" HorizontalAlignment="Right" Orientation="Horizontal" >
-                                    <Button  Style="{StaticResource buttonfooterLinks}" TabIndex="8" KeyDown="language_Keydown"  Cursor="Hand" Click="btnLocaleClick">
+                                <StackPanel Grid.Row="0" Grid.Column="1" Margin="0,0,15,0" x:Name="LangandVer" HorizontalAlignment="Right" Orientation="Horizontal" VerticalAlignment="Center">
+                                    <Button  Style="{StaticResource buttonfooterLinks}" TabIndex="8" KeyDown="language_Keydown"  Cursor="Hand" Click="btnLocaleClick" VerticalAlignment="Center" VerticalContentAlignment="Center">
                                         <Button.ToolTip>
                                             <ToolTip Visibility="Hidden">LANGUAGE</ToolTip>
                                         </Button.ToolTip>
-                                        <StackPanel Orientation="Horizontal" Margin="0 0 5 0">
-                                            <TextBlock x:Name="txtLanguage" Foreground="#d2dfee" Padding="0 0 5 0">LANGUAGE:</TextBlock>
-                                            <TextBlock Foreground="#d2dfee" x:Name="tsslLocale" Padding="0 0 5 0"></TextBlock>
+                                        <StackPanel Orientation="Horizontal" Margin="0 0 5 0" VerticalAlignment="Center">
+                                            <TextBlock x:Name="txtLanguage" Foreground="#d2dfee" Padding="0 0 5 0" VerticalAlignment="Center">LANGUAGE:</TextBlock>
+                                            <TextBlock Foreground="#d2dfee" x:Name="tsslLocale" Padding="0 0 5 0" VerticalAlignment="Center"></TextBlock>
                                         </StackPanel>
                                     </Button>
-                                    <StackPanel Orientation="Horizontal" Margin="0 0 5 0">
-                                        <TextBlock x:Name="txtVersion" Margin="0 0 3 0" Foreground="#d2dfee">VERSION:</TextBlock>
-                                        <TextBlock Foreground="#d2dfee" x:Name="tsslVersion"></TextBlock>
+                                    <StackPanel Orientation="Horizontal" Margin="0 0 5 0" VerticalAlignment="Center">
+                                        <TextBlock x:Name="txtVersion" Margin="0 0 3 0" Foreground="#d2dfee" VerticalAlignment="Center">VERSION:</TextBlock>
+                                        <TextBlock Foreground="#d2dfee" x:Name="tsslVersion" VerticalAlignment="Center"></TextBlock>
                                     </StackPanel>
                                 </StackPanel>
                             </Grid>

@@ -36,12 +36,10 @@ namespace Epi.Windows.Menu
             if (Configuration.IsRelease)
             {
                 versionFooter.Background = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(18, 59, 106));
-                testingOnly.Visibility = System.Windows.Visibility.Hidden;
             }
             else
             {
                 versionFooter.Background = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(106, 21, 18));
-                testingOnly.Visibility = System.Windows.Visibility.Visible;
             }
 
             mainform = new MainForm();
