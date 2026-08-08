@@ -180,9 +180,9 @@ namespace EpiDashboard.Gadgets.Charting
                 {
                     val = Convert.ToDouble(item.S);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
+                    Epi.Logger.LogError("AreaChartGadget.SetChartData", ex);
                 }
 
             }

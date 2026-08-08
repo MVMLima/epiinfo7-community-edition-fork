@@ -320,6 +320,7 @@ namespace Epi.Windows.Analysis.Forms
             }
             catch (Exception ex)
             {
+                Epi.Logger.LogError("OutputWindow.SendToOutput", ex);
             }
             finally
             {

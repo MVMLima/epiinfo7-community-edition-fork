@@ -778,10 +778,10 @@ namespace Epi.Windows.Analysis.Forms
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("CommandExplorer.GetFilePathGivenCommand", ex);
             }
                 return string.Empty;
-          
+
         }
         
         private void DesignUserDefinedCommand(UserDefinedCommands command)

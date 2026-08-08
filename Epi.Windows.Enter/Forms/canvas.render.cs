@@ -115,7 +115,7 @@ namespace Epi.Windows.Enter
                     {
                         value = Configuration.Decrypt(value);
                     }
-                    catch { }
+                    catch (Exception ex) { Epi.Logger.LogError("Canvas.GetTextData", ex); }
                 }
                 
                 control.Text = value;

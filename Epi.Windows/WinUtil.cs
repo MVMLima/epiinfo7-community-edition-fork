@@ -192,7 +192,7 @@ namespace Epi.Windows
                     System.Diagnostics.Process.Start(filePath);
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("WinUtil.OpenTextFile", ex); }
         }
 
         /// <summary>

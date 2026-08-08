@@ -337,7 +337,7 @@ namespace EpiDashboard
 				}
 				catch (Exception e)
 				{
-
+					Epi.Logger.LogError("KaplanMeierControl.SetChartData", e);
 				}
 			}
 			else

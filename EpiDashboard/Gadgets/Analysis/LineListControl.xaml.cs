@@ -1438,7 +1438,7 @@ namespace EpiDashboard
 
                                         dgtcindex++;
                                     }
-                                    catch { }
+                                    catch (Exception ex) { Epi.Logger.LogError("LineListControl.ToHTML", ex); }
                                 }
 
                                 htmlBuilder.AppendLine(Common.ConvertDataViewToHtmlString(dg.ItemsSource as DataView, useAlternatingColors));

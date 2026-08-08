@@ -200,7 +200,7 @@ namespace SyncFile2CSV
 				XDocument doc = XDocument.Parse(xmlText);
 				xmlText = doc.ToString();
 			}
-			catch { }
+			catch (Exception ex) { Epi.Logger.LogError("MainWindow.WriteExceptionFile", ex); }
 
 			exceptionText = exceptionText + "\n\n" + xmlText;
 

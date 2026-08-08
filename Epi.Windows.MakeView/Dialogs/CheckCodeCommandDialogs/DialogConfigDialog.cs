@@ -481,7 +481,7 @@ namespace Epi.Windows.MakeView.Dialogs.CheckCodeCommandDialogs
             }
             catch (Exception ex)
             {
-            
+                Epi.Logger.LogError("DialogConfigDialog.LoadInputVars", ex);
             }
         }
         private void cmbShowTable_SelectedIndexChanged(object sender, EventArgs e)

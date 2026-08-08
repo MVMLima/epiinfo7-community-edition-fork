@@ -928,7 +928,7 @@ namespace Epi.Enter.Forms
                                                         pd.DownloadFile(existingFile, tempPath);
                                                         imageBytes = Util.GetByteArrayFromImagePath(tempPath + existingFile.Id);
                                                     }
-                                                    catch { }
+                                                    catch (Exception ex) { Epi.Logger.LogError("ImportPhoneDataForm.ProcessPages", ex); }
                                                 }
                                             }
                                             if (imageBytes != null)

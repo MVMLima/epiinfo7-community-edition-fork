@@ -1212,7 +1212,7 @@ namespace Epi.Windows.Dialogs
 
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("OpenProjectFromWebDialog.SaveRecentOrganization", ex); }
         }
 
         private List<string> GetRecentOrganizations()
@@ -1235,7 +1235,7 @@ namespace Epi.Windows.Dialogs
                     }    
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("OpenProjectFromWebDialog.GetRecentOrganizations", ex); }
 
             return orgs;
         }

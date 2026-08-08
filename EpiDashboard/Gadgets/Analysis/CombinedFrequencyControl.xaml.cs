@@ -956,13 +956,13 @@ namespace EpiDashboard
 						double llccll = (double)drv.Row["LCL"];
 						drv.Row[3] = Math.Round(100.0 * llccll, 2);
 					}
-					catch (InvalidCastException excep) { }
+					catch (InvalidCastException excep) { Epi.Logger.LogError("CombinedFrequencyControl.ToHTML", excep); }
 					try
 					{
 						double uuccll = (double)drv.Row["UCL"];
 						drv.Row[4] = Math.Round(100.0 * uuccll, 2);
 					}
-					catch (InvalidCastException excep) { }
+					catch (InvalidCastException excep) { Epi.Logger.LogError("CombinedFrequencyControl.ToHTML", excep); }
 				}
 				htmlBuilder.AppendLine(Common.ConvertDataViewToHtmlString(sddv as DataView, useAlternatingColors));
 

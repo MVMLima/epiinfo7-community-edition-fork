@@ -268,7 +268,7 @@ namespace EpiDashboard.Controls
                     kmllayerprop.lblServerName.Content = KMLMapServerName;
                     kmllayerprop.CheckMapGenerated();
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("Referencelayer.btnOK_Click", ex); }
             }
             if (ChangesAccepted != null)
             {

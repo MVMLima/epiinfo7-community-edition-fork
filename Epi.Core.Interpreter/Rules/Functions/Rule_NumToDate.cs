@@ -53,7 +53,7 @@ namespace Epi.Core.AnalysisInterpreter.Rules
                     }
                 }
             }
-            catch { };
+            catch (Exception ex) { Epi.Logger.LogError("Rule_NumToDate.Execute", ex); }
 
             return result;
         }

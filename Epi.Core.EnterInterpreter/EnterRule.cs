@@ -117,8 +117,9 @@ namespace Epi.Core.EnterInterpreter
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Epi.Logger.LogError("EnterRule.GetDataType", ex);
             }
             return type;
         }
@@ -621,7 +622,7 @@ namespace Epi.Core.EnterInterpreter
                     }
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("EnterRule.AddCommandVariableCheckValue", ex); }
         }
     }
 }

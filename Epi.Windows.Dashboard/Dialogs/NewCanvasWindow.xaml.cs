@@ -333,8 +333,9 @@ namespace Epi.WPF.Dashboard.Dialogs
                 Grid.SetColumn(txt, 1);
                 grdRecentDataSources.Children.Add(txt);
             }
-            catch (System.Security.Cryptography.CryptographicException)
+            catch (System.Security.Cryptography.CryptographicException ex)
             {
+                Epi.Logger.LogError("NewCanvasWindow.PopulateRecentDataSource", ex);
             }
         }
 

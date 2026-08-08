@@ -757,7 +757,7 @@ namespace EpiDashboard
                         hexColor = "#FFFFFF";
                     }
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("RatesControl.RateTable", ex); }
             }
 
             newRow["hexColor"] = hexColor;

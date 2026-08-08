@@ -1283,7 +1283,7 @@ namespace Epi.Data.Services
             }
             catch (Exception ex)
             {
-                
+                Epi.Logger.LogError("MetadataDataSet.GetFields", ex);
             }
             return (fields);
         }
@@ -9476,7 +9476,7 @@ namespace Epi.Data.Services
                     }
                 }
             }
-            catch (System.ArgumentException e){}
+            catch (System.ArgumentException e){ Epi.Logger.LogError("MetadataDataSet.UpdatePageBackgroundData", e); }
             
             StringBuilder queryString = new StringBuilder();
             queryString.Append("update [metaBackgrounds] set ");

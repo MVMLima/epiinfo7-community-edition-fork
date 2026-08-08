@@ -851,7 +851,7 @@ namespace Epi.Windows.MakeView.Forms
                         //    makeViewMainForm.SetPublishMenuItems(currentPage.view);
                         //}
                     }
-                    catch { }
+                    catch (Exception ex) { Epi.Logger.LogError("ProjectExplorer.projectTree_AfterSelect", ex); }
                 }
             }
             else if (e.Node is ViewNode)

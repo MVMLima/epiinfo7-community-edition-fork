@@ -150,7 +150,7 @@ namespace Epi.Data.Office
                 {
                     adapter.FillSchema(dataTable, SchemaType.Source);
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("OleDbDatabase.Select", ex); }
 
                 return dataTable;
             }
@@ -167,7 +167,7 @@ namespace Epi.Data.Office
                     {
                         adapter.FillSchema(dataTable, SchemaType.Source);
                     }
-                    catch { }
+                    catch (Exception ex) { Epi.Logger.LogError("OleDbDatabase.Select", ex); }
 
                     return dataTable;
                 }

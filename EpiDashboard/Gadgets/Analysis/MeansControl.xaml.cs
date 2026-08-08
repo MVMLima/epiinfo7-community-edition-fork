@@ -2736,7 +2736,7 @@ namespace EpiDashboard
                 element.AppendChild(pairedTTestVariableElement);
 
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("MeansControl.Serialize", ex); }
 
             //"<columnsToShow>" + wb.ToString() + "</columnsToShow>" +
             //columnsToShow

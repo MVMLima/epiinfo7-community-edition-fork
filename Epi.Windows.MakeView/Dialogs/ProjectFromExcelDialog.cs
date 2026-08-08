@@ -1134,7 +1134,7 @@ namespace Epi.Windows.MakeView.Dialogs
 
                 dExcelPath.Text = Path.GetFullPath(proc.StartInfo.FileName);
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("ProjectFromExcelDialog.linkEmbeddedResource_Clicked", ex); }
         }
     }
 }

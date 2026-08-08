@@ -84,6 +84,7 @@ namespace Epi.Windows.Enter
                             }
                             catch (Exception ex)
                             {
+                                Epi.Logger.LogError("Canvas.control_MouseDown", ex);
                             }
                         }
                     }
@@ -510,7 +511,7 @@ namespace Epi.Windows.Enter
 
                             keyboardProcess = System.Diagnostics.Process.Start(keyboardPath);
                         }
-                        catch { }
+                        catch (Exception ex) { Epi.Logger.LogError("Canvas.control_Enter", ex); }
                     }
                 }
             }
@@ -531,7 +532,7 @@ namespace Epi.Windows.Enter
                     keyboardProcess.Kill();
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("Canvas.control_Leave", ex); }
             
             ControlFactory factory = ControlFactory.Instance;          
             Field field = factory.GetAssociatedField((Control)sender);

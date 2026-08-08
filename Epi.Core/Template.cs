@@ -133,7 +133,7 @@ namespace Epi
                         }
                     }
                 }
-                catch{}
+                catch (Exception ex) { Epi.Logger.LogError("Template.GetProjectTable", ex); }
             }
 
             return table;

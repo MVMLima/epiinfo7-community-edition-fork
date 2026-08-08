@@ -205,9 +205,9 @@ namespace Epi.Data.SqlServer.Forms
                                 databases.Add(databas.Field<String>("database_name"));
                             }
                         }
-                        catch(Exception)
+                        catch(Exception ex)
                         {
-
+                            Epi.Logger.LogError("ConnectionStringDialog.cmbServerName_SelectedIndexChanged", ex);
                         }
                     }
                     if (databases.Count>0)
@@ -276,9 +276,9 @@ namespace Epi.Data.SqlServer.Forms
                                 databases.Add(databas.Field<String>("database_name"));
                             }
                         }
-                        catch(Exception )
+                        catch(Exception ex)
                         {
-
+                            Epi.Logger.LogError("ConnectionStringDialog.cmbServerName_SelectedIndexChanged", ex);
                         }
                     }
                     if (databases.Count > 0)

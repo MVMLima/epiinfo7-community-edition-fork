@@ -145,7 +145,7 @@ namespace Epi.Data.SQLite
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("SQLiteDatabase.CheckDatabaseExistance", ex);
             }
             finally
             {

@@ -3923,7 +3923,7 @@ namespace EpiDashboard
                 {
                     root.AppendChild(gadget.Serialize(doc));
                 }
-                catch {}
+                catch (Exception ex) { Epi.Logger.LogError("DashboardControl.SerializeGadgets", ex); }
             }
             return root;
         }

@@ -400,7 +400,7 @@ namespace EpiDashboard.Controls.GadgetProperties
 			}
 			catch (Exception crgex)
 			{
-
+				Epi.Logger.LogError("CrosstabProperties.UserControl_Loaded", crgex);
 			}
             cbxOutcomeField.SelectedItem = Parameters.CrosstabVariableName;
             cbxFieldWeight.SelectedItem = Parameters.WeightVariableName;

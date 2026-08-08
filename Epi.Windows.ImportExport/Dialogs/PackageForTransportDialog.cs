@@ -956,7 +956,7 @@ namespace Epi.Windows.ImportExport.Dialogs
                 {
                     CallbackAddStatusMessage(filter);
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("PackageForTransportDialog.CreateRowFiltersFromXML", ex); }
             }
         }
 

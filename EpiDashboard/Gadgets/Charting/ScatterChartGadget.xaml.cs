@@ -47,9 +47,7 @@ namespace EpiDashboard.Gadgets.Charting
             }
             catch (Exception e)
             {
-
-
-
+                Epi.Logger.LogError("ScatterChartGadget.ScatterChartGadget", e);
             }
         }
 
@@ -63,14 +61,7 @@ namespace EpiDashboard.Gadgets.Charting
             }
             catch (Exception e)
             {
-
-
-
-
-
-
-
-
+                Epi.Logger.LogError("ScatterChartGadget.ScatterChartGadget", e);
             }
         }
 
@@ -1131,9 +1122,7 @@ namespace EpiDashboard.Gadgets.Charting
                 }
                 catch (Exception e)
                 {
-
-
-
+                    Epi.Logger.LogError("ScatterChartGadget.CreateFromXml", e);
                 }
             }
             HideConfigPanel();

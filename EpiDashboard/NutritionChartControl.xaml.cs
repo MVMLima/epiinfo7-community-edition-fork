@@ -595,8 +595,9 @@ namespace EpiDashboard
                     }
                 }
             }
-            catch (FormatException)
+            catch (FormatException ex)
             {
+                Epi.Logger.LogError("NutritionChartControl.RenderFinish", ex);
             }
             catch (ArgumentException ex)
             {

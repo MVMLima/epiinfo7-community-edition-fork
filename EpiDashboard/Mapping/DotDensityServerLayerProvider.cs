@@ -431,6 +431,7 @@ namespace EpiDashboard.Mapping
             }
             catch (Exception ex)
             {
+                Epi.Logger.LogError("DotDensityServerLayerProvider.SetShapeRangeValues", ex);
             }
         }
 

@@ -86,7 +86,7 @@ namespace Epi.Windows.Enter.PresentationLogic
 
                 return false;
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("GuiMediator.Geocode", ex); }
 
             return true;
         }
@@ -1586,7 +1586,7 @@ namespace Epi.Windows.Enter.PresentationLogic
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("GuiMediator.UnHide", ex);
             }
         }
 
@@ -1688,8 +1688,9 @@ namespace Epi.Windows.Enter.PresentationLogic
             {
                 ProcessClearCommand(List);
             }
-            catch
+            catch (Exception ex)
             {
+                Epi.Logger.LogError("GuiMediator.Clear", ex);
             }
         }
 
@@ -1933,7 +1934,7 @@ namespace Epi.Windows.Enter.PresentationLogic
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("GuiMediator.Hide", ex);
             }
         }
 
@@ -2027,7 +2028,7 @@ namespace Epi.Windows.Enter.PresentationLogic
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("GuiMediator.Highlight", ex);
             }
         }
 
@@ -2079,7 +2080,7 @@ namespace Epi.Windows.Enter.PresentationLogic
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("GuiMediator.UnHighlight", ex);
             }
         }
 
@@ -2145,9 +2146,9 @@ namespace Epi.Windows.Enter.PresentationLogic
                     this.canvas.EnableCheckCodeItems(controlsList);
                 }
             }
-            catch
+            catch (Exception ex)
             {
-
+                Epi.Logger.LogError("GuiMediator.Enable", ex);
             }
         }
 
@@ -2213,9 +2214,9 @@ namespace Epi.Windows.Enter.PresentationLogic
                     this.canvas.DisableCheckCodeItems(controlsList);
                 }
             }
-            catch
+            catch (Exception ex)
             {
-
+                Epi.Logger.LogError("GuiMediator.Disable", ex);
             }
         }
 

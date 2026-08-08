@@ -694,7 +694,7 @@ namespace Epi.Windows.Analysis.Forms
 					richTextBox.SelectedText = returnLine.Substring(0, indexLastFormat);
 				}
 			}
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("ProgramEditor.txtTextArea_KeyPress", ex); }
 		}
 	}
 }

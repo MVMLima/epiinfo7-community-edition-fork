@@ -114,7 +114,7 @@ namespace Epi.Data.MongoDB.Wrappers
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("MongoDBWrapper.CreateCollection", ex);
             }
         }
 

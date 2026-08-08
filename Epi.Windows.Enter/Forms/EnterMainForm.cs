@@ -2332,8 +2332,9 @@ namespace Epi.Windows.Enter
                 {
                     Util.SortColumnsByTabOrder(data, this.View);
                 }
-                catch
+                catch (Exception ex)
                 {
+                    Epi.Logger.LogError("EnterMainForm.GetHTMLLineListing", ex);
                 }
 
                 string fileName = Path.GetTempPath() + Guid.NewGuid().ToString("N") + ".html";

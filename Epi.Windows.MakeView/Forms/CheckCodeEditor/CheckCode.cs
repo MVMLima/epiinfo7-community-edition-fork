@@ -149,12 +149,12 @@ namespace Epi.Windows.MakeView.Forms
                     if (mainForm.EpiInterpreter.IsExecuteError)
                         iserrcheckcode = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    Epi.Logger.LogError("CheckCode.CheckCode", ex);
                 }
             }
-           
+
             BuildComboBox();
             if (iserrcheckcode)
             {
@@ -363,7 +363,7 @@ namespace Epi.Windows.MakeView.Forms
             {
                 validationEnabled = config.Settings.IsVariableValidationEnable;
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("CheckCode.Construct", ex); }
 
             if (validationEnabled)
             {
@@ -1555,7 +1555,7 @@ namespace Epi.Windows.MakeView.Forms
                     Kodachrome(Findline);
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("CheckCode.CalculateStatus", ex); }
             
             Findline++;
             LineNumberLabel.Text = Findline.ToString();

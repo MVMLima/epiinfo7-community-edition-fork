@@ -440,13 +440,13 @@ namespace Epi.Windows.Dialogs
             {
                 autoTouchKeyboard.Checked = settings.AutoTouchKeyboard;
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("OptionsDialog.ShowSettings", ex); }
 
             try
             {
                 checkBoxSparseConnection.Checked = settings.SparseConnection;
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("OptionsDialog.ShowSettings", ex); }
 
             // Representation of boolean values ...
             cmbYesAs.SelectedItem = settings.RepresentationOfYes;
@@ -476,13 +476,13 @@ namespace Epi.Windows.Dialogs
             {
                 txtMapKey.Text = config.Settings.MapServiceKey;
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("OptionsDialog.ShowSettings", ex); }
 
             try
             {
                 txtIOCoding.Text = config.Settings.IOCodeFile;
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("OptionsDialog.ShowSettings", ex); }
 
             object selectedItem = null;
             foreach (object item in lbxLanguages.Items)

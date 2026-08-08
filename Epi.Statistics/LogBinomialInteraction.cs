@@ -80,6 +80,7 @@ namespace Epi.Statistics
                 }
                 catch (Exception e)
                 {
+                    Epi.Logger.LogError("LogBinomialInteraction.IOR", e);
                 }
             }
 

@@ -256,7 +256,7 @@ namespace EpiDashboard.Mapping
                     }
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("ChoroplethKmlLayerProvider.AddSchemaDataAttributes", ex); }
         }
 
         override public string GetShapeValue(Graphic graphicFeature, string shapeValue)

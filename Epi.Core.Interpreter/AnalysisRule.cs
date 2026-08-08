@@ -75,10 +75,11 @@ namespace Epi.Core.AnalysisInterpreter
                     }
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                Epi.Logger.LogError("AnalysisRule.GetDataType", ex);
             }
-            
+
             return type;
         }
 

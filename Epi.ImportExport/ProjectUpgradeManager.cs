@@ -709,8 +709,9 @@ namespace Epi.ImportExport
                                                     }
                                                 }
                                             }
-                                            catch
+                                            catch (Exception ex)
                                             {
+                                                Epi.Logger.LogError("ProjectUpgradeManager.CopyCollectedData", ex);
                                             }
                                         }
                                         else
@@ -1904,8 +1905,9 @@ namespace Epi.ImportExport
                     }
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                Epi.Logger.LogError("ProjectUpgradeManager.UpdateOptionFields", ex);
             }
         }
 

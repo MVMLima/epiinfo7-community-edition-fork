@@ -241,7 +241,7 @@ namespace EpiDashboard
                     }
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("DataFilters.CreateFromXml", ex); }
         }
 
         /// <summary>

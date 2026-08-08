@@ -807,7 +807,7 @@ namespace EpiDashboard.Mapping
                         }
                     }
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("ChoroplethLayerProvider.GetThematicItem", ex); }
 
                 string graphicName = shapeValue;
 
@@ -1128,8 +1128,9 @@ namespace EpiDashboard.Mapping
 
                 SetLegendSection(brushList, classCount, missingText, _thematicItem);
             }
-            catch
+            catch (Exception ex)
             {
+                Epi.Logger.LogError("ChoroplethLayerProvider.SetShapeRangeValues", ex);
             }
         }
     }

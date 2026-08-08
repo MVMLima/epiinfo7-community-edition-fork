@@ -1276,7 +1276,7 @@ namespace Epi
                 string version = withoutExtension.Substring(vIndex + 1);
                 endpointVersion = int.Parse(version);
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("Util.GetEndpointVersion", ex); }
 
             return endpointVersion;
         }

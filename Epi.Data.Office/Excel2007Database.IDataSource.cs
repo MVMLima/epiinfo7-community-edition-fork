@@ -158,7 +158,7 @@ namespace Epi.Data.Office
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("Excel2007Workbook.CheckDatabaseExistance", ex);
             }
             finally
             {

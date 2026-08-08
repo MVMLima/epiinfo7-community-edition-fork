@@ -1773,7 +1773,7 @@ namespace Epi.Windows.Enter.PresentationLogic
                             {
                                 text = Configuration.Encrypt(text);
                             }
-                            catch { }
+                            catch (Exception ex) { Epi.Logger.LogError("GuiMediator.SetTextData", ex); }
                         }
 
                         textField.CurrentRecordValueObject = text;

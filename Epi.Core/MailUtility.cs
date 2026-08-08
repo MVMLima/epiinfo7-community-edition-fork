@@ -38,7 +38,7 @@ namespace Epi
                 fileContents = fileContents.Replace("ita3@cdc.gov", "");
                 System.IO.File.WriteAllText(filename, fileContents);
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("MailUtility.Save", ex); }
         }
     }
 }

@@ -389,7 +389,7 @@ namespace Epi.Windows.Dialogs
                         //txtMetadata.Text = txtCollectedData.Text;
                     }
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("ProjectCreationDialog.cbxCollectedDataDriver_SelectedIndexChanged", ex); }
             }
 
             PrepopulateCollectedDataLocation();

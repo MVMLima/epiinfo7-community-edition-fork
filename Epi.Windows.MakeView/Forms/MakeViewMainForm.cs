@@ -1789,7 +1789,7 @@ namespace Epi.Windows.MakeView.Forms
                 Configuration.Save(config);
                 Configuration.Load(config.ConfigFilePath);
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("MakeViewMainForm.Form_Load", ex); }
         }
 
         /// <summary>
@@ -3631,7 +3631,7 @@ namespace Epi.Windows.MakeView.Forms
 
                 if (checkCodeAfters.Count() > 0) { return true; }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("MakeViewMainForm.CheckforRepublishWebSurveyMenuItem", ex); }
 
             return false;
         }

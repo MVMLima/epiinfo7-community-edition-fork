@@ -993,7 +993,7 @@ namespace EpiDashboard.Controls.GadgetProperties
                     System.Data.DataRowView rowView = (System.Data.DataRowView)textBlock.BindingGroup.Items[0];
                     return rowView.Row["hexColor"].ToString();
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("RateToBrushConverter.Convert", ex); }
             }
 
             return "#FFFFFF";

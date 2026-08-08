@@ -2229,8 +2229,9 @@ namespace Epi.WPF.Dashboard
                         parentPrimaryKeyColumns[0] = viewTable.Columns["GlobalRecordId"];
                         viewTable.PrimaryKey = parentPrimaryKeyColumns;
                     }
-                    catch
+                    catch (Exception ex)
                     {
+                        Epi.Logger.LogError("DashboardHelper.JoinPageTables", ex);
                     }
 
                     foreach (DataRow row in pageTable.Rows)
@@ -7738,8 +7739,9 @@ namespace Epi.WPF.Dashboard
                 parentPrimaryKeyColumns[0] = parentTable.Columns[parentKey];
                 parentTable.PrimaryKey = parentPrimaryKeyColumns;
             }
-            catch
+            catch (Exception ex)
             {
+                Epi.Logger.LogError("DashboardHelper.RelateInto", ex);
             }
 
             string parentKeyDataType = parentTable.Columns[parentKey].DataType.ToString();

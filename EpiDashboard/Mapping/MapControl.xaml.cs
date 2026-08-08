@@ -629,7 +629,7 @@ namespace EpiDashboard.Mapping
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("MapControl.InternetAvailable", ex);
             }
             return retval;
         }

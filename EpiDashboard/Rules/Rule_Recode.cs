@@ -541,9 +541,9 @@ namespace EpiDashboard.Rules
                 DateTime dateVal = DateTime.Parse(userInput, System.Globalization.CultureInfo.CurrentCulture);
                 asInvariantCulture = dateVal.ToString("u", System.Globalization.CultureInfo.InvariantCulture);
             }
-            catch
+            catch (Exception ex)
             {
-
+                Epi.Logger.LogError("Rule_Recode.ToUniversalSortable", ex);
             }
 
             return asInvariantCulture;

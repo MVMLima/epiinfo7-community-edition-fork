@@ -170,7 +170,7 @@ namespace Epi.Data.Office
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("CsvFile.CheckDatabaseExistance", ex);
             }
             finally
             {

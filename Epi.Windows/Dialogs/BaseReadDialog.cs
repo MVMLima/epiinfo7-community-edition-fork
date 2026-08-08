@@ -879,9 +879,9 @@ namespace Epi.Windows.Dialogs
                             }
                 }
             }
-            catch
+            catch (Exception ex)
             {
-
+                Epi.Logger.LogError("BaseReadDialog.btnHelp_Click", ex);
             }
         }
     }

@@ -124,7 +124,7 @@ namespace Epi.Windows.MakeView.Dialogs
                 }
                 catch (Exception ex)
                 {
-
+                    Epi.Logger.LogError("CopyToAndroid.btnCopy_Click", ex);
                 }
             }
 

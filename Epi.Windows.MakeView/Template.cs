@@ -973,7 +973,7 @@ namespace Epi.Windows.MakeView
                                 InsertSourceTable(table, writer);
                             }
                         }
-                        catch { }
+                        catch (Exception ex) { Epi.Logger.LogError("Template.AddCodeTableTemplates", ex); }
                     }
                 }
             }
@@ -1941,7 +1941,7 @@ namespace Epi.Windows.MakeView
                         ((RenderableField)field).PromptFont = new System.Drawing.Font(fontFamily, fontSize, (FontStyle)System.Enum.Parse(typeof(FontStyle), row["PromptFontStyle"].ToString(), true));
                     }
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("Template.CreateFields", ex); }
 
                 if (field is InputFieldWithoutSeparatePrompt)
                 {

@@ -344,7 +344,7 @@ namespace EpiDashboard
 				}
 				catch (Exception e)
 				{
-
+					Epi.Logger.LogError("CoxProportionalHazardsControl.SetChartData", e);
 				}
 			}
 			else

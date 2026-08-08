@@ -165,7 +165,7 @@ namespace Epi.Windows.Controls
                             mtbec.Text = this.Value.ToString();
                         }
                     }
-                    catch { }
+                    catch (Exception ex) { Epi.Logger.LogError("MaskedTextBoxCell.InitializeEditingControl", ex); }
                 }
 
                 mtbec.MaskInputRejected -= control_MaskInputRejected;

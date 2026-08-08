@@ -164,7 +164,7 @@ namespace EpiDashboard.Mapping
                         AddRangeStarts(provider, rangeStartsFromMapFile, "rampStart09");
                         AddRangeStarts(provider, rangeStartsFromMapFile, "rampStart10");
                     }
-                    catch { }
+                    catch (Exception ex) { Epi.Logger.LogError("ChoroplethLayerPropertiesUserControlBase.CreateFromXml", ex); }
 
                     provider.RangeStartsFromMapFile = rangeStartsFromMapFile;
                     provider.RangesLoadedFromMapFile = true;

@@ -344,7 +344,7 @@ namespace EpiDashboard.Mapping
                         sparse_connection = true;
                     }
                 }
-                catch { }
+                catch (Exception ex) { Epi.Logger.LogError("StandaloneMapControl.RenderMap", ex); }
 
 
                 GraphicsLayer pointLayer = new GraphicsLayer();
@@ -1375,6 +1375,7 @@ namespace EpiDashboard.Mapping
             }
             catch (Exception ex)
             {
+                Epi.Logger.LogError("StandaloneMapControl.InternetAvailable", ex);
             }
             return retval;
         }
@@ -2078,9 +2079,9 @@ namespace EpiDashboard.Mapping
                 choroplethproperties.Cancelled += new EventHandler(properties_Cancelled);
                 choroplethproperties.ChangesAccepted += new EventHandler(properties_ChangesAccepted);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                Epi.Logger.LogError("StandaloneMapControl.GenerateChoropleth_Common", ex);
             }
 
             popup.Content = choroplethproperties;
@@ -2694,7 +2695,7 @@ namespace EpiDashboard.Mapping
                                 sparse_connection = true;
                             }
                         }
-                        catch { }
+                        catch (Exception ex) { Epi.Logger.LogError("StandaloneMapControl.SetBackgroundImageType", ex); }
 
                         if (sparse_connection == true)
                         {

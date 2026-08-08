@@ -177,7 +177,7 @@ namespace Epi.Data.Office
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("JsonFile.CheckDatabaseExistance", ex);
             }
             finally
             {

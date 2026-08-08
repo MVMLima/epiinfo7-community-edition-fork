@@ -976,7 +976,7 @@ namespace EpiDashboard
                     }
 					catch (Exception crgex)
 					{
-
+						Epi.Logger.LogError("CrosstabControl.worker_DoWork", crgex);
 					}
 					if (useCRG)
                     {

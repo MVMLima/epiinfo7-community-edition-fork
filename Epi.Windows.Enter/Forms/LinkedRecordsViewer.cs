@@ -95,7 +95,7 @@ namespace Epi.Windows.Enter
                 this.toolTip1.ToolTipTitle = "Record preview:";
                 this.toolTip1.Show(sb.ToString().Substring(0, sb.Length - 2), enterMainForm, relativePosition.X + 5, relativePosition.Y - (15 + (counter * 13)));
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("LinkedRecordsViewer.lvLinkedFrom_ItemMouseHover", ex); }
         }
 
         void lvLinkedTo_ItemMouseHover(object sender, ListViewItemMouseHoverEventArgs e)
@@ -124,7 +124,7 @@ namespace Epi.Windows.Enter
                 this.toolTip1.ToolTipTitle = SharedStrings.LINKED_RECS_PREVIEW;
                 this.toolTip1.Show(sb.ToString().Substring(0, sb.Length - 2), enterMainForm, relativePosition.X + 5, relativePosition.Y - (15 + (counter * 13)));
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("LinkedRecordsViewer.lvLinkedTo_ItemMouseHover", ex); }
         }
 
         #endregion
@@ -595,7 +595,7 @@ namespace Epi.Windows.Enter
                     }
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("LinkedRecordsViewer.ToNodeFiller_DoWork", ex); }
         }
 
         private void FillFromNodes()
@@ -775,7 +775,7 @@ namespace Epi.Windows.Enter
                     }
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("LinkedRecordsViewer.FromNodeFiller_DoWork", ex); }
         }
 
         #endregion
@@ -800,7 +800,7 @@ namespace Epi.Windows.Enter
                     ToggleEnable(false);
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("LinkedRecordsViewer.Render", ex); }
         }
 
         #endregion

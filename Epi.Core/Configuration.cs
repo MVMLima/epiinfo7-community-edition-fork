@@ -329,7 +329,7 @@ namespace Epi
                 current.configDataSet.DataDriver.AcceptChanges();
                 Save();
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("Configuration.AddNewDataDrivers", ex); }
         }
 
         /// <summary>

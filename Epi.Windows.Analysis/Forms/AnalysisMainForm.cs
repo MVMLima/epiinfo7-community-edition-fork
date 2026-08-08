@@ -454,7 +454,7 @@ namespace Epi.Windows.Analysis.Forms
             }
             catch (Exception ex)
             {
-
+                Epi.Logger.LogError("AnalysisMainForm.programEditor_RunPGM", ex);
             }
             finally
             {
@@ -495,7 +495,7 @@ namespace Epi.Windows.Analysis.Forms
                 }
                 catch (Exception ex)
                 {
-
+                    Epi.Logger.LogError("AnalysisMainForm.commandExplorer_CommandGenerated", ex);
                 }
             }
         }

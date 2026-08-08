@@ -342,8 +342,9 @@ namespace EpiDashboard.Controls
                 Grid.SetColumn(txt, 1);
                 grdRecentDataSources.Children.Add(txt);
             }
-            catch (System.Security.Cryptography.CryptographicException)
+            catch (System.Security.Cryptography.CryptographicException ex)
             {
+                Epi.Logger.LogError("SetDataSource.PopulateRecentDataSource", ex);
             }
         }
 

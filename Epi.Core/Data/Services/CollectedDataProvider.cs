@@ -352,7 +352,7 @@ namespace Epi.Data.Services
                                 dbDriver.ExecuteNonQuery(deleteQuery);
                             }
                         }
-                        catch { }
+                        catch (Exception ex) { Epi.Logger.LogError("CollectedDataProvider.SynchronizeDataTable", ex); }
                     }
 
                     view.SetTableName(view.TableName);
@@ -363,7 +363,7 @@ namespace Epi.Data.Services
                     }
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("CollectedDataProvider.SynchronizeDataTable", ex); }
         }
 
         public bool DeleteUndefinedDataFields(View view, DataTable fieldMetadataSync)
@@ -825,7 +825,7 @@ namespace Epi.Data.Services
                     }
                 }
             }
-            catch { }
+            catch (Exception ex) { Epi.Logger.LogError("CollectedDataProvider.worker_SaveAsResponse", ex); }
         }
 
         protected void worker_SaveAsResponseCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)

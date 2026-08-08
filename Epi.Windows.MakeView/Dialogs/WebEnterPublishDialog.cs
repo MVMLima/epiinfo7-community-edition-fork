@@ -181,9 +181,9 @@ namespace Epi.Windows.MakeView.Dialogs
             }
             catch (Exception ex)
             {
-               
+                Epi.Logger.LogError("WebEnterPublishDialog.WebEnterPublishDialog", ex);
             }
-          
+
 
             try
                 {
