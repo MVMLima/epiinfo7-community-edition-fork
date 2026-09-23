@@ -7,7 +7,7 @@ Até aqui a tradução para português existia **somente como DLLs compiladas** 
 | Arquivo | Para quê |
 |---|---|
 | `pt-BR.csv` | **Fonte da tradução.** Uma linha por texto (4.621). Abra no Excel e edite a coluna `Portuguese`. |
-| `glossario.csv` | Termos oficiais (85) com a forma preferida e as variantes a evitar. Usado pelo validador. |
+| `glossario.csv` | Termos oficiais (89) com a forma preferida e as variantes a evitar. Usado pelo validador. |
 | `GUIA-DE-ESTILO.md` | Regras de redação e as 6 decisões de vocabulário já confirmadas. |
 | `Build-PtBrResources.ps1` | Gera as DLLs `Epi.Core/pt-BR/*.resources.dll` a partir de `pt-BR.csv`. |
 | `Test-PtBrTranslation.ps1` | Valida a planilha e preenche a coluna `Alerta`. |
@@ -64,7 +64,7 @@ Requisitos: Windows PowerShell 5.1 e o `al.exe` do .NET Framework SDK (já prese
 
 - Exportação das 4.621 strings das DLLs originais e regeneração das DLLs a partir da planilha: **0 diferenças** (comparação exata de todas as entradas, inclusive quebras de linha), mesma identidade de assembly (nome, versão 7.2.6.2, cultura pt-BR).
 - Teste ponta a ponta: alterando um texto na planilha, regenerando e abrindo o programa em pt-BR, a alteração aparece na tela.
-- As DLLs em `Epi.Core/pt-BR/` **ainda são as originais**; só serão substituídas quando a tradução for de fato alterada.
+- As DLLs em `Epi.Core/pt-BR/` só são substituídas quando a tradução de fato muda. Até agora: **`Menu.resources.dll`** (lote 1, 2026-09-23). As demais ainda são as originais.
 
 ## Estado inicial da tradução (medido em 2026-09-23, por heurística)
 

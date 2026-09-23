@@ -84,3 +84,7 @@
 "server";"\bservers?\b";"servidor";"";"Definido";""
 "connection";"\bconnections?\b";"conexão";"\bligação\b|\bconexi[oó]n\b";"Definido";""
 "row / column";"\b(rows?|columns?)\b";"linha / coluna";"\bfilas?\b|\bcolumnas?\b";"Definido";""
+"OK (botão)";"^&?OK$";"OK";"aceitar|aceptar";"Definido";"Padrão do Windows pt-BR. Hoje 'Aceitar' (espanhol 'Aceptar')."
+"label (controle de texto)";"\blabel\d*$";"rótulo";"\betiqueta";"Definido";"'Etiqueta' não é o termo usado no Brasil para label."
+"population survey";"population survey";"inquérito populacional";"estudo populacional";"Definido";"StatCalc."
+"help desk / contact";"\b(help ?desk|contact)\b";"suporte / entrar em contato";"\bcontactar\b";"Definido";"'Contactar' é português de Portugal."

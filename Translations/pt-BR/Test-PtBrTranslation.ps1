@@ -46,7 +46,7 @@ if (Test-Path $Glossary) { $gloss = @(Read-Table $Glossary | Where-Object { $_.E
 $reEs  = '(?i)\b(los|las|del|una|unos|unas|el|muestra|archivos?|seleccione|seleccionar|ayuda|tablas?|paquetes?|proyectos?|formularios?|datos|haga|aseg[u\xFA]rese|est[a\xE1]n|puede|pueden|se (puede|han|ha|debe)|para (el|la|los|las)|con (el|la|los)|de (la|los|las)|que se|l[i\xED]nea|cerrar|lenguaje|versi[o\xF3]n|configuraci[o\xF3]n)\b|[\xF1\xBF\xA1]|\w+ci\xF3n\b|\w+si\xF3n\b'
 $rePt  = '(?i)\b(ficheiros?|utilizador(es)?|ecr[a\xE3]s?|guardar|guarde|guardado|introduz\w*|palavra-passe|registos?|separadores?|defini\xE7\xF5es|liga\xE7\xE3o|liga\xE7\xF5es|telem\xF3vel|actualiz\w+|equipa)\b'
 $reJunk = '(?i)Detectar idioma|Traduzir texto|Traduzir do|espanholingl|Google Tradutor'
-$allowSame = '^(Epi Info.*|StatCalc|OpenEpi.*|ActivEpi.*|PHIN.*|OK|CSV|SQL|ANOVA|XML|HTML|GUID|URL|ID)$'
+$allowSame = '^(Epi Info.*|StatCalc|OpenEpi.*|ActivEpi.*|PHIN.*|OK|CSV|SQL|ANOVA|XML|HTML|GUID|URL|ID|Menu|menuStrip[0-9]*|ActivEpi.com|OpenEpi.com)$'
 
 function Get-Indexes([string]$s) { (([regex]::Matches($s, '\{(\d+)(?::[^}]*)?\}') | ForEach-Object { $_.Groups[1].Value } | Sort-Object) -join ',') }
 function Get-Angles([string]$s)  { @([regex]::Matches($s, '<[A-Za-z_][A-Za-z_ ]*>') | ForEach-Object { $_.Value }) }
@@ -67,7 +67,9 @@ foreach ($r in $rows) {
             if ($pt -match $reJunk) { $flags.Add('LIXO_COLADO') }
             if ((Get-Indexes $en) -ne (Get-Indexes $pt)) { $flags.Add('PLACEHOLDER') }
             foreach ($a in (Get-Angles $en)) { if (-not $pt.Contains($a)) { $flags.Add('ANGULAR'); break } }
-            if ($en -match '&[A-Za-z0-9]' -and $en -notmatch '^&&' -and $pt -notmatch '&[A-Za-z0-9]') { $flags.Add('ATALHO_PERDIDO') }
+            # '&&' e um '&' literal (nao e tecla de atalho): remove antes de procurar '&Letra'
+            $enAcc = $en -replace '&&', ''; $ptAcc = $pt -replace '&&', ''
+            if ($enAcc -match '&[A-Za-z0-9]' -and $ptAcc -notmatch '&[A-Za-z0-9]') { $flags.Add('ATALHO_PERDIDO') }
             $enLead = [bool]($en -match '^\s'); $ptLead = [bool]($pt -match '^\s')
             $enTrail = [bool]($en -match '\s$'); $ptTrail = [bool]($pt -match '\s$')
             if (($enLead -ne $ptLead) -or ($enTrail -ne $ptTrail)) { $flags.Add('ESPACOS') }

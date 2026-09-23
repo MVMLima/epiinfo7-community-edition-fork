@@ -23,7 +23,7 @@ Vale para todo texto novo ou revisado em `pt-BR.csv`. Os termos ficam no `glossa
 
 ## Decisões confirmadas (2026-09-23)
 
-O glossário traz 85 termos. Estes 6 envolviam uma escolha real e foram **confirmados pelo responsável do projeto** aceitando a recomendação; todos estão como `Definido` no `glossario.csv`. Para mudar algum, edite a linha do glossário e retraduza os textos afetados.
+O glossário traz 89 termos. Estes 6 envolviam uma escolha real e foram **confirmados pelo responsável do projeto** aceitando a recomendação; todos estão como `Definido` no `glossario.csv`. Para mudar algum, edite a linha do glossário e retraduza os textos afetados.
 
 | # | Termo | Hoje (antes da revisão) | Decisão | Alternativas / motivo |
 |---|---|---|---|---|
