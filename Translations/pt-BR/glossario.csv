@@ -88,3 +88,8 @@
 "label (controle de texto)";"\blabel\d*$";"rótulo";"\betiqueta";"Definido";"'Etiqueta' não é o termo usado no Brasil para label."
 "population survey";"population survey";"inquérito populacional";"estudo populacional";"Definido";"StatCalc."
 "help desk / contact";"\b(help ?desk|contact)\b";"suporte / entrar em contato";"\bcontactar\b";"Definido";"'Contactar' é português de Portugal."
+"missing (value)";"\bmissing\b";"ausente";"\bperdid[oa]s?\b|\bnulo\b";"Definido";"Valor ausente (não informado). 'Perdido' é calco do espanhol; 'nulo' é outra coisa."
+"foreign key";"foreign key";"chave estrangeira";"chave externa";"Definido";"FKEY é nome de coluna do sistema e não se traduz."
+"outcome (variable)";"\boutcome\b";"desfecho";"vari[aá]vel de sa[ií]da";"Definido";"Variável de desfecho (regressão, casos-controle)."
+"Web Survey / Cloud Data Capture";"Web ?Survey|Cloud Data Capture";"Web Survey / Cloud Data Capture";"\bencuesta\b";"Definido";"Nomes de serviços do Epi Info: não traduzir. 'Survey' solto = pesquisa."
+"please enter";"\bplease enter\b";"digite / informe";"\bescreva\b|\bescrever\b|\bintroduza\b";"Definido";"'Escreva' vem do espanhol 'Escriba'."

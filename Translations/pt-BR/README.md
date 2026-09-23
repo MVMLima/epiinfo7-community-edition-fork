@@ -7,7 +7,7 @@ Até aqui a tradução para português existia **somente como DLLs compiladas** 
 | Arquivo | Para quê |
 |---|---|
 | `pt-BR.csv` | **Fonte da tradução.** Uma linha por texto (4.621). Abra no Excel e edite a coluna `Portuguese`. |
-| `glossario.csv` | Termos oficiais (89) com a forma preferida e as variantes a evitar. Usado pelo validador. |
+| `glossario.csv` | Termos oficiais (94) com a forma preferida e as variantes a evitar. Usado pelo validador. |
 | `GUIA-DE-ESTILO.md` | Regras de redação e as 6 decisões de vocabulário já confirmadas. |
 | `Build-PtBrResources.ps1` | Gera as DLLs `Epi.Core/pt-BR/*.resources.dll` a partir de `pt-BR.csv`. |
 | `Test-PtBrTranslation.ps1` | Valida a planilha e preenche a coluna `Alerta`. |
@@ -45,7 +45,7 @@ cd Translations\pt-BR
 .\Test-PtBrTranslation.ps1 -WriteAlerts           # grava a coluna Alerta na planilha
 ```
 
-Alertas: `VAZIO`, `NAO_TRADUZIDO`, `ESPANHOL`, `PT_PT` (português de Portugal), `LIXO_COLADO` (restos de tradutor web), `PLACEHOLDER` (`{n}` diferente), `ANGULAR` (`<x>` perdido), `ATALHO_PERDIDO`, `ESPACOS`, `PONTUACAO`, `LONGO` (risco de cortar na tela) e `GLOSS:<termo>` (usa variante marcada como "Evitar" no glossário). São **avisos** para triagem, não sentenças: um alerta pode ser falso positivo, e a ausência de alerta não garante que o texto está certo.
+Alertas: `VAZIO`, `NAO_TRADUZIDO`, `ESPANHOL`, `PT_PT` (português de Portugal), `LIXO_COLADO` (restos de tradutor web), `PLACEHOLDER` (`{n}` diferente), `ANGULAR` (`<x>` perdido), `ATALHO_PERDIDO`, `ESPACOS`, `PONTUACAO`, `LONGO` (risco de cortar na tela), `CODIGO_ALTERADO` (texto que o programa usa como código/identificador e que deve ficar idêntico ao original), `FILTRO_LOG_IMPORT` (mensagem de importação que deixou de aparecer na lista do log) e `GLOSS:<termo>` (usa variante marcada como "Evitar" no glossário). São **avisos** para triagem, não sentenças: um alerta pode ser falso positivo, e a ausência de alerta não garante que o texto está certo.
 
 ## Gerar as DLLs e testar
 
@@ -64,7 +64,7 @@ Requisitos: Windows PowerShell 5.1 e o `al.exe` do .NET Framework SDK (já prese
 
 - Exportação das 4.621 strings das DLLs originais e regeneração das DLLs a partir da planilha: **0 diferenças** (comparação exata de todas as entradas, inclusive quebras de linha), mesma identidade de assembly (nome, versão 7.2.6.2, cultura pt-BR).
 - Teste ponta a ponta: alterando um texto na planilha, regenerando e abrindo o programa em pt-BR, a alteração aparece na tela.
-- As DLLs em `Epi.Core/pt-BR/` só são substituídas quando a tradução de fato muda. Até agora: **`Menu.resources.dll`** (lote 1, 2026-09-23). As demais ainda são as originais.
+- As DLLs em `Epi.Core/pt-BR/` só são substituídas quando a tradução de fato muda. Até agora: **`Menu.resources.dll`** (lote 1) e **`Epi.Core.resources.dll`** (lote 2, `Epi.SharedStrings`), ambos em 2026-09-23. As demais ainda são as originais.
 
 ## Estado inicial da tradução (medido em 2026-09-23, por heurística)
 

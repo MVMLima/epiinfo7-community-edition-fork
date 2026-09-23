@@ -6,12 +6,14 @@ Vale para todo texto novo ou revisado em `pt-BR.csv`. Os termos ficam no `glossa
 
 1. **Português do Brasil**, ortografia atual (Acordo de 1990). Nada de português de Portugal (*ficheiro, utilizador, guardar, ecrã, palavra-passe*) e nada de espanhol.
 2. **Tratamento**: "você". Instruções no imperativo (*Selecione…, Digite…*); menus e botões no infinitivo (*Salvar, Abrir, Criar mapa*).
-3. **Maiúsculas**: só a primeira palavra e nomes próprios (*Salvar como…*). Exceção: nomes dos módulos principais (*Criar Formulários, Inserir Dados, Analisar Dados, Criar Mapas, Painel Visual*).
+3. **Maiúsculas**: só a primeira palavra e nomes próprios (*Salvar como…*). Exceção: nomes dos módulos principais (*Criar Formulários, Inserir Dados, Analisar Dados, Criar Mapas, Painel Visual*). Listas que já estão em Title Case (nomes de comandos do Analysis, itens de menu de contexto) mantêm o padrão da própria lista, para não misturar estilos no mesmo menu.
 4. **Teclas de atalho (`&`)**: em menus, botões e rótulos que têm `&` no original, mantenha **um** `&` antes de uma letra da palavra em português (`&Salvar`, `Arqui&vo`), sem repetir a mesma letra no mesmo menu/janela. `&&` significa um `&` literal.
 5. **Variáveis e marcadores**: copie exatamente `{0}`, `{1:n0}`, `<variable>`, `\n`. Pode mudar a posição na frase, nunca omitir nem alterar.
 6. **Nunca traduzir**:
    - nomes de produto: Epi Info, StatCalc, ActivEpi, OpenEpi, PHIN;
    - comandos, funções e palavras-chave da linguagem do Epi Info (READ, FREQ, ASSIGN, IF…), inclusive os argumentos entre aspas (`FORMAT( <variable>, "Currency" )`); o texto de dica que mostra a sintaxe fica idêntico ao original, com `<variable>`;
+   - **textos que o programa usa como código, identificador ou chave de comparação**: são inseridos no programa do usuário, viram nome de coluna no banco ou são comparados com nomes de pasta/comando. **Devem ser idênticos ao original.** Exemplos já encontrados: os modelos de função `CNTXT_FXN_TMPLT_*` (`( <variable> )`), `UNIQUE_ROW_ID`, `GLOBAL_RECORD_ID`, `METADATA_PREFIX`, `WORD_ALL` (vira o argumento `ALL` do comando RELATE) e `PROJECTS/PAGES/FORMS/FIELDS` (comparados com as pastas de modelos). O validador acusa `CODIGO_ALTERADO`. Na dúvida, procure a chave em `SharedStrings.` no código-fonte antes de traduzir;
+   - **mensagens do log de importação**: a janela de mensagens só lista linhas que contêm `:  Import` ou `:  Project` (inglês fixo no código) ou os prefixos traduzidos (Erro, Aviso, Observação). Uma mensagem que começava com "Import…" deve continuar começando com "Importação…". O validador acusa `FILTRO_LOG_IMPORT`;
    - nomes de arquivo e extensões (`.prj`, `.cvs7`), campos do sistema (`UniqueKey`, `GlobalRecordId`, `FKEY`) e siglas (ANOVA, CSV, SQL).
 7. **Reticências**: um único caractere `…` em itens que abrem uma janela (*Salvar como…*).
 8. **Pontuação e espaços**: mantenha os do original (dois-pontos de rótulo, ponto final de frase completa, espaço no fim do texto quando houver).
@@ -23,7 +25,7 @@ Vale para todo texto novo ou revisado em `pt-BR.csv`. Os termos ficam no `glossa
 
 ## Decisões confirmadas (2026-09-23)
 
-O glossário traz 89 termos. Estes 6 envolviam uma escolha real e foram **confirmados pelo responsável do projeto** aceitando a recomendação; todos estão como `Definido` no `glossario.csv`. Para mudar algum, edite a linha do glossário e retraduza os textos afetados.
+O glossário traz 94 termos. Estes 6 envolviam uma escolha real e foram **confirmados pelo responsável do projeto** aceitando a recomendação; todos estão como `Definido` no `glossario.csv`. Para mudar algum, edite a linha do glossário e retraduza os textos afetados.
 
 | # | Termo | Hoje (antes da revisão) | Decisão | Alternativas / motivo |
 |---|---|---|---|---|

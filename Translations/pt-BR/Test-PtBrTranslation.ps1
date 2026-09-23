@@ -18,6 +18,8 @@
     ESPACOS          espaco no inicio/fim diferente do original
     PONTUACAO        ':' / '...' / ponto final divergente do original
     LONGO            portugues muito maior que o original (risco de cortar na tela)
+    CODIGO_ALTERADO  texto que vira codigo/identificador difere do original (quebra o programa)
+    FILTRO_LOG_IMPORT mensagem de importacao que sumiria da lista do log (filtro em ingles no codigo)
     GLOSS:<termo>    usa variante marcada como "Evitar" no glossario.csv
 
   IMPORTANTE: este script e ASCII puro de proposito (Windows PowerShell 5.1 le .ps1 sem BOM como ANSI).
@@ -61,7 +63,16 @@ foreach ($r in $rows) {
         $letters = ($en -match '[A-Za-z]{3}')
         if ($letters -and [string]::IsNullOrWhiteSpace($pt)) { $flags.Add('VAZIO') }
         if ($pt) {
-            if ($letters -and $en.Length -ge 4 -and ($en -ceq $pt) -and $en -cmatch '[a-z]' -and $en -notmatch $allowSame -and $en -notmatch '^\s*[A-Z_]+\s*\(' ) { $flags.Add('NAO_TRADUZIDO') }
+            # chaves cujo texto vira codigo/identificador (coluna do banco, sintaxe inserida no programa do usuario):
+            # devem ser IDENTICAS ao original; alterar quebra o programa (ex.: UNIQUE_ROW_ID era 'IdUniqueLigne')
+            # WORD_ALL vira o argumento ALL do comando RELATE; PROJECTS/PAGES/FORMS/FIELDS sao comparados com o
+            # nome das pastas de modelos no disco (EndsWith); os demais sao nomes de coluna/sintaxe.
+            $isCodeKey = ($r.Key -match '^(UNIQUE_ROW_ID|UNIQUE_RECORD_ID|GLOBAL_RECORD_ID|METADATA_PREFIX|OUTPUT_TABLE_NAME_COMMAND|MYSQL_DATABASE_INFO|MONGODB_DATABASE_INFO|WORD_ALL|PROJECTS|PAGES|FORMS|FIELDS|CNTXT_FXN_DATFX_TMPLT[0-9]*|CNTXT_FXN_TMPLT_.*)$')
+            if ($isCodeKey -and ($pt -cne $en)) { $flags.Add('CODIGO_ALTERADO') }
+            # o dialogo de mensagens da importacao so lista linhas que contem ':  Import' / ':  Project' (ingles fixo no
+            # codigo) ou os prefixos traduzidos; mensagem que comecava com 'Import' e deixa de comecar com 'Import' some da lista
+            if ($r.Key -like 'IMPORT_*' -and $en -cmatch '^Import' -and $pt -cnotmatch '^Import') { $flags.Add('FILTRO_LOG_IMPORT') }
+            if (-not $isCodeKey -and $letters -and $en.Length -ge 4 -and ($en -ceq $pt) -and $en -cmatch '[a-z]' -and $en -notmatch $allowSame -and $en -notmatch '^\s*[A-Z_]+\s*\(' ) { $flags.Add('NAO_TRADUZIDO') }
             if ($pt -cne $en -and $pt -match $reEs) { $flags.Add('ESPANHOL') }
             if ($pt -match $rePt) { $flags.Add('PT_PT') }
             if ($pt -match $reJunk) { $flags.Add('LIXO_COLADO') }
@@ -81,7 +92,7 @@ foreach ($r in $rows) {
             $ptDot   = $ptT.EndsWith('.') -and -not $ptDots
             if ($enColon -ne $ptColon -or $enDots -ne $ptDots -or ($enT.Length -gt 25 -and $enDot -ne $ptDot)) { $flags.Add('PONTUACAO') }
             if ($en.Length -ge 3 -and $en.Length -le 40 -and $pt.Length -gt 1.8 * $en.Length -and $pt.Length -gt 12) { $flags.Add('LONGO') }
-            foreach ($g in $gloss) {
+            foreach ($g in ($gloss | Where-Object { -not $isCodeKey })) {
                 if ((-not $g.PadraoEN -or $en -match ('(?i)' + $g.PadraoEN)) -and $pt -match ('(?i)' + $g.Evitar)) { $flags.Add('GLOSS:' + $g.TermoEN) }
             }
         }
