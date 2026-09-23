@@ -1,0 +1,2 @@
+# A planilha tem quebras de linha (CRLF) DENTRO de celulas; nao converter EOL.
+*.csv -text
