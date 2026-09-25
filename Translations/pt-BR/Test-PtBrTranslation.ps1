@@ -48,7 +48,7 @@ if (Test-Path $Glossary) { $gloss = @(Read-Table $Glossary | Where-Object { $_.E
 $reEs  = '(?i)\b(los|las|del|una|unos|unas|el|muestra|archivos?|seleccione|seleccionar|ayuda|tablas?|paquetes?|proyectos?|formularios?|datos|haga|aseg[u\xFA]rese|est[a\xE1]n|puede|pueden|se (puede|han|ha|debe)|para (el|la|los|las)|con (el|la|los)|de (la|los|las)|que se|l[i\xED]nea|cerrar|lenguaje|versi[o\xF3]n|configuraci[o\xF3]n)\b|[\xF1\xBF\xA1]|\w+ci\xF3n\b|\w+si\xF3n\b'
 $rePt  = '(?i)\b(ficheiros?|utilizador(es)?|ecr[a\xE3]s?|guardar|guarde|guardado|introduz\w*|palavra-passe|registos?|separadores?|defini\xE7\xF5es|liga\xE7\xE3o|liga\xE7\xF5es|telem\xF3vel|actualiz\w+|equipa)\b'
 $reJunk = '(?i)Detectar idioma|Traduzir texto|Traduzir do|espanholingl|Google Tradutor'
-$allowSame = '^(Epi Info.*|StatCalc|OpenEpi.*|ActivEpi.*|PHIN.*|OK|CSV|SQL|ANOVA|XML|HTML|GUID|URL|ID|Menu|menuStrip[0-9]*|ActivEpi.com|OpenEpi.com|Microsoft (Excel|Word)|Mantel-Haenszel|Total|Classes:?|Shapefile:?)$'
+$allowSame = '^(Epi Info.*|StatCalc|OpenEpi.*|ActivEpi.*|PHIN.*|OK|CSV|SQL|ANOVA|XML|HTML|GUID|URL|ID|Menu|menuStrip[0-9]*|ActivEpi.com|OpenEpi.com|Microsoft (Excel|Word)|Mantel-Haenszel|Total|Classes:?|Shapefile:?|Beep|Canvas|Final|Item|&?Global|basic|wsHTTP|DisplayItem|ValueListItem|Web Survey|Cloud Data Capture|Horizontal|Vertical|MainToolStrip|(toolStrip|statusStrip|toolStripContainer)[0-9]*|label[0-9]+|\[[A-Za-z ]+\]|Ctrl [-+] [A-Z])$'
 
 function Get-Indexes([string]$s) { (([regex]::Matches($s, '\{(\d+)(?::[^}]*)?\}') | ForEach-Object { $_.Groups[1].Value } | Sort-Object) -join ',') }
 function Get-Angles([string]$s)  { @([regex]::Matches($s, '<[A-Za-z_][A-Za-z_ ]*>') | ForEach-Object { $_.Value }) }
@@ -68,6 +68,8 @@ foreach ($r in $rows) {
             # WORD_ALL vira o argumento ALL do comando RELATE; PROJECTS/PAGES/FORMS/FIELDS sao comparados com o
             # nome das pastas de modelos no disco (EndsWith); os demais sao nomes de coluna/sintaxe.
             $isCodeKey = ($r.Key -match '^(UNIQUE_ROW_ID|UNIQUE_RECORD_ID|GLOBAL_RECORD_ID|METADATA_PREFIX|OUTPUT_TABLE_NAME_COMMAND|MYSQL_DATABASE_INFO|MONGODB_DATABASE_INFO|WORD_ALL|PROJECTS|PAGES|FORMS|FIELDS|CNTXT_FXN_DATFX_TMPLT[0-9]*|CNTXT_FXN_TMPLT_.*)$')
+            # RelateFieldDefinition: os botoes And/Or/"Yes"/"No"/"Missing" nao tem Tag, entao o Text e inserido na condicao do codigo
+            if (($r.ResourceSet -match 'RelateFieldDefinition$') -and ($r.Key -match '^btn(And|Or|Yes|No|Missing)\.Text$')) { $isCodeKey = $true }
             if ($isCodeKey -and ($pt -cne $en)) { $flags.Add('CODIGO_ALTERADO') }
             # o dialogo de mensagens da importacao so lista linhas que contem ':  Import' / ':  Project' (ingles fixo no
             # codigo) ou os prefixos traduzidos; mensagem que comecava com 'Import' e deixa de comecar com 'Import' some da lista

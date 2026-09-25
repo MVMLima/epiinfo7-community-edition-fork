@@ -14,3 +14,11 @@ temporária da sessão em que foram usados: **ajuste `$repo` e `$sp` antes de ro
 Processo de cada lote: ler tudo, verificar no código-fonte quais textos viram código/identificador, traduzir em TSV,
 `Apply-Batch -WhatIf`, aplicar, validar, **2 revisores independentes** (verificar cada crítica no código), testar no app,
 e só então (com aprovação) `promote.ps1` + commit.
+
+Scripts do lote 4:
+
+| Script | Para quê |
+|---|---|
+| `add_gap_rows.ps1` | Acrescenta à planilha textos que existem no `.resx` inglês mas **nunca tiveram tradução** (a planilha vem das DLLs pt-BR antigas e não os enxerga). Pega o inglês exato do `.resx` e o nome real do conjunto de recursos. Entrada: TSV `ConjuntoCurto<TAB>Chave<TAB>Portugues`. `-WhatIf` só mostra. |
+| `resx_gap.ps1` | Compara todos os `.resx` do repositório com a planilha e lista o que falta. Atenção: há `.resx` obsoletos (ex.: `NewColunmNameDialog`, `RenameFormFromTemplateDialog`) que nao existem mais no binario; confira o nome contra `GetManifestResourceNames()` do `.exe`/`.dll` compilado antes de tratar como lacuna. |
+| `menu_test.ps1` | Abre o MakeView na copia isolada `e2e_b4`, expande cada menu e salva capturas de tela. |

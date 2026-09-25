@@ -11,7 +11,7 @@ for ($p = 0; $p -lt $Parts; $p++) {
         $en = ($r.English -replace "`r?`n", ' \n ')
         $pt = ($r.Portuguese -replace "`r?`n", ' \n ')
         $al = if ($r.Alerta) { " [$($r.Alerta)]" } else { '' }
-        "{0}. {1}`n   EN: {2}`n   PT: {3}{4}" -f $i, $r.Key, $en, $pt, $al
+        "{0}. {5}|{1}`n   EN: {2}`n   PT: {3}{4}" -f $i, $r.Key, $en, $pt, $al, ($r.ResourceSet -replace '^.*\.', '')
     }
     [IO.File]::WriteAllLines("$sp\${Prefix}$($p + 1).txt", $lines, (New-Object Text.UTF8Encoding($false)))
     "parte $($p + 1): linhas $($p * $per + 1)-$($p * $per + @($slice).Count)"
