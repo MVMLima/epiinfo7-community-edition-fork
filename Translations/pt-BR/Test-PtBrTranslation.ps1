@@ -75,7 +75,8 @@ foreach ($r in $rows) {
             if ($isCodeKey -and ($pt -cne $en)) { $flags.Add('CODIGO_ALTERADO') }
             # o dialogo de mensagens da importacao so lista linhas que contem ':  Import' / ':  Project' (ingles fixo no
             # codigo) ou os prefixos traduzidos; mensagem que comecava com 'Import' e deixa de comecar com 'Import' some da lista
-            if ($r.Key -like 'IMPORT_*' -and $en -cmatch '^Import' -and $pt -cnotmatch '^Import') { $flags.Add('FILTRO_LOG_IMPORT') }
+            # vale para todo o Epi.ImportExport (inclui START_BATCH_IMPORT e as mensagens do desempacotador, cujas chaves nao comecam com IMPORT_)
+            if (($r.Key -like 'IMPORT_*' -or $r.Assembly -eq 'Epi.ImportExport') -and $en -cmatch '^Import' -and $pt -cnotmatch '^Import') { $flags.Add('FILTRO_LOG_IMPORT') }
             if (-not $isCodeKey -and $letters -and $en.Length -ge 4 -and ($en -ceq $pt) -and $en -cmatch '[a-z]' -and $en -notmatch $allowSame -and $en -notmatch '^\s*[A-Z_]+\s*\(' ) { $flags.Add('NAO_TRADUZIDO') }
             if ($pt -cne $en -and $pt -match $reEs) { $flags.Add('ESPANHOL') }
             if ($pt -match $rePt) { $flags.Add('PT_PT') }

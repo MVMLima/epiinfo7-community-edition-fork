@@ -33,3 +33,6 @@ partir de `rules_standard_buttons.txt` (EN<TAB>PT) e das regras de codigo do Ana
 pulando as chaves que ja estao nos TSV manuais. `check_mnemonics.ps1 -Assembly X` lista teclas de atalho (&) repetidas na mesma
 janela (menus e barras diferentes da mesma tela aparecem como falsos positivos). `dlg_test.ps1` abre o Analysis na copia isolada
 e da duplo clique em nos da arvore (coordenadas de tela) para fotografar dialogos; varios dialogos exigem uma fonte de dados aberta.
+
+Lote 7: `sim_filter.ps1` simula o filtro de `ImportMessagesDialog` (ingles x portugues) sobre as mensagens do `Epi.ImportExport` e lista as que
+passam a sumir ou a aparecer na lista de mensagens da importacao.
