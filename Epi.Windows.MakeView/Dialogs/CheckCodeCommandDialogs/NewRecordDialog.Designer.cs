@@ -128,7 +128,7 @@ namespace Epi.Windows.MakeView.Dialogs.CheckCodeCommandDialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 20;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             // 
             // btnHelp
             // 
@@ -138,7 +138,7 @@ namespace Epi.Windows.MakeView.Dialogs.CheckCodeCommandDialogs
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(90, 23);
             this.btnHelp.TabIndex = 19;
-            this.btnHelp.Text = "Help";
+            this.btnHelp.Text = global::Epi.SharedStrings.UI_HELP;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnOk
@@ -149,7 +149,7 @@ namespace Epi.Windows.MakeView.Dialogs.CheckCodeCommandDialogs
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(90, 23);
             this.btnOk.TabIndex = 18;
-            this.btnOk.Text = "OK";
+            this.btnOk.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // lblNewRecord
@@ -161,7 +161,7 @@ namespace Epi.Windows.MakeView.Dialogs.CheckCodeCommandDialogs
             this.lblNewRecord.Name = "lblNewRecord";
             this.lblNewRecord.Size = new System.Drawing.Size(237, 13);
             this.lblNewRecord.TabIndex = 16;
-            this.lblNewRecord.Text = "Save the current record and begin a new record.";
+            this.lblNewRecord.Text = global::Epi.SharedStrings.UI_SAVE_THE_CURRENT_RECORD_AND_BEGIN_A_NEW_RECO;
             // 
             // NewRecordDialog
             // 
@@ -177,7 +177,7 @@ namespace Epi.Windows.MakeView.Dialogs.CheckCodeCommandDialogs
             this.Name = "NewRecordDialog";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "New Record";
+            this.Text = global::Epi.SharedStrings.UI_NEW_RECORD;
             this.ResumeLayout(false);
             this.PerformLayout();
 

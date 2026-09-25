@@ -27,7 +27,7 @@ namespace EpiDashboard.Controls
 
         public SingleTableAnalysisPanel()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             Construct();
         }
 

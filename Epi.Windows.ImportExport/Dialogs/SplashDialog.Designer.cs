@@ -41,7 +41,7 @@ namespace Epi.Windows.ImportExport.Dialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 0;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // btnFinish
@@ -51,7 +51,7 @@ namespace Epi.Windows.ImportExport.Dialogs
             this.btnFinish.Name = "btnFinish";
             this.btnFinish.Size = new System.Drawing.Size(75, 23);
             this.btnFinish.TabIndex = 1;
-            this.btnFinish.Text = "&Finish";
+            this.btnFinish.Text = global::Epi.SharedStrings.UI_FINISH_MN;
             this.btnFinish.UseVisualStyleBackColor = true;
             this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
             // 
@@ -62,7 +62,7 @@ namespace Epi.Windows.ImportExport.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Upgrading project ...";
+            this.label1.Text = global::Epi.SharedStrings.UI_UPGRADING_PROJECT;
             // 
             // progressBar1
             // 
@@ -78,7 +78,7 @@ namespace Epi.Windows.ImportExport.Dialogs
             this.lblCurrentItem.Name = "lblCurrentItem";
             this.lblCurrentItem.Size = new System.Drawing.Size(89, 13);
             this.lblCurrentItem.TabIndex = 4;
-            this.lblCurrentItem.Text = "Now importing ....";
+            this.lblCurrentItem.Text = global::Epi.SharedStrings.UI_NOW_IMPORTING;
             // 
             // SplashDialog
             // 

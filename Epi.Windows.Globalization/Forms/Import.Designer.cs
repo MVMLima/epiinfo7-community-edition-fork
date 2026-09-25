@@ -54,7 +54,7 @@ namespace Epi.Windows.Globalization.Forms
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 25);
             this.btnOK.TabIndex = 2;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -66,7 +66,7 @@ namespace Epi.Windows.Globalization.Forms
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 25);
             this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -79,7 +79,7 @@ namespace Epi.Windows.Globalization.Forms
             this.btnFindDataSource.Name = "btnFindDataSource";
             this.btnFindDataSource.Size = new System.Drawing.Size(147, 23);
             this.btnFindDataSource.TabIndex = 12;
-            this.btnFindDataSource.Text = "Connect to Data Source";
+            this.btnFindDataSource.Text = global::Epi.SharedStrings.UI_CONNECT_TO_DATA_SOURCE;
             this.btnFindDataSource.Click += new System.EventHandler(this.btnFindDataSource_Click);
             // 
             // cmbDataSourcePlugIns
@@ -106,7 +106,7 @@ namespace Epi.Windows.Globalization.Forms
             this.dataGroupBox.Size = new System.Drawing.Size(402, 80);
             this.dataGroupBox.TabIndex = 13;
             this.dataGroupBox.TabStop = false;
-            this.dataGroupBox.Text = "Data Source";
+            this.dataGroupBox.Text = global::Epi.SharedStrings.UI_DATA_SOURCE;
             // 
             // gbxShow
             // 
@@ -121,7 +121,7 @@ namespace Epi.Windows.Globalization.Forms
             this.gbxShow.Size = new System.Drawing.Size(402, 199);
             this.gbxShow.TabIndex = 15;
             this.gbxShow.TabStop = false;
-            this.gbxShow.Text = "Data Source Explorer";
+            this.gbxShow.Text = global::Epi.SharedStrings.UI_DATA_SOURCE_EXPLORER;
             // 
             // lvDataSourceObjects
             // 
@@ -146,7 +146,7 @@ namespace Epi.Windows.Globalization.Forms
             // 
             // columnHeaderItem
             // 
-            this.columnHeaderItem.Text = "Item";
+            this.columnHeaderItem.Text = global::Epi.SharedStrings.UI_ITEM;
             this.columnHeaderItem.Width = 300;
             // 
             // lblLanguage
@@ -155,7 +155,7 @@ namespace Epi.Windows.Globalization.Forms
             this.lblLanguage.Name = "lblLanguage";
             this.lblLanguage.Size = new System.Drawing.Size(402, 21);
             this.lblLanguage.TabIndex = 17;
-            this.lblLanguage.Text = "Please choose the language or culture to import from the following list:";
+            this.lblLanguage.Text = global::Epi.SharedStrings.UI_PLEASE_CHOOSE_THE_LANGUAGE_OR_CULTURE_TO_IMP;
             // 
             // ddlCultures
             // 
@@ -221,7 +221,7 @@ namespace Epi.Windows.Globalization.Forms
             this.MinimizeBox = false;
             this.Name = "Import";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Import Language Database";
+            this.Text = global::Epi.SharedStrings.UI_IMPORT_LANGUAGE_DATABASE;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Import_FormClosing);
             this.Load += new System.EventHandler(this.Import_Load);
             this.dataGroupBox.ResumeLayout(false);

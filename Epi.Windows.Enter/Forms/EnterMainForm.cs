@@ -2890,7 +2890,7 @@ namespace Epi.Windows.Enter
         {
             if (mediator.IsDirty == true)
             {
-                DialogResult result = MessageBox.Show("Select [ OK ] to save the current record and print. To return without saving select [ Cancel ].", "Save > Print", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                DialogResult result = MessageBox.Show(global::Epi.SharedStrings.MSG_SAVE_PRINT_PROMPT, global::Epi.SharedStrings.MSG_SAVE_PRINT_TITLE, MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
                 if (((DialogResult)result) == DialogResult.Cancel)
                 {

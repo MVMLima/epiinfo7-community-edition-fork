@@ -82,7 +82,7 @@ namespace Epi.Windows.MakeView.Dialogs
             try
             {
                 DoUpDate();
-                MessageBox.Show("The publish mode was successfully changed ", "My Application", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+                MessageBox.Show(global::Epi.SharedStrings.MSG_PUBLISH_MODE_CHANGED, "My Application", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
                 this.Close();
             }
             catch (FaultException<CustomFaultException> cfe)
@@ -429,7 +429,7 @@ namespace Epi.Windows.MakeView.Dialogs
              }
              else
              {
-                 txtStatusSummary.Text = "The survey failed to publish. Check that the organization key is correct and try again.";
+                 txtStatusSummary.Text = global::Epi.SharedStrings.WEB_PUBLISH_FAILED;
              }
              txtStatus.AppendText(Environment.NewLine);
 

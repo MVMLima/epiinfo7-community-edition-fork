@@ -128,7 +128,7 @@
             this.btnCopy.Name = "btnCopy";
             this.btnCopy.Size = new System.Drawing.Size(75, 23);
             this.btnCopy.TabIndex = 0;
-            this.btnCopy.Text = "Copy";
+            this.btnCopy.Text = global::Epi.SharedStrings.UI_COPY;
             this.btnCopy.UseVisualStyleBackColor = true;
             this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
             // 
@@ -156,7 +156,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Form name to use:";
+            this.label1.Text = global::Epi.SharedStrings.UI_FORM_NAME_TO_USE;
             // 
             // btnCancel
             // 
@@ -165,7 +165,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 4;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -185,7 +185,7 @@
             this.MinimizeBox = false;
             this.Name = "CopyToAndroid";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Copy Form to Android Device";
+            this.Text = global::Epi.SharedStrings.UI_COPY_FORM_TO_ANDROID_DEVICE;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

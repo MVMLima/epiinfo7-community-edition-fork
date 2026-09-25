@@ -3521,4 +3521,873 @@ GlobalRecordId = [FKEY]</value>
   <data name="ANALYSIS_READ_TYPE_TABLE" xml:space="preserve">
     <value>Table</value>
   </data>
+  <data name="UI_1_SURVEY_LINK" xml:space="preserve">
+    <value>1. Survey Link:  </value>
+  </data>
+  <data name="UI_2_SURVEY_KEY" xml:space="preserve">
+    <value>2. Survey Key:  </value>
+  </data>
+  <data name="UI_3_SECURITY_TOKEN" xml:space="preserve">
+    <value>3. Security Token:  </value>
+  </data>
+  <data name="UI_A_NEWER_VERSION_OF_EPI_INFO_IS_AVAILABLE_FOR" xml:space="preserve">
+    <value>A newer version of Epi Info is available for download.</value>
+  </data>
+  <data name="UI_ABOUT_EPI_INFO_MN" xml:space="preserve">
+    <value>&amp;About Epi Info</value>
+  </data>
+  <data name="UI_ACCEPT" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="UI_ADD_BASE_LAYER" xml:space="preserve">
+    <value>Add Base Layer</value>
+  </data>
+  <data name="UI_ADD_DATA_LAYER" xml:space="preserve">
+    <value>Add Data Layer</value>
+  </data>
+  <data name="UI_ADD_RELATION" xml:space="preserve">
+    <value>Add Relation</value>
+  </data>
+  <data name="UI_ADDRESS" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="UI_ADVANCED" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="UI_AGE_IN_DAYS" xml:space="preserve">
+    <value>Age In Days:</value>
+  </data>
+  <data name="UI_ALL_PAGES" xml:space="preserve">
+    <value>All Pages</value>
+  </data>
+  <data name="UI_ALL_RECORDS" xml:space="preserve">
+    <value>All Records</value>
+  </data>
+  <data name="UI_ANCHOR_MN" xml:space="preserve">
+    <value>&amp;Anchor</value>
+  </data>
+  <data name="UI_APPLY" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="UI_ARCHIVE" xml:space="preserve">
+    <value>Archive...</value>
+  </data>
+  <data name="UI_ARCHIVE_FOLDER" xml:space="preserve">
+    <value>Archive Folder:</value>
+  </data>
+  <data name="UI_AUTHOR" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="UI_BACK_MN" xml:space="preserve">
+    <value>&amp;Back</value>
+  </data>
+  <data name="UI_BOTH" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="UI_BROWSE" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="UI_BUILD_KEY_DIALOG" xml:space="preserve">
+    <value>Build Key Dialog</value>
+  </data>
+  <data name="UI_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UI_CASE_CLUSTER" xml:space="preserve">
+    <value>Case Cluster</value>
+  </data>
+  <data name="UI_CASE_SENSITIVE" xml:space="preserve">
+    <value>Case sensitive</value>
+  </data>
+  <data name="UI_CHANGE_PUBLISH_MODE" xml:space="preserve">
+    <value>Change Publish Mode</value>
+  </data>
+  <data name="UI_CHANGES_IN_CURRENT_VERSION" xml:space="preserve">
+    <value>Changes in current version:</value>
+  </data>
+  <data name="UI_CHOROPLETH" xml:space="preserve">
+    <value>Choropleth</value>
+  </data>
+  <data name="UI_CLEAR" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="UI_CLEAR_MN" xml:space="preserve">
+    <value>C&amp;lear</value>
+  </data>
+  <data name="UI_CLOSE" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="UI_COMMAND_BLOCK" xml:space="preserve">
+    <value>Command Block</value>
+  </data>
+  <data name="UI_COMMAND_LIST" xml:space="preserve">
+    <value>Command List</value>
+  </data>
+  <data name="UI_COMMAND_NAME" xml:space="preserve">
+    <value>Command Name</value>
+  </data>
+  <data name="UI_COMMAND_REFERENCE_MN" xml:space="preserve">
+    <value>Command &amp;Reference</value>
+  </data>
+  <data name="UI_COMMENTS" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="UI_CONFIDENCE" xml:space="preserve">
+    <value>Confidence:</value>
+  </data>
+  <data name="UI_CONNECT_TO_DATA_SOURCE" xml:space="preserve">
+    <value>Connect to Data Source</value>
+  </data>
+  <data name="UI_CONTENTS" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="UI_COPY" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="UI_COPY_ALL_TO_CLIPBOARD" xml:space="preserve">
+    <value>Copy All to Clipboard</value>
+  </data>
+  <data name="UI_COPY_FORM_TO_ANDROID_DEVICE" xml:space="preserve">
+    <value>Copy Form to Android Device</value>
+  </data>
+  <data name="UI_CREATE_TIME_LAPSE" xml:space="preserve">
+    <value>Create Time Lapse</value>
+  </data>
+  <data name="UI_CURRENT_DATA_VARIABLES" xml:space="preserve">
+    <value>Current Data Variables</value>
+  </data>
+  <data name="UI_CURRENT_RECORD" xml:space="preserve">
+    <value>Current Record</value>
+  </data>
+  <data name="UI_CURRENT_SURVEY_MODE" xml:space="preserve">
+    <value>Current Survey Mode:</value>
+  </data>
+  <data name="UI_CURRENT_VERSION" xml:space="preserve">
+    <value>Current Version:</value>
+  </data>
+  <data name="UI_DASHBOARD" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="UI_DATA_SOURCE" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="UI_DATA_SOURCE_EXPLORER" xml:space="preserve">
+    <value>Data Source Explorer</value>
+  </data>
+  <data name="UI_DATE_CREATED" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="UI_DATE_FORMAT" xml:space="preserve">
+    <value>Date Format</value>
+  </data>
+  <data name="UI_DATE_MODIFIED" xml:space="preserve">
+    <value>Date Modified</value>
+  </data>
+  <data name="UI_DATE_TIME_FORMAT" xml:space="preserve">
+    <value>Date\Time Format</value>
+  </data>
+  <data name="UI_DEFAULT_DATE_TIME_FORMATS" xml:space="preserve">
+    <value>Default Date\Time Formats</value>
+  </data>
+  <data name="UI_DEFINE_USER_COMMAND" xml:space="preserve">
+    <value>Define User Command</value>
+  </data>
+  <data name="UI_DELETE" xml:space="preserve">
+    <value>Delete...</value>
+  </data>
+  <data name="UI_DELETE_2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UI_DELETE_MN" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="UI_DELETED_RECORDS_ONLY" xml:space="preserve">
+    <value>Deleted Records Only</value>
+  </data>
+  <data name="UI_DIRECTION" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="UI_DOT_DENSITY" xml:space="preserve">
+    <value>Dot Density</value>
+  </data>
+  <data name="UI_DOWNLOAD" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="UI_EDIT_MN" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="UI_ENTER_ORGANIZATION_KEY" xml:space="preserve">
+    <value>Enter Organization Key</value>
+  </data>
+  <data name="UI_EPI_INFO_3_5_X_PROJECT_UPGRADE_CHECK" xml:space="preserve">
+    <value>Epi Info 3.5.x Project Upgrade Check</value>
+  </data>
+  <data name="UI_EXECUTE" xml:space="preserve">
+    <value>Execute</value>
+  </data>
+  <data name="UI_EXIT_FIND_RECORDS_MN" xml:space="preserve">
+    <value>E&amp;xit Find Records</value>
+  </data>
+  <data name="UI_FIELD_SELECTOR" xml:space="preserve">
+    <value>Field Selector</value>
+  </data>
+  <data name="UI_FILE_MN" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="UI_FILE_SIZE_KB" xml:space="preserve">
+    <value>File Size (KB):</value>
+  </data>
+  <data name="UI_FILENAME" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="UI_FILENAME_MN" xml:space="preserve">
+    <value>&amp;FileName</value>
+  </data>
+  <data name="UI_FILENAME_OR_COMMAND" xml:space="preserve">
+    <value>Filename or Command</value>
+  </data>
+  <data name="UI_FIND" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="UI_FIND_LAST" xml:space="preserve">
+    <value>Find last</value>
+  </data>
+  <data name="UI_FIND_NEXT" xml:space="preserve">
+    <value>Find next</value>
+  </data>
+  <data name="UI_FIND_RECORDS" xml:space="preserve">
+    <value>Find Records</value>
+  </data>
+  <data name="UI_FIND_WHAT" xml:space="preserve">
+    <value>Find what:</value>
+  </data>
+  <data name="UI_FINISH_MN" xml:space="preserve">
+    <value>&amp;Finish</value>
+  </data>
+  <data name="UI_FLAG_OUTPUT_FILES_EXCEEDING_THESE_LIMITS" xml:space="preserve">
+    <value>Flag Output Files Exceeding These Limits</value>
+  </data>
+  <data name="UI_FORM_NAME_TO_USE" xml:space="preserve">
+    <value>Form name to use:</value>
+  </data>
+  <data name="UI_FROM_BEGINNING" xml:space="preserve">
+    <value>From beginning</value>
+  </data>
+  <data name="UI_FROM_KML" xml:space="preserve">
+    <value>From KML</value>
+  </data>
+  <data name="UI_FROM_MAP_SERVER" xml:space="preserve">
+    <value>From Map Server</value>
+  </data>
+  <data name="UI_FROM_SHAPE_FILE" xml:space="preserve">
+    <value>From Shape File</value>
+  </data>
+  <data name="UI_GENERATE_COMMAND" xml:space="preserve">
+    <value>Generate Command</value>
+  </data>
+  <data name="UI_GEOCODE_RESULTS" xml:space="preserve">
+    <value>Geocode Results</value>
+  </data>
+  <data name="UI_GET_INDUSTRY_AND_OCCUPATION_RESULTS" xml:space="preserve">
+    <value>Get Industry and Occupation Results</value>
+  </data>
+  <data name="UI_GET_SURVEY_LINK_AND_KEYS" xml:space="preserve">
+    <value>Get Survey Link and Keys</value>
+  </data>
+  <data name="UI_GO" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="UI_GO_BACK" xml:space="preserve">
+    <value>Go Back</value>
+  </data>
+  <data name="UI_GO_BACK_MN" xml:space="preserve">
+    <value>Go &amp;Back</value>
+  </data>
+  <data name="UI_HELP" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="UI_HELP_MN" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="UI_HELP_MN_2" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="UI_HTML_OUTPUT_OPTIONS" xml:space="preserve">
+    <value>HTML Output Options</value>
+  </data>
+  <data name="UI_IMPORT_LANGUAGE_DATABASE" xml:space="preserve">
+    <value>Import Language Database</value>
+  </data>
+  <data name="UI_IMPORT_PROJECT" xml:space="preserve">
+    <value>Import Project</value>
+  </data>
+  <data name="UI_IMPORTANT" xml:space="preserve">
+    <value>IMPORTANT</value>
+  </data>
+  <data name="UI_INCLUDE_MISSING_VALUES" xml:space="preserve">
+    <value>Include Missing Values</value>
+  </data>
+  <data name="UI_INDUSTRY" xml:space="preserve">
+    <value>Industry:</value>
+  </data>
+  <data name="UI_INDUSTRY_CODE" xml:space="preserve">
+    <value>Industry Code:</value>
+  </data>
+  <data name="UI_INDUSTRY_TITLE" xml:space="preserve">
+    <value>Industry Title:</value>
+  </data>
+  <data name="UI_INPUT" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="UI_INPUT_DIALOG" xml:space="preserve">
+    <value>Input Dialog</value>
+  </data>
+  <data name="UI_INSERT" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="UI_INTERMEDIATE" xml:space="preserve">
+    <value>Intermediate</value>
+  </data>
+  <data name="UI_ITEM" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="UI_KEEP_COLLECTED_SURVEY_DATA" xml:space="preserve">
+    <value>Keep collected survey data</value>
+  </data>
+  <data name="UI_KEY_COMPONENT" xml:space="preserve">
+    <value>Key Component</value>
+  </data>
+  <data name="UI_LATITUDE" xml:space="preserve">
+    <value>Latitude:</value>
+  </data>
+  <data name="UI_LINE_LIST" xml:space="preserve">
+    <value>Line List</value>
+  </data>
+  <data name="UI_LINE_LISTING" xml:space="preserve">
+    <value>Line Listing</value>
+  </data>
+  <data name="UI_LOADING" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="UI_LONGITUDE" xml:space="preserve">
+    <value>Longitude:</value>
+  </data>
+  <data name="UI_MAP" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="UI_MINIMAL" xml:space="preserve">
+    <value>Minimal</value>
+  </data>
+  <data name="UI_MISSING_AS" xml:space="preserve">
+    <value>MISSING As:</value>
+  </data>
+  <data name="UI_MULTI_CHOICE_ITEMS" xml:space="preserve">
+    <value>Multi-Choice Items</value>
+  </data>
+  <data name="UI_NEW_RECORD" xml:space="preserve">
+    <value>New Record</value>
+  </data>
+  <data name="UI_NEW_VERSION_AVAILABLE" xml:space="preserve">
+    <value>New Version Available</value>
+  </data>
+  <data name="UI_NEXT" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="UI_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="UI_NO_AS" xml:space="preserve">
+    <value>NO As:</value>
+  </data>
+  <data name="UI_NO_RECORDS_BLANK_FORM" xml:space="preserve">
+    <value>No Records (Blank Form)</value>
+  </data>
+  <data name="UI_NONE" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="UI_NOW_IMPORTING" xml:space="preserve">
+    <value>Now importing ....</value>
+  </data>
+  <data name="UI_NUMBER_OF_RESULTS" xml:space="preserve">
+    <value>Number of Results:</value>
+  </data>
+  <data name="UI_OCCUPATION" xml:space="preserve">
+    <value>Occupation:</value>
+  </data>
+  <data name="UI_OCCUPATION_CODE" xml:space="preserve">
+    <value>Occupation Code:</value>
+  </data>
+  <data name="UI_OCCUPATION_TITLE" xml:space="preserve">
+    <value>Occupation Title:</value>
+  </data>
+  <data name="UI_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UI_OPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="UI_ORGANIZATION_KEY" xml:space="preserve">
+    <value>Organization Key:</value>
+  </data>
+  <data name="UI_ORGANIZATION_KEY_2" xml:space="preserve">
+    <value>Organization Key</value>
+  </data>
+  <data name="UI_ORGANIZATION_KEY_IS_NOT_VALID_PLEASE_ENTER_A" xml:space="preserve">
+    <value>Organization Key is not valid. Please enter a correct key.</value>
+  </data>
+  <data name="UI_OUTPUT" xml:space="preserve">
+    <value>Output: </value>
+  </data>
+  <data name="UI_OUTPUT_FILE_PREFIX" xml:space="preserve">
+    <value>Output File Prefix:</value>
+  </data>
+  <data name="UI_OUTPUT_FILE_SEQUENCE" xml:space="preserve">
+    <value>Output File Sequence:</value>
+  </data>
+  <data name="UI_OUTPUT_GRID" xml:space="preserve">
+    <value>Output Grid</value>
+  </data>
+  <data name="UI_PAGE_RANGE" xml:space="preserve">
+    <value>Page Range</value>
+  </data>
+  <data name="UI_PLEASE_CHOOSE_THE_LANGUAGE_OR_CULTURE_TO_IMP" xml:space="preserve">
+    <value>Please choose the language or culture to import from the following list:</value>
+  </data>
+  <data name="UI_PLEASE_SELECT_A_FORM" xml:space="preserve">
+    <value>Please select a Form:</value>
+  </data>
+  <data name="UI_POSSIBILITIES" xml:space="preserve">
+    <value>Possibilities:</value>
+  </data>
+  <data name="UI_PRECISION" xml:space="preserve">
+    <value>Precision:</value>
+  </data>
+  <data name="UI_PREVIEW" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="UI_PRINT" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="UI_PROCESS_RECORDS" xml:space="preserve">
+    <value>Process Records</value>
+  </data>
+  <data name="UI_PROCESSING_PLEASE_WAIT" xml:space="preserve">
+    <value>Processing. Please Wait...</value>
+  </data>
+  <data name="UI_PROGRAM" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="UI_PROGRAM_NAME" xml:space="preserve">
+    <value>Program Name</value>
+  </data>
+  <data name="UI_PROGRAMS" xml:space="preserve">
+    <value>Programs</value>
+  </data>
+  <data name="UI_PROGRESS" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="UI_PROJECT_MN" xml:space="preserve">
+    <value>&amp;Project</value>
+  </data>
+  <data name="UI_PUBLISH_MODE" xml:space="preserve">
+    <value>Publish Mode:</value>
+  </data>
+  <data name="UI_PUBLISH_MODE_2" xml:space="preserve">
+    <value>Publish Mode</value>
+  </data>
+  <data name="UI_PUBLISHER_KEY" xml:space="preserve">
+    <value>Publisher Key</value>
+  </data>
+  <data name="UI_QUALITY" xml:space="preserve">
+    <value>Quality:</value>
+  </data>
+  <data name="UI_READY" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="UI_RECORD_RANGE" xml:space="preserve">
+    <value>Record Range</value>
+  </data>
+  <data name="UI_RECORDS" xml:space="preserve">
+    <value>Records: </value>
+  </data>
+  <data name="UI_RELATED_TABLE_VARIABLES" xml:space="preserve">
+    <value>Related Table Variables</value>
+  </data>
+  <data name="UI_REMOVE_COLLECTED_SURVEY_DATA" xml:space="preserve">
+    <value>Remove collected survey data</value>
+  </data>
+  <data name="UI_REPLACE" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="UI_REPLACE_ALL" xml:space="preserve">
+    <value>Replace all</value>
+  </data>
+  <data name="UI_REPLACE_WITH" xml:space="preserve">
+    <value>Replace with:</value>
+  </data>
+  <data name="UI_REPRESENTATION_OF_BOOLEAN_VALUES" xml:space="preserve">
+    <value>Representation of Boolean Values</value>
+  </data>
+  <data name="UI_REPUBLISH_SURVEY_FORM_FIELDS" xml:space="preserve">
+    <value>Republish Survey Form Fields</value>
+  </data>
+  <data name="UI_RESET_MN" xml:space="preserve">
+    <value>&amp;Reset</value>
+  </data>
+  <data name="UI_RESULTS_FOLDER" xml:space="preserve">
+    <value>Results Folder:</value>
+  </data>
+  <data name="UI_RUN_SAVED_PROGRAM" xml:space="preserve">
+    <value>Run Saved Program</value>
+  </data>
+  <data name="UI_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UI_SAVE_AS_HTML" xml:space="preserve">
+    <value>Save as HTML</value>
+  </data>
+  <data name="UI_SAVE_AS_IMAGE" xml:space="preserve">
+    <value>Save as Image</value>
+  </data>
+  <data name="UI_SAVE_ONLY" xml:space="preserve">
+    <value>Save Only</value>
+  </data>
+  <data name="UI_SAVE_ONLY_MN" xml:space="preserve">
+    <value>&amp;Save Only</value>
+  </data>
+  <data name="UI_SAVE_THE_CURRENT_RECORD_AND_BEGIN_A_NEW_RECO" xml:space="preserve">
+    <value>Save the current record and begin a new record.</value>
+  </data>
+  <data name="UI_SCHEME" xml:space="preserve">
+    <value>Scheme:</value>
+  </data>
+  <data name="UI_SEARCH" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="UI_SEARCH_FIELDS_FOR" xml:space="preserve">
+    <value>Search Fields For ...</value>
+  </data>
+  <data name="UI_SECURITY_KEY" xml:space="preserve">
+    <value>Security key:</value>
+  </data>
+  <data name="UI_SELECT_FORM" xml:space="preserve">
+    <value>Select Form</value>
+  </data>
+  <data name="UI_SELECT_PAGES" xml:space="preserve">
+    <value>Select Pages</value>
+  </data>
+  <data name="UI_SELECT_RECORDS" xml:space="preserve">
+    <value>Select Records</value>
+  </data>
+  <data name="UI_SELECT_TO_KEEP_ANY_SURVEY_RESPONSES_COLLECTE" xml:space="preserve">
+    <value>(Select to KEEP any survey responses collected in previous iteration.)</value>
+  </data>
+  <data name="UI_SELECT_TO_PREVIEW_AND_TEST_HOW_YOUR_SURVEYS" xml:space="preserve">
+    <value>(Select to preview and test how your surveys works.)</value>
+  </data>
+  <data name="UI_SELECT_TO_REMOVE_ANY_SURVEY_RESPONSES_COLLEC" xml:space="preserve">
+    <value>(Select to Remove any survey responses collected in previous iteration.)</value>
+  </data>
+  <data name="UI_SELECT_UNSELECT_SEARCH_FIELDS" xml:space="preserve">
+    <value>Select/Unselect Search Fields</value>
+  </data>
+  <data name="UI_SELECT_WHEN_YOU_ARE_READY_TO_SEND_THE_SURVEY" xml:space="preserve">
+    <value>(Select when you are ready to send the survey out to participants.)</value>
+  </data>
+  <data name="UI_SELECTIONS" xml:space="preserve">
+    <value>Selections</value>
+  </data>
+  <data name="UI_SEND_THIS_LINK_TO_PEOPLE_YOU_WANT_TO_COMPLET" xml:space="preserve">
+    <value>Send this link to people you want to complete the survey.)</value>
+  </data>
+  <data name="UI_SHOW_COMPLETE_PROMPT" xml:space="preserve">
+    <value>Show Complete Prompt</value>
+  </data>
+  <data name="UI_SHOW_GRAPHICS" xml:space="preserve">
+    <value>Show Graphics</value>
+  </data>
+  <data name="UI_SHOW_HYPERLINKS" xml:space="preserve">
+    <value>Show Hyperlinks</value>
+  </data>
+  <data name="UI_SHOW_PERCENTS" xml:space="preserve">
+    <value>Show Percents</value>
+  </data>
+  <data name="UI_SHOW_SELECTION_CRITERIA" xml:space="preserve">
+    <value>Show Selection Criteria</value>
+  </data>
+  <data name="UI_SHOW_TABLES_IN_OUTPUT" xml:space="preserve">
+    <value>Show Tables in Output</value>
+  </data>
+  <data name="UI_SOURCE" xml:space="preserve">
+    <value>Source:</value>
+  </data>
+  <data name="UI_SOURCE_NAME" xml:space="preserve">
+    <value>Source Name</value>
+  </data>
+  <data name="UI_SOURCE_PROJECT" xml:space="preserve">
+    <value>Source Project</value>
+  </data>
+  <data name="UI_SPOT_MAP" xml:space="preserve">
+    <value>Spot Map</value>
+  </data>
+  <data name="UI_STATCALC" xml:space="preserve">
+    <value>StatCalc</value>
+  </data>
+  <data name="UI_STATISTICS" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="UI_STORING_OUTPUT" xml:space="preserve">
+    <value>Storing Output</value>
+  </data>
+  <data name="UI_SUBMIT" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="UI_SURVEY_DATA" xml:space="preserve">
+    <value>Survey Data:</value>
+  </data>
+  <data name="UI_SURVEY_DATA_2" xml:space="preserve">
+    <value>Survey Data</value>
+  </data>
+  <data name="UI_TAB_ORDER" xml:space="preserve">
+    <value>Tab Order</value>
+  </data>
+  <data name="UI_TEXT_FILE_MN" xml:space="preserve">
+    <value>&amp;Text File</value>
+  </data>
+  <data name="UI_THE_FOLLOWING_PROBLEMS_WERE_DISCOVERED_IN_TH" xml:space="preserve">
+    <value>The following problems were discovered in this Epi Info 3.5.x project:</value>
+  </data>
+  <data name="UI_THE_GEOCODING_SERVICE_RETURNED_THE_FOLLOWING" xml:space="preserve">
+    <value>The geocoding service returned the following coordinates:</value>
+  </data>
+  <data name="UI_TIME_FORMAT" xml:space="preserve">
+    <value>Time Format</value>
+  </data>
+  <data name="UI_TOOLS_MN" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="UI_UNDELETED_RECORDS_ONLY_NORMAL" xml:space="preserve">
+    <value>Undeleted Records only (Normal)</value>
+  </data>
+  <data name="UI_UPDATE" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UI_UPGRADING_PROJECT" xml:space="preserve">
+    <value>Upgrading project ...</value>
+  </data>
+  <data name="UI_USER_COMMAND" xml:space="preserve">
+    <value>User Command</value>
+  </data>
+  <data name="UI_VIEW" xml:space="preserve">
+    <value>View...</value>
+  </data>
+  <data name="UI_WAIT_FOR_COMMAND_TO_EXECUTE" xml:space="preserve">
+    <value>Wait for command to execute</value>
+  </data>
+  <data name="UI_WHOLE_WORD" xml:space="preserve">
+    <value>Whole word</value>
+  </data>
+  <data name="UI_WITH_KML_BOUNDARIES" xml:space="preserve">
+    <value>With KML Boundaries</value>
+  </data>
+  <data name="UI_WITH_MAP_SERVER_BOUNDARIES" xml:space="preserve">
+    <value>With Map Server Boundaries</value>
+  </data>
+  <data name="UI_WITH_SHAPE_FILE_BOUNDARIES" xml:space="preserve">
+    <value>With Shape File Boundaries</value>
+  </data>
+  <data name="UI_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="UI_YES_AS" xml:space="preserve">
+    <value>YES As:</value>
+  </data>
+  <data name="UI_YOUR_VERSION" xml:space="preserve">
+    <value>Your Version:</value>
+  </data>
+  <data name="WEB_PUBLISH_SUCCESS" xml:space="preserve">
+    <value>Your survey has been published!  Please copy and paste the following URL and Keys to be used later.</value>
+  </data>
+  <data name="WEB_PUBLISH_FAILED" xml:space="preserve">
+    <value>The survey failed to publish. Please check that the organization key is correct and try again.</value>
+  </data>
+  <data name="WEB_PUBLISH_ERROR_SECURITY" xml:space="preserve">
+    <value>A Security Negotiation error occurred while trying to publish the survey.</value>
+  </data>
+  <data name="WEB_PUBLISH_ERROR_COMMUNICATION" xml:space="preserve">
+    <value>A Communication error occurred while trying to publish the survey.</value>
+  </data>
+  <data name="WEB_PUBLISH_ERROR_TIMEOUT" xml:space="preserve">
+    <value>A Timeout error occurred while trying to publish the survey.</value>
+  </data>
+  <data name="WEB_PUBLISH_ERROR_GENERIC" xml:space="preserve">
+    <value>An error occurred while trying to publish the survey.</value>
+  </data>
+  <data name="WEB_MODE_DRAFT_UPPER" xml:space="preserve">
+    <value>DRAFT</value>
+  </data>
+  <data name="WEB_MODE_FINAL_UPPER" xml:space="preserve">
+    <value>FINAL</value>
+  </data>
+  <data name="WEB_MODE_DRAFT" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="WEB_MODE_FINAL" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="WEB_REPUBLISH_DRAFT_DESC" xml:space="preserve">
+    <value>Draft - the survey is currently in test mode.</value>
+  </data>
+  <data name="WEB_REPUBLISH_FINAL_DESC" xml:space="preserve">
+    <value>Final - the survey is currently in production mode.</value>
+  </data>
+  <data name="WEB_REPUBLISH_OK" xml:space="preserve">
+    <value>Your Form has been republished: {0}</value>
+  </data>
+  <data name="WEB_REPUBLISH_NOT_OK" xml:space="preserve">
+    <value>Your Form has NOT been republished: {0}</value>
+  </data>
+  <data name="WEB_KEY_SUCCESS_TITLE" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="LIST_FIELD_TITLE" xml:space="preserve">
+    <value>List Field</value>
+  </data>
+  <data name="SELECTED_PROJECT_TITLE" xml:space="preserve">
+    <value>Selected Project: {0}</value>
+  </data>
+  <data name="PREVIEW_TABLE_INSTRUCTION" xml:space="preserve">
+    <value>The grid below displays the fields from the selected table.  Click Back to go to the Match Fields screen.</value>
+  </data>
+  <data name="GRID_FIELD_ADD_EDIT" xml:space="preserve">
+    <value>Add/Edit</value>
+  </data>
+  <data name="GRID_FIELD_ADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CHECKCODE_EDITOR_TITLE" xml:space="preserve">
+    <value>Check Code Editor - [ {0} ]</value>
+  </data>
+  <data name="ENTER_DELETE_ROW" xml:space="preserve">
+    <value>Delete Row</value>
+  </data>
+  <data name="ANALYSIS_SELECT_REPORT_TEMPLATE" xml:space="preserve">
+    <value>Select Report Template</value>
+  </data>
+  <data name="OUTPUT_WINDOW_BROWSE_TITLE" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="MAP_TITLE_WITH_COORDS" xml:space="preserve">
+    <value>Map - ({0}, {1})</value>
+  </data>
+  <data name="ORG_KEY_REQUIRED_NOTE" xml:space="preserve">
+    <value>The organization key is required for security purposes before you publish the form to the web.</value>
+  </data>
+  <data name="SURVEY_TOKEN_NOTE" xml:space="preserve">
+    <value>-- Be sure to copy and save this Security Token in order to download the data people submit.</value>
+  </data>
+  <data name="SURVEY_KEY_NOTE" xml:space="preserve">
+    <value>-- Copy and save this Survey Key in order to access the survey after the people submit their responses.</value>
+  </data>
+  <data name="STATCALC_EXPECTED_CELL_WARNING" xml:space="preserve">
+    <value>An expected cell count is &lt; 5. X² may not be valid.</value>
+  </data>
+  <data name="MSG_COULD_NOT_CONNECT" xml:space="preserve">
+    <value>Could not connect to selected data source.</value>
+  </data>
+  <data name="MSG_COULD_NOT_LOAD_PROJECT" xml:space="preserve">
+    <value>Could not load project: 
+
+{0}</value>
+  </data>
+  <data name="MSG_INVALID_RESULTS_FOLDER" xml:space="preserve">
+    <value>Invalid path for Results Folder</value>
+  </data>
+  <data name="MSG_INVALID_ARCHIVE_FOLDER" xml:space="preserve">
+    <value>Invalid path for Archive Folder</value>
+  </data>
+  <data name="MSG_INVALID_OUTPUT_PREFIX" xml:space="preserve">
+    <value>Invalid value for Output File Prefix.</value>
+  </data>
+  <data name="MSG_INVALID_OUTPUT_SEQUENCE" xml:space="preserve">
+    <value>Invalid Output File Sequence. Must be an integer value.</value>
+  </data>
+  <data name="MSG_INVALID_AGE_IN_DAYS" xml:space="preserve">
+    <value>Invalid value for Age In Days. Must be an integer value.</value>
+  </data>
+  <data name="MSG_INVALID_NUMBER_OF_RESULTS" xml:space="preserve">
+    <value>Invalid value for Number of Results. Must be an integer value.</value>
+  </data>
+  <data name="MSG_INVALID_FILE_SIZE" xml:space="preserve">
+    <value>Invalid value for File Size. Must be an integer value.</value>
+  </data>
+  <data name="MSG_TEMPLATE_EXISTS" xml:space="preserve">
+    <value>The template with the name already exists.Please click OK to continue or Cancel to return.</value>
+  </data>
+  <data name="MSG_CHECKCODE_NOT_COMPILE_SAVE" xml:space="preserve">
+    <value>The check code does not compile. Do you want to save your changes anyway?</value>
+  </data>
+  <data name="MSG_SAVE_CHANGES_QUESTION" xml:space="preserve">
+    <value>Do you want to save your changes?</value>
+  </data>
+  <data name="MSG_SAVE_CHANGES_TITLE" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="MSG_NOT_AUTHORIZED_CHANGE_MODE" xml:space="preserve">
+    <value>You are not authorized to Change mode for this form. Please contact system admin for more info.</value>
+  </data>
+  <data name="MSG_FORM_MODE_CHANGED_DRAFT" xml:space="preserve">
+    <value>Form mode was successfully changed to Draft.</value>
+  </data>
+  <data name="MSG_FORM_MODE_CHANGED_FINAL" xml:space="preserve">
+    <value>Form mode was successfully changed to Final.</value>
+  </data>
+  <data name="MSG_SURVEY_UPDATED" xml:space="preserve">
+    <value>Survey was successfully updated.</value>
+  </data>
+  <data name="MSG_NOT_AUTHORIZED_QUICK_PUBLISH" xml:space="preserve">
+    <value>You are not authorized to quick publish this form to Epi Info Cloud Data Capture system. Please contact system admin for more info.</value>
+  </data>
+  <data name="MSG_NOT_AUTHORIZED_PUBLISH" xml:space="preserve">
+    <value>You are not authorized to publish this form to Epi Info Cloud Data Capture system. Please contact system admin for more info.</value>
+  </data>
+  <data name="MSG_FORM_UPDATE_SUCCESSFUL" xml:space="preserve">
+    <value>Form update successful.</value>
+  </data>
+  <data name="MSG_PRINT_RANGE_TOO_MUCH" xml:space="preserve">
+    <value>The selected range and number of pages is too much to print at one time.</value>
+  </data>
+  <data name="MSG_PUBLISH_MODE_CHANGED" xml:space="preserve">
+    <value>The publish mode was successfully changed </value>
+  </data>
+  <data name="MSG_ENCRYPT_WARNING" xml:space="preserve">
+    <value>Warning: When you check 'Encrypt', the Enter tool encrypts data entered in this text box. Data is readable only in the Epi Info Enter tool. Data is not available for analyses or line lists and cannot be exported in a usable form to other tools outside of the Enter tool.</value>
+  </data>
+  <data name="MSG_MAX_CHARS_TOO_LARGE" xml:space="preserve">
+    <value>The value entered in the Maximum Number of Characters field was too large (maximum) so it will be set to 254 charaters.</value>
+  </data>
+  <data name="MSG_SAVE_PRINT_PROMPT" xml:space="preserve">
+    <value>Select [ OK ] to save the current record and print. To return without saving select [ Cancel ].</value>
+  </data>
+  <data name="MSG_SAVE_PRINT_TITLE" xml:space="preserve">
+    <value>Save &gt; Print</value>
+  </data>
+  <data name="MSG_USE_EXTERNAL_DATA" xml:space="preserve">
+    <value>Use external data?</value>
+  </data>
+  <data name="MSG_DELETION_NOT_SUPPORTED" xml:space="preserve">
+    <value>Deletion not supported for this datasource</value>
+  </data>
+  <data name="MSG_ACCESS_COMING_SOON" xml:space="preserve">
+    <value>The functionality to process MS Access files will be available in a future release.</value>
+  </data>
+  <data name="MSG_COMING_SOON_TITLE" xml:space="preserve">
+    <value>Coming Soon</value>
+  </data>
+  <data name="MSG_DEFAULT_LANGUAGE_CANNOT_UNINSTALL" xml:space="preserve">
+    <value>The default language cannot be uninstalled.</value>
+  </data>
+  <data name="MSG_UNABLE_TO_PERFORM_TITLE" xml:space="preserve">
+    <value>Unable to perform</value>
+  </data>
 </root>

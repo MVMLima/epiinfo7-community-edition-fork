@@ -236,7 +236,7 @@ namespace Epi.Windows.Analysis.Dialogs
 			}
 			if (EpiInterpreter.Context.CurrentRead.File.Contains(".xlsx") || EpiInterpreter.Context.CurrentRead.File.Contains(".xls") || EpiInterpreter.Context.CurrentRead.File.Contains("FMT=Delimited"))
             {
-                MessageBox.Show("Deletion not supported for this datasource", "DELETE RECORDS");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_DELETION_NOT_SUPPORTED, "DELETE RECORDS");
                 Close();
                 throw new GeneralException(string.Format(SharedStrings.INVALID_DATA_SOURCE, "Excel"));
             }

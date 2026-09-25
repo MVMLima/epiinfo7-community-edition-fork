@@ -64,7 +64,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Processing. Please Wait...";
+            this.Text = global::Epi.SharedStrings.UI_PROCESSING_PLEASE_WAIT;
             this.TopMost = true;
             this.Load += new System.EventHandler(this.WaitDialog_Load);
             this.ResumeLayout(false);

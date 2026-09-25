@@ -83,7 +83,7 @@ namespace Epi.Windows.MakeView.Dialogs
                     pnlOrgKey.Visible = false;
                     pnlSuccess.Visible = true;
                     pnlSuccessMsg.Visible = true;
-                    this.Text = "Success";
+                    this.Text = global::Epi.SharedStrings.WEB_KEY_SUCCESS_TITLE;
                     this.DialogPromptLabel.Text = _Dialogprompt;
                    // lblSuccess.Text = " Your survey has been published successfully!";
                     lblSuccess.Text = this._SuccessMessage;

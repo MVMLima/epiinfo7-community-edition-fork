@@ -140,7 +140,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(90, 23);
             this.btnOK.TabIndex = 3;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.UseVisualStyleBackColor = true;
             // 
             // btnCancel
@@ -151,7 +151,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // btnSaveOnly
@@ -161,7 +161,7 @@
             this.btnSaveOnly.Name = "btnSaveOnly";
             this.btnSaveOnly.Size = new System.Drawing.Size(90, 23);
             this.btnSaveOnly.TabIndex = 4;
-            this.btnSaveOnly.Text = "Save Only";
+            this.btnSaveOnly.Text = global::Epi.SharedStrings.UI_SAVE_ONLY;
             this.btnSaveOnly.UseVisualStyleBackColor = true;
             // 
             // btnClear
@@ -171,7 +171,7 @@
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(90, 23);
             this.btnClear.TabIndex = 6;
-            this.btnClear.Text = "Clear";
+            this.btnClear.Text = global::Epi.SharedStrings.UI_CLEAR;
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
@@ -182,7 +182,7 @@
             this.lblCommandName.Name = "lblCommandName";
             this.lblCommandName.Size = new System.Drawing.Size(401, 15);
             this.lblCommandName.TabIndex = 8;
-            this.lblCommandName.Text = "Command Name";
+            this.lblCommandName.Text = global::Epi.SharedStrings.UI_COMMAND_NAME;
             // 
             // lblCommandList
             // 
@@ -190,7 +190,7 @@
             this.lblCommandList.Name = "lblCommandList";
             this.lblCommandList.Size = new System.Drawing.Size(404, 15);
             this.lblCommandList.TabIndex = 9;
-            this.lblCommandList.Text = "Command List";
+            this.lblCommandList.Text = global::Epi.SharedStrings.UI_COMMAND_LIST;
             // 
             // textBoxCommandList
             // 
@@ -212,7 +212,7 @@
             this.GenerateCommandButton.Name = "GenerateCommandButton";
             this.GenerateCommandButton.Size = new System.Drawing.Size(172, 23);
             this.GenerateCommandButton.TabIndex = 1;
-            this.GenerateCommandButton.Text = "Generate Command";
+            this.GenerateCommandButton.Text = global::Epi.SharedStrings.UI_GENERATE_COMMAND;
             this.GenerateCommandButton.UseVisualStyleBackColor = true;
             this.GenerateCommandButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.GenerateCommandButton_MouseClick);
             // 
@@ -234,7 +234,7 @@
             this.MinimizeBox = false;
             this.Name = "DefineUserCommandDialog";
             this.ShowIcon = false;
-            this.Text = "Define User Command";
+            this.Text = global::Epi.SharedStrings.UI_DEFINE_USER_COMMAND;
             this.ResumeLayout(false);
             this.PerformLayout();
 

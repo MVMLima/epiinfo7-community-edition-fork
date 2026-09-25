@@ -142,7 +142,7 @@ namespace Epi.Windows.Dialogs
             this.lblLocate.Name = "lblLocate";
             this.lblLocate.Size = new System.Drawing.Size(294, 13);
             this.lblLocate.TabIndex = 1;
-            this.lblLocate.Text = "Find what:";
+            this.lblLocate.Text = global::Epi.SharedStrings.UI_FIND_WHAT;
             // 
             // gbxDirection
             // 
@@ -154,7 +154,7 @@ namespace Epi.Windows.Dialogs
             this.gbxDirection.Size = new System.Drawing.Size(136, 100);
             this.gbxDirection.TabIndex = 2;
             this.gbxDirection.TabStop = false;
-            this.gbxDirection.Text = "Direction";
+            this.gbxDirection.Text = global::Epi.SharedStrings.UI_DIRECTION;
             // 
             // rbBackward
             // 
@@ -162,7 +162,7 @@ namespace Epi.Windows.Dialogs
             this.rbBackward.Name = "rbBackward";
             this.rbBackward.Size = new System.Drawing.Size(124, 17);
             this.rbBackward.TabIndex = 2;
-            this.rbBackward.Text = "Find last";
+            this.rbBackward.Text = global::Epi.SharedStrings.UI_FIND_LAST;
             this.rbBackward.UseVisualStyleBackColor = true;
             // 
             // rbForward
@@ -173,7 +173,7 @@ namespace Epi.Windows.Dialogs
             this.rbForward.Size = new System.Drawing.Size(124, 17);
             this.rbForward.TabIndex = 1;
             this.rbForward.TabStop = true;
-            this.rbForward.Text = "Find next";
+            this.rbForward.Text = global::Epi.SharedStrings.UI_FIND_NEXT;
             this.rbForward.UseVisualStyleBackColor = true;
             // 
             // rbFromBeginning
@@ -182,7 +182,7 @@ namespace Epi.Windows.Dialogs
             this.rbFromBeginning.Name = "rbFromBeginning";
             this.rbFromBeginning.Size = new System.Drawing.Size(124, 17);
             this.rbFromBeginning.TabIndex = 0;
-            this.rbFromBeginning.Text = "From beginning";
+            this.rbFromBeginning.Text = global::Epi.SharedStrings.UI_FROM_BEGINNING;
             this.rbFromBeginning.UseVisualStyleBackColor = true;
             // 
             // btnCancel
@@ -194,7 +194,7 @@ namespace Epi.Windows.Dialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 66;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             // 
             // btnOK
             // 
@@ -206,7 +206,7 @@ namespace Epi.Windows.Dialogs
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(90, 23);
             this.btnOK.TabIndex = 65;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             // 
             // chkCaseSensitive
             // 
@@ -214,7 +214,7 @@ namespace Epi.Windows.Dialogs
             this.chkCaseSensitive.Name = "chkCaseSensitive";
             this.chkCaseSensitive.Size = new System.Drawing.Size(145, 17);
             this.chkCaseSensitive.TabIndex = 67;
-            this.chkCaseSensitive.Text = "Case sensitive";
+            this.chkCaseSensitive.Text = global::Epi.SharedStrings.UI_CASE_SENSITIVE;
             this.chkCaseSensitive.UseVisualStyleBackColor = true;
             // 
             // chkWholeWord
@@ -223,7 +223,7 @@ namespace Epi.Windows.Dialogs
             this.chkWholeWord.Name = "chkWholeWord";
             this.chkWholeWord.Size = new System.Drawing.Size(145, 17);
             this.chkWholeWord.TabIndex = 68;
-            this.chkWholeWord.Text = "Whole word";
+            this.chkWholeWord.Text = global::Epi.SharedStrings.UI_WHOLE_WORD;
             this.chkWholeWord.UseVisualStyleBackColor = true;
             // 
             // SearchDialog
@@ -243,7 +243,7 @@ namespace Epi.Windows.Dialogs
             this.Name = "SearchDialog";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Find";
+            this.Text = global::Epi.SharedStrings.UI_FIND;
             this.gbxDirection.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

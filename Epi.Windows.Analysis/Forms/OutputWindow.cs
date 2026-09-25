@@ -649,7 +649,7 @@ namespace Epi.Windows.Analysis.Forms
             Configuration config = Configuration.GetNewInstance();
             // Initialize Open File Dialog.
            //openFileDlg.AutoUpgradeEnabled = true; //For Windows Vista & 7
-            openFileDlg.Title = "Browse";
+            openFileDlg.Title = global::Epi.SharedStrings.OUTPUT_WINDOW_BROWSE_TITLE;
             if (Directory.Exists(config.Directories.Output))
                 openFileDlg.InitialDirectory = config.Directories.Output;
             else

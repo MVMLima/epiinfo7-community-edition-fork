@@ -63,7 +63,7 @@ namespace Epi.Windows.Mapping
 
         void mapControl_MouseCoordinatesChanged(double latitude, double longitude)
         {
-            this.Text = "Map - (" + latitude + ", " + longitude + ")";
+            this.Text = string.Format(global::Epi.SharedStrings.MAP_TITLE_WITH_COORDS, latitude, longitude);
         }
 
         List<object> mapControl_DataSourceRequested()

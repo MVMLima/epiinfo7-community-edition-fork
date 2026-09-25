@@ -58,7 +58,7 @@
             this.MinimizeBox = false;
             this.Name = "GridListDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Line List";
+            this.Text = global::Epi.SharedStrings.UI_LINE_LIST;
             this.Load += new System.EventHandler(this.GridListDialog_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

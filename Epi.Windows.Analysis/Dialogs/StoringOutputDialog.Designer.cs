@@ -162,7 +162,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblOutputPrefix.Name = "lblOutputPrefix";
             this.lblOutputPrefix.Size = new System.Drawing.Size(186, 13);
             this.lblOutputPrefix.TabIndex = 1;
-            this.lblOutputPrefix.Text = "Output File Prefix:";
+            this.lblOutputPrefix.Text = global::Epi.SharedStrings.UI_OUTPUT_FILE_PREFIX;
             // 
             // lblOutputSequence
             // 
@@ -170,7 +170,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblOutputSequence.Name = "lblOutputSequence";
             this.lblOutputSequence.Size = new System.Drawing.Size(186, 13);
             this.lblOutputSequence.TabIndex = 3;
-            this.lblOutputSequence.Text = "Output File Sequence:";
+            this.lblOutputSequence.Text = global::Epi.SharedStrings.UI_OUTPUT_FILE_SEQUENCE;
             // 
             // txtOutputSequence
             // 
@@ -185,7 +185,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblResultsFolder.Name = "lblResultsFolder";
             this.lblResultsFolder.Size = new System.Drawing.Size(77, 13);
             this.lblResultsFolder.TabIndex = 5;
-            this.lblResultsFolder.Text = "Results Folder:";
+            this.lblResultsFolder.Text = global::Epi.SharedStrings.UI_RESULTS_FOLDER;
             // 
             // txtResultsFolder
             // 
@@ -200,7 +200,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblArchiveFolder.Name = "lblArchiveFolder";
             this.lblArchiveFolder.Size = new System.Drawing.Size(78, 13);
             this.lblArchiveFolder.TabIndex = 7;
-            this.lblArchiveFolder.Text = "Archive Folder:";
+            this.lblArchiveFolder.Text = global::Epi.SharedStrings.UI_ARCHIVE_FOLDER;
             // 
             // txtArchiveFolder
             // 
@@ -215,7 +215,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnResultsFolder.Name = "btnResultsFolder";
             this.btnResultsFolder.Size = new System.Drawing.Size(90, 23);
             this.btnResultsFolder.TabIndex = 8;
-            this.btnResultsFolder.Text = "Browse";
+            this.btnResultsFolder.Text = global::Epi.SharedStrings.UI_BROWSE;
             this.btnResultsFolder.UseVisualStyleBackColor = true;
             this.btnResultsFolder.Click += new System.EventHandler(this.btnResultsFolder_Click);
             // 
@@ -225,7 +225,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnArchiveFolder.Name = "btnArchiveFolder";
             this.btnArchiveFolder.Size = new System.Drawing.Size(90, 23);
             this.btnArchiveFolder.TabIndex = 9;
-            this.btnArchiveFolder.Text = "Browse";
+            this.btnArchiveFolder.Text = global::Epi.SharedStrings.UI_BROWSE;
             this.btnArchiveFolder.UseVisualStyleBackColor = true;
             this.btnArchiveFolder.Click += new System.EventHandler(this.btnArchiveFolder_Click);
             // 
@@ -235,7 +235,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(90, 23);
             this.btnOk.TabIndex = 10;
-            this.btnOk.Text = "OK";
+            this.btnOk.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
@@ -246,7 +246,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 11;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -262,7 +262,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.groupBox1.Size = new System.Drawing.Size(433, 123);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Flag Output Files Exceeding These Limits";
+            this.groupBox1.Text = global::Epi.SharedStrings.UI_FLAG_OUTPUT_FILES_EXCEEDING_THESE_LIMITS;
             // 
             // lblFlagSize
             // 
@@ -270,7 +270,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblFlagSize.Name = "lblFlagSize";
             this.lblFlagSize.Size = new System.Drawing.Size(72, 13);
             this.lblFlagSize.TabIndex = 7;
-            this.lblFlagSize.Text = "File Size (KB):";
+            this.lblFlagSize.Text = global::Epi.SharedStrings.UI_FILE_SIZE_KB;
             // 
             // txtFlagSize
             // 
@@ -285,7 +285,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblFlagNumber.Name = "lblFlagNumber";
             this.lblFlagNumber.Size = new System.Drawing.Size(97, 13);
             this.lblFlagNumber.TabIndex = 5;
-            this.lblFlagNumber.Text = "Number of Results:";
+            this.lblFlagNumber.Text = global::Epi.SharedStrings.UI_NUMBER_OF_RESULTS;
             // 
             // txtFlagNumber
             // 
@@ -300,7 +300,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblFlagDays.Name = "lblFlagDays";
             this.lblFlagDays.Size = new System.Drawing.Size(68, 13);
             this.lblFlagDays.TabIndex = 3;
-            this.lblFlagDays.Text = "Age In Days:";
+            this.lblFlagDays.Text = global::Epi.SharedStrings.UI_AGE_IN_DAYS;
             // 
             // txtFlagAge
             // 
@@ -315,7 +315,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnArchiveResults.Name = "btnArchiveResults";
             this.btnArchiveResults.Size = new System.Drawing.Size(90, 23);
             this.btnArchiveResults.TabIndex = 14;
-            this.btnArchiveResults.Text = "Archive...";
+            this.btnArchiveResults.Text = global::Epi.SharedStrings.UI_ARCHIVE;
             this.btnArchiveResults.UseVisualStyleBackColor = true;
             this.btnArchiveResults.Click += new System.EventHandler(this.btnArchiveResults_Click);
             // 
@@ -325,7 +325,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnDeleteResults.Name = "btnDeleteResults";
             this.btnDeleteResults.Size = new System.Drawing.Size(90, 23);
             this.btnDeleteResults.TabIndex = 16;
-            this.btnDeleteResults.Text = "Delete...";
+            this.btnDeleteResults.Text = global::Epi.SharedStrings.UI_DELETE;
             this.btnDeleteResults.UseVisualStyleBackColor = true;
             this.btnDeleteResults.Click += new System.EventHandler(this.btnDeleteResults_Click);
             // 
@@ -335,7 +335,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnDeleteArchive.Name = "btnDeleteArchive";
             this.btnDeleteArchive.Size = new System.Drawing.Size(90, 23);
             this.btnDeleteArchive.TabIndex = 17;
-            this.btnDeleteArchive.Text = "Delete...";
+            this.btnDeleteArchive.Text = global::Epi.SharedStrings.UI_DELETE;
             this.btnDeleteArchive.UseVisualStyleBackColor = true;
             this.btnDeleteArchive.Click += new System.EventHandler(this.btnDeleteArchive_Click);
             // 
@@ -345,7 +345,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnViewResults.Name = "btnViewResults";
             this.btnViewResults.Size = new System.Drawing.Size(90, 23);
             this.btnViewResults.TabIndex = 18;
-            this.btnViewResults.Text = "View...";
+            this.btnViewResults.Text = global::Epi.SharedStrings.UI_VIEW;
             this.btnViewResults.UseVisualStyleBackColor = true;
             this.btnViewResults.Click += new System.EventHandler(this.btnViewResults_Click);
             // 
@@ -355,7 +355,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnViewArchive.Name = "btnViewArchive";
             this.btnViewArchive.Size = new System.Drawing.Size(90, 23);
             this.btnViewArchive.TabIndex = 19;
-            this.btnViewArchive.Text = "View...";
+            this.btnViewArchive.Text = global::Epi.SharedStrings.UI_VIEW;
             this.btnViewArchive.UseVisualStyleBackColor = true;
             this.btnViewArchive.Click += new System.EventHandler(this.btnViewArchive_Click);
             // 
@@ -369,7 +369,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnApply.Name = "btnApply";
             this.btnApply.Size = new System.Drawing.Size(90, 23);
             this.btnApply.TabIndex = 20;
-            this.btnApply.Text = "Apply";
+            this.btnApply.Text = global::Epi.SharedStrings.UI_APPLY;
             this.btnApply.UseVisualStyleBackColor = true;
             this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
             // 
@@ -402,7 +402,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.MinimizeBox = false;
             this.Name = "StoringOutputDialog";
             this.ShowIcon = false;
-            this.Text = "Storing Output";
+            this.Text = global::Epi.SharedStrings.UI_STORING_OUTPUT;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -40,7 +40,7 @@ namespace EpiDashboard.Gadgets.StatCalc
 
         public PoissonGadget()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             Construct();
         }
 

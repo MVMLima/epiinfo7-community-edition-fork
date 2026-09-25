@@ -52,7 +52,7 @@
             this.lblModeDisplay.Name = "lblModeDisplay";
             this.lblModeDisplay.Size = new System.Drawing.Size(140, 23);
             this.lblModeDisplay.TabIndex = 46;
-            this.lblModeDisplay.Text = "DRAFT";
+            this.lblModeDisplay.Text = global::Epi.SharedStrings.WEB_MODE_DRAFT_UPPER;
             // 
             // label4
             // 
@@ -62,7 +62,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(134, 23);
             this.label4.TabIndex = 45;
-            this.label4.Text = "Current Survey Mode:";
+            this.label4.Text = global::Epi.SharedStrings.UI_CURRENT_SURVEY_MODE;
             // 
             // label6
             // 
@@ -73,7 +73,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(387, 20);
             this.label6.TabIndex = 51;
-            this.label6.Text = "(Select to Remove any survey responses collected in previous iteration.)";
+            this.label6.Text = global::Epi.SharedStrings.UI_SELECT_TO_REMOVE_ANY_SURVEY_RESPONSES_COLLEC;
             // 
             // label1
             // 
@@ -84,7 +84,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(387, 20);
             this.label1.TabIndex = 50;
-            this.label1.Text = "(Select to KEEP any survey responses collected in previous iteration.)";
+            this.label1.Text = global::Epi.SharedStrings.UI_SELECT_TO_KEEP_ANY_SURVEY_RESPONSES_COLLECTE;
             // 
             // rbRemove
             // 
@@ -96,7 +96,7 @@
             this.rbRemove.Size = new System.Drawing.Size(193, 19);
             this.rbRemove.TabIndex = 49;
             this.rbRemove.TabStop = true;
-            this.rbRemove.Text = "Remove collected survey data";
+            this.rbRemove.Text = global::Epi.SharedStrings.UI_REMOVE_COLLECTED_SURVEY_DATA;
             this.rbRemove.UseVisualStyleBackColor = true;
             // 
             // rbKeep
@@ -109,7 +109,7 @@
             this.rbKeep.Size = new System.Drawing.Size(175, 19);
             this.rbKeep.TabIndex = 48;
             this.rbKeep.TabStop = true;
-            this.rbKeep.Text = "Keep collected survey data";
+            this.rbKeep.Text = global::Epi.SharedStrings.UI_KEEP_COLLECTED_SURVEY_DATA;
             this.rbKeep.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -120,7 +120,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 15);
             this.label2.TabIndex = 47;
-            this.label2.Text = "Survey Data:";
+            this.label2.Text = global::Epi.SharedStrings.UI_SURVEY_DATA;
             // 
             // txtOrganizationKey
             // 
@@ -137,7 +137,7 @@
             this.lblOrganizationKey.Name = "lblOrganizationKey";
             this.lblOrganizationKey.Size = new System.Drawing.Size(110, 17);
             this.lblOrganizationKey.TabIndex = 52;
-            this.lblOrganizationKey.Text = "Organization Key";
+            this.lblOrganizationKey.Text = global::Epi.SharedStrings.UI_ORGANIZATION_KEY_2;
             // 
             // button2
             // 
@@ -146,7 +146,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(97, 35);
             this.button2.TabIndex = 55;
-            this.button2.Text = "Cancel";
+            this.button2.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.button2.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
@@ -156,7 +156,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(177, 35);
             this.btnUpdate.TabIndex = 54;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = global::Epi.SharedStrings.UI_UPDATE;
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
@@ -175,7 +175,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 13);
             this.label3.TabIndex = 57;
-            this.label3.Text = "Publisher Key";
+            this.label3.Text = global::Epi.SharedStrings.UI_PUBLISHER_KEY;
             // 
             // lblOutput
             // 
@@ -184,7 +184,7 @@
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(45, 13);
             this.lblOutput.TabIndex = 58;
-            this.lblOutput.Text = "Output: ";
+            this.lblOutput.Text = global::Epi.SharedStrings.UI_OUTPUT;
             // 
             // RepublishSurveyFields
             // 
@@ -211,7 +211,7 @@
             this.Name = "RepublishSurveyFields";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Republish Survey Form Fields";
+            this.Text = global::Epi.SharedStrings.UI_REPUBLISH_SURVEY_FORM_FIELDS;
             this.Load += new System.EventHandler(this.UpdateSurveyFields_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

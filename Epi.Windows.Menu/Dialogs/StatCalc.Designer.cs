@@ -39,7 +39,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StatCalc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "StatCalc";
+            this.Text = global::Epi.SharedStrings.UI_STATCALC;
             this.ResumeLayout(false);
 
         }

@@ -191,7 +191,7 @@ namespace Epi.Windows.ImportExport.Dialogs
             this.grpSourceProject.Size = new System.Drawing.Size(476, 74);
             this.grpSourceProject.TabIndex = 8;
             this.grpSourceProject.TabStop = false;
-            this.grpSourceProject.Text = "Source Project";
+            this.grpSourceProject.Text = global::Epi.SharedStrings.UI_SOURCE_PROJECT;
             // 
             // txtSourceProject
             // 
@@ -211,14 +211,14 @@ namespace Epi.Windows.ImportExport.Dialogs
             this.lblSourceProject.Name = "lblSourceProject";
             this.lblSourceProject.Size = new System.Drawing.Size(72, 13);
             this.lblSourceProject.TabIndex = 4;
-            this.lblSourceProject.Text = "Source Name";
+            this.lblSourceProject.Text = global::Epi.SharedStrings.UI_SOURCE_NAME;
             // 
             // ProjectUpgradeDialog
             // 
             this.ClientSize = new System.Drawing.Size(493, 427);
             this.Controls.Add(this.grpSourceProject);
             this.Name = "ProjectUpgradeDialog";
-            this.Text = "Import Project";
+            this.Text = global::Epi.SharedStrings.UI_IMPORT_PROJECT;
             this.Load += new System.EventHandler(this.ProjectImportDialog_Load);
             this.Controls.SetChildIndex(this.btnOk, 0);
             this.Controls.SetChildIndex(this.btnCancel, 0);

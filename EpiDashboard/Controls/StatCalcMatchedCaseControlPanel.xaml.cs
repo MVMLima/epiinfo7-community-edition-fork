@@ -34,14 +34,14 @@ namespace EpiDashboard.Controls
 
         public StatCalcMatchedCaseControlPanel()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             ShowRowColumnPercents = true;
             Construct();
         }
 
         public StatCalcMatchedCaseControlPanel(decimal yyVal, decimal ynVal, decimal nyVal, decimal nnVal)
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             ShowRowColumnPercents = true;
             Construct();
             this.YesYesValue = yyVal;

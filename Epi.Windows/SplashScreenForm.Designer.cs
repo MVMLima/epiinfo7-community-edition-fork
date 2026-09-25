@@ -63,7 +63,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(281, 82);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Loading...";
+            this.label2.Text = global::Epi.SharedStrings.UI_LOADING;
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // SplashScreenForm

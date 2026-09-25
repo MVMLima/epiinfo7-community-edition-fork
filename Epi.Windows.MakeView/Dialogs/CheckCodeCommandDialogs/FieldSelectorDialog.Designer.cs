@@ -48,7 +48,7 @@
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(90, 23);
             this.btnHelp.TabIndex = 0;
-            this.btnHelp.Text = "Help";
+            this.btnHelp.Text = global::Epi.SharedStrings.UI_HELP;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnCancel
@@ -59,7 +59,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 1;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnOk
@@ -69,7 +69,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(90, 23);
             this.btnOk.TabIndex = 2;
-            this.btnOk.Text = "OK";
+            this.btnOk.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // lbxFields
@@ -97,7 +97,7 @@
             this.Name = "FieldSelectorDialog";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Field Selector";
+            this.Text = global::Epi.SharedStrings.UI_FIELD_SELECTOR;
             this.ResumeLayout(false);
 
         }

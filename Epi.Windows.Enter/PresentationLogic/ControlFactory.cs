@@ -844,7 +844,7 @@ namespace Epi.Windows.Enter.PresentationLogic
                 ToolStripMenuItem deleteRowStripMenuItem = new ToolStripMenuItem();
                 contextMenuStrip.SuspendLayout();
                 deleteRowStripMenuItem.Name = "deleteRow";
-                deleteRowStripMenuItem.Text = "Delete Row";
+                deleteRowStripMenuItem.Text = global::Epi.SharedStrings.ENTER_DELETE_ROW;
                 deleteRowStripMenuItem.Image = global::Epi.Enter.Properties.Resources.delete_icon;
                 deleteRowStripMenuItem.ImageTransparentColor = Color.White;
                 deleteRowStripMenuItem.Tag = gridView;

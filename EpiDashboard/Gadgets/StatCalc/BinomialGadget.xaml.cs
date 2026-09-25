@@ -40,7 +40,7 @@ namespace EpiDashboard.Gadgets.StatCalc
 
         public BinomialGadget()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             Construct();
         }
 

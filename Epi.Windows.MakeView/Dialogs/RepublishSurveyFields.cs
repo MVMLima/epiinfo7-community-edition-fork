@@ -64,7 +64,7 @@ namespace Epi.Windows.MakeView.Dialogs
                     Epi.Web.Common.Message.SurveyInfoResponse Result = new Epi.Web.Common.Message.SurveyInfoResponse();
 
                     //txtStatusSummary.Text = SharedStrings.WEBFORM_SUCCESS;
-                    //txtStatusSummary.Text = "Your Form has been republished: " + Result.Message;
+                    //txtStatusSummary.Text = string.Format(global::Epi.SharedStrings.WEB_REPUBLISH_OK, Result.Message);
                     ////string message = DateTime.Now + ": " + SharedStrings.WEBFORM_SUCCESS + ": " + Result.PublishInfo.URL;
                     //Logger.Log(message);
                     //message = DateTime.Now + ": Survey Key= " + txtSurveyKey.Text;
@@ -94,11 +94,11 @@ namespace Epi.Windows.MakeView.Dialogs
             {
                 if (this.currentSurveyInfoDTO.IsDraftMode)
                 {
-                    this.lblModeDisplay.Text = "Draft - the survey is currently in test mode.";
+                    this.lblModeDisplay.Text = global::Epi.SharedStrings.WEB_REPUBLISH_DRAFT_DESC;
                 }
                 else
                 {
-                    this.lblModeDisplay.Text = "Final - the survey is currently in production mode.";
+                    this.lblModeDisplay.Text = global::Epi.SharedStrings.WEB_REPUBLISH_FINAL_DESC;
                 }
             }
 
@@ -136,7 +136,7 @@ namespace Epi.Windows.MakeView.Dialogs
                 if (Result.Acknowledge == Web.Common.MessageBase.AcknowledgeType.Success)
                 {
                     //txtStatusSummary.Text = SharedStrings.WEBFORM_SUCCESS;
-                    lblOutput.Text = "Your Form has been republished: " + Result.Message;
+                    lblOutput.Text = string.Format(global::Epi.SharedStrings.WEB_REPUBLISH_OK, Result.Message);
                     ////string message = DateTime.Now + ": " + SharedStrings.WEBFORM_SUCCESS + ": " + Result.PublishInfo.URL;
                     //Logger.Log(message);
                     //message = DateTime.Now + ": Survey Key= " + txtSurveyKey.Text;
@@ -146,7 +146,7 @@ namespace Epi.Windows.MakeView.Dialogs
                 }
                 else
                 {
-                    lblOutput.Text = "Your Form has NOT been republished: " + Result.Message;
+                    lblOutput.Text = string.Format(global::Epi.SharedStrings.WEB_REPUBLISH_NOT_OK, Result.Message);
                 }
 
                 //this.progressBar.Visible = false;

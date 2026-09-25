@@ -9979,5 +9979,2606 @@ namespace Epi {
                 return ResourceManager.GetString("ANALYSIS_READ_TYPE_TABLE", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1. Survey Link:.
+        /// </summary>
+        public static string UI_1_SURVEY_LINK {
+            get {
+                return ResourceManager.GetString("UI_1_SURVEY_LINK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2. Survey Key:.
+        /// </summary>
+        public static string UI_2_SURVEY_KEY {
+            get {
+                return ResourceManager.GetString("UI_2_SURVEY_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3. Security Token:.
+        /// </summary>
+        public static string UI_3_SECURITY_TOKEN {
+            get {
+                return ResourceManager.GetString("UI_3_SECURITY_TOKEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A newer version of Epi Info is available for download..
+        /// </summary>
+        public static string UI_A_NEWER_VERSION_OF_EPI_INFO_IS_AVAILABLE_FOR {
+            get {
+                return ResourceManager.GetString("UI_A_NEWER_VERSION_OF_EPI_INFO_IS_AVAILABLE_FOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;About Epi Info.
+        /// </summary>
+        public static string UI_ABOUT_EPI_INFO_MN {
+            get {
+                return ResourceManager.GetString("UI_ABOUT_EPI_INFO_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Accept.
+        /// </summary>
+        public static string UI_ACCEPT {
+            get {
+                return ResourceManager.GetString("UI_ACCEPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Base Layer.
+        /// </summary>
+        public static string UI_ADD_BASE_LAYER {
+            get {
+                return ResourceManager.GetString("UI_ADD_BASE_LAYER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Data Layer.
+        /// </summary>
+        public static string UI_ADD_DATA_LAYER {
+            get {
+                return ResourceManager.GetString("UI_ADD_DATA_LAYER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Relation.
+        /// </summary>
+        public static string UI_ADD_RELATION {
+            get {
+                return ResourceManager.GetString("UI_ADD_RELATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Address:.
+        /// </summary>
+        public static string UI_ADDRESS {
+            get {
+                return ResourceManager.GetString("UI_ADDRESS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Advanced.
+        /// </summary>
+        public static string UI_ADVANCED {
+            get {
+                return ResourceManager.GetString("UI_ADVANCED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Age In Days:.
+        /// </summary>
+        public static string UI_AGE_IN_DAYS {
+            get {
+                return ResourceManager.GetString("UI_AGE_IN_DAYS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All Pages.
+        /// </summary>
+        public static string UI_ALL_PAGES {
+            get {
+                return ResourceManager.GetString("UI_ALL_PAGES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All Records.
+        /// </summary>
+        public static string UI_ALL_RECORDS {
+            get {
+                return ResourceManager.GetString("UI_ALL_RECORDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Anchor.
+        /// </summary>
+        public static string UI_ANCHOR_MN {
+            get {
+                return ResourceManager.GetString("UI_ANCHOR_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apply.
+        /// </summary>
+        public static string UI_APPLY {
+            get {
+                return ResourceManager.GetString("UI_APPLY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Archive....
+        /// </summary>
+        public static string UI_ARCHIVE {
+            get {
+                return ResourceManager.GetString("UI_ARCHIVE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Archive Folder:.
+        /// </summary>
+        public static string UI_ARCHIVE_FOLDER {
+            get {
+                return ResourceManager.GetString("UI_ARCHIVE_FOLDER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Author.
+        /// </summary>
+        public static string UI_AUTHOR {
+            get {
+                return ResourceManager.GetString("UI_AUTHOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Back.
+        /// </summary>
+        public static string UI_BACK_MN {
+            get {
+                return ResourceManager.GetString("UI_BACK_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Both.
+        /// </summary>
+        public static string UI_BOTH {
+            get {
+                return ResourceManager.GetString("UI_BOTH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Browse.
+        /// </summary>
+        public static string UI_BROWSE {
+            get {
+                return ResourceManager.GetString("UI_BROWSE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Build Key Dialog.
+        /// </summary>
+        public static string UI_BUILD_KEY_DIALOG {
+            get {
+                return ResourceManager.GetString("UI_BUILD_KEY_DIALOG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        public static string UI_CANCEL {
+            get {
+                return ResourceManager.GetString("UI_CANCEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Case Cluster.
+        /// </summary>
+        public static string UI_CASE_CLUSTER {
+            get {
+                return ResourceManager.GetString("UI_CASE_CLUSTER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Case sensitive.
+        /// </summary>
+        public static string UI_CASE_SENSITIVE {
+            get {
+                return ResourceManager.GetString("UI_CASE_SENSITIVE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change Publish Mode.
+        /// </summary>
+        public static string UI_CHANGE_PUBLISH_MODE {
+            get {
+                return ResourceManager.GetString("UI_CHANGE_PUBLISH_MODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Changes in current version:.
+        /// </summary>
+        public static string UI_CHANGES_IN_CURRENT_VERSION {
+            get {
+                return ResourceManager.GetString("UI_CHANGES_IN_CURRENT_VERSION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choropleth.
+        /// </summary>
+        public static string UI_CHOROPLETH {
+            get {
+                return ResourceManager.GetString("UI_CHOROPLETH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clear.
+        /// </summary>
+        public static string UI_CLEAR {
+            get {
+                return ResourceManager.GetString("UI_CLEAR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C&amp;lear.
+        /// </summary>
+        public static string UI_CLEAR_MN {
+            get {
+                return ResourceManager.GetString("UI_CLEAR_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        public static string UI_CLOSE {
+            get {
+                return ResourceManager.GetString("UI_CLOSE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Command Block.
+        /// </summary>
+        public static string UI_COMMAND_BLOCK {
+            get {
+                return ResourceManager.GetString("UI_COMMAND_BLOCK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Command List.
+        /// </summary>
+        public static string UI_COMMAND_LIST {
+            get {
+                return ResourceManager.GetString("UI_COMMAND_LIST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Command Name.
+        /// </summary>
+        public static string UI_COMMAND_NAME {
+            get {
+                return ResourceManager.GetString("UI_COMMAND_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Command &amp;Reference.
+        /// </summary>
+        public static string UI_COMMAND_REFERENCE_MN {
+            get {
+                return ResourceManager.GetString("UI_COMMAND_REFERENCE_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Comments.
+        /// </summary>
+        public static string UI_COMMENTS {
+            get {
+                return ResourceManager.GetString("UI_COMMENTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confidence:.
+        /// </summary>
+        public static string UI_CONFIDENCE {
+            get {
+                return ResourceManager.GetString("UI_CONFIDENCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Connect to Data Source.
+        /// </summary>
+        public static string UI_CONNECT_TO_DATA_SOURCE {
+            get {
+                return ResourceManager.GetString("UI_CONNECT_TO_DATA_SOURCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contents.
+        /// </summary>
+        public static string UI_CONTENTS {
+            get {
+                return ResourceManager.GetString("UI_CONTENTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy.
+        /// </summary>
+        public static string UI_COPY {
+            get {
+                return ResourceManager.GetString("UI_COPY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy All to Clipboard.
+        /// </summary>
+        public static string UI_COPY_ALL_TO_CLIPBOARD {
+            get {
+                return ResourceManager.GetString("UI_COPY_ALL_TO_CLIPBOARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy Form to Android Device.
+        /// </summary>
+        public static string UI_COPY_FORM_TO_ANDROID_DEVICE {
+            get {
+                return ResourceManager.GetString("UI_COPY_FORM_TO_ANDROID_DEVICE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create Time Lapse.
+        /// </summary>
+        public static string UI_CREATE_TIME_LAPSE {
+            get {
+                return ResourceManager.GetString("UI_CREATE_TIME_LAPSE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Data Variables.
+        /// </summary>
+        public static string UI_CURRENT_DATA_VARIABLES {
+            get {
+                return ResourceManager.GetString("UI_CURRENT_DATA_VARIABLES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Record.
+        /// </summary>
+        public static string UI_CURRENT_RECORD {
+            get {
+                return ResourceManager.GetString("UI_CURRENT_RECORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Survey Mode:.
+        /// </summary>
+        public static string UI_CURRENT_SURVEY_MODE {
+            get {
+                return ResourceManager.GetString("UI_CURRENT_SURVEY_MODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Version:.
+        /// </summary>
+        public static string UI_CURRENT_VERSION {
+            get {
+                return ResourceManager.GetString("UI_CURRENT_VERSION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dashboard.
+        /// </summary>
+        public static string UI_DASHBOARD {
+            get {
+                return ResourceManager.GetString("UI_DASHBOARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data Source.
+        /// </summary>
+        public static string UI_DATA_SOURCE {
+            get {
+                return ResourceManager.GetString("UI_DATA_SOURCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data Source Explorer.
+        /// </summary>
+        public static string UI_DATA_SOURCE_EXPLORER {
+            get {
+                return ResourceManager.GetString("UI_DATA_SOURCE_EXPLORER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date Created.
+        /// </summary>
+        public static string UI_DATE_CREATED {
+            get {
+                return ResourceManager.GetString("UI_DATE_CREATED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date Format.
+        /// </summary>
+        public static string UI_DATE_FORMAT {
+            get {
+                return ResourceManager.GetString("UI_DATE_FORMAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date Modified.
+        /// </summary>
+        public static string UI_DATE_MODIFIED {
+            get {
+                return ResourceManager.GetString("UI_DATE_MODIFIED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date\Time Format.
+        /// </summary>
+        public static string UI_DATE_TIME_FORMAT {
+            get {
+                return ResourceManager.GetString("UI_DATE_TIME_FORMAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default Date\Time Formats.
+        /// </summary>
+        public static string UI_DEFAULT_DATE_TIME_FORMATS {
+            get {
+                return ResourceManager.GetString("UI_DEFAULT_DATE_TIME_FORMATS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Define User Command.
+        /// </summary>
+        public static string UI_DEFINE_USER_COMMAND {
+            get {
+                return ResourceManager.GetString("UI_DEFINE_USER_COMMAND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete....
+        /// </summary>
+        public static string UI_DELETE {
+            get {
+                return ResourceManager.GetString("UI_DELETE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete.
+        /// </summary>
+        public static string UI_DELETE_2 {
+            get {
+                return ResourceManager.GetString("UI_DELETE_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Delete.
+        /// </summary>
+        public static string UI_DELETE_MN {
+            get {
+                return ResourceManager.GetString("UI_DELETE_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deleted Records Only.
+        /// </summary>
+        public static string UI_DELETED_RECORDS_ONLY {
+            get {
+                return ResourceManager.GetString("UI_DELETED_RECORDS_ONLY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Direction.
+        /// </summary>
+        public static string UI_DIRECTION {
+            get {
+                return ResourceManager.GetString("UI_DIRECTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dot Density.
+        /// </summary>
+        public static string UI_DOT_DENSITY {
+            get {
+                return ResourceManager.GetString("UI_DOT_DENSITY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Download.
+        /// </summary>
+        public static string UI_DOWNLOAD {
+            get {
+                return ResourceManager.GetString("UI_DOWNLOAD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Edit.
+        /// </summary>
+        public static string UI_EDIT_MN {
+            get {
+                return ResourceManager.GetString("UI_EDIT_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter Organization Key.
+        /// </summary>
+        public static string UI_ENTER_ORGANIZATION_KEY {
+            get {
+                return ResourceManager.GetString("UI_ENTER_ORGANIZATION_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Epi Info 3.5.x Project Upgrade Check.
+        /// </summary>
+        public static string UI_EPI_INFO_3_5_X_PROJECT_UPGRADE_CHECK {
+            get {
+                return ResourceManager.GetString("UI_EPI_INFO_3_5_X_PROJECT_UPGRADE_CHECK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Execute.
+        /// </summary>
+        public static string UI_EXECUTE {
+            get {
+                return ResourceManager.GetString("UI_EXECUTE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to E&amp;xit Find Records.
+        /// </summary>
+        public static string UI_EXIT_FIND_RECORDS_MN {
+            get {
+                return ResourceManager.GetString("UI_EXIT_FIND_RECORDS_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Field Selector.
+        /// </summary>
+        public static string UI_FIELD_SELECTOR {
+            get {
+                return ResourceManager.GetString("UI_FIELD_SELECTOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;File.
+        /// </summary>
+        public static string UI_FILE_MN {
+            get {
+                return ResourceManager.GetString("UI_FILE_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File Size (KB):.
+        /// </summary>
+        public static string UI_FILE_SIZE_KB {
+            get {
+                return ResourceManager.GetString("UI_FILE_SIZE_KB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filename.
+        /// </summary>
+        public static string UI_FILENAME {
+            get {
+                return ResourceManager.GetString("UI_FILENAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;FileName.
+        /// </summary>
+        public static string UI_FILENAME_MN {
+            get {
+                return ResourceManager.GetString("UI_FILENAME_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filename or Command.
+        /// </summary>
+        public static string UI_FILENAME_OR_COMMAND {
+            get {
+                return ResourceManager.GetString("UI_FILENAME_OR_COMMAND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find.
+        /// </summary>
+        public static string UI_FIND {
+            get {
+                return ResourceManager.GetString("UI_FIND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find last.
+        /// </summary>
+        public static string UI_FIND_LAST {
+            get {
+                return ResourceManager.GetString("UI_FIND_LAST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find next.
+        /// </summary>
+        public static string UI_FIND_NEXT {
+            get {
+                return ResourceManager.GetString("UI_FIND_NEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find Records.
+        /// </summary>
+        public static string UI_FIND_RECORDS {
+            get {
+                return ResourceManager.GetString("UI_FIND_RECORDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find what:.
+        /// </summary>
+        public static string UI_FIND_WHAT {
+            get {
+                return ResourceManager.GetString("UI_FIND_WHAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Finish.
+        /// </summary>
+        public static string UI_FINISH_MN {
+            get {
+                return ResourceManager.GetString("UI_FINISH_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Flag Output Files Exceeding These Limits.
+        /// </summary>
+        public static string UI_FLAG_OUTPUT_FILES_EXCEEDING_THESE_LIMITS {
+            get {
+                return ResourceManager.GetString("UI_FLAG_OUTPUT_FILES_EXCEEDING_THESE_LIMITS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Form name to use:.
+        /// </summary>
+        public static string UI_FORM_NAME_TO_USE {
+            get {
+                return ResourceManager.GetString("UI_FORM_NAME_TO_USE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to From beginning.
+        /// </summary>
+        public static string UI_FROM_BEGINNING {
+            get {
+                return ResourceManager.GetString("UI_FROM_BEGINNING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to From KML.
+        /// </summary>
+        public static string UI_FROM_KML {
+            get {
+                return ResourceManager.GetString("UI_FROM_KML", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to From Map Server.
+        /// </summary>
+        public static string UI_FROM_MAP_SERVER {
+            get {
+                return ResourceManager.GetString("UI_FROM_MAP_SERVER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to From Shape File.
+        /// </summary>
+        public static string UI_FROM_SHAPE_FILE {
+            get {
+                return ResourceManager.GetString("UI_FROM_SHAPE_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Generate Command.
+        /// </summary>
+        public static string UI_GENERATE_COMMAND {
+            get {
+                return ResourceManager.GetString("UI_GENERATE_COMMAND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Geocode Results.
+        /// </summary>
+        public static string UI_GEOCODE_RESULTS {
+            get {
+                return ResourceManager.GetString("UI_GEOCODE_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Get Industry and Occupation Results.
+        /// </summary>
+        public static string UI_GET_INDUSTRY_AND_OCCUPATION_RESULTS {
+            get {
+                return ResourceManager.GetString("UI_GET_INDUSTRY_AND_OCCUPATION_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Get Survey Link and Keys.
+        /// </summary>
+        public static string UI_GET_SURVEY_LINK_AND_KEYS {
+            get {
+                return ResourceManager.GetString("UI_GET_SURVEY_LINK_AND_KEYS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go.
+        /// </summary>
+        public static string UI_GO {
+            get {
+                return ResourceManager.GetString("UI_GO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go Back.
+        /// </summary>
+        public static string UI_GO_BACK {
+            get {
+                return ResourceManager.GetString("UI_GO_BACK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go &amp;Back.
+        /// </summary>
+        public static string UI_GO_BACK_MN {
+            get {
+                return ResourceManager.GetString("UI_GO_BACK_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help.
+        /// </summary>
+        public static string UI_HELP {
+            get {
+                return ResourceManager.GetString("UI_HELP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Help.
+        /// </summary>
+        public static string UI_HELP_MN {
+            get {
+                return ResourceManager.GetString("UI_HELP_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Help.
+        /// </summary>
+        public static string UI_HELP_MN_2 {
+            get {
+                return ResourceManager.GetString("UI_HELP_MN_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HTML Output Options.
+        /// </summary>
+        public static string UI_HTML_OUTPUT_OPTIONS {
+            get {
+                return ResourceManager.GetString("UI_HTML_OUTPUT_OPTIONS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import Language Database.
+        /// </summary>
+        public static string UI_IMPORT_LANGUAGE_DATABASE {
+            get {
+                return ResourceManager.GetString("UI_IMPORT_LANGUAGE_DATABASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import Project.
+        /// </summary>
+        public static string UI_IMPORT_PROJECT {
+            get {
+                return ResourceManager.GetString("UI_IMPORT_PROJECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IMPORTANT.
+        /// </summary>
+        public static string UI_IMPORTANT {
+            get {
+                return ResourceManager.GetString("UI_IMPORTANT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Include Missing Values.
+        /// </summary>
+        public static string UI_INCLUDE_MISSING_VALUES {
+            get {
+                return ResourceManager.GetString("UI_INCLUDE_MISSING_VALUES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Industry:.
+        /// </summary>
+        public static string UI_INDUSTRY {
+            get {
+                return ResourceManager.GetString("UI_INDUSTRY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Industry Code:.
+        /// </summary>
+        public static string UI_INDUSTRY_CODE {
+            get {
+                return ResourceManager.GetString("UI_INDUSTRY_CODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Industry Title:.
+        /// </summary>
+        public static string UI_INDUSTRY_TITLE {
+            get {
+                return ResourceManager.GetString("UI_INDUSTRY_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Input.
+        /// </summary>
+        public static string UI_INPUT {
+            get {
+                return ResourceManager.GetString("UI_INPUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Input Dialog.
+        /// </summary>
+        public static string UI_INPUT_DIALOG {
+            get {
+                return ResourceManager.GetString("UI_INPUT_DIALOG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Insert.
+        /// </summary>
+        public static string UI_INSERT {
+            get {
+                return ResourceManager.GetString("UI_INSERT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Intermediate.
+        /// </summary>
+        public static string UI_INTERMEDIATE {
+            get {
+                return ResourceManager.GetString("UI_INTERMEDIATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Item.
+        /// </summary>
+        public static string UI_ITEM {
+            get {
+                return ResourceManager.GetString("UI_ITEM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Keep collected survey data.
+        /// </summary>
+        public static string UI_KEEP_COLLECTED_SURVEY_DATA {
+            get {
+                return ResourceManager.GetString("UI_KEEP_COLLECTED_SURVEY_DATA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Key Component.
+        /// </summary>
+        public static string UI_KEY_COMPONENT {
+            get {
+                return ResourceManager.GetString("UI_KEY_COMPONENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Latitude:.
+        /// </summary>
+        public static string UI_LATITUDE {
+            get {
+                return ResourceManager.GetString("UI_LATITUDE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line List.
+        /// </summary>
+        public static string UI_LINE_LIST {
+            get {
+                return ResourceManager.GetString("UI_LINE_LIST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line Listing.
+        /// </summary>
+        public static string UI_LINE_LISTING {
+            get {
+                return ResourceManager.GetString("UI_LINE_LISTING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Loading....
+        /// </summary>
+        public static string UI_LOADING {
+            get {
+                return ResourceManager.GetString("UI_LOADING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Longitude:.
+        /// </summary>
+        public static string UI_LONGITUDE {
+            get {
+                return ResourceManager.GetString("UI_LONGITUDE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Map.
+        /// </summary>
+        public static string UI_MAP {
+            get {
+                return ResourceManager.GetString("UI_MAP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minimal.
+        /// </summary>
+        public static string UI_MINIMAL {
+            get {
+                return ResourceManager.GetString("UI_MINIMAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MISSING As:.
+        /// </summary>
+        public static string UI_MISSING_AS {
+            get {
+                return ResourceManager.GetString("UI_MISSING_AS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Multi-Choice Items.
+        /// </summary>
+        public static string UI_MULTI_CHOICE_ITEMS {
+            get {
+                return ResourceManager.GetString("UI_MULTI_CHOICE_ITEMS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Record.
+        /// </summary>
+        public static string UI_NEW_RECORD {
+            get {
+                return ResourceManager.GetString("UI_NEW_RECORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Version Available.
+        /// </summary>
+        public static string UI_NEW_VERSION_AVAILABLE {
+            get {
+                return ResourceManager.GetString("UI_NEW_VERSION_AVAILABLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Next.
+        /// </summary>
+        public static string UI_NEXT {
+            get {
+                return ResourceManager.GetString("UI_NEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string UI_NO {
+            get {
+                return ResourceManager.GetString("UI_NO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NO As:.
+        /// </summary>
+        public static string UI_NO_AS {
+            get {
+                return ResourceManager.GetString("UI_NO_AS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No Records (Blank Form).
+        /// </summary>
+        public static string UI_NO_RECORDS_BLANK_FORM {
+            get {
+                return ResourceManager.GetString("UI_NO_RECORDS_BLANK_FORM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to None.
+        /// </summary>
+        public static string UI_NONE {
+            get {
+                return ResourceManager.GetString("UI_NONE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Now importing .....
+        /// </summary>
+        public static string UI_NOW_IMPORTING {
+            get {
+                return ResourceManager.GetString("UI_NOW_IMPORTING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Number of Results:.
+        /// </summary>
+        public static string UI_NUMBER_OF_RESULTS {
+            get {
+                return ResourceManager.GetString("UI_NUMBER_OF_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Occupation:.
+        /// </summary>
+        public static string UI_OCCUPATION {
+            get {
+                return ResourceManager.GetString("UI_OCCUPATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Occupation Code:.
+        /// </summary>
+        public static string UI_OCCUPATION_CODE {
+            get {
+                return ResourceManager.GetString("UI_OCCUPATION_CODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Occupation Title:.
+        /// </summary>
+        public static string UI_OCCUPATION_TITLE {
+            get {
+                return ResourceManager.GetString("UI_OCCUPATION_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        public static string UI_OK {
+            get {
+                return ResourceManager.GetString("UI_OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open.
+        /// </summary>
+        public static string UI_OPEN {
+            get {
+                return ResourceManager.GetString("UI_OPEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Organization Key:.
+        /// </summary>
+        public static string UI_ORGANIZATION_KEY {
+            get {
+                return ResourceManager.GetString("UI_ORGANIZATION_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Organization Key.
+        /// </summary>
+        public static string UI_ORGANIZATION_KEY_2 {
+            get {
+                return ResourceManager.GetString("UI_ORGANIZATION_KEY_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Organization Key is not valid. Please enter a correct key..
+        /// </summary>
+        public static string UI_ORGANIZATION_KEY_IS_NOT_VALID_PLEASE_ENTER_A {
+            get {
+                return ResourceManager.GetString("UI_ORGANIZATION_KEY_IS_NOT_VALID_PLEASE_ENTER_A", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Output:.
+        /// </summary>
+        public static string UI_OUTPUT {
+            get {
+                return ResourceManager.GetString("UI_OUTPUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Output File Prefix:.
+        /// </summary>
+        public static string UI_OUTPUT_FILE_PREFIX {
+            get {
+                return ResourceManager.GetString("UI_OUTPUT_FILE_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Output File Sequence:.
+        /// </summary>
+        public static string UI_OUTPUT_FILE_SEQUENCE {
+            get {
+                return ResourceManager.GetString("UI_OUTPUT_FILE_SEQUENCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Output Grid.
+        /// </summary>
+        public static string UI_OUTPUT_GRID {
+            get {
+                return ResourceManager.GetString("UI_OUTPUT_GRID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page Range.
+        /// </summary>
+        public static string UI_PAGE_RANGE {
+            get {
+                return ResourceManager.GetString("UI_PAGE_RANGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please choose the language or culture to import from the following list:.
+        /// </summary>
+        public static string UI_PLEASE_CHOOSE_THE_LANGUAGE_OR_CULTURE_TO_IMP {
+            get {
+                return ResourceManager.GetString("UI_PLEASE_CHOOSE_THE_LANGUAGE_OR_CULTURE_TO_IMP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please select a Form:.
+        /// </summary>
+        public static string UI_PLEASE_SELECT_A_FORM {
+            get {
+                return ResourceManager.GetString("UI_PLEASE_SELECT_A_FORM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Possibilities:.
+        /// </summary>
+        public static string UI_POSSIBILITIES {
+            get {
+                return ResourceManager.GetString("UI_POSSIBILITIES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Precision:.
+        /// </summary>
+        public static string UI_PRECISION {
+            get {
+                return ResourceManager.GetString("UI_PRECISION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preview.
+        /// </summary>
+        public static string UI_PREVIEW {
+            get {
+                return ResourceManager.GetString("UI_PREVIEW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Print.
+        /// </summary>
+        public static string UI_PRINT {
+            get {
+                return ResourceManager.GetString("UI_PRINT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Process Records.
+        /// </summary>
+        public static string UI_PROCESS_RECORDS {
+            get {
+                return ResourceManager.GetString("UI_PROCESS_RECORDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Processing. Please Wait....
+        /// </summary>
+        public static string UI_PROCESSING_PLEASE_WAIT {
+            get {
+                return ResourceManager.GetString("UI_PROCESSING_PLEASE_WAIT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Program.
+        /// </summary>
+        public static string UI_PROGRAM {
+            get {
+                return ResourceManager.GetString("UI_PROGRAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Program Name.
+        /// </summary>
+        public static string UI_PROGRAM_NAME {
+            get {
+                return ResourceManager.GetString("UI_PROGRAM_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Programs.
+        /// </summary>
+        public static string UI_PROGRAMS {
+            get {
+                return ResourceManager.GetString("UI_PROGRAMS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Progress.
+        /// </summary>
+        public static string UI_PROGRESS {
+            get {
+                return ResourceManager.GetString("UI_PROGRESS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Project.
+        /// </summary>
+        public static string UI_PROJECT_MN {
+            get {
+                return ResourceManager.GetString("UI_PROJECT_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Publish Mode:.
+        /// </summary>
+        public static string UI_PUBLISH_MODE {
+            get {
+                return ResourceManager.GetString("UI_PUBLISH_MODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Publish Mode.
+        /// </summary>
+        public static string UI_PUBLISH_MODE_2 {
+            get {
+                return ResourceManager.GetString("UI_PUBLISH_MODE_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Publisher Key.
+        /// </summary>
+        public static string UI_PUBLISHER_KEY {
+            get {
+                return ResourceManager.GetString("UI_PUBLISHER_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quality:.
+        /// </summary>
+        public static string UI_QUALITY {
+            get {
+                return ResourceManager.GetString("UI_QUALITY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ready.
+        /// </summary>
+        public static string UI_READY {
+            get {
+                return ResourceManager.GetString("UI_READY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Record Range.
+        /// </summary>
+        public static string UI_RECORD_RANGE {
+            get {
+                return ResourceManager.GetString("UI_RECORD_RANGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Records:.
+        /// </summary>
+        public static string UI_RECORDS {
+            get {
+                return ResourceManager.GetString("UI_RECORDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Related Table Variables.
+        /// </summary>
+        public static string UI_RELATED_TABLE_VARIABLES {
+            get {
+                return ResourceManager.GetString("UI_RELATED_TABLE_VARIABLES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove collected survey data.
+        /// </summary>
+        public static string UI_REMOVE_COLLECTED_SURVEY_DATA {
+            get {
+                return ResourceManager.GetString("UI_REMOVE_COLLECTED_SURVEY_DATA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace.
+        /// </summary>
+        public static string UI_REPLACE {
+            get {
+                return ResourceManager.GetString("UI_REPLACE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace all.
+        /// </summary>
+        public static string UI_REPLACE_ALL {
+            get {
+                return ResourceManager.GetString("UI_REPLACE_ALL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace with:.
+        /// </summary>
+        public static string UI_REPLACE_WITH {
+            get {
+                return ResourceManager.GetString("UI_REPLACE_WITH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Representation of Boolean Values.
+        /// </summary>
+        public static string UI_REPRESENTATION_OF_BOOLEAN_VALUES {
+            get {
+                return ResourceManager.GetString("UI_REPRESENTATION_OF_BOOLEAN_VALUES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Republish Survey Form Fields.
+        /// </summary>
+        public static string UI_REPUBLISH_SURVEY_FORM_FIELDS {
+            get {
+                return ResourceManager.GetString("UI_REPUBLISH_SURVEY_FORM_FIELDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Reset.
+        /// </summary>
+        public static string UI_RESET_MN {
+            get {
+                return ResourceManager.GetString("UI_RESET_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Results Folder:.
+        /// </summary>
+        public static string UI_RESULTS_FOLDER {
+            get {
+                return ResourceManager.GetString("UI_RESULTS_FOLDER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run Saved Program.
+        /// </summary>
+        public static string UI_RUN_SAVED_PROGRAM {
+            get {
+                return ResourceManager.GetString("UI_RUN_SAVED_PROGRAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string UI_SAVE {
+            get {
+                return ResourceManager.GetString("UI_SAVE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save as HTML.
+        /// </summary>
+        public static string UI_SAVE_AS_HTML {
+            get {
+                return ResourceManager.GetString("UI_SAVE_AS_HTML", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save as Image.
+        /// </summary>
+        public static string UI_SAVE_AS_IMAGE {
+            get {
+                return ResourceManager.GetString("UI_SAVE_AS_IMAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Only.
+        /// </summary>
+        public static string UI_SAVE_ONLY {
+            get {
+                return ResourceManager.GetString("UI_SAVE_ONLY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Save Only.
+        /// </summary>
+        public static string UI_SAVE_ONLY_MN {
+            get {
+                return ResourceManager.GetString("UI_SAVE_ONLY_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save the current record and begin a new record..
+        /// </summary>
+        public static string UI_SAVE_THE_CURRENT_RECORD_AND_BEGIN_A_NEW_RECO {
+            get {
+                return ResourceManager.GetString("UI_SAVE_THE_CURRENT_RECORD_AND_BEGIN_A_NEW_RECO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scheme:.
+        /// </summary>
+        public static string UI_SCHEME {
+            get {
+                return ResourceManager.GetString("UI_SCHEME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        public static string UI_SEARCH {
+            get {
+                return ResourceManager.GetString("UI_SEARCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search Fields For ....
+        /// </summary>
+        public static string UI_SEARCH_FIELDS_FOR {
+            get {
+                return ResourceManager.GetString("UI_SEARCH_FIELDS_FOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Security key:.
+        /// </summary>
+        public static string UI_SECURITY_KEY {
+            get {
+                return ResourceManager.GetString("UI_SECURITY_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Form.
+        /// </summary>
+        public static string UI_SELECT_FORM {
+            get {
+                return ResourceManager.GetString("UI_SELECT_FORM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Pages.
+        /// </summary>
+        public static string UI_SELECT_PAGES {
+            get {
+                return ResourceManager.GetString("UI_SELECT_PAGES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Records.
+        /// </summary>
+        public static string UI_SELECT_RECORDS {
+            get {
+                return ResourceManager.GetString("UI_SELECT_RECORDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Select to KEEP any survey responses collected in previous iteration.).
+        /// </summary>
+        public static string UI_SELECT_TO_KEEP_ANY_SURVEY_RESPONSES_COLLECTE {
+            get {
+                return ResourceManager.GetString("UI_SELECT_TO_KEEP_ANY_SURVEY_RESPONSES_COLLECTE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Select to preview and test how your surveys works.).
+        /// </summary>
+        public static string UI_SELECT_TO_PREVIEW_AND_TEST_HOW_YOUR_SURVEYS {
+            get {
+                return ResourceManager.GetString("UI_SELECT_TO_PREVIEW_AND_TEST_HOW_YOUR_SURVEYS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Select to Remove any survey responses collected in previous iteration.).
+        /// </summary>
+        public static string UI_SELECT_TO_REMOVE_ANY_SURVEY_RESPONSES_COLLEC {
+            get {
+                return ResourceManager.GetString("UI_SELECT_TO_REMOVE_ANY_SURVEY_RESPONSES_COLLEC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select/Unselect Search Fields.
+        /// </summary>
+        public static string UI_SELECT_UNSELECT_SEARCH_FIELDS {
+            get {
+                return ResourceManager.GetString("UI_SELECT_UNSELECT_SEARCH_FIELDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Select when you are ready to send the survey out to participants.).
+        /// </summary>
+        public static string UI_SELECT_WHEN_YOU_ARE_READY_TO_SEND_THE_SURVEY {
+            get {
+                return ResourceManager.GetString("UI_SELECT_WHEN_YOU_ARE_READY_TO_SEND_THE_SURVEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Selections.
+        /// </summary>
+        public static string UI_SELECTIONS {
+            get {
+                return ResourceManager.GetString("UI_SELECTIONS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send this link to people you want to complete the survey.).
+        /// </summary>
+        public static string UI_SEND_THIS_LINK_TO_PEOPLE_YOU_WANT_TO_COMPLET {
+            get {
+                return ResourceManager.GetString("UI_SEND_THIS_LINK_TO_PEOPLE_YOU_WANT_TO_COMPLET", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Complete Prompt.
+        /// </summary>
+        public static string UI_SHOW_COMPLETE_PROMPT {
+            get {
+                return ResourceManager.GetString("UI_SHOW_COMPLETE_PROMPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Graphics.
+        /// </summary>
+        public static string UI_SHOW_GRAPHICS {
+            get {
+                return ResourceManager.GetString("UI_SHOW_GRAPHICS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Hyperlinks.
+        /// </summary>
+        public static string UI_SHOW_HYPERLINKS {
+            get {
+                return ResourceManager.GetString("UI_SHOW_HYPERLINKS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Percents.
+        /// </summary>
+        public static string UI_SHOW_PERCENTS {
+            get {
+                return ResourceManager.GetString("UI_SHOW_PERCENTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Selection Criteria.
+        /// </summary>
+        public static string UI_SHOW_SELECTION_CRITERIA {
+            get {
+                return ResourceManager.GetString("UI_SHOW_SELECTION_CRITERIA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Tables in Output.
+        /// </summary>
+        public static string UI_SHOW_TABLES_IN_OUTPUT {
+            get {
+                return ResourceManager.GetString("UI_SHOW_TABLES_IN_OUTPUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source:.
+        /// </summary>
+        public static string UI_SOURCE {
+            get {
+                return ResourceManager.GetString("UI_SOURCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source Name.
+        /// </summary>
+        public static string UI_SOURCE_NAME {
+            get {
+                return ResourceManager.GetString("UI_SOURCE_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source Project.
+        /// </summary>
+        public static string UI_SOURCE_PROJECT {
+            get {
+                return ResourceManager.GetString("UI_SOURCE_PROJECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spot Map.
+        /// </summary>
+        public static string UI_SPOT_MAP {
+            get {
+                return ResourceManager.GetString("UI_SPOT_MAP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StatCalc.
+        /// </summary>
+        public static string UI_STATCALC {
+            get {
+                return ResourceManager.GetString("UI_STATCALC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Statistics.
+        /// </summary>
+        public static string UI_STATISTICS {
+            get {
+                return ResourceManager.GetString("UI_STATISTICS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Storing Output.
+        /// </summary>
+        public static string UI_STORING_OUTPUT {
+            get {
+                return ResourceManager.GetString("UI_STORING_OUTPUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submit.
+        /// </summary>
+        public static string UI_SUBMIT {
+            get {
+                return ResourceManager.GetString("UI_SUBMIT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Survey Data:.
+        /// </summary>
+        public static string UI_SURVEY_DATA {
+            get {
+                return ResourceManager.GetString("UI_SURVEY_DATA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Survey Data.
+        /// </summary>
+        public static string UI_SURVEY_DATA_2 {
+            get {
+                return ResourceManager.GetString("UI_SURVEY_DATA_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tab Order.
+        /// </summary>
+        public static string UI_TAB_ORDER {
+            get {
+                return ResourceManager.GetString("UI_TAB_ORDER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Text File.
+        /// </summary>
+        public static string UI_TEXT_FILE_MN {
+            get {
+                return ResourceManager.GetString("UI_TEXT_FILE_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The following problems were discovered in this Epi Info 3.5.x project:.
+        /// </summary>
+        public static string UI_THE_FOLLOWING_PROBLEMS_WERE_DISCOVERED_IN_TH {
+            get {
+                return ResourceManager.GetString("UI_THE_FOLLOWING_PROBLEMS_WERE_DISCOVERED_IN_TH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The geocoding service returned the following coordinates:.
+        /// </summary>
+        public static string UI_THE_GEOCODING_SERVICE_RETURNED_THE_FOLLOWING {
+            get {
+                return ResourceManager.GetString("UI_THE_GEOCODING_SERVICE_RETURNED_THE_FOLLOWING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Time Format.
+        /// </summary>
+        public static string UI_TIME_FORMAT {
+            get {
+                return ResourceManager.GetString("UI_TIME_FORMAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Tools.
+        /// </summary>
+        public static string UI_TOOLS_MN {
+            get {
+                return ResourceManager.GetString("UI_TOOLS_MN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Undeleted Records only (Normal).
+        /// </summary>
+        public static string UI_UNDELETED_RECORDS_ONLY_NORMAL {
+            get {
+                return ResourceManager.GetString("UI_UNDELETED_RECORDS_ONLY_NORMAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update.
+        /// </summary>
+        public static string UI_UPDATE {
+            get {
+                return ResourceManager.GetString("UI_UPDATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upgrading project ....
+        /// </summary>
+        public static string UI_UPGRADING_PROJECT {
+            get {
+                return ResourceManager.GetString("UI_UPGRADING_PROJECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User Command.
+        /// </summary>
+        public static string UI_USER_COMMAND {
+            get {
+                return ResourceManager.GetString("UI_USER_COMMAND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View....
+        /// </summary>
+        public static string UI_VIEW {
+            get {
+                return ResourceManager.GetString("UI_VIEW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wait for command to execute.
+        /// </summary>
+        public static string UI_WAIT_FOR_COMMAND_TO_EXECUTE {
+            get {
+                return ResourceManager.GetString("UI_WAIT_FOR_COMMAND_TO_EXECUTE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Whole word.
+        /// </summary>
+        public static string UI_WHOLE_WORD {
+            get {
+                return ResourceManager.GetString("UI_WHOLE_WORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to With KML Boundaries.
+        /// </summary>
+        public static string UI_WITH_KML_BOUNDARIES {
+            get {
+                return ResourceManager.GetString("UI_WITH_KML_BOUNDARIES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to With Map Server Boundaries.
+        /// </summary>
+        public static string UI_WITH_MAP_SERVER_BOUNDARIES {
+            get {
+                return ResourceManager.GetString("UI_WITH_MAP_SERVER_BOUNDARIES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to With Shape File Boundaries.
+        /// </summary>
+        public static string UI_WITH_SHAPE_FILE_BOUNDARIES {
+            get {
+                return ResourceManager.GetString("UI_WITH_SHAPE_FILE_BOUNDARIES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string UI_YES {
+            get {
+                return ResourceManager.GetString("UI_YES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to YES As:.
+        /// </summary>
+        public static string UI_YES_AS {
+            get {
+                return ResourceManager.GetString("UI_YES_AS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Version:.
+        /// </summary>
+        public static string UI_YOUR_VERSION {
+            get {
+                return ResourceManager.GetString("UI_YOUR_VERSION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your survey has been published! Please copy and paste the following URL and Keys to be used later..
+        /// </summary>
+        public static string WEB_PUBLISH_SUCCESS {
+            get {
+                return ResourceManager.GetString("WEB_PUBLISH_SUCCESS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The survey failed to publish. Please check that the organization key is correct and try again..
+        /// </summary>
+        public static string WEB_PUBLISH_FAILED {
+            get {
+                return ResourceManager.GetString("WEB_PUBLISH_FAILED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Security Negotiation error occurred while trying to publish the survey..
+        /// </summary>
+        public static string WEB_PUBLISH_ERROR_SECURITY {
+            get {
+                return ResourceManager.GetString("WEB_PUBLISH_ERROR_SECURITY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Communication error occurred while trying to publish the survey..
+        /// </summary>
+        public static string WEB_PUBLISH_ERROR_COMMUNICATION {
+            get {
+                return ResourceManager.GetString("WEB_PUBLISH_ERROR_COMMUNICATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Timeout error occurred while trying to publish the survey..
+        /// </summary>
+        public static string WEB_PUBLISH_ERROR_TIMEOUT {
+            get {
+                return ResourceManager.GetString("WEB_PUBLISH_ERROR_TIMEOUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An error occurred while trying to publish the survey..
+        /// </summary>
+        public static string WEB_PUBLISH_ERROR_GENERIC {
+            get {
+                return ResourceManager.GetString("WEB_PUBLISH_ERROR_GENERIC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DRAFT.
+        /// </summary>
+        public static string WEB_MODE_DRAFT_UPPER {
+            get {
+                return ResourceManager.GetString("WEB_MODE_DRAFT_UPPER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FINAL.
+        /// </summary>
+        public static string WEB_MODE_FINAL_UPPER {
+            get {
+                return ResourceManager.GetString("WEB_MODE_FINAL_UPPER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Draft.
+        /// </summary>
+        public static string WEB_MODE_DRAFT {
+            get {
+                return ResourceManager.GetString("WEB_MODE_DRAFT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Final.
+        /// </summary>
+        public static string WEB_MODE_FINAL {
+            get {
+                return ResourceManager.GetString("WEB_MODE_FINAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Draft - the survey is currently in test mode..
+        /// </summary>
+        public static string WEB_REPUBLISH_DRAFT_DESC {
+            get {
+                return ResourceManager.GetString("WEB_REPUBLISH_DRAFT_DESC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Final - the survey is currently in production mode..
+        /// </summary>
+        public static string WEB_REPUBLISH_FINAL_DESC {
+            get {
+                return ResourceManager.GetString("WEB_REPUBLISH_FINAL_DESC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Form has been republished: {0}.
+        /// </summary>
+        public static string WEB_REPUBLISH_OK {
+            get {
+                return ResourceManager.GetString("WEB_REPUBLISH_OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Form has NOT been republished: {0}.
+        /// </summary>
+        public static string WEB_REPUBLISH_NOT_OK {
+            get {
+                return ResourceManager.GetString("WEB_REPUBLISH_NOT_OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string WEB_KEY_SUCCESS_TITLE {
+            get {
+                return ResourceManager.GetString("WEB_KEY_SUCCESS_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to List Field.
+        /// </summary>
+        public static string LIST_FIELD_TITLE {
+            get {
+                return ResourceManager.GetString("LIST_FIELD_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Selected Project: {0}.
+        /// </summary>
+        public static string SELECTED_PROJECT_TITLE {
+            get {
+                return ResourceManager.GetString("SELECTED_PROJECT_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The grid below displays the fields from the selected table. Click Back to go to the Match Fields screen..
+        /// </summary>
+        public static string PREVIEW_TABLE_INSTRUCTION {
+            get {
+                return ResourceManager.GetString("PREVIEW_TABLE_INSTRUCTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add/Edit.
+        /// </summary>
+        public static string GRID_FIELD_ADD_EDIT {
+            get {
+                return ResourceManager.GetString("GRID_FIELD_ADD_EDIT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        public static string GRID_FIELD_ADD {
+            get {
+                return ResourceManager.GetString("GRID_FIELD_ADD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check Code Editor - [ {0} ].
+        /// </summary>
+        public static string CHECKCODE_EDITOR_TITLE {
+            get {
+                return ResourceManager.GetString("CHECKCODE_EDITOR_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Row.
+        /// </summary>
+        public static string ENTER_DELETE_ROW {
+            get {
+                return ResourceManager.GetString("ENTER_DELETE_ROW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Report Template.
+        /// </summary>
+        public static string ANALYSIS_SELECT_REPORT_TEMPLATE {
+            get {
+                return ResourceManager.GetString("ANALYSIS_SELECT_REPORT_TEMPLATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Browse.
+        /// </summary>
+        public static string OUTPUT_WINDOW_BROWSE_TITLE {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_BROWSE_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Map - ({0}, {1}).
+        /// </summary>
+        public static string MAP_TITLE_WITH_COORDS {
+            get {
+                return ResourceManager.GetString("MAP_TITLE_WITH_COORDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The organization key is required for security purposes before you publish the form to the web..
+        /// </summary>
+        public static string ORG_KEY_REQUIRED_NOTE {
+            get {
+                return ResourceManager.GetString("ORG_KEY_REQUIRED_NOTE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -- Be sure to copy and save this Security Token in order to download the data people submit..
+        /// </summary>
+        public static string SURVEY_TOKEN_NOTE {
+            get {
+                return ResourceManager.GetString("SURVEY_TOKEN_NOTE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -- Copy and save this Survey Key in order to access the survey after the people submit their responses..
+        /// </summary>
+        public static string SURVEY_KEY_NOTE {
+            get {
+                return ResourceManager.GetString("SURVEY_KEY_NOTE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An expected cell count is &lt; 5. X² may not be valid..
+        /// </summary>
+        public static string STATCALC_EXPECTED_CELL_WARNING {
+            get {
+                return ResourceManager.GetString("STATCALC_EXPECTED_CELL_WARNING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not connect to selected data source..
+        /// </summary>
+        public static string MSG_COULD_NOT_CONNECT {
+            get {
+                return ResourceManager.GetString("MSG_COULD_NOT_CONNECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not load project: {0}.
+        /// </summary>
+        public static string MSG_COULD_NOT_LOAD_PROJECT {
+            get {
+                return ResourceManager.GetString("MSG_COULD_NOT_LOAD_PROJECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid path for Results Folder.
+        /// </summary>
+        public static string MSG_INVALID_RESULTS_FOLDER {
+            get {
+                return ResourceManager.GetString("MSG_INVALID_RESULTS_FOLDER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid path for Archive Folder.
+        /// </summary>
+        public static string MSG_INVALID_ARCHIVE_FOLDER {
+            get {
+                return ResourceManager.GetString("MSG_INVALID_ARCHIVE_FOLDER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid value for Output File Prefix..
+        /// </summary>
+        public static string MSG_INVALID_OUTPUT_PREFIX {
+            get {
+                return ResourceManager.GetString("MSG_INVALID_OUTPUT_PREFIX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Output File Sequence. Must be an integer value..
+        /// </summary>
+        public static string MSG_INVALID_OUTPUT_SEQUENCE {
+            get {
+                return ResourceManager.GetString("MSG_INVALID_OUTPUT_SEQUENCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid value for Age In Days. Must be an integer value..
+        /// </summary>
+        public static string MSG_INVALID_AGE_IN_DAYS {
+            get {
+                return ResourceManager.GetString("MSG_INVALID_AGE_IN_DAYS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid value for Number of Results. Must be an integer value..
+        /// </summary>
+        public static string MSG_INVALID_NUMBER_OF_RESULTS {
+            get {
+                return ResourceManager.GetString("MSG_INVALID_NUMBER_OF_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid value for File Size. Must be an integer value..
+        /// </summary>
+        public static string MSG_INVALID_FILE_SIZE {
+            get {
+                return ResourceManager.GetString("MSG_INVALID_FILE_SIZE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The template with the name already exists.Please click OK to continue or Cancel to return..
+        /// </summary>
+        public static string MSG_TEMPLATE_EXISTS {
+            get {
+                return ResourceManager.GetString("MSG_TEMPLATE_EXISTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The check code does not compile. Do you want to save your changes anyway?.
+        /// </summary>
+        public static string MSG_CHECKCODE_NOT_COMPILE_SAVE {
+            get {
+                return ResourceManager.GetString("MSG_CHECKCODE_NOT_COMPILE_SAVE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to save your changes?.
+        /// </summary>
+        public static string MSG_SAVE_CHANGES_QUESTION {
+            get {
+                return ResourceManager.GetString("MSG_SAVE_CHANGES_QUESTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Changes.
+        /// </summary>
+        public static string MSG_SAVE_CHANGES_TITLE {
+            get {
+                return ResourceManager.GetString("MSG_SAVE_CHANGES_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You are not authorized to Change mode for this form. Please contact system admin for more info..
+        /// </summary>
+        public static string MSG_NOT_AUTHORIZED_CHANGE_MODE {
+            get {
+                return ResourceManager.GetString("MSG_NOT_AUTHORIZED_CHANGE_MODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Form mode was successfully changed to Draft..
+        /// </summary>
+        public static string MSG_FORM_MODE_CHANGED_DRAFT {
+            get {
+                return ResourceManager.GetString("MSG_FORM_MODE_CHANGED_DRAFT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Form mode was successfully changed to Final..
+        /// </summary>
+        public static string MSG_FORM_MODE_CHANGED_FINAL {
+            get {
+                return ResourceManager.GetString("MSG_FORM_MODE_CHANGED_FINAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Survey was successfully updated..
+        /// </summary>
+        public static string MSG_SURVEY_UPDATED {
+            get {
+                return ResourceManager.GetString("MSG_SURVEY_UPDATED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You are not authorized to quick publish this form to Epi Info Cloud Data Capture system. Please contact system admin for more info..
+        /// </summary>
+        public static string MSG_NOT_AUTHORIZED_QUICK_PUBLISH {
+            get {
+                return ResourceManager.GetString("MSG_NOT_AUTHORIZED_QUICK_PUBLISH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You are not authorized to publish this form to Epi Info Cloud Data Capture system. Please contact system admin for more info..
+        /// </summary>
+        public static string MSG_NOT_AUTHORIZED_PUBLISH {
+            get {
+                return ResourceManager.GetString("MSG_NOT_AUTHORIZED_PUBLISH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Form update successful..
+        /// </summary>
+        public static string MSG_FORM_UPDATE_SUCCESSFUL {
+            get {
+                return ResourceManager.GetString("MSG_FORM_UPDATE_SUCCESSFUL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The selected range and number of pages is too much to print at one time..
+        /// </summary>
+        public static string MSG_PRINT_RANGE_TOO_MUCH {
+            get {
+                return ResourceManager.GetString("MSG_PRINT_RANGE_TOO_MUCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The publish mode was successfully changed.
+        /// </summary>
+        public static string MSG_PUBLISH_MODE_CHANGED {
+            get {
+                return ResourceManager.GetString("MSG_PUBLISH_MODE_CHANGED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Warning: When you check 'Encrypt', the Enter tool encrypts data entered in this text box. Data is readable only in the Epi Info Enter tool. Data is not available for analyses or line lists and cannot be exported in a usable form to other tools outside of the Enter tool..
+        /// </summary>
+        public static string MSG_ENCRYPT_WARNING {
+            get {
+                return ResourceManager.GetString("MSG_ENCRYPT_WARNING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The value entered in the Maximum Number of Characters field was too large (maximum) so it will be set to 254 charaters..
+        /// </summary>
+        public static string MSG_MAX_CHARS_TOO_LARGE {
+            get {
+                return ResourceManager.GetString("MSG_MAX_CHARS_TOO_LARGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select [ OK ] to save the current record and print. To return without saving select [ Cancel ]..
+        /// </summary>
+        public static string MSG_SAVE_PRINT_PROMPT {
+            get {
+                return ResourceManager.GetString("MSG_SAVE_PRINT_PROMPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save &gt; Print.
+        /// </summary>
+        public static string MSG_SAVE_PRINT_TITLE {
+            get {
+                return ResourceManager.GetString("MSG_SAVE_PRINT_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use external data?.
+        /// </summary>
+        public static string MSG_USE_EXTERNAL_DATA {
+            get {
+                return ResourceManager.GetString("MSG_USE_EXTERNAL_DATA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deletion not supported for this datasource.
+        /// </summary>
+        public static string MSG_DELETION_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("MSG_DELETION_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The functionality to process MS Access files will be available in a future release..
+        /// </summary>
+        public static string MSG_ACCESS_COMING_SOON {
+            get {
+                return ResourceManager.GetString("MSG_ACCESS_COMING_SOON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Coming Soon.
+        /// </summary>
+        public static string MSG_COMING_SOON_TITLE {
+            get {
+                return ResourceManager.GetString("MSG_COMING_SOON_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The default language cannot be uninstalled..
+        /// </summary>
+        public static string MSG_DEFAULT_LANGUAGE_CANNOT_UNINSTALL {
+            get {
+                return ResourceManager.GetString("MSG_DEFAULT_LANGUAGE_CANNOT_UNINSTALL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unable to perform.
+        /// </summary>
+        public static string MSG_UNABLE_TO_PERFORM_TITLE {
+            get {
+                return ResourceManager.GetString("MSG_UNABLE_TO_PERFORM_TITLE", resourceCulture);
+            }
+        }
     }
 }

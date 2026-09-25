@@ -84,7 +84,7 @@
             this.btnOpen.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(23, 22);
-            this.btnOpen.Text = "Open";
+            this.btnOpen.Text = global::Epi.SharedStrings.UI_OPEN;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // btnSave
@@ -94,7 +94,7 @@
             this.btnSave.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(23, 22);
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = global::Epi.SharedStrings.UI_SAVE;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnSaveHtml
@@ -105,7 +105,7 @@
             this.btnSaveHtml.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSaveHtml.Name = "btnSaveHtml";
             this.btnSaveHtml.Size = new System.Drawing.Size(23, 22);
-            this.btnSaveHtml.Text = "Save as HTML";
+            this.btnSaveHtml.Text = global::Epi.SharedStrings.UI_SAVE_AS_HTML;
             this.btnSaveHtml.Click += new System.EventHandler(this.btnSaveHtml_Click);
             // 
             // toolStripSeparator1
@@ -117,7 +117,7 @@
             // 
             this.lblRecordCount.Name = "lblRecordCount";
             this.lblRecordCount.Size = new System.Drawing.Size(69, 22);
-            this.lblRecordCount.Text = "Records: ";
+            this.lblRecordCount.Text = global::Epi.SharedStrings.UI_RECORDS;
             this.lblRecordCount.Visible = false;
             // 
             // txtRecordCount
@@ -137,7 +137,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AnalyticsViewer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Dashboard";
+            this.Text = global::Epi.SharedStrings.UI_DASHBOARD;
             this.toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
             this.toolStripContainer1.TopToolStripPanel.PerformLayout();
             this.toolStripContainer1.ResumeLayout(false);

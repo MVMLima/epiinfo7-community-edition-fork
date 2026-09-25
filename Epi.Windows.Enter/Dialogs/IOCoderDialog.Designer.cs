@@ -57,7 +57,7 @@
             this.lblInd1.Name = "lblInd1";
             this.lblInd1.Size = new System.Drawing.Size(47, 13);
             this.lblInd1.TabIndex = 2;
-            this.lblInd1.Text = "Industry:";
+            this.lblInd1.Text = global::Epi.SharedStrings.UI_INDUSTRY;
             // 
             // lblOcc1
             // 
@@ -66,7 +66,7 @@
             this.lblOcc1.Name = "lblOcc1";
             this.lblOcc1.Size = new System.Drawing.Size(65, 13);
             this.lblOcc1.TabIndex = 3;
-            this.lblOcc1.Text = "Occupation:";
+            this.lblOcc1.Text = global::Epi.SharedStrings.UI_OCCUPATION;
             // 
             // btnCancel
             // 
@@ -75,7 +75,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -86,7 +86,7 @@
             this.lblInd2.Name = "lblInd2";
             this.lblInd2.Size = new System.Drawing.Size(75, 13);
             this.lblInd2.TabIndex = 5;
-            this.lblInd2.Text = "Industry Code:";
+            this.lblInd2.Text = global::Epi.SharedStrings.UI_INDUSTRY_CODE;
             // 
             // lblOcc2
             // 
@@ -95,7 +95,7 @@
             this.lblOcc2.Name = "lblOcc2";
             this.lblOcc2.Size = new System.Drawing.Size(93, 13);
             this.lblOcc2.TabIndex = 6;
-            this.lblOcc2.Text = "Occupation Code:";
+            this.lblOcc2.Text = global::Epi.SharedStrings.UI_OCCUPATION_CODE;
             // 
             // lblOccCode
             // 
@@ -158,7 +158,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 4;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -169,7 +169,7 @@
             this.lblPossibilitiesInd.Name = "lblPossibilitiesInd";
             this.lblPossibilitiesInd.Size = new System.Drawing.Size(63, 13);
             this.lblPossibilitiesInd.TabIndex = 17;
-            this.lblPossibilitiesInd.Text = "Possibilities:";
+            this.lblPossibilitiesInd.Text = global::Epi.SharedStrings.UI_POSSIBILITIES;
             // 
             // lblPossibilitiesOcc
             // 
@@ -178,7 +178,7 @@
             this.lblPossibilitiesOcc.Name = "lblPossibilitiesOcc";
             this.lblPossibilitiesOcc.Size = new System.Drawing.Size(63, 13);
             this.lblPossibilitiesOcc.TabIndex = 18;
-            this.lblPossibilitiesOcc.Text = "Possibilities:";
+            this.lblPossibilitiesOcc.Text = global::Epi.SharedStrings.UI_POSSIBILITIES;
             // 
             // lblInd3
             // 
@@ -187,7 +187,7 @@
             this.lblInd3.Name = "lblInd3";
             this.lblInd3.Size = new System.Drawing.Size(70, 13);
             this.lblInd3.TabIndex = 19;
-            this.lblInd3.Text = "Industry Title:";
+            this.lblInd3.Text = global::Epi.SharedStrings.UI_INDUSTRY_TITLE;
             // 
             // lblOcc3
             // 
@@ -196,7 +196,7 @@
             this.lblOcc3.Name = "lblOcc3";
             this.lblOcc3.Size = new System.Drawing.Size(88, 13);
             this.lblOcc3.TabIndex = 20;
-            this.lblOcc3.Text = "Occupation Title:";
+            this.lblOcc3.Text = global::Epi.SharedStrings.UI_OCCUPATION_TITLE;
             // 
             // lblScheme1
             // 
@@ -205,7 +205,7 @@
             this.lblScheme1.Name = "lblScheme1";
             this.lblScheme1.Size = new System.Drawing.Size(49, 13);
             this.lblScheme1.TabIndex = 21;
-            this.lblScheme1.Text = "Scheme:";
+            this.lblScheme1.Text = global::Epi.SharedStrings.UI_SCHEME;
             this.lblScheme1.Visible = false;
             // 
             // lblScheme
@@ -269,7 +269,7 @@
             this.MinimizeBox = false;
             this.Name = "IOCoderDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Get Industry and Occupation Results";
+            this.Text = global::Epi.SharedStrings.UI_GET_INDUSTRY_AND_OCCUPATION_RESULTS;
             this.ResumeLayout(false);
             this.PerformLayout();
 

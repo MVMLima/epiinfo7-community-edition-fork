@@ -49,7 +49,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Address:";
+            this.label1.Text = global::Epi.SharedStrings.UI_ADDRESS;
             // 
             // lblAddress
             // 
@@ -68,7 +68,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Confidence:";
+            this.label2.Text = global::Epi.SharedStrings.UI_CONFIDENCE;
             // 
             // lblConfidence
             // 
@@ -87,7 +87,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Quality:";
+            this.label3.Text = global::Epi.SharedStrings.UI_QUALITY;
             // 
             // lblQuality
             // 
@@ -106,7 +106,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "Latitude:";
+            this.label4.Text = global::Epi.SharedStrings.UI_LATITUDE;
             // 
             // lblLatitude
             // 
@@ -125,7 +125,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 13);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Longitude:";
+            this.label5.Text = global::Epi.SharedStrings.UI_LONGITUDE;
             // 
             // lblLongitude
             // 
@@ -143,7 +143,7 @@
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(75, 23);
             this.btnSelect.TabIndex = 15;
-            this.btnSelect.Text = "Accept";
+            this.btnSelect.Text = global::Epi.SharedStrings.UI_ACCEPT;
             this.btnSelect.UseVisualStyleBackColor = true;
             this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 

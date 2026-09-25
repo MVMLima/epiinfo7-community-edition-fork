@@ -3906,7 +3906,7 @@ namespace Epi.Windows.MakeView.Forms
                                  }
                              else {
 
-                             MessageBox.Show("You are not authorized to Change mode for this form. Please contact system admin for more info.");
+                             MessageBox.Show(global::Epi.SharedStrings.MSG_NOT_AUTHORIZED_CHANGE_MODE);
                                     
                                  }
 
@@ -4256,11 +4256,11 @@ namespace Epi.Windows.MakeView.Forms
                     //this.UpdateStatus("Survey mode was successfully updated!");
                     if (IsDraftMode)
                     {
-                        MessageBox.Show("Form mode was successfully changed to Draft.", "", MessageBoxButtons.OK);
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_FORM_MODE_CHANGED_DRAFT, "", MessageBoxButtons.OK);
                     }
                     else
                     {
-                        MessageBox.Show("Form mode was successfully changed to Final.", "", MessageBoxButtons.OK);
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_FORM_MODE_CHANGED_FINAL, "", MessageBoxButtons.OK);
                     }
                 }
             }
@@ -4523,7 +4523,7 @@ namespace Epi.Windows.MakeView.Forms
                     {
                         //this.UpdateStatus("Survey was successfully updated!");
 
-                        MessageBox.Show("Survey was successfully updated.", "", MessageBoxButtons.OK);
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_SURVEY_UPDATED, "", MessageBoxButtons.OK);
                     }
                 }
                 if (!string.IsNullOrEmpty(ServiceVersion) && ServiceVersion.Contains(Epi.Constants.surveyManagerservice))
@@ -4537,7 +4537,7 @@ namespace Epi.Windows.MakeView.Forms
                     {
                         //this.UpdateStatus("Survey was successfully updated!");
 
-                        MessageBox.Show("Survey was successfully updated.", "", MessageBoxButtons.OK);
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_SURVEY_UPDATED, "", MessageBoxButtons.OK);
                     }
                 }
                 if (!string.IsNullOrEmpty(ServiceVersion) && (ServiceVersion.Contains(Epi.Constants.surveyManagerservicev3)))
@@ -4551,7 +4551,7 @@ namespace Epi.Windows.MakeView.Forms
                     {
                         //this.UpdateStatus("Survey was successfully updated!");
 
-                        MessageBox.Show("Survey was successfully updated.", "", MessageBoxButtons.OK);
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_SURVEY_UPDATED, "", MessageBoxButtons.OK);
                     }
 
                 }
@@ -4567,7 +4567,7 @@ namespace Epi.Windows.MakeView.Forms
                     {
                         //this.UpdateStatus("Survey was successfully updated!");
 
-                        MessageBox.Show("Survey was successfully updated.", "", MessageBoxButtons.OK);
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_SURVEY_UPDATED, "", MessageBoxButtons.OK);
                     }
 
                 }
@@ -4818,7 +4818,7 @@ namespace Epi.Windows.MakeView.Forms
                              }
                          else 
                              {
-                                MessageBox.Show("You are not authorized to quick publish this form to Epi Info Cloud Data Capture system. Please contact system admin for more info.");
+                                MessageBox.Show(global::Epi.SharedStrings.MSG_NOT_AUTHORIZED_QUICK_PUBLISH);
                             
                              }
                                    
@@ -4936,7 +4936,7 @@ namespace Epi.Windows.MakeView.Forms
             {
                 //this.UpdateStatus("Survey was successfully updated!");
 
-                MessageBox.Show("Form update successful.", "", MessageBoxButtons.OK);
+                MessageBox.Show(global::Epi.SharedStrings.MSG_FORM_UPDATE_SUCCESSFUL, "", MessageBoxButtons.OK);
             }
         }
         private void toolStripPublishToWebEnter_Click(object sender, EventArgs e)
@@ -5224,7 +5224,7 @@ namespace Epi.Windows.MakeView.Forms
 
                     else
                     {
-                        MessageBox.Show("You are not authorized to publish this form to Epi Info Cloud Data Capture system. Please contact system admin for more info.");
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_NOT_AUTHORIZED_PUBLISH);
 
 
 

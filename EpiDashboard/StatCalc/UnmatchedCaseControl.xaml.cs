@@ -41,7 +41,7 @@ namespace EpiDashboard.StatCalc
 
         public UnmatchedCaseControl()
         {
-            InitializeComponent();
+            InitializeComponent(); StatCalcLocalizer.Apply(this);
 
             imgClose.MouseEnter += new MouseEventHandler(imgClose_MouseEnter);
             imgClose.MouseLeave += new MouseEventHandler(imgClose_MouseLeave);

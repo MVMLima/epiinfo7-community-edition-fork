@@ -64,7 +64,7 @@ namespace Epi.Windows.MakeView.Dialogs
             page = currentPage;
             ddlField = (DDListField)field;
             codeTable = ddlField.GetSourceData();
-            this.Text = "List Field";
+            this.Text = global::Epi.SharedStrings.LIST_FIELD_TITLE;
             //cbxSort.Checked = ddlField.ShouldSort;
             fieldName = ddlField.Name;
             SetDataSource(ddlField);
@@ -86,7 +86,7 @@ namespace Epi.Windows.MakeView.Dialogs
             fieldName = name;
             page = currentPage;
             ddlField = (DDListField)field;
-            this.Text = "List Field";
+            this.Text = global::Epi.SharedStrings.LIST_FIELD_TITLE;
             //if (!(string.IsNullOrEmpty(sourceTableName)))
             //{
             //    codeTable = ddlField.GetSourceData();

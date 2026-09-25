@@ -60,7 +60,7 @@
             this.buttonPrintPreview.Name = "buttonPrintPreview";
             this.buttonPrintPreview.Size = new System.Drawing.Size(113, 30);
             this.buttonPrintPreview.TabIndex = 1;
-            this.buttonPrintPreview.Text = "Preview";
+            this.buttonPrintPreview.Text = global::Epi.SharedStrings.UI_PREVIEW;
             this.buttonPrintPreview.UseVisualStyleBackColor = true;
             this.buttonPrintPreview.Click += new System.EventHandler(this.buttonPrintPreview_Click);
             // 
@@ -73,7 +73,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(113, 30);
             this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -95,7 +95,7 @@
             this.SelectRecords.Size = new System.Drawing.Size(331, 169);
             this.SelectRecords.TabIndex = 3;
             this.SelectRecords.TabStop = false;
-            this.SelectRecords.Text = "Select Records";
+            this.SelectRecords.Text = global::Epi.SharedStrings.UI_SELECT_RECORDS;
             // 
             // SelectTab_Order
             // 
@@ -106,7 +106,7 @@
             this.SelectTab_Order.Size = new System.Drawing.Size(95, 21);
             this.SelectTab_Order.TabIndex = 10;
             this.SelectTab_Order.TabStop = true;
-            this.SelectTab_Order.Text = "Tab Order";
+            this.SelectTab_Order.Text = global::Epi.SharedStrings.UI_TAB_ORDER;
             this.SelectTab_Order.UseVisualStyleBackColor = true;
             this.SelectTab_Order.CheckedChanged += new System.EventHandler(this.SelectTab_Order_CheckedChanged);
             // 
@@ -120,7 +120,7 @@
             this.selectRecords_All.Size = new System.Drawing.Size(101, 21);
             this.selectRecords_All.TabIndex = 9;
             this.selectRecords_All.TabStop = true;
-            this.selectRecords_All.Text = "All Records";
+            this.selectRecords_All.Text = global::Epi.SharedStrings.UI_ALL_RECORDS;
             this.selectRecords_All.UseVisualStyleBackColor = true;
             this.selectRecords_All.CheckedChanged += new System.EventHandler(this.selectRecords_All_CheckedChanged);
             // 
@@ -168,7 +168,7 @@
             this.selectRecords_None.Size = new System.Drawing.Size(189, 21);
             this.selectRecords_None.TabIndex = 0;
             this.selectRecords_None.TabStop = true;
-            this.selectRecords_None.Text = "No Records (Blank Form)";
+            this.selectRecords_None.Text = global::Epi.SharedStrings.UI_NO_RECORDS_BLANK_FORM;
             this.selectRecords_None.UseVisualStyleBackColor = true;
             this.selectRecords_None.CheckedChanged += new System.EventHandler(this.selectRecords_None_CheckedChanged);
             // 
@@ -182,7 +182,7 @@
             this.selectRecords_Current.Size = new System.Drawing.Size(126, 21);
             this.selectRecords_Current.TabIndex = 1;
             this.selectRecords_Current.TabStop = true;
-            this.selectRecords_Current.Text = "Current Record";
+            this.selectRecords_Current.Text = global::Epi.SharedStrings.UI_CURRENT_RECORD;
             this.selectRecords_Current.UseVisualStyleBackColor = true;
             this.selectRecords_Current.CheckedChanged += new System.EventHandler(this.selectRecords_Current_CheckedChanged);
             // 
@@ -196,7 +196,7 @@
             this.selectRecords_Range.Size = new System.Drawing.Size(121, 21);
             this.selectRecords_Range.TabIndex = 2;
             this.selectRecords_Range.TabStop = true;
-            this.selectRecords_Range.Text = "Record Range";
+            this.selectRecords_Range.Text = global::Epi.SharedStrings.UI_RECORD_RANGE;
             this.selectRecords_Range.UseVisualStyleBackColor = true;
             this.selectRecords_Range.CheckedChanged += new System.EventHandler(this.selectRecords_Range_CheckedChanged);
             // 
@@ -208,7 +208,7 @@
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(113, 30);
             this.buttonPrint.TabIndex = 0;
-            this.buttonPrint.Text = "Print";
+            this.buttonPrint.Text = global::Epi.SharedStrings.UI_PRINT;
             this.buttonPrint.UseVisualStyleBackColor = true;
             this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
             // 
@@ -227,7 +227,7 @@
             this.SelectPages.Size = new System.Drawing.Size(331, 169);
             this.SelectPages.TabIndex = 9;
             this.SelectPages.TabStop = false;
-            this.SelectPages.Text = "Select Pages";
+            this.SelectPages.Text = global::Epi.SharedStrings.UI_SELECT_PAGES;
             // 
             // pageEnd
             // 
@@ -273,7 +273,7 @@
             this.selectPages_All.Size = new System.Drawing.Size(88, 21);
             this.selectPages_All.TabIndex = 0;
             this.selectPages_All.TabStop = true;
-            this.selectPages_All.Text = "All Pages";
+            this.selectPages_All.Text = global::Epi.SharedStrings.UI_ALL_PAGES;
             this.selectPages_All.UseVisualStyleBackColor = true;
             this.selectPages_All.CheckedChanged += new System.EventHandler(this.selectPages_All_CheckedChanged);
             // 
@@ -287,7 +287,7 @@
             this.selectPages_Range.Size = new System.Drawing.Size(108, 21);
             this.selectPages_Range.TabIndex = 2;
             this.selectPages_Range.TabStop = true;
-            this.selectPages_Range.Text = "Page Range";
+            this.selectPages_Range.Text = global::Epi.SharedStrings.UI_PAGE_RANGE;
             this.selectPages_Range.UseVisualStyleBackColor = true;
             this.selectPages_Range.CheckedChanged += new System.EventHandler(this.selectPages_Range_CheckedChanged);
             // 
@@ -308,7 +308,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Print";
-            this.Text = "Print";
+            this.Text = global::Epi.SharedStrings.UI_PRINT;
             this.SelectRecords.ResumeLayout(false);
             this.SelectRecords.PerformLayout();
             this.SelectPages.ResumeLayout(false);

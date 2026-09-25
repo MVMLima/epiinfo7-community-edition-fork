@@ -66,7 +66,7 @@ namespace Epi.Windows.Globalization.Forms
                 catch
                 {
                     success = false;
-                    MessageBox.Show("Could not connect to selected data source.");
+                    MessageBox.Show(global::Epi.SharedStrings.MSG_COULD_NOT_CONNECT);
                 }
 
                 if (success)

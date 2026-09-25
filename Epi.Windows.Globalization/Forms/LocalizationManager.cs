@@ -55,7 +55,7 @@ namespace Epi.Windows.Globalization.Forms
             // if null then default language
             if (string.IsNullOrEmpty(path))
             {
-                MessageBox.Show("The default language cannot be uninstalled.", "Unable to perform", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(global::Epi.SharedStrings.MSG_DEFAULT_LANGUAGE_CANNOT_UNINSTALL, global::Epi.SharedStrings.MSG_UNABLE_TO_PERFORM_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             else if (DialogResult.OK == MessageBox.Show(SharedStrings.CONFIRM_LANGUAGE_DELETION, SharedStrings.WARNING, MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation))

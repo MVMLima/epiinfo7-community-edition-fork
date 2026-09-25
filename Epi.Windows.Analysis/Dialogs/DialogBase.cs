@@ -255,7 +255,7 @@ namespace Epi.Windows.Analysis.Dialogs
  
                     if (projectFilePath.EndsWith(".mdb"))
                     {
-                        MessageBox.Show("The functionality to process MS Access files will be available in a future release.", "Coming Soon", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(global::Epi.SharedStrings.MSG_ACCESS_COMING_SOON, global::Epi.SharedStrings.MSG_COMING_SOON_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {

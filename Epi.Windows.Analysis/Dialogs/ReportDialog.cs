@@ -208,7 +208,7 @@ namespace Epi.Windows.Analysis.Dialogs
         {
             OpenFileDialog dialog = new OpenFileDialog();
             dialog.Filter = "Report Files(*.ept)|" + "*.ept|All files (*.*)|*.*";
-            dialog.Title = "Select Report Template";
+            dialog.Title = global::Epi.SharedStrings.ANALYSIS_SELECT_REPORT_TEMPLATE;
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 textBoxReportName.Text = dialog.FileName;

@@ -101,7 +101,7 @@
             this.btnOpen.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(23, 24);
-            this.btnOpen.Text = "Open";
+            this.btnOpen.Text = global::Epi.SharedStrings.UI_OPEN;
             this.btnOpen.Visible = false;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
@@ -113,7 +113,7 @@
             this.btnSave.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(23, 24);
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = global::Epi.SharedStrings.UI_SAVE;
             this.btnSave.Visible = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -125,7 +125,7 @@
             this.btnSaveAsImage.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnSaveAsImage.Name = "btnSaveAsImage";
             this.btnSaveAsImage.Size = new System.Drawing.Size(23, 24);
-            this.btnSaveAsImage.Text = "Save as Image";
+            this.btnSaveAsImage.Text = global::Epi.SharedStrings.UI_SAVE_AS_IMAGE;
             this.btnSaveAsImage.Visible = false;
             this.btnSaveAsImage.Click += new System.EventHandler(this.btnSaveAsImage_Click);
             // 
@@ -147,21 +147,21 @@
             this.btnDataLayer.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnDataLayer.Name = "btnDataLayer";
             this.btnDataLayer.Size = new System.Drawing.Size(142, 24);
-            this.btnDataLayer.Text = "Add Data Layer";
+            this.btnDataLayer.Text = global::Epi.SharedStrings.UI_ADD_DATA_LAYER;
             this.btnDataLayer.Visible = false;
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(164, 26);
-            this.toolStripMenuItem1.Text = "Spot Map";
+            this.toolStripMenuItem1.Text = global::Epi.SharedStrings.UI_SPOT_MAP;
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // caseClusterToolStripMenuItem
             // 
             this.caseClusterToolStripMenuItem.Name = "caseClusterToolStripMenuItem";
             this.caseClusterToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
-            this.caseClusterToolStripMenuItem.Text = "Case Cluster";
+            this.caseClusterToolStripMenuItem.Text = global::Epi.SharedStrings.UI_CASE_CLUSTER;
             this.caseClusterToolStripMenuItem.Click += new System.EventHandler(this.caseClusterToolStripMenuItem_Click);
             // 
             // choroplethToolStripMenuItem
@@ -172,27 +172,27 @@
             this.withKMLBoundariesToolStripMenuItem});
             this.choroplethToolStripMenuItem.Name = "choroplethToolStripMenuItem";
             this.choroplethToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
-            this.choroplethToolStripMenuItem.Text = "Choropleth";
+            this.choroplethToolStripMenuItem.Text = global::Epi.SharedStrings.UI_CHOROPLETH;
             // 
             // withShapeFileBoundariesToolStripMenuItem
             // 
             this.withShapeFileBoundariesToolStripMenuItem.Name = "withShapeFileBoundariesToolStripMenuItem";
             this.withShapeFileBoundariesToolStripMenuItem.Size = new System.Drawing.Size(272, 26);
-            this.withShapeFileBoundariesToolStripMenuItem.Text = "With Shape File Boundaries";
+            this.withShapeFileBoundariesToolStripMenuItem.Text = global::Epi.SharedStrings.UI_WITH_SHAPE_FILE_BOUNDARIES;
             this.withShapeFileBoundariesToolStripMenuItem.Click += new System.EventHandler(this.withShapeFileBoundariesToolStripMenuItem_Click);
             // 
             // withMapServerBoundariesToolStripMenuItem
             // 
             this.withMapServerBoundariesToolStripMenuItem.Name = "withMapServerBoundariesToolStripMenuItem";
             this.withMapServerBoundariesToolStripMenuItem.Size = new System.Drawing.Size(272, 26);
-            this.withMapServerBoundariesToolStripMenuItem.Text = "With Map Server Boundaries";
+            this.withMapServerBoundariesToolStripMenuItem.Text = global::Epi.SharedStrings.UI_WITH_MAP_SERVER_BOUNDARIES;
             this.withMapServerBoundariesToolStripMenuItem.Click += new System.EventHandler(this.withMapServerBoundariesToolStripMenuItem_Click);
             // 
             // withKMLBoundariesToolStripMenuItem
             // 
             this.withKMLBoundariesToolStripMenuItem.Name = "withKMLBoundariesToolStripMenuItem";
             this.withKMLBoundariesToolStripMenuItem.Size = new System.Drawing.Size(272, 26);
-            this.withKMLBoundariesToolStripMenuItem.Text = "With KML Boundaries";
+            this.withKMLBoundariesToolStripMenuItem.Text = global::Epi.SharedStrings.UI_WITH_KML_BOUNDARIES;
             this.withKMLBoundariesToolStripMenuItem.Click += new System.EventHandler(this.withKMLBoundariesToolStripMenuItem_Click);
             // 
             // dotDensityToolStripMenuItem
@@ -203,27 +203,27 @@
             this.withKMLBoundariesToolStripMenuItem1});
             this.dotDensityToolStripMenuItem.Name = "dotDensityToolStripMenuItem";
             this.dotDensityToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
-            this.dotDensityToolStripMenuItem.Text = "Dot Density";
+            this.dotDensityToolStripMenuItem.Text = global::Epi.SharedStrings.UI_DOT_DENSITY;
             // 
             // withShapeFileBoundariesToolStripMenuItem1
             // 
             this.withShapeFileBoundariesToolStripMenuItem1.Name = "withShapeFileBoundariesToolStripMenuItem1";
             this.withShapeFileBoundariesToolStripMenuItem1.Size = new System.Drawing.Size(272, 26);
-            this.withShapeFileBoundariesToolStripMenuItem1.Text = "With Shape File Boundaries";
+            this.withShapeFileBoundariesToolStripMenuItem1.Text = global::Epi.SharedStrings.UI_WITH_SHAPE_FILE_BOUNDARIES;
             this.withShapeFileBoundariesToolStripMenuItem1.Click += new System.EventHandler(this.withShapeFileBoundariesToolStripMenuItem1_Click);
             // 
             // withMapServerBoundariesToolStripMenuItem1
             // 
             this.withMapServerBoundariesToolStripMenuItem1.Name = "withMapServerBoundariesToolStripMenuItem1";
             this.withMapServerBoundariesToolStripMenuItem1.Size = new System.Drawing.Size(272, 26);
-            this.withMapServerBoundariesToolStripMenuItem1.Text = "With Map Server Boundaries";
+            this.withMapServerBoundariesToolStripMenuItem1.Text = global::Epi.SharedStrings.UI_WITH_MAP_SERVER_BOUNDARIES;
             this.withMapServerBoundariesToolStripMenuItem1.Click += new System.EventHandler(this.withMapServerBoundariesToolStripMenuItem1_Click);
             // 
             // withKMLBoundariesToolStripMenuItem1
             // 
             this.withKMLBoundariesToolStripMenuItem1.Name = "withKMLBoundariesToolStripMenuItem1";
             this.withKMLBoundariesToolStripMenuItem1.Size = new System.Drawing.Size(272, 26);
-            this.withKMLBoundariesToolStripMenuItem1.Text = "With KML Boundaries";
+            this.withKMLBoundariesToolStripMenuItem1.Text = global::Epi.SharedStrings.UI_WITH_KML_BOUNDARIES;
             this.withKMLBoundariesToolStripMenuItem1.Click += new System.EventHandler(this.withKMLBoundariesToolStripMenuItem1_Click);
             // 
             // btnReference
@@ -238,28 +238,28 @@
             this.btnReference.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnReference.Name = "btnReference";
             this.btnReference.Size = new System.Drawing.Size(125, 24);
-            this.btnReference.Text = "Add Base Layer";
+            this.btnReference.Text = global::Epi.SharedStrings.UI_ADD_BASE_LAYER;
             this.btnReference.Visible = false;
             // 
             // fromMapServerToolStripMenuItem
             // 
             this.fromMapServerToolStripMenuItem.Name = "fromMapServerToolStripMenuItem";
             this.fromMapServerToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.fromMapServerToolStripMenuItem.Text = "From Map Server";
+            this.fromMapServerToolStripMenuItem.Text = global::Epi.SharedStrings.UI_FROM_MAP_SERVER;
             this.fromMapServerToolStripMenuItem.Click += new System.EventHandler(this.fromMapServerToolStripMenuItem_Click);
             // 
             // fromShapeFileToolStripMenuItem
             // 
             this.fromShapeFileToolStripMenuItem.Name = "fromShapeFileToolStripMenuItem";
             this.fromShapeFileToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.fromShapeFileToolStripMenuItem.Text = "From Shape File";
+            this.fromShapeFileToolStripMenuItem.Text = global::Epi.SharedStrings.UI_FROM_SHAPE_FILE;
             this.fromShapeFileToolStripMenuItem.Click += new System.EventHandler(this.fromShapeFileToolStripMenuItem_Click);
             // 
             // fromKMLToolStripMenuItem
             // 
             this.fromKMLToolStripMenuItem.Name = "fromKMLToolStripMenuItem";
             this.fromKMLToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.fromKMLToolStripMenuItem.Text = "From KML";
+            this.fromKMLToolStripMenuItem.Text = global::Epi.SharedStrings.UI_FROM_KML;
             this.fromKMLToolStripMenuItem.Click += new System.EventHandler(this.fromKMLToolStripMenuItem_Click);
             // 
             // btnTimeLapse
@@ -269,7 +269,7 @@
             this.btnTimeLapse.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnTimeLapse.Name = "btnTimeLapse";
             this.btnTimeLapse.Size = new System.Drawing.Size(151, 24);
-            this.btnTimeLapse.Text = "Create Time Lapse";
+            this.btnTimeLapse.Text = global::Epi.SharedStrings.UI_CREATE_TIME_LAPSE;
             this.btnTimeLapse.Visible = false;
             this.btnTimeLapse.Click += new System.EventHandler(this.btnTimeLapse_Click);
             // 
@@ -283,7 +283,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MapViewer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Map";
+            this.Text = global::Epi.SharedStrings.UI_MAP;
             this.toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
             this.toolStripContainer1.TopToolStripPanel.PerformLayout();
             this.toolStripContainer1.ResumeLayout(false);

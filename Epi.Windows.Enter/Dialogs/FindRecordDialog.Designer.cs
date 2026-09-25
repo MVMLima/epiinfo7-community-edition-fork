@@ -234,7 +234,7 @@ namespace Epi.Windows.Enter.Dialogs
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.Size = new System.Drawing.Size(243, 600);
             this.toolStripContainer1.TabIndex = 0;
-            this.toolStripContainer1.Text = "Search Fields For ...";
+            this.toolStripContainer1.Text = global::Epi.SharedStrings.UI_SEARCH_FIELDS_FOR;
             // 
             // toolStripContainer1.TopToolStripPanel
             // 
@@ -270,7 +270,7 @@ namespace Epi.Windows.Enter.Dialogs
             this.toolStripLabel1.AutoSize = false;
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(154, 22);
-            this.toolStripLabel1.Text = "Select/Unselect Search Fields";
+            this.toolStripLabel1.Text = global::Epi.SharedStrings.UI_SELECT_UNSELECT_SEARCH_FIELDS;
             // 
             // toolStripButton5
             // 
@@ -305,8 +305,8 @@ namespace Epi.Windows.Enter.Dialogs
             this.toolStripBackButton.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.toolStripBackButton.Name = "toolStripBackButton";
             this.toolStripBackButton.Size = new System.Drawing.Size(52, 22);
-            this.toolStripBackButton.Text = "&Back";
-            this.toolStripBackButton.ToolTipText = "Go Back";
+            this.toolStripBackButton.Text = global::Epi.SharedStrings.UI_BACK_MN;
+            this.toolStripBackButton.ToolTipText = global::Epi.SharedStrings.UI_GO_BACK;
             this.toolStripBackButton.Click += new System.EventHandler(this.exitFindRecordToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
@@ -320,7 +320,7 @@ namespace Epi.Windows.Enter.Dialogs
             this.toolStripResetButton.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.toolStripResetButton.Name = "toolStripResetButton";
             this.toolStripResetButton.Size = new System.Drawing.Size(55, 22);
-            this.toolStripResetButton.Text = "&Reset";
+            this.toolStripResetButton.Text = global::Epi.SharedStrings.UI_RESET_MN;
             this.toolStripResetButton.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -334,7 +334,7 @@ namespace Epi.Windows.Enter.Dialogs
             this.toolStripSearchButton.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.toolStripSearchButton.Name = "toolStripSearchButton";
             this.toolStripSearchButton.Size = new System.Drawing.Size(62, 22);
-            this.toolStripSearchButton.Text = "Search";
+            this.toolStripSearchButton.Text = global::Epi.SharedStrings.UI_SEARCH;
             this.toolStripSearchButton.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // menuStrip2
@@ -357,13 +357,13 @@ namespace Epi.Windows.Enter.Dialogs
             this.exitFindRecordToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "&File";
+            this.fileToolStripMenuItem.Text = global::Epi.SharedStrings.UI_FILE_MN;
             // 
             // exitFindRecordToolStripMenuItem
             // 
             this.exitFindRecordToolStripMenuItem.Name = "exitFindRecordToolStripMenuItem";
             this.exitFindRecordToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.exitFindRecordToolStripMenuItem.Text = "E&xit Find Records";
+            this.exitFindRecordToolStripMenuItem.Text = global::Epi.SharedStrings.UI_EXIT_FIND_RECORDS_MN;
             this.exitFindRecordToolStripMenuItem.Click += new System.EventHandler(this.exitFindRecordToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
@@ -373,20 +373,20 @@ namespace Epi.Windows.Enter.Dialogs
             this.goBackToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "&Edit";
+            this.editToolStripMenuItem.Text = global::Epi.SharedStrings.UI_EDIT_MN;
             // 
             // resetToolStripMenuItem
             // 
             this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
             this.resetToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.resetToolStripMenuItem.Text = "&Reset";
+            this.resetToolStripMenuItem.Text = global::Epi.SharedStrings.UI_RESET_MN;
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // goBackToolStripMenuItem
             // 
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
             this.goBackToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.goBackToolStripMenuItem.Text = "Go &Back";
+            this.goBackToolStripMenuItem.Text = global::Epi.SharedStrings.UI_GO_BACK_MN;
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.exitFindRecordToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
@@ -395,14 +395,14 @@ namespace Epi.Windows.Enter.Dialogs
             this.searchToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.toolsToolStripMenuItem.Text = "&Tools";
+            this.toolsToolStripMenuItem.Text = global::Epi.SharedStrings.UI_TOOLS_MN;
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Enabled = false;
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
-            this.searchToolStripMenuItem.Text = "Search";
+            this.searchToolStripMenuItem.Text = global::Epi.SharedStrings.UI_SEARCH;
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
@@ -413,27 +413,27 @@ namespace Epi.Windows.Enter.Dialogs
             this.aboutEpiInfoToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "&Help";
+            this.helpToolStripMenuItem.Text = global::Epi.SharedStrings.UI_HELP_MN_2;
             // 
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
             this.contentsToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.contentsToolStripMenuItem.Text = "Contents";
+            this.contentsToolStripMenuItem.Text = global::Epi.SharedStrings.UI_CONTENTS;
             this.contentsToolStripMenuItem.Click += new System.EventHandler(this.contentsToolStripMenuItem_Click);
             // 
             // commandReferenceToolStripMenuItem
             // 
             this.commandReferenceToolStripMenuItem.Name = "commandReferenceToolStripMenuItem";
             this.commandReferenceToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.commandReferenceToolStripMenuItem.Text = "Command &Reference";
+            this.commandReferenceToolStripMenuItem.Text = global::Epi.SharedStrings.UI_COMMAND_REFERENCE_MN;
             this.commandReferenceToolStripMenuItem.Click += new System.EventHandler(this.commandReferenceToolStripMenuItem_Click);
             // 
             // aboutEpiInfoToolStripMenuItem
             // 
             this.aboutEpiInfoToolStripMenuItem.Name = "aboutEpiInfoToolStripMenuItem";
             this.aboutEpiInfoToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.aboutEpiInfoToolStripMenuItem.Text = "&About Epi Info";
+            this.aboutEpiInfoToolStripMenuItem.Text = global::Epi.SharedStrings.UI_ABOUT_EPI_INFO_MN;
             this.aboutEpiInfoToolStripMenuItem.Click += new System.EventHandler(this.aboutEpiInfoToolStripMenuItem_Click);
             // 
             // toolTip1
@@ -455,7 +455,7 @@ namespace Epi.Windows.Enter.Dialogs
             this.Name = "FindRecords";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Find Records";
+            this.Text = global::Epi.SharedStrings.UI_FIND_RECORDS;
             this.Load += new System.EventHandler(this.FindRecords_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();

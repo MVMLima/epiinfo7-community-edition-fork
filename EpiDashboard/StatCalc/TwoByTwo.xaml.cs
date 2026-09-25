@@ -46,7 +46,7 @@ namespace EpiDashboard.StatCalc
 
         public TwoByTwo()
         {
-            InitializeComponent();
+            InitializeComponent(); StatCalcLocalizer.Apply(this);
             RotateTransform rotate = new RotateTransform(270);
 
             strataVals = new Dictionary<int, double[]>();
@@ -428,7 +428,7 @@ namespace EpiDashboard.StatCalc
                     }
 
 					if (singleTableResults.LowestExpectedCellCount < 5)
-						txtWarningMessage.Text = "An expected cell count is < 5. X" + '\u00B2' + " may not be valid.";
+						txtWarningMessage.Text = global::Epi.SharedStrings.STATCALC_EXPECTED_CELL_WARNING;
 					else
 						txtWarningMessage.Text = String.Empty;
 

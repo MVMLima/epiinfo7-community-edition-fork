@@ -56,7 +56,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -73,7 +73,7 @@
             this.MinimizeBox = false;
             this.Name = "TableToFormProgressDialog";
             this.ShowIcon = false;
-            this.Text = "Progress";
+            this.Text = global::Epi.SharedStrings.UI_PROGRESS;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TableToFormProgressDialog_FormClosing);
             this.Load += new System.EventHandler(this.TableToFormProgressDialog_Load);
             this.ResumeLayout(false);

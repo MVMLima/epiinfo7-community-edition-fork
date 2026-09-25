@@ -2272,4 +2272,340 @@ of records or select fewer fields for the group.</value>
   <data name="GADGET_COMBINE_MODE_CATEGORICAL" xml:space="preserve">
     <value>Categorical</value>
   </data>
+  <data name="SC_1_TAILED_P" xml:space="preserve">
+    <value>1 Tailed P</value>
+  </data>
+  <data name="SC_2_TAILED_P" xml:space="preserve">
+    <value>2 Tailed P</value>
+  </data>
+  <data name="SC_95_CONFIDENCE_INTERVAL" xml:space="preserve">
+    <value>95% confidence
+interval</value>
+  </data>
+  <data name="SC_ACCEPTABLE_MARGIN_OF_ERROR" xml:space="preserve">
+    <value>Acceptable Margin of Error:</value>
+  </data>
+  <data name="SC_ADD_ROW" xml:space="preserve">
+    <value>Add Row</value>
+  </data>
+  <data name="SC_ADJUSTED" xml:space="preserve">
+    <value>Adjusted</value>
+  </data>
+  <data name="SC_ADJUSTED_MH" xml:space="preserve">
+    <value>Adjusted (MH)</value>
+  </data>
+  <data name="SC_ADJUSTED_MLE" xml:space="preserve">
+    <value>Adjusted (MLE)</value>
+  </data>
+  <data name="SC_ANALYSIS_FOR_LINEAR_TRENDS_IN_PROPORTION" xml:space="preserve">
+    <value>Analysis For Linear Trends In Proportions</value>
+  </data>
+  <data name="SC_BINOMIAL_PROPORTION_VS_STANDARD" xml:space="preserve">
+    <value>Binomial - Proportion vs. Standard</value>
+  </data>
+  <data name="SC_CASES" xml:space="preserve">
+    <value>Cases</value>
+  </data>
+  <data name="SC_CHI_SQUARE" xml:space="preserve">
+    <value>Chi Square</value>
+  </data>
+  <data name="SC_CHI_SQUARE_FOR_LINEAR_TREND" xml:space="preserve">
+    <value>Chi Square for linear trend</value>
+  </data>
+  <data name="SC_CLUSTER_SIZE" xml:space="preserve">
+    <value>Cluster
+Size</value>
+  </data>
+  <data name="SC_CLUSTERS" xml:space="preserve">
+    <value>Clusters:</value>
+  </data>
+  <data name="SC_COL" xml:space="preserve">
+    <value>Col %</value>
+  </data>
+  <data name="SC_CONFIDENCE_LEVEL" xml:space="preserve">
+    <value>Confidence
+Level</value>
+  </data>
+  <data name="SC_CONTROLS" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="SC_CORRECTED" xml:space="preserve">
+    <value>Corrected</value>
+  </data>
+  <data name="SC_CORRECTED_MH" xml:space="preserve">
+    <value>Corrected (MH)</value>
+  </data>
+  <data name="SC_CRUDE" xml:space="preserve">
+    <value>Crude</value>
+  </data>
+  <data name="SC_CRUDE_MLE" xml:space="preserve">
+    <value>Crude (MLE)</value>
+  </data>
+  <data name="SC_CRUDE_CROSS_PRODUCT" xml:space="preserve">
+    <value>Crude
+(Cross Product)</value>
+  </data>
+  <data name="SC_DESIGN_EFFECT" xml:space="preserve">
+    <value>Design effect:</value>
+  </data>
+  <data name="SC_ESTIMATE" xml:space="preserve">
+    <value>Estimate</value>
+  </data>
+  <data name="SC_EXPECTED_OF_EVENTS" xml:space="preserve">
+    <value>Expected # of events:</value>
+  </data>
+  <data name="SC_EXPECTED_FREQUENCY" xml:space="preserve">
+    <value>Expected frequency:</value>
+  </data>
+  <data name="SC_EXPECTED_PERCENTAGE" xml:space="preserve">
+    <value>Expected percentage:</value>
+  </data>
+  <data name="SC_EXPOSED" xml:space="preserve">
+    <value>Exposed</value>
+  </data>
+  <data name="SC_EXPOSURE" xml:space="preserve">
+    <value>Exposure</value>
+  </data>
+  <data name="SC_EXPOSURE_SCORE" xml:space="preserve">
+    <value>Exposure Score</value>
+  </data>
+  <data name="SC_FISHER_EXACT" xml:space="preserve">
+    <value>Fisher Exact</value>
+  </data>
+  <data name="SC_FISHER_EXACT_2" xml:space="preserve">
+    <value>Fisher-Exact</value>
+  </data>
+  <data name="SC_FLEISS_W_CC" xml:space="preserve">
+    <value>Fleiss
+w/ CC</value>
+  </data>
+  <data name="SC_FOR_SIMPLE_RANDOM_SAMPLING_LEAVE_DESIGN" xml:space="preserve">
+    <value>For simple random sampling, leave design effect and clusters equal to 1.</value>
+  </data>
+  <data name="SC_LOWER" xml:space="preserve">
+    <value>Lower</value>
+  </data>
+  <data name="SC_MID_P_EXACT" xml:space="preserve">
+    <value>Mid-P Exact</value>
+  </data>
+  <data name="SC_MLE_ODDS_RATIO_MID_P" xml:space="preserve">
+    <value>MLE Odds Ratio
+(Mid-P)</value>
+  </data>
+  <data name="SC_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SC_NUMERATOR" xml:space="preserve">
+    <value>Numerator:</value>
+  </data>
+  <data name="SC_OBSERVED_OF_EVENTS" xml:space="preserve">
+    <value>Observed # of events:</value>
+  </data>
+  <data name="SC_ODDS_RATIO" xml:space="preserve">
+    <value>Odds Ratio</value>
+  </data>
+  <data name="SC_ODDS_RATIO_2" xml:space="preserve">
+    <value>Odds ratio:</value>
+  </data>
+  <data name="SC_ODDS_BASED_PARAMETERS" xml:space="preserve">
+    <value>Odds-based Parameters</value>
+  </data>
+  <data name="SC_OUTCOME" xml:space="preserve">
+    <value>Outcome</value>
+  </data>
+  <data name="SC_P_VALUE" xml:space="preserve">
+    <value>p value</value>
+  </data>
+  <data name="SC_PERCENT_OF_CASES_WITH_EXPOSURE" xml:space="preserve">
+    <value>Percent of cases with exposure:</value>
+  </data>
+  <data name="SC_PERCENT_OF_CONTROLS_EXPOSED" xml:space="preserve">
+    <value>Percent of controls exposed:</value>
+  </data>
+  <data name="SC_POISSON_RARE_EVENT_VS_STANDARD" xml:space="preserve">
+    <value>Poisson - Rare Event vs. Standard</value>
+  </data>
+  <data name="SC_POPULATION_SIZE" xml:space="preserve">
+    <value>Population size:</value>
+  </data>
+  <data name="SC_POPULATION_SURVEY_OR_DESCRIPTIVE_STUDY" xml:space="preserve">
+    <value>Population survey or descriptive study</value>
+  </data>
+  <data name="SC_POWER" xml:space="preserve">
+    <value>Power:</value>
+  </data>
+  <data name="SC_PRINT" xml:space="preserve">
+    <value>Print...</value>
+  </data>
+  <data name="SC_PROBABILITY_THAT_THE_NUMBER_OF_CASE" xml:space="preserve">
+    <value>Probability that the number of case</value>
+  </data>
+  <data name="SC_PROBABILITY_THAT_THE_NUMBER_OF_EVENTS_FO" xml:space="preserve">
+    <value>Probability that the number
+of events found is</value>
+  </data>
+  <data name="SC_RATIO_UNEXPOSED_EXPOSED" xml:space="preserve">
+    <value>Ratio (Unexposed : Exposed):</value>
+  </data>
+  <data name="SC_RATIO_OF_CONTROLS_TO_CASES" xml:space="preserve">
+    <value>Ratio of controls to cases:</value>
+  </data>
+  <data name="SC_RISK_DIFFERENCE" xml:space="preserve">
+    <value>Risk Difference</value>
+  </data>
+  <data name="SC_RISK_RATIO" xml:space="preserve">
+    <value>Risk Ratio</value>
+  </data>
+  <data name="SC_RISK_RATIO_2" xml:space="preserve">
+    <value>Risk ratio:</value>
+  </data>
+  <data name="SC_RISK_BASED_PARAMETERS" xml:space="preserve">
+    <value>Risk-based Parameters</value>
+  </data>
+  <data name="SC_ROW" xml:space="preserve">
+    <value>Row %</value>
+  </data>
+  <data name="SC_SAVE_AS_IMAGE" xml:space="preserve">
+    <value>Save As Image...</value>
+  </data>
+  <data name="SC_STATCALC_2X2_TABLES" xml:space="preserve">
+    <value>StatCalc - 2x2 Tables</value>
+  </data>
+  <data name="SC_STATCALC_CHI_SQUARE_FOR_TREND" xml:space="preserve">
+    <value>StatCalc - Chi Square for Trend</value>
+  </data>
+  <data name="SC_STATCALC_SAMPLE_SIZE_AND_POWER" xml:space="preserve">
+    <value>StatCalc - Sample Size and Power</value>
+  </data>
+  <data name="SC_STATISTICAL_TESTS" xml:space="preserve">
+    <value>Statistical Tests</value>
+  </data>
+  <data name="SC_STRATA_1" xml:space="preserve">
+    <value>Strata 1</value>
+  </data>
+  <data name="SC_STRATA_2" xml:space="preserve">
+    <value>Strata 2</value>
+  </data>
+  <data name="SC_STRATA_3" xml:space="preserve">
+    <value>Strata 3</value>
+  </data>
+  <data name="SC_STRATA_4" xml:space="preserve">
+    <value>Strata 4</value>
+  </data>
+  <data name="SC_STRATA_5" xml:space="preserve">
+    <value>Strata 5</value>
+  </data>
+  <data name="SC_STRATA_6" xml:space="preserve">
+    <value>Strata 6</value>
+  </data>
+  <data name="SC_STRATA_7" xml:space="preserve">
+    <value>Strata 7</value>
+  </data>
+  <data name="SC_STRATA_8" xml:space="preserve">
+    <value>Strata 8</value>
+  </data>
+  <data name="SC_STRATA_9" xml:space="preserve">
+    <value>Strata 9</value>
+  </data>
+  <data name="SC_SUMMARY_RESULTS" xml:space="preserve">
+    <value>Summary Results</value>
+  </data>
+  <data name="SC_TOTAL_OBSERVATIONS" xml:space="preserve">
+    <value>Total observations:</value>
+  </data>
+  <data name="SC_TOTAL_SAMPLE" xml:space="preserve">
+    <value>Total
+Sample</value>
+  </data>
+  <data name="SC_TWO_SIDED_CONFIDENCE_LEVEL" xml:space="preserve">
+    <value>Two-sided confidence level:</value>
+  </data>
+  <data name="SC_TWO_TAILED_P_VALUE" xml:space="preserve">
+    <value>Two-tailed p-value</value>
+  </data>
+  <data name="SC_UNCORRECTED" xml:space="preserve">
+    <value>Uncorrected</value>
+  </data>
+  <data name="SC_UNCORRECTED_MH" xml:space="preserve">
+    <value>Uncorrected
+(MH)</value>
+  </data>
+  <data name="SC_UNEXPOSED" xml:space="preserve">
+    <value>Unexposed</value>
+  </data>
+  <data name="SC_UNMATCHED_CASE_CONTROL_STUDY_COMPARISON" xml:space="preserve">
+    <value>Unmatched Case-Control Study (Comparison of ILL and NOT ILL)</value>
+  </data>
+  <data name="SC_UNMATCHED_COHORT_AND_CROSS_SECTIONAL_STU" xml:space="preserve">
+    <value>Unmatched Cohort and Cross-Sectional Studies (Exposed and Nonexposed)</value>
+  </data>
+  <data name="SC_UPPER" xml:space="preserve">
+    <value>Upper</value>
+  </data>
+  <data name="SC_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SC_ABERRATION_DETECTION" xml:space="preserve">
+    <value>Aberration Detection</value>
+  </data>
+  <data name="SC_COUNT_OPTIONAL" xml:space="preserve">
+    <value>Count (Optional):</value>
+  </data>
+  <data name="SC_DATE" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="SC_EARS_PROPERTIES" xml:space="preserve">
+    <value>EARS Properties</value>
+  </data>
+  <data name="SC_INDICATOR_OPTIONAL" xml:space="preserve">
+    <value>Indicator (Optional):</value>
+  </data>
+  <data name="SC_LAG_TIME_DAYS" xml:space="preserve">
+    <value>Lag time (days):</value>
+  </data>
+  <data name="SC_MATCHED_PAIR_CASE_CONTROL_STUDY" xml:space="preserve">
+    <value>Matched Pair Case-Control Study</value>
+  </data>
+  <data name="SC_RUN_GADGET" xml:space="preserve">
+    <value>Run Gadget</value>
+  </data>
+  <data name="SC_THRESHOLD_STD_DEVIATIONS" xml:space="preserve">
+    <value>Threshold (Std. Deviations):</value>
+  </data>
+  <data name="SC_UNMATCHED_CASE_CONTROL_STUDY" xml:space="preserve">
+    <value>Unmatched Case-Control Study</value>
+  </data>
+  <data name="SC_UNMATCHED_COHORT_AND_CROSS_SECTIONAL_STU_2" xml:space="preserve">
+    <value>Unmatched Cohort and Cross-Sectional
+Studies (Exposed and Nonexposed)</value>
+  </data>
+  <data name="SC_OUTCOME_IN_EXPOSED_GROUP" xml:space="preserve">
+    <value>% outcome in exposed group:</value>
+  </data>
+  <data name="SC_OUTCOME_IN_UNEXPOSED_GROUP" xml:space="preserve">
+    <value>% outcome in unexposed group:</value>
+  </data>
+  <data name="SC_0_5_HAS_BEEN_ADDED_TO_EACH_CELL_FOR_CALC" xml:space="preserve">
+    <value>0.5 has been added to each cell for calculations.</value>
+  </data>
+  <data name="SC_CHI_SQUARE_FOR_LINEAR_TREND_EXTENDED_MAN" xml:space="preserve">
+    <value>Chi Square for linear trend
+(Extended Mantel-Haenszel)</value>
+  </data>
+  <data name="SC_EXACT" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="SC_NOT_EXPOSED" xml:space="preserve">
+    <value>Not Exposed</value>
+  </data>
+  <data name="SC_ODDS_BASED_PARAMETERS_2" xml:space="preserve">
+    <value>Odds-based parameters</value>
+  </data>
+  <data name="SC_POPULATION_SURVEY_OR_DESCRIPTIVE_STUDY_F" xml:space="preserve">
+    <value>Population survey or descriptive study
+For simple random sampling, leave design effect and clusters equal to 1.</value>
+  </data>
+  <data name="SC_DISEASE" xml:space="preserve">
+    <value>Disease</value>
+  </data>
 </root>

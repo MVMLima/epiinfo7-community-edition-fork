@@ -139,7 +139,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblKeyComponent.Name = "lblKeyComponent";
             this.lblKeyComponent.Size = new System.Drawing.Size(500, 13);
             this.lblKeyComponent.TabIndex = 0;
-            this.lblKeyComponent.Text = "Key Component";
+            this.lblKeyComponent.Text = global::Epi.SharedStrings.UI_KEY_COMPONENT;
             // 
             // txtKeyComponent
             // 
@@ -157,7 +157,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblAvailableVariables.Name = "lblAvailableVariables";
             this.lblAvailableVariables.Size = new System.Drawing.Size(338, 13);
             this.lblAvailableVariables.TabIndex = 1;
-            this.lblAvailableVariables.Text = "Current Data Variables";
+            this.lblAvailableVariables.Text = global::Epi.SharedStrings.UI_CURRENT_DATA_VARIABLES;
             // 
             // lbxCurrentTableFields
             // 
@@ -185,7 +185,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(133, 23);
             this.btnOK.TabIndex = 9;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.UseVisualStyleBackColor = true;
             // 
             // btnCancel
@@ -195,7 +195,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(133, 23);
             this.btnCancel.TabIndex = 8;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -204,7 +204,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(338, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Related Table Variables";
+            this.label1.Text = global::Epi.SharedStrings.UI_RELATED_TABLE_VARIABLES;
             // 
             // label2
             // 
@@ -220,7 +220,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.AddCommandButton.Name = "AddCommandButton";
             this.AddCommandButton.Size = new System.Drawing.Size(133, 23);
             this.AddCommandButton.TabIndex = 7;
-            this.AddCommandButton.Text = "Add Relation";
+            this.AddCommandButton.Text = global::Epi.SharedStrings.UI_ADD_RELATION;
             this.AddCommandButton.UseVisualStyleBackColor = true;
             this.AddCommandButton.Click += new System.EventHandler(this.AddCommandButton_Click);
             // 
@@ -248,7 +248,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(133, 23);
             this.btnHelp.TabIndex = 19;
-            this.btnHelp.Text = "Help";
+            this.btnHelp.Text = global::Epi.SharedStrings.UI_HELP;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnClear
@@ -259,7 +259,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(133, 23);
             this.btnClear.TabIndex = 20;
-            this.btnClear.Text = "Clear";
+            this.btnClear.Text = global::Epi.SharedStrings.UI_CLEAR;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // BuildKeyDialog
@@ -285,7 +285,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.Controls.Add(this.label2);
             this.Name = "BuildKeyDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Build Key Dialog";
+            this.Text = global::Epi.SharedStrings.UI_BUILD_KEY_DIALOG;
             this.Load += new System.EventHandler(this.BuildKeyDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

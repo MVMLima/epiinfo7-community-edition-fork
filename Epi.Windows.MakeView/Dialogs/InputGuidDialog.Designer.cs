@@ -49,7 +49,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 0;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -60,7 +60,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 1;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -80,7 +80,7 @@
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(75, 23);
             this.btnNo.TabIndex = 21;
-            this.btnNo.Text = "No";
+            this.btnNo.Text = global::Epi.SharedStrings.UI_NO;
             this.btnNo.UseVisualStyleBackColor = true;
             this.btnNo.Visible = false;
             this.btnNo.Click += new System.EventHandler(this.btnNo_Click);
@@ -118,7 +118,7 @@
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(75, 23);
             this.btnYes.TabIndex = 20;
-            this.btnYes.Text = "Yes";
+            this.btnYes.Text = global::Epi.SharedStrings.UI_YES;
             this.btnYes.UseVisualStyleBackColor = true;
             this.btnYes.Visible = false;
             this.btnYes.Click += new System.EventHandler(this.btnYes_Click);
@@ -153,7 +153,7 @@
             this.gbxMainGroup.Size = new System.Drawing.Size(424, 597);
             this.gbxMainGroup.TabIndex = 22;
             this.gbxMainGroup.TabStop = false;
-            this.gbxMainGroup.Text = "Input";
+            this.gbxMainGroup.Text = global::Epi.SharedStrings.UI_INPUT;
             // 
             // InputGuidDialog
             // 
@@ -173,7 +173,7 @@
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Input Dialog";
+            this.Text = global::Epi.SharedStrings.UI_INPUT_DIALOG;
             this.gbxMainGroup.ResumeLayout(false);
             this.gbxMainGroup.PerformLayout();
             this.ResumeLayout(false);

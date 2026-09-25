@@ -140,7 +140,7 @@
             this.btnOpenFile.Name = "btnOpenFile";
             this.btnOpenFile.Size = new System.Drawing.Size(90, 23);
             this.btnOpenFile.TabIndex = 1;
-            this.btnOpenFile.Text = "Browse";
+            this.btnOpenFile.Text = global::Epi.SharedStrings.UI_BROWSE;
             this.btnOpenFile.UseVisualStyleBackColor = true;
             this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click);
             // 
@@ -150,7 +150,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(90, 23);
             this.btnOK.TabIndex = 2;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.UseVisualStyleBackColor = true;
             // 
             // btnCancel
@@ -160,7 +160,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // btnSaveOnly
@@ -169,7 +169,7 @@
             this.btnSaveOnly.Name = "btnSaveOnly";
             this.btnSaveOnly.Size = new System.Drawing.Size(90, 23);
             this.btnSaveOnly.TabIndex = 4;
-            this.btnSaveOnly.Text = "Save Only";
+            this.btnSaveOnly.Text = global::Epi.SharedStrings.UI_SAVE_ONLY;
             this.btnSaveOnly.UseVisualStyleBackColor = true;
             // 
             // btnClear
@@ -178,7 +178,7 @@
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(90, 23);
             this.btnClear.TabIndex = 5;
-            this.btnClear.Text = "Clear";
+            this.btnClear.Text = global::Epi.SharedStrings.UI_CLEAR;
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
@@ -188,7 +188,7 @@
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(90, 23);
             this.btnHelp.TabIndex = 6;
-            this.btnHelp.Text = "Help";
+            this.btnHelp.Text = global::Epi.SharedStrings.UI_HELP;
             this.btnHelp.UseVisualStyleBackColor = true;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
@@ -208,7 +208,7 @@
             this.lblFilename.Name = "lblFilename";
             this.lblFilename.Size = new System.Drawing.Size(401, 15);
             this.lblFilename.TabIndex = 8;
-            this.lblFilename.Text = "Filename";
+            this.lblFilename.Text = global::Epi.SharedStrings.UI_FILENAME;
             // 
             // lblProgram
             // 
@@ -216,7 +216,7 @@
             this.lblProgram.Name = "lblProgram";
             this.lblProgram.Size = new System.Drawing.Size(404, 15);
             this.lblProgram.TabIndex = 9;
-            this.lblProgram.Text = "Program";
+            this.lblProgram.Text = global::Epi.SharedStrings.UI_PROGRAM;
             // 
             // RunSavedPGMDialog
             // 
@@ -237,7 +237,7 @@
             this.MinimizeBox = false;
             this.Name = "RunSavedPGMDialog";
             this.ShowIcon = false;
-            this.Text = "Run Saved Program";
+            this.Text = global::Epi.SharedStrings.UI_RUN_SAVED_PROGRAM;
             this.ResumeLayout(false);
             this.PerformLayout();
 

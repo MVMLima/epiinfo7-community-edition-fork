@@ -42,7 +42,7 @@
             this.lblHeader.Name = "lblHeader";
             this.lblHeader.Size = new System.Drawing.Size(602, 13);
             this.lblHeader.TabIndex = 1;
-            this.lblHeader.Text = "The following problems were discovered in this Epi Info 3.5.x project:";
+            this.lblHeader.Text = global::Epi.SharedStrings.UI_THE_FOLLOWING_PROBLEMS_WERE_DISCOVERED_IN_TH;
             // 
             // txtProgress
             // 
@@ -54,7 +54,7 @@
             this.txtProgress.Size = new System.Drawing.Size(725, 20);
             this.txtProgress.TabIndex = 27;
             this.txtProgress.TabStop = false;
-            this.txtProgress.Text = "Ready";
+            this.txtProgress.Text = global::Epi.SharedStrings.UI_READY;
             // 
             // progressBar
             // 
@@ -73,7 +73,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 25;
-            this.btnCancel.Text = "Close";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CLOSE;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -85,7 +85,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 28;
-            this.btnOK.Text = "Next";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_NEXT;
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -118,7 +118,7 @@
             this.MinimizeBox = false;
             this.Name = "UpgradeProblemDisplayDialog";
             this.ShowIcon = false;
-            this.Text = "Epi Info 3.5.x Project Upgrade Check";
+            this.Text = global::Epi.SharedStrings.UI_EPI_INFO_3_5_X_PROJECT_UPGRADE_CHECK;
             this.Load += new System.EventHandler(this.UpgradeProblemDisplayDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

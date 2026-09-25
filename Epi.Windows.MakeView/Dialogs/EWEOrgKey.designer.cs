@@ -67,7 +67,7 @@
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(90, 23);
             this.btnSubmit.TabIndex = 3;
-            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.Text = global::Epi.SharedStrings.UI_SUBMIT;
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -86,7 +86,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(422, 16);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Organization Key:";
+            this.label3.Text = global::Epi.SharedStrings.UI_ORGANIZATION_KEY;
             // 
             // DialogPromptLabel
             // 
@@ -94,8 +94,7 @@
             this.DialogPromptLabel.Name = "DialogPromptLabel";
             this.DialogPromptLabel.Size = new System.Drawing.Size(518, 35);
             this.DialogPromptLabel.TabIndex = 0;
-            this.DialogPromptLabel.Text = "The organization key is required for security purposes before you publish the for" +
-    "m to the web. ";
+            this.DialogPromptLabel.Text = global::Epi.SharedStrings.ORG_KEY_REQUIRED_NOTE;
             // 
             // pnlError
             // 
@@ -120,7 +119,7 @@
             this.lblError.Name = "lblError";
             this.lblError.Size = new System.Drawing.Size(318, 15);
             this.lblError.TabIndex = 0;
-            this.lblError.Text = "Organization Key is not valid. Please enter a correct key.";
+            this.lblError.Text = global::Epi.SharedStrings.UI_ORGANIZATION_KEY_IS_NOT_VALID_PLEASE_ENTER_A;
             // 
             // flowLayoutPanel1
             // 
@@ -151,7 +150,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(90, 23);
             this.btnClose.TabIndex = 6;
-            this.btnClose.Text = "Close";
+            this.btnClose.Text = global::Epi.SharedStrings.UI_CLOSE;
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -196,7 +195,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Enter Organization Key";
+            this.Text = global::Epi.SharedStrings.UI_ENTER_ORGANIZATION_KEY;
             this.pnlOrgKey.ResumeLayout(false);
             this.pnlOrgKey.PerformLayout();
             this.pnlError.ResumeLayout(false);

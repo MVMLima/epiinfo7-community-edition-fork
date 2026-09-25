@@ -36,14 +36,14 @@ namespace EpiDashboard.Controls
 
         public GadgetTwoByTwoPanel()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             ShowRowColumnPercents = true;
             Construct();
         }
 
         public GadgetTwoByTwoPanel(decimal yyVal, decimal ynVal, decimal nyVal, decimal nnVal)
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             ShowRowColumnPercents = true;
             Construct();
             this.YesYesValue = yyVal;

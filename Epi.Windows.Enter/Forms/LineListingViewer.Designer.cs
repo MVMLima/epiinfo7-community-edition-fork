@@ -40,7 +40,7 @@
             this.Name = "LineListingViewer";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Line Listing";
+            this.Text = global::Epi.SharedStrings.UI_LINE_LISTING;
             this.ResumeLayout(false);
 
         }

@@ -889,6 +889,7 @@
       <DependentUpon>Cohort.xaml</DependentUpon>
     </Compile>
     <Compile Include="StatCalc\IStatCalcControl.cs" />
+    <Compile Include="StatCalc\StatCalcLocalizer.cs" />
     <Compile Include="StatCalc\PopulationSurvey.xaml.cs">
       <DependentUpon>PopulationSurvey.xaml</DependentUpon>
     </Compile>

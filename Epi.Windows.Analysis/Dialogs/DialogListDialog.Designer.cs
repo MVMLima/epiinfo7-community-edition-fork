@@ -134,7 +134,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(75, 23);
             this.btnHelp.TabIndex = 5;
-            this.btnHelp.Text = "&Help";
+            this.btnHelp.Text = global::Epi.SharedStrings.UI_HELP_MN;
             // 
             // btnCancel
             // 
@@ -145,7 +145,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             // 
             // btnOK
             // 
@@ -157,7 +157,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 2;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnClear
@@ -168,7 +168,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 4;
-            this.btnClear.Text = "C&lear";
+            this.btnClear.Text = global::Epi.SharedStrings.UI_CLEAR_MN;
             // 
             // gbxSelections
             // 
@@ -180,7 +180,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.gbxSelections.Size = new System.Drawing.Size(311, 291);
             this.gbxSelections.TabIndex = 21;
             this.gbxSelections.TabStop = false;
-            this.gbxSelections.Text = "Selections";
+            this.gbxSelections.Text = global::Epi.SharedStrings.UI_SELECTIONS;
             // 
             // dgList
             // 
@@ -218,7 +218,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 7;
-            this.btnDelete.Text = "Delete";
+            this.btnDelete.Text = global::Epi.SharedStrings.UI_DELETE_2;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnInsert
@@ -229,7 +229,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 23);
             this.btnInsert.TabIndex = 6;
-            this.btnInsert.Text = "Insert";
+            this.btnInsert.Text = global::Epi.SharedStrings.UI_INSERT;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // DialogListDialog
@@ -244,7 +244,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.Name = "DialogListDialog";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Multi-Choice Items";
+            this.Text = global::Epi.SharedStrings.UI_MULTI_CHOICE_ITEMS;
             this.gbxSelections.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgList)).EndInit();
             this.ResumeLayout(false);

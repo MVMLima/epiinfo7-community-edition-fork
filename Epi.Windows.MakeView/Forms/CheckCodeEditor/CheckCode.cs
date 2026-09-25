@@ -387,7 +387,7 @@ namespace Epi.Windows.MakeView.Forms
                 this.view.CheckCode = View.InitialCheckCode;
             }
 
-            this.Text = "Check Code Editor - [ " + this.view.Name + " ]";
+            this.Text = string.Format(global::Epi.SharedStrings.CHECKCODE_EDITOR_TITLE, this.view.Name);
 
             this.CheckCodeCommandDesigned += new CheckCodeCommandDesignHandler(commandExplorer_CheckCodeCommandDesigned);
             this.codeText.MouseWheel += new MouseEventHandler(codeText_MouseWheel);
@@ -541,7 +541,7 @@ namespace Epi.Windows.MakeView.Forms
 
             if (couldCompile == false)
             {
-                DialogResult result = MessageBox.Show("The check code does not compile. Do you want to save your changes anyway?", "Save Changes", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+                DialogResult result = MessageBox.Show(global::Epi.SharedStrings.MSG_CHECKCODE_NOT_COMPILE_SAVE, global::Epi.SharedStrings.MSG_SAVE_CHANGES_TITLE, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
 
                 if (result == DialogResult.No || result == DialogResult.Cancel)
                 {
@@ -931,7 +931,7 @@ namespace Epi.Windows.MakeView.Forms
             {
                 if (this.isDirty)
                 {
-                    if (MessageBox.Show("Do you want to save your changes?", "Save Changes", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    if (MessageBox.Show(global::Epi.SharedStrings.MSG_SAVE_CHANGES_QUESTION, global::Epi.SharedStrings.MSG_SAVE_CHANGES_TITLE, MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
                         string checkCodeValue = this.codeText.Text;
                         bool couldCompile = this.CompileCheckCode(checkCodeValue);
@@ -939,7 +939,7 @@ namespace Epi.Windows.MakeView.Forms
 
                         if (couldCompile == false)
                         {
-                            DialogResult result = MessageBox.Show("The check code does not compile. Do you want to save your changes anyway?", "Save Changes", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+                            DialogResult result = MessageBox.Show(global::Epi.SharedStrings.MSG_CHECKCODE_NOT_COMPILE_SAVE, global::Epi.SharedStrings.MSG_SAVE_CHANGES_TITLE, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
 
                             if (result == DialogResult.No || result == DialogResult.Cancel)
                             {
@@ -1479,7 +1479,7 @@ namespace Epi.Windows.MakeView.Forms
             textBox.Text = value;
 
             buttonOk.Text = "OK";
-            buttonCancel.Text = "Cancel";
+            buttonCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             buttonOk.DialogResult = DialogResult.OK;
             buttonCancel.DialogResult = DialogResult.Cancel;
 

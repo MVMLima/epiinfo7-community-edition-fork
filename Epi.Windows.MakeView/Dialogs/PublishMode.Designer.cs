@@ -55,7 +55,7 @@
             this.UpDateButton.Name = "UpDateButton";
             this.UpDateButton.Size = new System.Drawing.Size(177, 35);
             this.UpDateButton.TabIndex = 2;
-            this.UpDateButton.Text = "Update";
+            this.UpDateButton.Text = global::Epi.SharedStrings.UI_UPDATE;
             this.UpDateButton.UseVisualStyleBackColor = true;
             this.UpDateButton.Click += new System.EventHandler(this.UpDateButton_Click);
             // 
@@ -67,7 +67,7 @@
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.Size = new System.Drawing.Size(97, 35);
             this.CancelButton.TabIndex = 3;
-            this.CancelButton.Text = "Cancel";
+            this.CancelButton.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.CancelButton.UseVisualStyleBackColor = true;
             this.CancelButton.Visible = false;
             // 
@@ -80,7 +80,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(420, 20);
             this.label3.TabIndex = 42;
-            this.label3.Text = "(Select to preview and test how your surveys works.)";
+            this.label3.Text = global::Epi.SharedStrings.UI_SELECT_TO_PREVIEW_AND_TEST_HOW_YOUR_SURVEYS;
             // 
             // label4
             // 
@@ -91,7 +91,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(420, 20);
             this.label4.TabIndex = 43;
-            this.label4.Text = "(Select when you are ready to send the survey out to participants.)";
+            this.label4.Text = global::Epi.SharedStrings.UI_SELECT_WHEN_YOU_ARE_READY_TO_SEND_THE_SURVEY;
             // 
             // label5
             // 
@@ -102,7 +102,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(387, 20);
             this.label5.TabIndex = 44;
-            this.label5.Text = "(Select to KEEP any survey responses collected in previous iteration.)";
+            this.label5.Text = global::Epi.SharedStrings.UI_SELECT_TO_KEEP_ANY_SURVEY_RESPONSES_COLLECTE;
             // 
             // label6
             // 
@@ -113,7 +113,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(387, 20);
             this.label6.TabIndex = 45;
-            this.label6.Text = "(Select to Remove any survey responses collected in previous iteration.)";
+            this.label6.Text = global::Epi.SharedStrings.UI_SELECT_TO_REMOVE_ANY_SURVEY_RESPONSES_COLLEC;
             // 
             // RemoveDataRadioButton
             // 
@@ -125,7 +125,7 @@
             this.RemoveDataRadioButton.Size = new System.Drawing.Size(193, 19);
             this.RemoveDataRadioButton.TabIndex = 41;
             this.RemoveDataRadioButton.TabStop = true;
-            this.RemoveDataRadioButton.Text = "Remove collected survey data";
+            this.RemoveDataRadioButton.Text = global::Epi.SharedStrings.UI_REMOVE_COLLECTED_SURVEY_DATA;
             this.RemoveDataRadioButton.UseVisualStyleBackColor = true;
             // 
             // KeepDataRadioButton
@@ -138,7 +138,7 @@
             this.KeepDataRadioButton.Size = new System.Drawing.Size(175, 19);
             this.KeepDataRadioButton.TabIndex = 40;
             this.KeepDataRadioButton.TabStop = true;
-            this.KeepDataRadioButton.Text = "Keep collected survey data";
+            this.KeepDataRadioButton.Text = global::Epi.SharedStrings.UI_KEEP_COLLECTED_SURVEY_DATA;
             this.KeepDataRadioButton.UseVisualStyleBackColor = true;
             // 
             // FinalRadioButton
@@ -151,7 +151,7 @@
             this.FinalRadioButton.Size = new System.Drawing.Size(58, 19);
             this.FinalRadioButton.TabIndex = 39;
             this.FinalRadioButton.TabStop = true;
-            this.FinalRadioButton.Text = "FINAL";
+            this.FinalRadioButton.Text = global::Epi.SharedStrings.WEB_MODE_FINAL_UPPER;
             this.FinalRadioButton.UseVisualStyleBackColor = true;
             // 
             // DraftRadioButton
@@ -164,7 +164,7 @@
             this.DraftRadioButton.Size = new System.Drawing.Size(63, 19);
             this.DraftRadioButton.TabIndex = 38;
             this.DraftRadioButton.TabStop = true;
-            this.DraftRadioButton.Text = "DRAFT";
+            this.DraftRadioButton.Text = global::Epi.SharedStrings.WEB_MODE_DRAFT_UPPER;
             this.DraftRadioButton.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -179,7 +179,7 @@
             this.groupBox1.Size = new System.Drawing.Size(631, 91);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Publish Mode";
+            this.groupBox1.Text = global::Epi.SharedStrings.UI_PUBLISH_MODE_2;
             this.groupBox1.Visible = false;
             // 
             // groupBox2
@@ -194,7 +194,7 @@
             this.groupBox2.Size = new System.Drawing.Size(635, 92);
             this.groupBox2.TabIndex = 47;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Survey Data";
+            this.groupBox2.Text = global::Epi.SharedStrings.UI_SURVEY_DATA_2;
             this.groupBox2.Visible = false;
             // 
             // OrgKeyLabel
@@ -205,7 +205,7 @@
             this.OrgKeyLabel.Name = "OrgKeyLabel";
             this.OrgKeyLabel.Size = new System.Drawing.Size(105, 15);
             this.OrgKeyLabel.TabIndex = 48;
-            this.OrgKeyLabel.Text = "Organization Key:";
+            this.OrgKeyLabel.Text = global::Epi.SharedStrings.UI_ORGANIZATION_KEY;
             // 
             // SecurityKey
             // 
@@ -215,7 +215,7 @@
             this.SecurityKey.Name = "SecurityKey";
             this.SecurityKey.Size = new System.Drawing.Size(79, 15);
             this.SecurityKey.TabIndex = 51;
-            this.SecurityKey.Text = "Security key:";
+            this.SecurityKey.Text = global::Epi.SharedStrings.UI_SECURITY_KEY;
             this.SecurityKey.Visible = false;
             // 
             // SecurityKeytextBox
@@ -255,7 +255,7 @@
             this.Name = "PublishMode";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Change Publish Mode";
+            this.Text = global::Epi.SharedStrings.UI_CHANGE_PUBLISH_MODE;
             this.Load += new System.EventHandler(this.PublishMode_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -42,3 +42,8 @@ ingles, o acessor no `.Designer.cs` e a linha na planilha; alvos Core/Menu/StatC
 `code_replace.ps1` troca o literal no `.cs` pela chave (`Arquivo<TAB>Antigo<TAB>Novo<TAB>N`, `\q` = aspas; confere N ocorrencias; preserva BOM/CRLF).
 Depois: compilar (`MSBuild "Epi Info 7.sln" /p:Configuration=Release`, no PowerShell) e conferir as chaves por reflexao em PowerShell de 32 bits
 (o Epi.Core e x86; `C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe`).
+
+Segunda onda: `ui_sweep.ps1` (varre `*.Designer.cs` sem `ApplyResources`, gera chaves `UI_*` e trocas para `add_code_strings.ps1`/`code_replace.ps1`;
+`-Map` ingles<TAB>portugues, `-Override` arquivo<TAB>ingles<TAB>portugues para contexto), `sc_gen.ps1` (gera `StatCalcLocalizer.cs` e as chaves `SC_*` de
+`DashboardSharedStrings` a partir de um mapa ingles<TAB>portugues; `\n` = quebra de linha). `code_replace.ps1` aceita `*` como numero de ocorrencias.
+Para ver formularios sem abrir o app: PowerShell de 32 bits, `Activator.CreateInstance` + `DrawToBitmap` (Windows Forms) ou `RenderTargetBitmap` (WPF).

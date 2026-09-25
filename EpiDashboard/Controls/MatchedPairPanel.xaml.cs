@@ -31,7 +31,7 @@ namespace EpiDashboard.Controls
 
         public MatchedPairPanel()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             Construct();
         }
 

@@ -174,7 +174,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblAnchor.Name = "lblAnchor";
             this.lblAnchor.Size = new System.Drawing.Size(329, 13);
             this.lblAnchor.TabIndex = 17;
-            this.lblAnchor.Text = "&Anchor";
+            this.lblAnchor.Text = global::Epi.SharedStrings.UI_ANCHOR_MN;
             // 
             // lblFilename
             // 
@@ -185,7 +185,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.lblFilename.Name = "lblFilename";
             this.lblFilename.Size = new System.Drawing.Size(379, 13);
             this.lblFilename.TabIndex = 14;
-            this.lblFilename.Text = "&FileName";
+            this.lblFilename.Text = global::Epi.SharedStrings.UI_FILENAME_MN;
             this.lblFilename.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnSaveOnly
@@ -197,7 +197,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnSaveOnly.Name = "btnSaveOnly";
             this.btnSaveOnly.Size = new System.Drawing.Size(75, 23);
             this.btnSaveOnly.TabIndex = 39;
-            this.btnSaveOnly.Text = "&Save Only";
+            this.btnSaveOnly.Text = global::Epi.SharedStrings.UI_SAVE_ONLY_MN;
             // 
             // btnHelp
             // 
@@ -207,7 +207,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnHelp.Name = "btnHelp"; btnHelp.Enabled = false;
             this.btnHelp.Size = new System.Drawing.Size(75, 23);
             this.btnHelp.TabIndex = 38;
-            this.btnHelp.Text = "&Help";
+            this.btnHelp.Text = global::Epi.SharedStrings.UI_HELP_MN;
             // 
             // btnCancel
             // 
@@ -218,7 +218,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 36;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             // 
             // btnOK
             // 
@@ -229,7 +229,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 35;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             // 
             // btnClear
             // 
@@ -239,7 +239,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 37;
-            this.btnClear.Text = "C&lear";
+            this.btnClear.Text = global::Epi.SharedStrings.UI_CLEAR_MN;
             // 
             // HelpDialog
             // 
@@ -255,7 +255,7 @@ namespace Epi.Windows.Analysis.Dialogs
             this.Controls.Add(this.lblAnchor);
             this.Controls.Add(this.lblFilename);
             this.Name = "HelpDialog";
-            this.Text = "Help";
+            this.Text = global::Epi.SharedStrings.UI_HELP;
             this.Load += new System.EventHandler(this.HelpDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -75,7 +75,7 @@ namespace Epi.Windows.Controls
             this.labelDateFormat.Name = "labelDateFormat";
             this.labelDateFormat.Size = new System.Drawing.Size(65, 13);
             this.labelDateFormat.TabIndex = 28;
-            this.labelDateFormat.Text = "Date Format";
+            this.labelDateFormat.Text = global::Epi.SharedStrings.UI_DATE_FORMAT;
             // 
             // labelTimeFormat
             // 
@@ -84,7 +84,7 @@ namespace Epi.Windows.Controls
             this.labelTimeFormat.Name = "labelTimeFormat";
             this.labelTimeFormat.Size = new System.Drawing.Size(65, 13);
             this.labelTimeFormat.TabIndex = 29;
-            this.labelTimeFormat.Text = "Time Format";
+            this.labelTimeFormat.Text = global::Epi.SharedStrings.UI_TIME_FORMAT;
             // 
             // labelDataTimeFormat
             // 
@@ -93,7 +93,7 @@ namespace Epi.Windows.Controls
             this.labelDataTimeFormat.Name = "labelDataTimeFormat";
             this.labelDataTimeFormat.Size = new System.Drawing.Size(93, 13);
             this.labelDataTimeFormat.TabIndex = 30;
-            this.labelDataTimeFormat.Text = "Date\\Time Format";
+            this.labelDataTimeFormat.Text = global::Epi.SharedStrings.UI_DATE_TIME_FORMAT;
             // 
             // groupBoxDefaultDateTimeFormats
             // 
@@ -102,7 +102,7 @@ namespace Epi.Windows.Controls
             this.groupBoxDefaultDateTimeFormats.Size = new System.Drawing.Size(425, 198);
             this.groupBoxDefaultDateTimeFormats.TabIndex = 31;
             this.groupBoxDefaultDateTimeFormats.TabStop = false;
-            this.groupBoxDefaultDateTimeFormats.Text = "Default Date\\Time Formats";
+            this.groupBoxDefaultDateTimeFormats.Text = global::Epi.SharedStrings.UI_DEFAULT_DATE_TIME_FORMATS;
             // 
             // SettingsPanelDateTime
             // 

@@ -121,7 +121,7 @@ namespace Epi.Windows.MakeView.Dialogs.FieldDefinitionDialogs
                 }
                 else if (couldParse && size > 254)
                 {
-                    MessageBox.Show("The value entered in the Maximum Number of Characters field was too large (maximum) so it will be set to 254 charaters.", "", MessageBoxButtons.OK);
+                    MessageBox.Show(global::Epi.SharedStrings.MSG_MAX_CHARS_TOO_LARGE, "", MessageBoxButtons.OK);
                     field.MaxLength = 254;
                 }
             }

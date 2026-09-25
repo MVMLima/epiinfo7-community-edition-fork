@@ -64,7 +64,7 @@ namespace Epi.Windows.MakeView.Dialogs
 
             if (this.project != null)
             {
-                this.Text = "Selected Project: " + this.project.Name;
+                this.Text = string.Format(global::Epi.SharedStrings.SELECTED_PROJECT_TITLE, this.project.Name);
                 System.Collections.Generic.List<string> TableList = this.project.Metadata.GetDataTableList();
                 foreach (string t in TableList)
                 {
@@ -139,7 +139,7 @@ namespace Epi.Windows.MakeView.Dialogs
                     TableList.Add("to do add datatables for non epi7 projects");
                 }
                 ListBox1.Items.Clear();
-                this.Text = "Selected Project: " + this.project.Name;
+                this.Text = string.Format(global::Epi.SharedStrings.SELECTED_PROJECT_TITLE, this.project.Name);
                 foreach (string t in TableList)
                 {
                     if (!string.IsNullOrEmpty(t))

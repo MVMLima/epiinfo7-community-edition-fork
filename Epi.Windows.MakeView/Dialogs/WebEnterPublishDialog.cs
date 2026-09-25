@@ -352,7 +352,7 @@ namespace Epi.Windows.MakeView.Dialogs
             }
             catch (Exception ex)
             {
-                txtStatusSummary.AppendText("An error occurred while trying to publish the survey.");
+                txtStatusSummary.AppendText(global::Epi.SharedStrings.WEB_PUBLISH_ERROR_GENERIC);
                 txtStatus.AppendText(ex.ToString());
                 btnDetails.Visible = true;
                 this.progressBar.Visible = false;
@@ -525,7 +525,7 @@ namespace Epi.Windows.MakeView.Dialogs
                     lblSuccessNotice.Visible = true;
                     lblSuccessNotice2.Visible = true;
                     Importantlabel3.Visible = true;
-                    lblSuccessNotice.Text = "Your survey has been published!  Please copy and paste the following URL and Keys to be used later.";
+                    lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_SUCCESS;
                     lblSuccessNotice.BackColor = Color.FromArgb(230, 255, 191);
                     lblSuccessNotice2.Visible = true;
                     btnShowLog.Visible = true;
@@ -549,7 +549,7 @@ namespace Epi.Windows.MakeView.Dialogs
 
                     lblSuccessNotice.Visible = true;
                     lblSuccessNotice2.Visible = true;
-                    lblSuccessNotice.Text = "Your survey has been published!  Please copy and paste the following URL and Keys to be used later.";
+                    lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_SUCCESS;
                     lblSuccessNotice.BackColor = Color.FromArgb(230, 255, 191);
                     lblSuccessNotice2.Visible = true;
                     Importantlabel3.Visible = true;
@@ -573,7 +573,7 @@ namespace Epi.Windows.MakeView.Dialogs
                 else
                 {
                     txtStatusSummary.Text = Result.Message;
-                    lblSuccessNotice.Text = "The survey failed to publish. Please check that the organization key is correct and try again.";
+                    lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_FAILED;
                     //panel2.Visible = true;
                     btnShowLog.Visible = false;
                     lblSuccessNotice.BackColor = Color.FromArgb(243, 217, 217);
@@ -591,7 +591,7 @@ namespace Epi.Windows.MakeView.Dialogs
             }
             catch (Exception ex)
             {
-                txtStatusSummary.AppendText("An error occurred while trying to publish the survey.");
+                txtStatusSummary.AppendText(global::Epi.SharedStrings.WEB_PUBLISH_ERROR_GENERIC);
                 txtStatus.AppendText(ex.ToString());
                 btnDetails.Visible = true;
                 //this.progressBar.Visible = false;
@@ -638,7 +638,7 @@ namespace Epi.Windows.MakeView.Dialogs
 
                 lblSuccessNotice.Visible = true;
                 lblSuccessNotice2.Visible = true;
-                lblSuccessNotice.Text = "Your survey has been published!  Please copy and paste the following URL and Keys to be used later.";
+                lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_SUCCESS;
                 lblSuccessNotice.BackColor = Color.FromArgb(230, 255, 191);
                 lblSuccessNotice2.Visible = true;
                 Importantlabel3.Visible = true;
@@ -687,8 +687,8 @@ namespace Epi.Windows.MakeView.Dialogs
             }
             else
             {
-                txtStatusSummary.Text = "The survey failed to publish. Please check that the organization key is correct and try again.";
-                lblSuccessNotice.Text = "The survey failed to publish. Please check that the organization key is correct and try again.";
+                txtStatusSummary.Text = global::Epi.SharedStrings.WEB_PUBLISH_FAILED;
+                lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_FAILED;
                 lblSuccessNotice.BackColor = Color.FromArgb(243, 217, 217);
                 panel2.Visible = false;
                 panel3.Visible = true;
@@ -763,7 +763,7 @@ namespace Epi.Windows.MakeView.Dialogs
         private void FinishWithSecurityNegotiationException(SecurityNegotiationException sne)
         {
             boolError = true;
-            string statusMessage = "A Security Negotiation error occurred while trying to publish the survey.";
+            string statusMessage = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_SECURITY;
             AddStatusMessage(statusMessage);
             txtStatusSummary.Text = statusMessage;
             txtStatus.AppendText(sne.ToString());
@@ -772,7 +772,7 @@ namespace Epi.Windows.MakeView.Dialogs
             this.progressBar.Visible = false;
             this.Cursor = Cursors.Default;
             panel2.Visible = false;
-            lblSuccessNotice.Text = "A Security Negotiation error occurred while trying to publish the survey.";
+            lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_SECURITY;
             lblSuccessNotice.BackColor = Color.FromArgb(243, 217, 217);
             panel3.Visible = true;
             lblSuccessNotice2.Visible = false;
@@ -786,7 +786,7 @@ namespace Epi.Windows.MakeView.Dialogs
         private void FinishWithCommunicationException(CommunicationException ce)
         {
             boolError = true;
-            string statusMessage = "A Communication error occurred while trying to publish the survey.";
+            string statusMessage = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_COMMUNICATION;
             AddStatusMessage(statusMessage);
             txtStatusSummary.Text = statusMessage;
             txtStatus.AppendText(ce.ToString());
@@ -795,7 +795,7 @@ namespace Epi.Windows.MakeView.Dialogs
             this.progressBar.Visible = false;
             this.Cursor = Cursors.Default;
             panel2.Visible = false;
-            lblSuccessNotice.Text = "A Communication error occurred while trying to publish the survey.";
+            lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_COMMUNICATION;
             lblSuccessNotice.BackColor = Color.FromArgb(243, 217, 217);
             panel3.Visible = true;
             lblSuccessNotice2.Visible = false;
@@ -812,7 +812,7 @@ namespace Epi.Windows.MakeView.Dialogs
         private void FinishWithTimeoutException(TimeoutException te)
         {
             boolError = true;
-            string statusMessage = "A Timeout error occurred while trying to publish the survey.";
+            string statusMessage = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_TIMEOUT;
             AddStatusMessage(statusMessage);
             txtStatusSummary.Text = statusMessage;
             txtStatus.AppendText(te.ToString());
@@ -821,7 +821,7 @@ namespace Epi.Windows.MakeView.Dialogs
             this.progressBar.Visible = false;
             this.Cursor = Cursors.Default;
             panel2.Visible = false;
-            lblSuccessNotice.Text = "A Timeout error occurred while trying to publish the survey.";
+            lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_TIMEOUT;
             lblSuccessNotice.BackColor = Color.FromArgb(243, 217, 217);
             panel3.Visible = true;
             lblSuccessNotice2.Visible = false;
@@ -836,7 +836,7 @@ namespace Epi.Windows.MakeView.Dialogs
         private void FinishWithException(Exception ex)
         {
             boolError = true;
-            string statusMessage = "An error occurred while trying to publish the survey.";
+            string statusMessage = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_GENERIC;
             AddStatusMessage(statusMessage);
             txtStatusSummary.Text = statusMessage;
             txtStatus.AppendText(ex.ToString());
@@ -845,7 +845,7 @@ namespace Epi.Windows.MakeView.Dialogs
             this.progressBar.Visible = false;
             this.Cursor = Cursors.Default;
             panel2.Visible = false;
-            lblSuccessNotice.Text = "An error occurred while trying to publish the survey.";
+            lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_GENERIC;
             lblSuccessNotice.BackColor = Color.FromArgb(243, 217, 217);
             panel3.Visible = true;
             lblSuccessNotice2.Visible = false;
@@ -1138,11 +1138,11 @@ namespace Epi.Windows.MakeView.Dialogs
                     currentSurveyInfoDTO = response.SurveyInfoList[0];
                     if (currentSurveyInfoDTO.IsDraftMode)
                         {
-                        this.lblPublishModeStatus.Text = "Draft";
+                        this.lblPublishModeStatus.Text = global::Epi.SharedStrings.WEB_MODE_DRAFT;
                         }
                     else
                         {
-                        this.lblPublishModeStatus.Text = "Final";
+                        this.lblPublishModeStatus.Text = global::Epi.SharedStrings.WEB_MODE_FINAL;
                         }
 
                     //dtpSurveyClosingDate.Value = currentSurveyInfoDTO.ClosingDate;
@@ -1464,7 +1464,7 @@ namespace Epi.Windows.MakeView.Dialogs
             {
                 // this.BeginInvoke(new FinishWithExceptionDelegate(FinishWithException), ex);
             boolError = true;
-            string statusMessage = "An error occurred while trying to publish the survey.";
+            string statusMessage = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_GENERIC;
             AddStatusMessage(statusMessage);
             txtStatusSummary.Text = statusMessage;
             txtStatus.AppendText(ex.ToString());
@@ -1473,7 +1473,7 @@ namespace Epi.Windows.MakeView.Dialogs
             this.progressBar.Visible = false;
             this.Cursor = Cursors.Default;
             panel2.Visible = false;
-            lblSuccessNotice.Text = "An error occurred while trying to publish the survey.";
+            lblSuccessNotice.Text = global::Epi.SharedStrings.WEB_PUBLISH_ERROR_GENERIC;
             lblSuccessNotice.BackColor = Color.FromArgb(243, 217, 217);
             panel3.Visible = true;
             lblSuccessNotice2.Visible = false;

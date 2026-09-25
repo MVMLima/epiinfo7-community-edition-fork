@@ -72,7 +72,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.lblProject.Name = "lblProject";
 			this.lblProject.Size = new System.Drawing.Size(408, 16);
 			this.lblProject.TabIndex = 25;
-			this.lblProject.Text = "&Project";
+			this.lblProject.Text = global::Epi.SharedStrings.UI_PROJECT_MN;
 			// 
 			// label3
 			// 
@@ -80,7 +80,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(264, 23);
 			this.label3.TabIndex = 33;
-			this.label3.Text = "Comments";
+			this.label3.Text = global::Epi.SharedStrings.UI_COMMENTS;
 			// 
 			// txtComment
 			// 
@@ -98,7 +98,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(136, 23);
 			this.label1.TabIndex = 31;
-			this.label1.Text = "Programs";
+			this.label1.Text = global::Epi.SharedStrings.UI_PROGRAMS;
 			// 
 			// lbxPgms
 			// 
@@ -113,7 +113,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.btnTextFile.Location = new System.Drawing.Point(256, 360);
 			this.btnTextFile.Name = "btnTextFile";
 			this.btnTextFile.TabIndex = 50;
-			this.btnTextFile.Text = "&Text File";
+			this.btnTextFile.Text = global::Epi.SharedStrings.UI_TEXT_FILE_MN;
 			// 
 			// btnHelp
 			// 
@@ -121,7 +121,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.btnHelp.Location = new System.Drawing.Point(336, 360);
 			this.btnHelp.Name = "btnHelp"; btnHelp.Enabled = false;
 			this.btnHelp.TabIndex = 49;
-			this.btnHelp.Text = "&Help";
+			this.btnHelp.Text = global::Epi.SharedStrings.UI_HELP_MN;
 			// 
 			// btnCancel
 			// 
@@ -130,7 +130,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.btnCancel.Location = new System.Drawing.Point(88, 360);
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.TabIndex = 47;
-			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
 			// 
 			// btnOK
 			// 
@@ -138,7 +138,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.btnOK.Location = new System.Drawing.Point(8, 360);
 			this.btnOK.Name = "btnOK";
 			this.btnOK.TabIndex = 46;
-			this.btnOK.Text = "OK";
+			this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
 			// 
 			// btnDelete
 			// 
@@ -146,7 +146,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.btnDelete.Location = new System.Drawing.Point(176, 360);
 			this.btnDelete.Name = "btnDelete";
 			this.btnDelete.TabIndex = 48;
-			this.btnDelete.Text = "&Delete";
+			this.btnDelete.Text = global::Epi.SharedStrings.UI_DELETE_MN;
 			// 
 			// lblDateModified
 			// 
@@ -154,7 +154,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.lblDateModified.Name = "lblDateModified";
 			this.lblDateModified.Size = new System.Drawing.Size(184, 23);
 			this.lblDateModified.TabIndex = 45;
-			this.lblDateModified.Text = "Date Modified";
+			this.lblDateModified.Text = global::Epi.SharedStrings.UI_DATE_MODIFIED;
 			// 
 			// lblDateCreated
 			// 
@@ -162,7 +162,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.lblDateCreated.Name = "lblDateCreated";
 			this.lblDateCreated.Size = new System.Drawing.Size(184, 23);
 			this.lblDateCreated.TabIndex = 44;
-			this.lblDateCreated.Text = "Date Created";
+			this.lblDateCreated.Text = global::Epi.SharedStrings.UI_DATE_CREATED;
 			// 
 			// label4
 			// 
@@ -170,7 +170,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(184, 23);
 			this.label4.TabIndex = 43;
-			this.label4.Text = "Author";
+			this.label4.Text = global::Epi.SharedStrings.UI_AUTHOR;
 			// 
 			// label2
 			// 
@@ -178,7 +178,7 @@ namespace Epi.Windows.Analysis.Controls
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(184, 24);
 			this.label2.TabIndex = 42;
-			this.label2.Text = "Program Name";
+			this.label2.Text = global::Epi.SharedStrings.UI_PROGRAM_NAME;
 			// 
 			// txtPgmName
 			// 

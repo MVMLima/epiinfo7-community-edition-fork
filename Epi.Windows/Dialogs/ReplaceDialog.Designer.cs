@@ -140,7 +140,7 @@ namespace Epi.Windows.Dialogs
             this.lblReplace.Name = "lblReplace";
             this.lblReplace.Size = new System.Drawing.Size(287, 13);
             this.lblReplace.TabIndex = 7;
-            this.lblReplace.Text = "Find what:";
+            this.lblReplace.Text = global::Epi.SharedStrings.UI_FIND_WHAT;
             // 
             // btnCancel
             // 
@@ -151,7 +151,7 @@ namespace Epi.Windows.Dialogs
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 6;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             // 
             // btnOK
             // 
@@ -163,7 +163,7 @@ namespace Epi.Windows.Dialogs
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(90, 23);
             this.btnOK.TabIndex = 5;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             // 
             // chkReplaceAll
             // 
@@ -171,7 +171,7 @@ namespace Epi.Windows.Dialogs
             this.chkReplaceAll.Name = "chkReplaceAll";
             this.chkReplaceAll.Size = new System.Drawing.Size(136, 17);
             this.chkReplaceAll.TabIndex = 4;
-            this.chkReplaceAll.Text = "Replace all";
+            this.chkReplaceAll.Text = global::Epi.SharedStrings.UI_REPLACE_ALL;
             this.chkReplaceAll.UseVisualStyleBackColor = true;
             // 
             // lblWith
@@ -181,7 +181,7 @@ namespace Epi.Windows.Dialogs
             this.lblWith.Name = "lblWith";
             this.lblWith.Size = new System.Drawing.Size(287, 13);
             this.lblWith.TabIndex = 8;
-            this.lblWith.Text = "Replace with:";
+            this.lblWith.Text = global::Epi.SharedStrings.UI_REPLACE_WITH;
             // 
             // txtReplacement
             // 
@@ -198,7 +198,7 @@ namespace Epi.Windows.Dialogs
             this.chkWholeWord.Name = "chkWholeWord";
             this.chkWholeWord.Size = new System.Drawing.Size(136, 17);
             this.chkWholeWord.TabIndex = 3;
-            this.chkWholeWord.Text = "Whole word";
+            this.chkWholeWord.Text = global::Epi.SharedStrings.UI_WHOLE_WORD;
             this.chkWholeWord.UseVisualStyleBackColor = true;
             // 
             // chkCaseSensitive
@@ -207,7 +207,7 @@ namespace Epi.Windows.Dialogs
             this.chkCaseSensitive.Name = "chkCaseSensitive";
             this.chkCaseSensitive.Size = new System.Drawing.Size(136, 17);
             this.chkCaseSensitive.TabIndex = 2;
-            this.chkCaseSensitive.Text = "Case sensitive";
+            this.chkCaseSensitive.Text = global::Epi.SharedStrings.UI_CASE_SENSITIVE;
             this.chkCaseSensitive.UseVisualStyleBackColor = true;
             // 
             // ReplaceDialog
@@ -228,7 +228,7 @@ namespace Epi.Windows.Dialogs
             this.Name = "ReplaceDialog";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Replace";
+            this.Text = global::Epi.SharedStrings.UI_REPLACE;
             this.ResumeLayout(false);
             this.PerformLayout();
 

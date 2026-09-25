@@ -102,7 +102,7 @@ namespace Epi.Windows.Controls
             this.cbxShowPrompt.Name = "cbxShowPrompt";
             this.cbxShowPrompt.Size = new System.Drawing.Size(166, 24);
             this.cbxShowPrompt.TabIndex = 28;
-            this.cbxShowPrompt.Text = "Show Complete Prompt";
+            this.cbxShowPrompt.Text = global::Epi.SharedStrings.UI_SHOW_COMPLETE_PROMPT;
             this.cbxShowPrompt.CheckedChanged += new System.EventHandler(this.cbxShowPrompt_CheckedChanged);
             // 
             // cbxGraphics
@@ -114,7 +114,7 @@ namespace Epi.Windows.Controls
             this.cbxGraphics.Name = "cbxGraphics";
             this.cbxGraphics.Size = new System.Drawing.Size(166, 24);
             this.cbxGraphics.TabIndex = 29;
-            this.cbxGraphics.Text = "Show Graphics";
+            this.cbxGraphics.Text = global::Epi.SharedStrings.UI_SHOW_GRAPHICS;
             this.cbxGraphics.CheckedChanged += new System.EventHandler(this.cbxGraphics_CheckedChanged);
             // 
             // cbxHyperlinks
@@ -126,7 +126,7 @@ namespace Epi.Windows.Controls
             this.cbxHyperlinks.Name = "cbxHyperlinks";
             this.cbxHyperlinks.Size = new System.Drawing.Size(166, 24);
             this.cbxHyperlinks.TabIndex = 30;
-            this.cbxHyperlinks.Text = "Show Hyperlinks";
+            this.cbxHyperlinks.Text = global::Epi.SharedStrings.UI_SHOW_HYPERLINKS;
             this.cbxHyperlinks.CheckedChanged += new System.EventHandler(this.cbxHyperlinks_CheckedChanged);
             // 
             // cbxSelectCriteria
@@ -138,7 +138,7 @@ namespace Epi.Windows.Controls
             this.cbxSelectCriteria.Name = "cbxSelectCriteria";
             this.cbxSelectCriteria.Size = new System.Drawing.Size(166, 24);
             this.cbxSelectCriteria.TabIndex = 31;
-            this.cbxSelectCriteria.Text = "Show Selection Criteria";
+            this.cbxSelectCriteria.Text = global::Epi.SharedStrings.UI_SHOW_SELECTION_CRITERIA;
             this.cbxSelectCriteria.CheckedChanged += new System.EventHandler(this.cbxSelectCriteria_CheckedChanged);
             // 
             // cbxPercents
@@ -150,7 +150,7 @@ namespace Epi.Windows.Controls
             this.cbxPercents.Name = "cbxPercents";
             this.cbxPercents.Size = new System.Drawing.Size(166, 24);
             this.cbxPercents.TabIndex = 32;
-            this.cbxPercents.Text = "Show Percents";
+            this.cbxPercents.Text = global::Epi.SharedStrings.UI_SHOW_PERCENTS;
             this.cbxPercents.CheckedChanged += new System.EventHandler(this.cbxPercents_CheckedChanged);
             // 
             // cbxTablesOutput
@@ -162,7 +162,7 @@ namespace Epi.Windows.Controls
             this.cbxTablesOutput.Name = "cbxTablesOutput";
             this.cbxTablesOutput.Size = new System.Drawing.Size(166, 24);
             this.cbxTablesOutput.TabIndex = 33;
-            this.cbxTablesOutput.Text = "Show Tables in Output";
+            this.cbxTablesOutput.Text = global::Epi.SharedStrings.UI_SHOW_TABLES_IN_OUTPUT;
             this.cbxTablesOutput.CheckedChanged += new System.EventHandler(this.cbxTablesOutput_CheckedChanged);
             // 
             // gbxStatistics
@@ -177,7 +177,7 @@ namespace Epi.Windows.Controls
             this.gbxStatistics.Size = new System.Drawing.Size(287, 64);
             this.gbxStatistics.TabIndex = 34;
             this.gbxStatistics.TabStop = false;
-            this.gbxStatistics.Text = "Statistics";
+            this.gbxStatistics.Text = global::Epi.SharedStrings.UI_STATISTICS;
             // 
             // rdbAdvanced
             // 
@@ -190,7 +190,7 @@ namespace Epi.Windows.Controls
             this.rdbAdvanced.TabIndex = 3;
             this.rdbAdvanced.TabStop = true;
             this.rdbAdvanced.Tag = "4";
-            this.rdbAdvanced.Text = "Advanced";
+            this.rdbAdvanced.Text = global::Epi.SharedStrings.UI_ADVANCED;
             this.rdbAdvanced.Click += new System.EventHandler(this.StatisticsRadioButtonClick);
             // 
             // rdbMinimal
@@ -202,7 +202,7 @@ namespace Epi.Windows.Controls
             this.rdbMinimal.Size = new System.Drawing.Size(127, 16);
             this.rdbMinimal.TabIndex = 2;
             this.rdbMinimal.Tag = "2";
-            this.rdbMinimal.Text = "Minimal";
+            this.rdbMinimal.Text = global::Epi.SharedStrings.UI_MINIMAL;
             this.rdbMinimal.Click += new System.EventHandler(this.StatisticsRadioButtonClick);
             // 
             // rdbIntermediate
@@ -214,7 +214,7 @@ namespace Epi.Windows.Controls
             this.rdbIntermediate.Size = new System.Drawing.Size(127, 16);
             this.rdbIntermediate.TabIndex = 1;
             this.rdbIntermediate.Tag = "3";
-            this.rdbIntermediate.Text = "Intermediate";
+            this.rdbIntermediate.Text = global::Epi.SharedStrings.UI_INTERMEDIATE;
             this.rdbIntermediate.Click += new System.EventHandler(this.StatisticsRadioButtonClick);
             // 
             // rdbNone
@@ -226,7 +226,7 @@ namespace Epi.Windows.Controls
             this.rdbNone.Size = new System.Drawing.Size(127, 16);
             this.rdbNone.TabIndex = 0;
             this.rdbNone.Tag = "1";
-            this.rdbNone.Text = "None";
+            this.rdbNone.Text = global::Epi.SharedStrings.UI_NONE;
             this.rdbNone.Click += new System.EventHandler(this.StatisticsRadioButtonClick);
             // 
             // cbxIncludeMissing
@@ -237,7 +237,7 @@ namespace Epi.Windows.Controls
             this.cbxIncludeMissing.Name = "cbxIncludeMissing";
             this.cbxIncludeMissing.Size = new System.Drawing.Size(287, 28);
             this.cbxIncludeMissing.TabIndex = 35;
-            this.cbxIncludeMissing.Text = "Include Missing Values";
+            this.cbxIncludeMissing.Text = global::Epi.SharedStrings.UI_INCLUDE_MISSING_VALUES;
             this.cbxIncludeMissing.CheckedChanged += new System.EventHandler(this.cbxIncludeMissing_CheckedChanged);
             // 
             // gbxProcessRecords
@@ -251,7 +251,7 @@ namespace Epi.Windows.Controls
             this.gbxProcessRecords.Size = new System.Drawing.Size(234, 91);
             this.gbxProcessRecords.TabIndex = 36;
             this.gbxProcessRecords.TabStop = false;
-            this.gbxProcessRecords.Text = "Process Records";
+            this.gbxProcessRecords.Text = global::Epi.SharedStrings.UI_PROCESS_RECORDS;
             // 
             // rdbDeleted
             // 
@@ -261,7 +261,7 @@ namespace Epi.Windows.Controls
             this.rdbDeleted.Size = new System.Drawing.Size(187, 16);
             this.rdbDeleted.TabIndex = 2;
             this.rdbDeleted.Tag = "2";
-            this.rdbDeleted.Text = "Deleted Records Only";
+            this.rdbDeleted.Text = global::Epi.SharedStrings.UI_DELETED_RECORDS_ONLY;
             this.rdbDeleted.Click += new System.EventHandler(this.ProcessRecordsRadioButtonClick);
             // 
             // rdbBoth
@@ -272,7 +272,7 @@ namespace Epi.Windows.Controls
             this.rdbBoth.Size = new System.Drawing.Size(104, 16);
             this.rdbBoth.TabIndex = 1;
             this.rdbBoth.Tag = "3";
-            this.rdbBoth.Text = "Both";
+            this.rdbBoth.Text = global::Epi.SharedStrings.UI_BOTH;
             this.rdbBoth.Click += new System.EventHandler(this.ProcessRecordsRadioButtonClick);
             // 
             // rdbNormal
@@ -283,7 +283,7 @@ namespace Epi.Windows.Controls
             this.rdbNormal.Size = new System.Drawing.Size(216, 16);
             this.rdbNormal.TabIndex = 0;
             this.rdbNormal.Tag = "1";
-            this.rdbNormal.Text = "Undeleted Records only (Normal)";
+            this.rdbNormal.Text = global::Epi.SharedStrings.UI_UNDELETED_RECORDS_ONLY_NORMAL;
             this.rdbNormal.Click += new System.EventHandler(this.ProcessRecordsRadioButtonClick);
             // 
             // lblMissingAs
@@ -293,7 +293,7 @@ namespace Epi.Windows.Controls
             this.lblMissingAs.Name = "lblMissingAs";
             this.lblMissingAs.Size = new System.Drawing.Size(121, 16);
             this.lblMissingAs.TabIndex = 24;
-            this.lblMissingAs.Text = "MISSING As:";
+            this.lblMissingAs.Text = global::Epi.SharedStrings.UI_MISSING_AS;
             // 
             // lblYesAs
             // 
@@ -302,7 +302,7 @@ namespace Epi.Windows.Controls
             this.lblYesAs.Name = "lblYesAs";
             this.lblYesAs.Size = new System.Drawing.Size(121, 16);
             this.lblYesAs.TabIndex = 22;
-            this.lblYesAs.Text = "YES As:";
+            this.lblYesAs.Text = global::Epi.SharedStrings.UI_YES_AS;
             // 
             // lblNoAs
             // 
@@ -311,7 +311,7 @@ namespace Epi.Windows.Controls
             this.lblNoAs.Name = "lblNoAs";
             this.lblNoAs.Size = new System.Drawing.Size(119, 16);
             this.lblNoAs.TabIndex = 23;
-            this.lblNoAs.Text = "NO As:";
+            this.lblNoAs.Text = global::Epi.SharedStrings.UI_NO_AS;
             // 
             // groupBox1
             // 
@@ -326,7 +326,7 @@ namespace Epi.Windows.Controls
             this.groupBox1.Size = new System.Drawing.Size(419, 65);
             this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Representation of Boolean Values";
+            this.groupBox1.Text = global::Epi.SharedStrings.UI_REPRESENTATION_OF_BOOLEAN_VALUES;
             // 
             // groupBox2
             // 
@@ -341,7 +341,7 @@ namespace Epi.Windows.Controls
             this.groupBox2.Size = new System.Drawing.Size(419, 97);
             this.groupBox2.TabIndex = 38;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "HTML Output Options";
+            this.groupBox2.Text = global::Epi.SharedStrings.UI_HTML_OUTPUT_OPTIONS;
             // 
             // numericUpDownPrecision
             // 
@@ -373,7 +373,7 @@ namespace Epi.Windows.Controls
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 15);
             this.label1.TabIndex = 41;
-            this.label1.Text = "Precision:";
+            this.label1.Text = global::Epi.SharedStrings.UI_PRECISION;
             // 
             // SettingsPanel
             // 

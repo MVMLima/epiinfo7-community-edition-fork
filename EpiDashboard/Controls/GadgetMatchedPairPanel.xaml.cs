@@ -39,14 +39,14 @@ namespace EpiDashboard.Controls
 
         public GadgetMatchedPairPanel()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             ShowRowColumnPercents = true;
             Construct();
         }
 
         public GadgetMatchedPairPanel(decimal yyVal, decimal ynVal, decimal nyVal, decimal nnVal)
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             ShowRowColumnPercents = true;
             Construct();
             this.YesYesValue = yyVal;
@@ -58,7 +58,7 @@ namespace EpiDashboard.Controls
         public GadgetMatchedPairPanel(decimal yyVal, decimal ynVal, decimal nyVal, decimal nnVal,
             decimal tooManyCases, decimal tooFewCases, decimal tooManyControls, decimal tooFewControls)
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             ShowRowColumnPercents = true;
             Construct();
             this.YesYesValue = yyVal;

@@ -39,7 +39,7 @@ namespace EpiDashboard.Gadgets.StatCalc
 
         public MatchedPairCaseControlGadget()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
             Construct();
         }
 

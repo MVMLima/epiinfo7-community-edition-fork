@@ -35,7 +35,7 @@ namespace Epi.Windows.MakeView.Dialogs.FieldDefinitionDialogs
             : base(frm)
         {
             InitializeComponent();
-            this.Text = "List Field";
+            this.Text = global::Epi.SharedStrings.LIST_FIELD_TITLE;
             this.mode = FormMode.Create;
             this.page = page;
             selectedFields = new NamedObjectCollection<Field>();
@@ -51,7 +51,7 @@ namespace Epi.Windows.MakeView.Dialogs.FieldDefinitionDialogs
             : base(frm)
         {
             InitializeComponent();
-            this.Text = "List Field";
+            this.Text = global::Epi.SharedStrings.LIST_FIELD_TITLE;
             this.mode = FormMode.Edit;
             this.field = field;
             this.page = field.Page;

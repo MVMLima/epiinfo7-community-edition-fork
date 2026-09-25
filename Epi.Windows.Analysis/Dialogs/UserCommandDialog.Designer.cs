@@ -128,7 +128,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(90, 23);
             this.btnOK.TabIndex = 2;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = global::Epi.SharedStrings.UI_OK;
             this.btnOK.UseVisualStyleBackColor = true;
             // 
             // btnCancel
@@ -139,7 +139,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 23);
             this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // btnSaveOnly
@@ -149,7 +149,7 @@
             this.btnSaveOnly.Name = "btnSaveOnly";
             this.btnSaveOnly.Size = new System.Drawing.Size(90, 23);
             this.btnSaveOnly.TabIndex = 4;
-            this.btnSaveOnly.Text = "Save Only";
+            this.btnSaveOnly.Text = global::Epi.SharedStrings.UI_SAVE_ONLY;
             this.btnSaveOnly.UseVisualStyleBackColor = true;
             // 
             // btnClear
@@ -159,7 +159,7 @@
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(90, 23);
             this.btnClear.TabIndex = 5;
-            this.btnClear.Text = "Clear";
+            this.btnClear.Text = global::Epi.SharedStrings.UI_CLEAR;
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
@@ -178,7 +178,7 @@
             this.lblCommandName.Name = "lblCommandName";
             this.lblCommandName.Size = new System.Drawing.Size(404, 15);
             this.lblCommandName.TabIndex = 9;
-            this.lblCommandName.Text = "Command Name";
+            this.lblCommandName.Text = global::Epi.SharedStrings.UI_COMMAND_NAME;
             // 
             // UserCommandDialog
             // 
@@ -195,7 +195,7 @@
             this.MinimizeBox = false;
             this.Name = "UserCommandDialog";
             this.ShowIcon = false;
-            this.Text = "User Command";
+            this.Text = global::Epi.SharedStrings.UI_USER_COMMAND;
             this.ResumeLayout(false);
 
         }

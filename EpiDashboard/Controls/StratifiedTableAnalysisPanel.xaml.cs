@@ -26,7 +26,7 @@ namespace EpiDashboard.Controls
 
         public StratifiedTableAnalysisPanel()
         {
-            InitializeComponent();
+            InitializeComponent(); EpiDashboard.StatCalc.StatCalcLocalizer.Apply(this);
         }
 
         public List<double> YesYesList

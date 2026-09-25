@@ -392,11 +392,11 @@ namespace Epi.Windows.MakeView.Dialogs.FieldDefinitionDialogs
 
             if (dgColumns.VisibleColumnCount > 0)
             {
-                btnAdd.Text = "Add/Edit";
+                btnAdd.Text = global::Epi.SharedStrings.GRID_FIELD_ADD_EDIT;
             }
             else
             {
-                btnAdd.Text = "Add";
+                btnAdd.Text = global::Epi.SharedStrings.GRID_FIELD_ADD;
             }
         }
 

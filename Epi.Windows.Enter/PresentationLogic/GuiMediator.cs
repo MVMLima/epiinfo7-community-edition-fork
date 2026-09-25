@@ -440,7 +440,7 @@ namespace Epi.Windows.Enter.PresentationLogic
             }
             else
             {
-                MessageBox.Show("The selected range and number of pages is too much to print at one time.");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_PRINT_RANGE_TOO_MUCH);
             }
 
             this.printDocument.Dispose();
@@ -463,7 +463,7 @@ namespace Epi.Windows.Enter.PresentationLogic
             }
             else
             {
-                MessageBox.Show("The selected range and number of pages is too much to print at one time.");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_PRINT_RANGE_TOO_MUCH);
                 System.GC.Collect();
                 System.GC.WaitForPendingFinalizers();
             }

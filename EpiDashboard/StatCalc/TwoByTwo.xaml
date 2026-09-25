@@ -18,7 +18,7 @@
             </GroupBox.ContextMenu>
             <Grid x:Name="grdAll">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="555"/>
+                    <ColumnDefinition Width="620"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <TabControl x:Name="MainTab" Grid.Column="0">
@@ -149,7 +149,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -200,7 +200,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -457,7 +457,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -508,7 +508,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -764,7 +764,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -815,7 +815,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -1071,7 +1071,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -1122,7 +1122,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -1378,7 +1378,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -1429,7 +1429,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -1685,7 +1685,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -1736,7 +1736,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -1992,7 +1992,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -2043,7 +2043,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -2299,7 +2299,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -2350,7 +2350,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -2606,7 +2606,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -2657,7 +2657,7 @@
                                                     <RowDefinition Height="30"/>
                                                 </Grid.RowDefinitions>
                                                 <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="130"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
                                                     <ColumnDefinition Width="60"/>
@@ -2789,7 +2789,7 @@
                 </TabControl>
                 <Grid Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,0">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="130"/>
                         <ColumnDefinition Width="80" />
                         <ColumnDefinition Width="80" />
                         <ColumnDefinition Width="80" />

@@ -52,7 +52,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 1;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -63,7 +63,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(281, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "The geocoding service returned the following coordinates:";
+            this.label1.Text = global::Epi.SharedStrings.UI_THE_GEOCODING_SERVICE_RETURNED_THE_FOLLOWING;
             // 
             // label2
             // 
@@ -72,7 +72,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Source:";
+            this.label2.Text = global::Epi.SharedStrings.UI_SOURCE;
             // 
             // linkLabel1
             // 
@@ -101,7 +101,7 @@
             this.MinimizeBox = false;
             this.Name = "GeocodeSelectionDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Geocode Results";
+            this.Text = global::Epi.SharedStrings.UI_GEOCODE_RESULTS;
             this.ResumeLayout(false);
             this.PerformLayout();
 

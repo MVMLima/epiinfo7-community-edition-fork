@@ -18,10 +18,10 @@ foreach ($line in [IO.File]::ReadAllLines($Tsv, [Text.Encoding]::UTF8)) {
         $files[$path] = [IO.File]::ReadAllText($path, [Text.Encoding]::UTF8)
     }
     $old = $p[1].Replace('\q', '"').Replace('\t', "`t"); $new = $p[2].Replace('\q', '"').Replace('\t', "`t")
-    $expect = [int]$p[3]
+    $expect = if ($p[3] -eq "*") { -1 } else { [int]$p[3] }
     $s = $files[$path]; $count = 0; $i = 0
     while (($i = $s.IndexOf($old, $i, [StringComparison]::Ordinal)) -ge 0) { $count++; $i += $old.Length }
-    if ($count -ne $expect) { throw "Linha ${n}: '$old' aparece $count vez(es) em $($p[0]) (esperado $expect)" }
+    if (($expect -lt 0 -and $count -lt 1) -or ($expect -ge 0 -and $count -ne $expect)) { throw "Linha ${n}: '$old' aparece $count vez(es) em $($p[0]) (esperado $expect)" }
     $files[$path] = $s.Replace($old, $new)
     "ok  $($p[0]) : $old -> $new  ($count)"
 }

@@ -40,7 +40,7 @@ namespace EpiDashboard.StatCalc
 
         public PopulationSurvey()
         {
-            InitializeComponent();
+            InitializeComponent(); StatCalcLocalizer.Apply(this);
             txtPopulationSize.TextChanged += new TextChangedEventHandler(txtInputs_TextChanged);
             txtExpectedFreq.TextChanged += new TextChangedEventHandler(txtInputs_TextChanged);
             txtConfidenceLimits.TextChanged += new TextChangedEventHandler(txtInputs_TextChanged);

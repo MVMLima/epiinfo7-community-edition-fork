@@ -48,7 +48,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(85, 24);
             this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -59,7 +59,7 @@
             this.buttonPrint.Name = "buttonPrint";
             this.buttonPrint.Size = new System.Drawing.Size(85, 24);
             this.buttonPrint.TabIndex = 0;
-            this.buttonPrint.Text = "Print";
+            this.buttonPrint.Text = global::Epi.SharedStrings.UI_PRINT;
             this.buttonPrint.UseVisualStyleBackColor = true;
             this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click_1);
             // 
@@ -76,7 +76,7 @@
             this.SelectPages.Size = new System.Drawing.Size(248, 137);
             this.SelectPages.TabIndex = 9;
             this.SelectPages.TabStop = false;
-            this.SelectPages.Text = "Select Pages";
+            this.SelectPages.Text = global::Epi.SharedStrings.UI_SELECT_PAGES;
             // 
             // pageEnd
             // 
@@ -113,7 +113,7 @@
             this.selectPages_All.Name = "selectPages_All";
             this.selectPages_All.Size = new System.Drawing.Size(69, 17);
             this.selectPages_All.TabIndex = 0;
-            this.selectPages_All.Text = "All Pages";
+            this.selectPages_All.Text = global::Epi.SharedStrings.UI_ALL_PAGES;
             this.selectPages_All.UseVisualStyleBackColor = true;
             this.selectPages_All.CheckedChanged += new System.EventHandler(this.selectPages_Range_CheckedChanged);
             // 
@@ -126,7 +126,7 @@
             this.selectPages_Range.Size = new System.Drawing.Size(85, 17);
             this.selectPages_Range.TabIndex = 2;
             this.selectPages_Range.TabStop = true;
-            this.selectPages_Range.Text = "Page Range";
+            this.selectPages_Range.Text = global::Epi.SharedStrings.UI_PAGE_RANGE;
             this.selectPages_Range.UseVisualStyleBackColor = true;
             // 
             // Print
@@ -144,7 +144,7 @@
             this.Name = "Print";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Print";
+            this.Text = global::Epi.SharedStrings.UI_PRINT;
             this.SelectPages.ResumeLayout(false);
             this.SelectPages.PerformLayout();
             this.ResumeLayout(false);

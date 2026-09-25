@@ -155,7 +155,7 @@ namespace Epi.Windows.Analysis.Forms
             this.DockType = Epi.Windows.Docking.DockContainerType.Document;
             this.IsVisible = true;
             this.Name = "DataGridForm";
-            this.Text = "Output Grid";
+            this.Text = global::Epi.SharedStrings.UI_OUTPUT_GRID;
             this.Load += new System.EventHandler(this.DataGridForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

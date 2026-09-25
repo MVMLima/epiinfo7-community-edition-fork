@@ -151,7 +151,7 @@ namespace Epi.Windows.Analysis.Dialogs
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Could not load project: \n\n" + ex.Message);
+                            MessageBox.Show(string.Format(global::Epi.SharedStrings.MSG_COULD_NOT_LOAD_PROJECT, ex.Message));
                             return;
                         }
                     }
@@ -392,7 +392,7 @@ namespace Epi.Windows.Analysis.Dialogs
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Could not load project: \n\n" + ex.Message);
+                            MessageBox.Show(string.Format(global::Epi.SharedStrings.MSG_COULD_NOT_LOAD_PROJECT, ex.Message));
                             return;
                         }
                     }
@@ -441,7 +441,7 @@ namespace Epi.Windows.Analysis.Dialogs
                         catch
                         {
                             success = false;
-                            MessageBox.Show("Could not connect to selected data source.");
+                            MessageBox.Show(global::Epi.SharedStrings.MSG_COULD_NOT_CONNECT);
                         }
 
                         if (success)

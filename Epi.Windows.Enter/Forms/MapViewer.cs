@@ -60,7 +60,7 @@ namespace Epi.Windows.Enter
 
         List<object> mapControl_DataSourceRequested()
         {
-            if (MessageBox.Show("Use external data?", "Data source", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show(global::Epi.SharedStrings.MSG_USE_EXTERNAL_DATA, global::Epi.SharedStrings.UI_DATA_SOURCE, MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 Epi.Windows.Dialogs.BaseReadDialog dlg = new Epi.Windows.Dialogs.BaseReadDialog(this);
                 if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)

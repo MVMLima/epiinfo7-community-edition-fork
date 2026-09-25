@@ -46,7 +46,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(256, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "A newer version of Epi Info is available for download.";
+            this.label1.Text = global::Epi.SharedStrings.UI_A_NEWER_VERSION_OF_EPI_INFO_IS_AVAILABLE_FOR;
             // 
             // label2
             // 
@@ -55,7 +55,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Your Version:";
+            this.label2.Text = global::Epi.SharedStrings.UI_YOUR_VERSION;
             // 
             // label3
             // 
@@ -64,7 +64,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Current Version:";
+            this.label3.Text = global::Epi.SharedStrings.UI_CURRENT_VERSION;
             // 
             // txtCurrentVersion
             // 
@@ -89,7 +89,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Changes in current version:";
+            this.label4.Text = global::Epi.SharedStrings.UI_CHANGES_IN_CURRENT_VERSION;
             // 
             // txtChanges
             // 
@@ -107,7 +107,7 @@
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.Size = new System.Drawing.Size(75, 23);
             this.btnDownload.TabIndex = 7;
-            this.btnDownload.Text = "Download";
+            this.btnDownload.Text = global::Epi.SharedStrings.UI_DOWNLOAD;
             this.btnDownload.UseVisualStyleBackColor = true;
             this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
@@ -118,7 +118,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 8;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -143,7 +143,7 @@
             this.MinimizeBox = false;
             this.Name = "UpdateDetailDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "New Version Available";
+            this.Text = global::Epi.SharedStrings.UI_NEW_VERSION_AVAILABLE;
             this.ResumeLayout(false);
             this.PerformLayout();
 

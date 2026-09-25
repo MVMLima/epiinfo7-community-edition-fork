@@ -41,7 +41,7 @@ namespace EpiDashboard.StatCalc
 
         public Binomial()
         {
-            InitializeComponent();
+            InitializeComponent(); StatCalcLocalizer.Apply(this);
             strat2x2 = new StatisticsRepository.Strat2x2();
             txtNumerator.TextChanged += new TextChangedEventHandler(txtInputs_TextChanged);
             txtObserved.TextChanged += new TextChangedEventHandler(txtInputs_TextChanged);

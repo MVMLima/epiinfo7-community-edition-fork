@@ -107,7 +107,7 @@ namespace Epi.Windows.MakeView.Dialogs
                 {
                     if (s.Substring(execPath.Length + 1) == name + ".xml")
                     {
-                        if (MessageBox.Show("The template with the name already exists.Please click OK to continue or Cancel to return." , "Template Name", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+                        if (MessageBox.Show(global::Epi.SharedStrings.MSG_TEMPLATE_EXISTS , global::Epi.SharedStrings.TEMPLATE_TEMPLATE_NAME, MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
                             return true;
                         else
                             textBoxTemplateName.Focus();

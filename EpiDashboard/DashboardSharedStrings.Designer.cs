@@ -6448,5 +6448,977 @@ namespace EpiDashboard {
                 return ResourceManager.GetString("GADGET_COMBINE_MODE_CATEGORICAL", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Tailed P.
+        /// </summary>
+        public static string SC_1_TAILED_P {
+            get {
+                return ResourceManager.GetString("SC_1_TAILED_P", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Tailed P.
+        /// </summary>
+        public static string SC_2_TAILED_P {
+            get {
+                return ResourceManager.GetString("SC_2_TAILED_P", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 95% confidence interval.
+        /// </summary>
+        public static string SC_95_CONFIDENCE_INTERVAL {
+            get {
+                return ResourceManager.GetString("SC_95_CONFIDENCE_INTERVAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Acceptable Margin of Error:.
+        /// </summary>
+        public static string SC_ACCEPTABLE_MARGIN_OF_ERROR {
+            get {
+                return ResourceManager.GetString("SC_ACCEPTABLE_MARGIN_OF_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Row.
+        /// </summary>
+        public static string SC_ADD_ROW {
+            get {
+                return ResourceManager.GetString("SC_ADD_ROW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adjusted.
+        /// </summary>
+        public static string SC_ADJUSTED {
+            get {
+                return ResourceManager.GetString("SC_ADJUSTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adjusted (MH).
+        /// </summary>
+        public static string SC_ADJUSTED_MH {
+            get {
+                return ResourceManager.GetString("SC_ADJUSTED_MH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adjusted (MLE).
+        /// </summary>
+        public static string SC_ADJUSTED_MLE {
+            get {
+                return ResourceManager.GetString("SC_ADJUSTED_MLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Analysis For Linear Trends In Proportions.
+        /// </summary>
+        public static string SC_ANALYSIS_FOR_LINEAR_TRENDS_IN_PROPORTION {
+            get {
+                return ResourceManager.GetString("SC_ANALYSIS_FOR_LINEAR_TRENDS_IN_PROPORTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Binomial - Proportion vs. Standard.
+        /// </summary>
+        public static string SC_BINOMIAL_PROPORTION_VS_STANDARD {
+            get {
+                return ResourceManager.GetString("SC_BINOMIAL_PROPORTION_VS_STANDARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cases.
+        /// </summary>
+        public static string SC_CASES {
+            get {
+                return ResourceManager.GetString("SC_CASES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chi Square.
+        /// </summary>
+        public static string SC_CHI_SQUARE {
+            get {
+                return ResourceManager.GetString("SC_CHI_SQUARE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chi Square for linear trend.
+        /// </summary>
+        public static string SC_CHI_SQUARE_FOR_LINEAR_TREND {
+            get {
+                return ResourceManager.GetString("SC_CHI_SQUARE_FOR_LINEAR_TREND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cluster Size.
+        /// </summary>
+        public static string SC_CLUSTER_SIZE {
+            get {
+                return ResourceManager.GetString("SC_CLUSTER_SIZE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clusters:.
+        /// </summary>
+        public static string SC_CLUSTERS {
+            get {
+                return ResourceManager.GetString("SC_CLUSTERS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Col %.
+        /// </summary>
+        public static string SC_COL {
+            get {
+                return ResourceManager.GetString("SC_COL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confidence Level.
+        /// </summary>
+        public static string SC_CONFIDENCE_LEVEL {
+            get {
+                return ResourceManager.GetString("SC_CONFIDENCE_LEVEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Controls.
+        /// </summary>
+        public static string SC_CONTROLS {
+            get {
+                return ResourceManager.GetString("SC_CONTROLS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Corrected.
+        /// </summary>
+        public static string SC_CORRECTED {
+            get {
+                return ResourceManager.GetString("SC_CORRECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Corrected (MH).
+        /// </summary>
+        public static string SC_CORRECTED_MH {
+            get {
+                return ResourceManager.GetString("SC_CORRECTED_MH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crude.
+        /// </summary>
+        public static string SC_CRUDE {
+            get {
+                return ResourceManager.GetString("SC_CRUDE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crude (MLE).
+        /// </summary>
+        public static string SC_CRUDE_MLE {
+            get {
+                return ResourceManager.GetString("SC_CRUDE_MLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crude (Cross Product).
+        /// </summary>
+        public static string SC_CRUDE_CROSS_PRODUCT {
+            get {
+                return ResourceManager.GetString("SC_CRUDE_CROSS_PRODUCT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Design effect:.
+        /// </summary>
+        public static string SC_DESIGN_EFFECT {
+            get {
+                return ResourceManager.GetString("SC_DESIGN_EFFECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Estimate.
+        /// </summary>
+        public static string SC_ESTIMATE {
+            get {
+                return ResourceManager.GetString("SC_ESTIMATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expected # of events:.
+        /// </summary>
+        public static string SC_EXPECTED_OF_EVENTS {
+            get {
+                return ResourceManager.GetString("SC_EXPECTED_OF_EVENTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expected frequency:.
+        /// </summary>
+        public static string SC_EXPECTED_FREQUENCY {
+            get {
+                return ResourceManager.GetString("SC_EXPECTED_FREQUENCY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expected percentage:.
+        /// </summary>
+        public static string SC_EXPECTED_PERCENTAGE {
+            get {
+                return ResourceManager.GetString("SC_EXPECTED_PERCENTAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exposed.
+        /// </summary>
+        public static string SC_EXPOSED {
+            get {
+                return ResourceManager.GetString("SC_EXPOSED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exposure.
+        /// </summary>
+        public static string SC_EXPOSURE {
+            get {
+                return ResourceManager.GetString("SC_EXPOSURE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exposure Score.
+        /// </summary>
+        public static string SC_EXPOSURE_SCORE {
+            get {
+                return ResourceManager.GetString("SC_EXPOSURE_SCORE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fisher Exact.
+        /// </summary>
+        public static string SC_FISHER_EXACT {
+            get {
+                return ResourceManager.GetString("SC_FISHER_EXACT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fisher-Exact.
+        /// </summary>
+        public static string SC_FISHER_EXACT_2 {
+            get {
+                return ResourceManager.GetString("SC_FISHER_EXACT_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fleiss w/ CC.
+        /// </summary>
+        public static string SC_FLEISS_W_CC {
+            get {
+                return ResourceManager.GetString("SC_FLEISS_W_CC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For simple random sampling, leave design effect and clusters equal to 1..
+        /// </summary>
+        public static string SC_FOR_SIMPLE_RANDOM_SAMPLING_LEAVE_DESIGN {
+            get {
+                return ResourceManager.GetString("SC_FOR_SIMPLE_RANDOM_SAMPLING_LEAVE_DESIGN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lower.
+        /// </summary>
+        public static string SC_LOWER {
+            get {
+                return ResourceManager.GetString("SC_LOWER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mid-P Exact.
+        /// </summary>
+        public static string SC_MID_P_EXACT {
+            get {
+                return ResourceManager.GetString("SC_MID_P_EXACT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MLE Odds Ratio (Mid-P).
+        /// </summary>
+        public static string SC_MLE_ODDS_RATIO_MID_P {
+            get {
+                return ResourceManager.GetString("SC_MLE_ODDS_RATIO_MID_P", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string SC_NO {
+            get {
+                return ResourceManager.GetString("SC_NO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Numerator:.
+        /// </summary>
+        public static string SC_NUMERATOR {
+            get {
+                return ResourceManager.GetString("SC_NUMERATOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Observed # of events:.
+        /// </summary>
+        public static string SC_OBSERVED_OF_EVENTS {
+            get {
+                return ResourceManager.GetString("SC_OBSERVED_OF_EVENTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Odds Ratio.
+        /// </summary>
+        public static string SC_ODDS_RATIO {
+            get {
+                return ResourceManager.GetString("SC_ODDS_RATIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Odds ratio:.
+        /// </summary>
+        public static string SC_ODDS_RATIO_2 {
+            get {
+                return ResourceManager.GetString("SC_ODDS_RATIO_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Odds-based Parameters.
+        /// </summary>
+        public static string SC_ODDS_BASED_PARAMETERS {
+            get {
+                return ResourceManager.GetString("SC_ODDS_BASED_PARAMETERS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Outcome.
+        /// </summary>
+        public static string SC_OUTCOME {
+            get {
+                return ResourceManager.GetString("SC_OUTCOME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to p value.
+        /// </summary>
+        public static string SC_P_VALUE {
+            get {
+                return ResourceManager.GetString("SC_P_VALUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Percent of cases with exposure:.
+        /// </summary>
+        public static string SC_PERCENT_OF_CASES_WITH_EXPOSURE {
+            get {
+                return ResourceManager.GetString("SC_PERCENT_OF_CASES_WITH_EXPOSURE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Percent of controls exposed:.
+        /// </summary>
+        public static string SC_PERCENT_OF_CONTROLS_EXPOSED {
+            get {
+                return ResourceManager.GetString("SC_PERCENT_OF_CONTROLS_EXPOSED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poisson - Rare Event vs. Standard.
+        /// </summary>
+        public static string SC_POISSON_RARE_EVENT_VS_STANDARD {
+            get {
+                return ResourceManager.GetString("SC_POISSON_RARE_EVENT_VS_STANDARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Population size:.
+        /// </summary>
+        public static string SC_POPULATION_SIZE {
+            get {
+                return ResourceManager.GetString("SC_POPULATION_SIZE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Population survey or descriptive study.
+        /// </summary>
+        public static string SC_POPULATION_SURVEY_OR_DESCRIPTIVE_STUDY {
+            get {
+                return ResourceManager.GetString("SC_POPULATION_SURVEY_OR_DESCRIPTIVE_STUDY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Power:.
+        /// </summary>
+        public static string SC_POWER {
+            get {
+                return ResourceManager.GetString("SC_POWER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Print....
+        /// </summary>
+        public static string SC_PRINT {
+            get {
+                return ResourceManager.GetString("SC_PRINT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Probability that the number of case.
+        /// </summary>
+        public static string SC_PROBABILITY_THAT_THE_NUMBER_OF_CASE {
+            get {
+                return ResourceManager.GetString("SC_PROBABILITY_THAT_THE_NUMBER_OF_CASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Probability that the number of events found is.
+        /// </summary>
+        public static string SC_PROBABILITY_THAT_THE_NUMBER_OF_EVENTS_FO {
+            get {
+                return ResourceManager.GetString("SC_PROBABILITY_THAT_THE_NUMBER_OF_EVENTS_FO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ratio (Unexposed : Exposed):.
+        /// </summary>
+        public static string SC_RATIO_UNEXPOSED_EXPOSED {
+            get {
+                return ResourceManager.GetString("SC_RATIO_UNEXPOSED_EXPOSED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ratio of controls to cases:.
+        /// </summary>
+        public static string SC_RATIO_OF_CONTROLS_TO_CASES {
+            get {
+                return ResourceManager.GetString("SC_RATIO_OF_CONTROLS_TO_CASES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Risk Difference.
+        /// </summary>
+        public static string SC_RISK_DIFFERENCE {
+            get {
+                return ResourceManager.GetString("SC_RISK_DIFFERENCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Risk Ratio.
+        /// </summary>
+        public static string SC_RISK_RATIO {
+            get {
+                return ResourceManager.GetString("SC_RISK_RATIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Risk ratio:.
+        /// </summary>
+        public static string SC_RISK_RATIO_2 {
+            get {
+                return ResourceManager.GetString("SC_RISK_RATIO_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Risk-based Parameters.
+        /// </summary>
+        public static string SC_RISK_BASED_PARAMETERS {
+            get {
+                return ResourceManager.GetString("SC_RISK_BASED_PARAMETERS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Row %.
+        /// </summary>
+        public static string SC_ROW {
+            get {
+                return ResourceManager.GetString("SC_ROW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save As Image....
+        /// </summary>
+        public static string SC_SAVE_AS_IMAGE {
+            get {
+                return ResourceManager.GetString("SC_SAVE_AS_IMAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StatCalc - 2x2 Tables.
+        /// </summary>
+        public static string SC_STATCALC_2X2_TABLES {
+            get {
+                return ResourceManager.GetString("SC_STATCALC_2X2_TABLES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StatCalc - Chi Square for Trend.
+        /// </summary>
+        public static string SC_STATCALC_CHI_SQUARE_FOR_TREND {
+            get {
+                return ResourceManager.GetString("SC_STATCALC_CHI_SQUARE_FOR_TREND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StatCalc - Sample Size and Power.
+        /// </summary>
+        public static string SC_STATCALC_SAMPLE_SIZE_AND_POWER {
+            get {
+                return ResourceManager.GetString("SC_STATCALC_SAMPLE_SIZE_AND_POWER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Statistical Tests.
+        /// </summary>
+        public static string SC_STATISTICAL_TESTS {
+            get {
+                return ResourceManager.GetString("SC_STATISTICAL_TESTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 1.
+        /// </summary>
+        public static string SC_STRATA_1 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 2.
+        /// </summary>
+        public static string SC_STRATA_2 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 3.
+        /// </summary>
+        public static string SC_STRATA_3 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 4.
+        /// </summary>
+        public static string SC_STRATA_4 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 5.
+        /// </summary>
+        public static string SC_STRATA_5 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 6.
+        /// </summary>
+        public static string SC_STRATA_6 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 7.
+        /// </summary>
+        public static string SC_STRATA_7 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 8.
+        /// </summary>
+        public static string SC_STRATA_8 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strata 9.
+        /// </summary>
+        public static string SC_STRATA_9 {
+            get {
+                return ResourceManager.GetString("SC_STRATA_9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Summary Results.
+        /// </summary>
+        public static string SC_SUMMARY_RESULTS {
+            get {
+                return ResourceManager.GetString("SC_SUMMARY_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total observations:.
+        /// </summary>
+        public static string SC_TOTAL_OBSERVATIONS {
+            get {
+                return ResourceManager.GetString("SC_TOTAL_OBSERVATIONS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total Sample.
+        /// </summary>
+        public static string SC_TOTAL_SAMPLE {
+            get {
+                return ResourceManager.GetString("SC_TOTAL_SAMPLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Two-sided confidence level:.
+        /// </summary>
+        public static string SC_TWO_SIDED_CONFIDENCE_LEVEL {
+            get {
+                return ResourceManager.GetString("SC_TWO_SIDED_CONFIDENCE_LEVEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Two-tailed p-value.
+        /// </summary>
+        public static string SC_TWO_TAILED_P_VALUE {
+            get {
+                return ResourceManager.GetString("SC_TWO_TAILED_P_VALUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uncorrected.
+        /// </summary>
+        public static string SC_UNCORRECTED {
+            get {
+                return ResourceManager.GetString("SC_UNCORRECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uncorrected (MH).
+        /// </summary>
+        public static string SC_UNCORRECTED_MH {
+            get {
+                return ResourceManager.GetString("SC_UNCORRECTED_MH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unexposed.
+        /// </summary>
+        public static string SC_UNEXPOSED {
+            get {
+                return ResourceManager.GetString("SC_UNEXPOSED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unmatched Case-Control Study (Comparison of ILL and NOT ILL).
+        /// </summary>
+        public static string SC_UNMATCHED_CASE_CONTROL_STUDY_COMPARISON {
+            get {
+                return ResourceManager.GetString("SC_UNMATCHED_CASE_CONTROL_STUDY_COMPARISON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unmatched Cohort and Cross-Sectional Studies (Exposed and Nonexposed).
+        /// </summary>
+        public static string SC_UNMATCHED_COHORT_AND_CROSS_SECTIONAL_STU {
+            get {
+                return ResourceManager.GetString("SC_UNMATCHED_COHORT_AND_CROSS_SECTIONAL_STU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upper.
+        /// </summary>
+        public static string SC_UPPER {
+            get {
+                return ResourceManager.GetString("SC_UPPER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string SC_YES {
+            get {
+                return ResourceManager.GetString("SC_YES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aberration Detection.
+        /// </summary>
+        public static string SC_ABERRATION_DETECTION {
+            get {
+                return ResourceManager.GetString("SC_ABERRATION_DETECTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Count (Optional):.
+        /// </summary>
+        public static string SC_COUNT_OPTIONAL {
+            get {
+                return ResourceManager.GetString("SC_COUNT_OPTIONAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date:.
+        /// </summary>
+        public static string SC_DATE {
+            get {
+                return ResourceManager.GetString("SC_DATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EARS Properties.
+        /// </summary>
+        public static string SC_EARS_PROPERTIES {
+            get {
+                return ResourceManager.GetString("SC_EARS_PROPERTIES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indicator (Optional):.
+        /// </summary>
+        public static string SC_INDICATOR_OPTIONAL {
+            get {
+                return ResourceManager.GetString("SC_INDICATOR_OPTIONAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lag time (days):.
+        /// </summary>
+        public static string SC_LAG_TIME_DAYS {
+            get {
+                return ResourceManager.GetString("SC_LAG_TIME_DAYS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Matched Pair Case-Control Study.
+        /// </summary>
+        public static string SC_MATCHED_PAIR_CASE_CONTROL_STUDY {
+            get {
+                return ResourceManager.GetString("SC_MATCHED_PAIR_CASE_CONTROL_STUDY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Run Gadget.
+        /// </summary>
+        public static string SC_RUN_GADGET {
+            get {
+                return ResourceManager.GetString("SC_RUN_GADGET", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Threshold (Std. Deviations):.
+        /// </summary>
+        public static string SC_THRESHOLD_STD_DEVIATIONS {
+            get {
+                return ResourceManager.GetString("SC_THRESHOLD_STD_DEVIATIONS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unmatched Case-Control Study.
+        /// </summary>
+        public static string SC_UNMATCHED_CASE_CONTROL_STUDY {
+            get {
+                return ResourceManager.GetString("SC_UNMATCHED_CASE_CONTROL_STUDY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unmatched Cohort and Cross-Sectional Studies (Exposed and Nonexposed).
+        /// </summary>
+        public static string SC_UNMATCHED_COHORT_AND_CROSS_SECTIONAL_STU_2 {
+            get {
+                return ResourceManager.GetString("SC_UNMATCHED_COHORT_AND_CROSS_SECTIONAL_STU_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to % outcome in exposed group:.
+        /// </summary>
+        public static string SC_OUTCOME_IN_EXPOSED_GROUP {
+            get {
+                return ResourceManager.GetString("SC_OUTCOME_IN_EXPOSED_GROUP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to % outcome in unexposed group:.
+        /// </summary>
+        public static string SC_OUTCOME_IN_UNEXPOSED_GROUP {
+            get {
+                return ResourceManager.GetString("SC_OUTCOME_IN_UNEXPOSED_GROUP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.5 has been added to each cell for calculations..
+        /// </summary>
+        public static string SC_0_5_HAS_BEEN_ADDED_TO_EACH_CELL_FOR_CALC {
+            get {
+                return ResourceManager.GetString("SC_0_5_HAS_BEEN_ADDED_TO_EACH_CELL_FOR_CALC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chi Square for linear trend (Extended Mantel-Haenszel).
+        /// </summary>
+        public static string SC_CHI_SQUARE_FOR_LINEAR_TREND_EXTENDED_MAN {
+            get {
+                return ResourceManager.GetString("SC_CHI_SQUARE_FOR_LINEAR_TREND_EXTENDED_MAN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exact.
+        /// </summary>
+        public static string SC_EXACT {
+            get {
+                return ResourceManager.GetString("SC_EXACT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Exposed.
+        /// </summary>
+        public static string SC_NOT_EXPOSED {
+            get {
+                return ResourceManager.GetString("SC_NOT_EXPOSED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Odds-based parameters.
+        /// </summary>
+        public static string SC_ODDS_BASED_PARAMETERS_2 {
+            get {
+                return ResourceManager.GetString("SC_ODDS_BASED_PARAMETERS_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Population survey or descriptive study For simple random sampling, leave design effect and clusters equal to 1..
+        /// </summary>
+        public static string SC_POPULATION_SURVEY_OR_DESCRIPTIVE_STUDY_F {
+            get {
+                return ResourceManager.GetString("SC_POPULATION_SURVEY_OR_DESCRIPTIVE_STUDY_F", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Disease.
+        /// </summary>
+        public static string SC_DISEASE {
+            get {
+                return ResourceManager.GetString("SC_DISEASE", resourceCulture);
+            }
+        }
     }
 }

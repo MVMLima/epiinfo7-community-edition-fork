@@ -41,7 +41,7 @@ namespace EpiDashboard.StatCalc
 
         public Poisson()
         {
-            InitializeComponent();
+            InitializeComponent(); StatCalcLocalizer.Apply(this);
             strat2x2 = new StatisticsRepository.Strat2x2();
             txtObserved.TextChanged += new TextChangedEventHandler(txtInputs_TextChanged);
             txtExpected.TextChanged += new TextChangedEventHandler(txtInputs_TextChanged);

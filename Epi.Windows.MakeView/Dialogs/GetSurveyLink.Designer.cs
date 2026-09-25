@@ -65,7 +65,7 @@
             this.btnDataKeyCopy.Name = "btnDataKeyCopy";
             this.btnDataKeyCopy.Size = new System.Drawing.Size(58, 23);
             this.btnDataKeyCopy.TabIndex = 47;
-            this.btnDataKeyCopy.Text = "Copy";
+            this.btnDataKeyCopy.Text = global::Epi.SharedStrings.UI_COPY;
             this.btnDataKeyCopy.UseVisualStyleBackColor = true;
             // 
             // btnKeyCopy
@@ -77,7 +77,7 @@
             this.btnKeyCopy.Name = "btnKeyCopy";
             this.btnKeyCopy.Size = new System.Drawing.Size(58, 23);
             this.btnKeyCopy.TabIndex = 46;
-            this.btnKeyCopy.Text = "Copy";
+            this.btnKeyCopy.Text = global::Epi.SharedStrings.UI_COPY;
             this.btnKeyCopy.UseVisualStyleBackColor = true;
             // 
             // lblSecurityToken
@@ -88,8 +88,7 @@
             this.lblSecurityToken.Name = "lblSecurityToken";
             this.lblSecurityToken.Size = new System.Drawing.Size(525, 16);
             this.lblSecurityToken.TabIndex = 44;
-            this.lblSecurityToken.Text = "-- Be sure to copy and save this Security Token in order to download the data peo" +
-    "ple submit. ";
+            this.lblSecurityToken.Text = global::Epi.SharedStrings.SURVEY_TOKEN_NOTE;
             // 
             // lblSurveyKey
             // 
@@ -99,8 +98,7 @@
             this.lblSurveyKey.Name = "lblSurveyKey";
             this.lblSurveyKey.Size = new System.Drawing.Size(552, 16);
             this.lblSurveyKey.TabIndex = 45;
-            this.lblSurveyKey.Text = "-- Copy and save this Survey Key in order to access the survey after the people s" +
-    "ubmit their responses.";
+            this.lblSurveyKey.Text = global::Epi.SharedStrings.SURVEY_KEY_NOTE;
             this.lblSurveyKey.Click += new System.EventHandler(this.lblSurveyKey_Click);
             // 
             // txtDataKey
@@ -128,7 +126,7 @@
             this.btnCopyAllURLs.Name = "btnCopyAllURLs";
             this.btnCopyAllURLs.Size = new System.Drawing.Size(80, 68);
             this.btnCopyAllURLs.TabIndex = 40;
-            this.btnCopyAllURLs.Text = "Copy All to Clipboard";
+            this.btnCopyAllURLs.Text = global::Epi.SharedStrings.UI_COPY_ALL_TO_CLIPBOARD;
             this.btnCopyAllURLs.UseVisualStyleBackColor = true;
             // 
             // btnURLCopy
@@ -140,7 +138,7 @@
             this.btnURLCopy.Name = "btnURLCopy";
             this.btnURLCopy.Size = new System.Drawing.Size(58, 23);
             this.btnURLCopy.TabIndex = 41;
-            this.btnURLCopy.Text = "Copy";
+            this.btnURLCopy.Text = global::Epi.SharedStrings.UI_COPY;
             this.btnURLCopy.UseVisualStyleBackColor = true;
             // 
             // btnGo
@@ -152,7 +150,7 @@
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(58, 23);
             this.btnGo.TabIndex = 39;
-            this.btnGo.Text = "Go";
+            this.btnGo.Text = global::Epi.SharedStrings.UI_GO;
             this.btnGo.UseVisualStyleBackColor = true;
             // 
             // lblURL
@@ -163,7 +161,7 @@
             this.lblURL.Name = "lblURL";
             this.lblURL.Size = new System.Drawing.Size(561, 16);
             this.lblURL.TabIndex = 38;
-            this.lblURL.Text = "Send this link to people you want to complete the survey.)";
+            this.lblURL.Text = global::Epi.SharedStrings.UI_SEND_THIS_LINK_TO_PEOPLE_YOU_WANT_TO_COMPLET;
             // 
             // label5
             // 
@@ -173,7 +171,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(140, 23);
             this.label5.TabIndex = 49;
-            this.label5.Text = "DRAFT";
+            this.label5.Text = global::Epi.SharedStrings.WEB_MODE_DRAFT_UPPER;
             // 
             // label4
             // 
@@ -183,7 +181,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(140, 23);
             this.label4.TabIndex = 48;
-            this.label4.Text = "Publish Mode:";
+            this.label4.Text = global::Epi.SharedStrings.UI_PUBLISH_MODE;
             // 
             // label1
             // 
@@ -193,7 +191,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 16);
             this.label1.TabIndex = 50;
-            this.label1.Text = "1. Survey Link:  ";
+            this.label1.Text = global::Epi.SharedStrings.UI_1_SURVEY_LINK;
             // 
             // label2
             // 
@@ -203,7 +201,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 16);
             this.label2.TabIndex = 51;
-            this.label2.Text = "2. Survey Key:  ";
+            this.label2.Text = global::Epi.SharedStrings.UI_2_SURVEY_KEY;
             // 
             // label3
             // 
@@ -213,7 +211,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 16);
             this.label3.TabIndex = 52;
-            this.label3.Text = "3. Security Token:  ";
+            this.label3.Text = global::Epi.SharedStrings.UI_3_SECURITY_TOKEN;
             // 
             // label7
             // 
@@ -224,7 +222,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 16);
             this.label7.TabIndex = 53;
-            this.label7.Text = "IMPORTANT";
+            this.label7.Text = global::Epi.SharedStrings.UI_IMPORTANT;
             // 
             // label6
             // 
@@ -235,7 +233,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 16);
             this.label6.TabIndex = 54;
-            this.label6.Text = "IMPORTANT";
+            this.label6.Text = global::Epi.SharedStrings.UI_IMPORTANT;
             // 
             // GetSurveyLink
             // 
@@ -266,7 +264,7 @@
             this.Name = "GetSurveyLink";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Get Survey Link and Keys";
+            this.Text = global::Epi.SharedStrings.UI_GET_SURVEY_LINK_AND_KEYS;
             this.ResumeLayout(false);
             this.PerformLayout();
 

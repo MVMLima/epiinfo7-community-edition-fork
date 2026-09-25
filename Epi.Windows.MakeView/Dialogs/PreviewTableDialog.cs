@@ -62,7 +62,7 @@ namespace Epi.Windows.MakeView.Dialogs
             fields = tableFields;
             columnCollection = new List<string>();
             btnOK.Visible = false;
-            lblInstruction.Text = "The grid below displays the fields from the selected table.  Click Back to go to the Match Fields screen.";
+            lblInstruction.Text = global::Epi.SharedStrings.PREVIEW_TABLE_INSTRUCTION;
         }
 
         /// <summary>

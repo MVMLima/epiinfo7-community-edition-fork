@@ -95,7 +95,7 @@ namespace Epi.Windows.Analysis.Dialogs
             else
             {
                 errorCount++;
-                MessageBox.Show("Invalid path for Results Folder");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_INVALID_RESULTS_FOLDER);
             }
 
             if (ValidPath(txtArchiveFolder.Text, out fullPath))
@@ -106,7 +106,7 @@ namespace Epi.Windows.Analysis.Dialogs
             else
             {
                 errorCount++;
-                MessageBox.Show("Invalid path for Archive Folder");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_INVALID_ARCHIVE_FOLDER);
             }
 
             if (ValidFileName(txtOutputPrefix.Text))
@@ -116,7 +116,7 @@ namespace Epi.Windows.Analysis.Dialogs
             else
             {
                 errorCount++;
-                MessageBox.Show("Invalid value for Output File Prefix.");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_INVALID_OUTPUT_PREFIX);
             }
 
             int sequenceNumber = 1;
@@ -127,7 +127,7 @@ namespace Epi.Windows.Analysis.Dialogs
             else
             {
                 errorCount++;
-                MessageBox.Show("Invalid Output File Sequence. Must be an integer value.");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_INVALID_OUTPUT_SEQUENCE);
             }
 
             int flagAge = 0;
@@ -138,7 +138,7 @@ namespace Epi.Windows.Analysis.Dialogs
             else
             {
                 errorCount++;
-                MessageBox.Show("Invalid value for Age In Days. Must be an integer value.");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_INVALID_AGE_IN_DAYS);
             }
 
             int flagNumber = 0;
@@ -149,7 +149,7 @@ namespace Epi.Windows.Analysis.Dialogs
             else
             {
                 errorCount++;
-                MessageBox.Show("Invalid value for Number of Results. Must be an integer value.");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_INVALID_NUMBER_OF_RESULTS);
             }
 
             int flagSize = 0;
@@ -160,7 +160,7 @@ namespace Epi.Windows.Analysis.Dialogs
             else
             {
                 errorCount++;
-                MessageBox.Show("Invalid value for File Size. Must be an integer value.");
+                MessageBox.Show(global::Epi.SharedStrings.MSG_INVALID_FILE_SIZE);
             }
 
             if (errorCount == 0)

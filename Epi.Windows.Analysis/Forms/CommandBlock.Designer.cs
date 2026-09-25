@@ -159,7 +159,7 @@ namespace Epi.Windows.Analysis.Forms
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(75, 23);
             this.Cancel.TabIndex = 1;
-            this.Cancel.Text = "Cancel";
+            this.Cancel.Text = global::Epi.SharedStrings.UI_CANCEL;
             this.Cancel.UseVisualStyleBackColor = true;
             // 
             // CommandExplorer
@@ -172,7 +172,7 @@ namespace Epi.Windows.Analysis.Forms
             this.DockType = Epi.Windows.Docking.DockContainerType.ToolWindow;
             this.IsVisible = true;
             this.Name = "CommandExplorer";
-            this.Text = "Command Block";
+            this.Text = global::Epi.SharedStrings.UI_COMMAND_BLOCK;
             this.ResumeLayout(false);
 
         }
