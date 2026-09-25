@@ -70,6 +70,8 @@ foreach ($r in $rows) {
             $isCodeKey = ($r.Key -match '^(UNIQUE_ROW_ID|UNIQUE_RECORD_ID|GLOBAL_RECORD_ID|METADATA_PREFIX|OUTPUT_TABLE_NAME_COMMAND|MYSQL_DATABASE_INFO|MONGODB_DATABASE_INFO|WORD_ALL|PROJECTS|PAGES|FORMS|FIELDS|CNTXT_FXN_DATFX_TMPLT[0-9]*|CNTXT_FXN_TMPLT_.*)$')
             # RelateFieldDefinition: os botoes And/Or/"Yes"/"No"/"Missing" nao tem Tag, entao o Text e inserido na condicao do codigo
             if (($r.ResourceSet -match 'RelateFieldDefinition$') -and ($r.Key -match '^btn(And|Or|Yes|No|Missing)\.Text$')) { $isCodeKey = $true }
+            # Analysis AssignDialog: AssignDialog.FXClickHandler insere FXItem.ToolTipText na expressao do usuario (funcoes, operadores, FORMAT)
+            if (($r.Assembly -eq 'Analysis') -and ($r.ResourceSet -match 'AssignDialog$') -and ($r.Key -match '\.ToolTipText$')) { $isCodeKey = $true }
             if ($isCodeKey -and ($pt -cne $en)) { $flags.Add('CODIGO_ALTERADO') }
             # o dialogo de mensagens da importacao so lista linhas que contem ':  Import' / ':  Project' (ingles fixo no
             # codigo) ou os prefixos traduzidos; mensagem que comecava com 'Import' e deixa de comecar com 'Import' some da lista

@@ -1,0 +1,11 @@
+OK	OK
+&Help	&Ajuda
+Help	Ajuda
+&Save Only	&Somente salvar
+Save Only	Somente salvar
+C&lear	L&impar
+Clear	Limpar
+Browse	Procurar…
+&Functions	&Funções
+Available &Variables	&Variáveis disponíveis
+"Missing"	"Ausente"

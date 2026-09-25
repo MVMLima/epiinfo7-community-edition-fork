@@ -27,3 +27,9 @@ Lote 5: **`gap_binary.ps1`** substitui `resx_gap.ps1` como metodo confiavel de a
 do binario compilado (`-Exe`), compara com a planilha e mostra o que falta (`-Alias` liga o nome do conjunto ao nome
 do `.resx` quando diferem). `add_rows_from_gap.ps1` acrescenta as linhas usando esse arquivo (ingles exato + nome real
 do conjunto): TSV `NomeCompletoDoConjunto<TAB>Chave<TAB>Portugues`.
+
+Lote 6: `gen_rules.ps1` gera as linhas repetitivas (OK, Ajuda, Somente salvar, Limpar, Procurar..., Funcoes, Variaveis disponiveis) a
+partir de `rules_standard_buttons.txt` (EN<TAB>PT) e das regras de codigo do Analysis (And/Or, ToolTipText do AssignDialog),
+pulando as chaves que ja estao nos TSV manuais. `check_mnemonics.ps1 -Assembly X` lista teclas de atalho (&) repetidas na mesma
+janela (menus e barras diferentes da mesma tela aparecem como falsos positivos). `dlg_test.ps1` abre o Analysis na copia isolada
+e da duplo clique em nos da arvore (coordenadas de tela) para fotografar dialogos; varios dialogos exigem uma fonte de dados aberta.
