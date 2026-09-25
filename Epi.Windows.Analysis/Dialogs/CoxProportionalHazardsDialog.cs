@@ -527,15 +527,15 @@ namespace Epi.Windows.Analysis.Dialogs
 
             if (lbxOther.SelectedItems.Count == 2)
             {
-                btnModifyTerm.Text = "Make Interaction";
+                btnModifyTerm.Text = global::Epi.SharedStrings.ANALYSIS_MAKE_INTERACTION;
             }
             else
             {
-                btnModifyTerm.Text = "Make Dummy";
+                btnModifyTerm.Text = global::Epi.SharedStrings.ANALYSIS_MAKE_DUMMY;
 
                 if (lbxOther.SelectedItems.Count == 1 && lbxOther.SelectedItem.ToString().Contains("("))
                 {
-                    btnModifyTerm.Text = "Make Continuous";
+                    btnModifyTerm.Text = global::Epi.SharedStrings.ANALYSIS_MAKE_CONTINUOUS;
                 }
             }
         }

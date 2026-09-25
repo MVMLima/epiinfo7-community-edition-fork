@@ -71,6 +71,8 @@ namespace Epi.Windows.Menu
             txtVersion.Text = MenuSharedStrings.MENU_VERSION_TEXT;
             epiInfoWebsite.Text = MenuSharedStrings.MENU_FOOTER_EPIINFOWEBSITE;
             aboutEpiInfo.Text = MenuSharedStrings.MENU_FOOTER_ABOUTEPIINFO;
+            txtSyncFile2CSVs.Text = MenuSharedStrings.MENU_SYNC_TO_FILE;
+            txtMenuOptions.Text = MenuSharedStrings.MENU_ADDITIONAL_OPTIONS;
 
 
 

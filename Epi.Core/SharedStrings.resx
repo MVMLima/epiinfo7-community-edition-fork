@@ -3311,4 +3311,214 @@ GlobalRecordId = [FKEY]</value>
   <data name="EXCEPTION_NOT_PROJECT_FILE" xml:space="preserve">
     <value>The selected file is not an Epi Info project file.</value>
   </data>
+  <data name="OUTPUT_WINDOW_PREVIOUS" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="OUTPUT_WINDOW_NEXT" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="OUTPUT_WINDOW_LAST" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="OUTPUT_WINDOW_HISTORY" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="OUTPUT_WINDOW_OPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OUTPUT_WINDOW_BOOKMARK" xml:space="preserve">
+    <value>Bookmark</value>
+  </data>
+  <data name="OUTPUT_WINDOW_PRINT" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="OUTPUT_WINDOW_MAXIMIZE" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="OUTPUT_WINDOW_RESTORE" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="OUTPUT_WINDOW_CLEAR" xml:space="preserve">
+    <value>Clear Output</value>
+  </data>
+  <data name="OUTPUT_WINDOW_TITLE" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="OUTPUT_WINDOW_TITLE_WITH_DOCUMENT" xml:space="preserve">
+    <value>Analysis Output: {0}</value>
+  </data>
+  <data name="ANALYSIS_MAKE_INTERACTION" xml:space="preserve">
+    <value>Make Interaction</value>
+  </data>
+  <data name="ANALYSIS_MAKE_DUMMY" xml:space="preserve">
+    <value>Make Dummy</value>
+  </data>
+  <data name="ANALYSIS_MAKE_CONTINUOUS" xml:space="preserve">
+    <value>Make Continuous</value>
+  </data>
+  <data name="ANALYSIS_MATCH_VARIABLES" xml:space="preserve">
+    <value>Match Variables</value>
+  </data>
+  <data name="ANALYSIS_STRATIFY_BY" xml:space="preserve">
+    <value>Stratify By</value>
+  </data>
+  <data name="ANALYSIS_DISPLAY_FROM" xml:space="preserve">
+    <value>&amp;From</value>
+  </data>
+  <data name="ANALYSIS_DISPLAY_DATABASE_BLANK" xml:space="preserve">
+    <value>&amp;Database (Blank for current)</value>
+  </data>
+  <data name="ANALYSIS_DESTINATION_TABLE" xml:space="preserve">
+    <value>Destination Table</value>
+  </data>
+  <data name="ANALYSIS_DESTINATION_FILE" xml:space="preserve">
+    <value>Destination File</value>
+  </data>
+  <data name="ANALYSIS_SAVE_PROGRAM" xml:space="preserve">
+    <value>Save Program</value>
+  </data>
+  <data name="ANALYSIS_SAVE_PROGRAM_AS" xml:space="preserve">
+    <value>Save Program As</value>
+  </data>
+  <data name="ANALYSIS_OPEN_PROGRAM" xml:space="preserve">
+    <value>Open Program</value>
+  </data>
+  <data name="ANALYSIS_FONT_COLOR_TOOLTIP" xml:space="preserve">
+    <value>Font Color {0}</value>
+  </data>
+  <data name="ANALYSIS_OUTPUT_FILES_FILENAME" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="ANALYSIS_OUTPUT_FILES_RESULTS" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="ANALYSIS_OUTPUT_FILES_SIZE_KB" xml:space="preserve">
+    <value>Size(KB)</value>
+  </data>
+  <data name="ANALYSIS_OUTPUT_FILES_LAST_MODIFIED" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="OPEN_WEB_PROJECT_MODE" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="OPEN_WEB_PROJECT_START_DATE" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="OPEN_WEB_PROJECT_CLOSE_DATE" xml:space="preserve">
+    <value>Close Date</value>
+  </data>
+  <data name="OPEN_WEB_PROJECT_ID" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="OPEN_WEB_PROJECT_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TEMPLATE_TEMPLATE_NAME" xml:space="preserve">
+    <value>Template Name</value>
+  </data>
+  <data name="TEMPLATE_CREATION_DATE" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="TEMPLATE_DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="TEMPLATE_PATH" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="TABLE_TO_FORM_CANCELLING" xml:space="preserve">
+    <value>Cancelling...</value>
+  </data>
+  <data name="IMPORT_PREFIX_PROJECT" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="TABLE_TO_FORM_TITLE" xml:space="preserve">
+    <value>Table-to-Form</value>
+  </data>
+  <data name="TABLE_TO_FORM_CONVERT" xml:space="preserve">
+    <value>&amp;Convert</value>
+  </data>
+  <data name="TABLE_TO_FORM_CANCEL" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="TABLE_TO_FORM_FORM_NAME" xml:space="preserve">
+    <value>Form Name:</value>
+  </data>
+  <data name="TABLE_TO_FORM_TABLE_NAME" xml:space="preserve">
+    <value>Table Name:</value>
+  </data>
+  <data name="TABLE_TO_FORM_ADD_LIST_SOURCE_TABLE" xml:space="preserve">
+    <value>Add List Source Table</value>
+  </data>
+  <data name="TABLE_TO_FORM_SET_FIELD_FONT" xml:space="preserve">
+    <value>Set Field Font</value>
+  </data>
+  <data name="TABLE_TO_FORM_SET_PROMPT_FONT" xml:space="preserve">
+    <value>Set Prompt Font</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_IMPORT" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_COLUMN_NAME" xml:space="preserve">
+    <value>Column Name</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_FIELD_NAME" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_PROMPT" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_COLUMN_TYPE" xml:space="preserve">
+    <value>Column Type</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_FIELD_TYPE" xml:space="preserve">
+    <value>Field Type</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_PAGE" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_TAB" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_TAB_STOP" xml:space="preserve">
+    <value>Tab Stop</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_READ_ONLY" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_REQUIRED" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_REPEAT_LAST" xml:space="preserve">
+    <value>Repeat Last</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_RANGE" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_LOWER" xml:space="preserve">
+    <value>Lower</value>
+  </data>
+  <data name="TABLE_TO_FORM_COL_UPPER" xml:space="preserve">
+    <value>Upper</value>
+  </data>
+  <data name="ANALYSIS_TABLES_TITLE" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="ANALYSIS_MATCH_TITLE" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="ANALYSIS_READ_GROUP_VIEWS" xml:space="preserve">
+    <value>Epi Info Views</value>
+  </data>
+  <data name="ANALYSIS_READ_GROUP_FORMS" xml:space="preserve">
+    <value>Epi Info Forms</value>
+  </data>
+  <data name="ANALYSIS_READ_GROUP_TABLES" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="ANALYSIS_READ_TYPE_VIEW" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ANALYSIS_READ_TYPE_TABLE" xml:space="preserve">
+    <value>Table</value>
+  </data>
 </root>

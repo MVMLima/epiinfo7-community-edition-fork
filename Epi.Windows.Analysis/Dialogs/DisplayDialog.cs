@@ -183,12 +183,12 @@ namespace Epi.Windows.Analysis.Dialogs
 		{
 			if (rdbVariables.Checked)
 			{
-				lblFrom.Text = "&From";
+				lblFrom.Text = global::Epi.SharedStrings.ANALYSIS_DISPLAY_FROM;
 				ToggleControls(false);
 			}
 			else
 			{
-				lblFrom.Text = "&Database (Blank for current)";
+				lblFrom.Text = global::Epi.SharedStrings.ANALYSIS_DISPLAY_DATABASE_BLANK;
 				ToggleControls(true);
 			}
 		}

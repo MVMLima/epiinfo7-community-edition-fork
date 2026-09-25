@@ -175,7 +175,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbGoBack.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbGoBack.Name = "tsbGoBack";
             this.tsbGoBack.Size = new System.Drawing.Size(72, 22);
-            this.tsbGoBack.Text = "Previous";
+            this.tsbGoBack.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_PREVIOUS;
             this.tsbGoBack.Click += new System.EventHandler(this.tsbGoBack_Click);
             // 
             // tsbGoForward
@@ -185,7 +185,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbGoForward.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbGoForward.Name = "tsbGoForward";
             this.tsbGoForward.Size = new System.Drawing.Size(51, 22);
-            this.tsbGoForward.Text = "Next";
+            this.tsbGoForward.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_NEXT;
             this.tsbGoForward.Click += new System.EventHandler(this.tsbGoForward_Click);
             // 
             // tsbGoToLast
@@ -195,7 +195,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbGoToLast.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbGoToLast.Name = "tsbGoToLast";
             this.tsbGoToLast.Size = new System.Drawing.Size(48, 22);
-            this.tsbGoToLast.Text = "Last";
+            this.tsbGoToLast.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_LAST;
             this.tsbGoToLast.Click += new System.EventHandler(this.tsbGoToLast_Click);
             // 
             // tsbHistory
@@ -206,7 +206,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbHistory.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.tsbHistory.Name = "tsbHistory";
             this.tsbHistory.Size = new System.Drawing.Size(65, 22);
-            this.tsbHistory.Text = "History";
+            this.tsbHistory.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_HISTORY;
             this.tsbHistory.Click += new System.EventHandler(this.tsbHistory_Click);
             // 
             // toolStripButton5
@@ -220,7 +220,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbOpen.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbOpen.Name = "tsbOpen";
             this.tsbOpen.Size = new System.Drawing.Size(56, 22);
-            this.tsbOpen.Text = "Open";
+            this.tsbOpen.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_OPEN;
             this.tsbOpen.Click += new System.EventHandler(this.tsbOpen_Click);
             // 
             // tsbBookmark
@@ -229,7 +229,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbBookmark.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbBookmark.Name = "tsbBookmark";
             this.tsbBookmark.Size = new System.Drawing.Size(81, 22);
-            this.tsbBookmark.Text = "Bookmark";
+            this.tsbBookmark.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_BOOKMARK;
             this.tsbBookmark.Click += new System.EventHandler(this.tsbBookmark_Click);
             // 
             // toolStripButton8
@@ -243,7 +243,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbPrint.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbPrint.Name = "tsbPrint";
             this.tsbPrint.Size = new System.Drawing.Size(52, 22);
-            this.tsbPrint.Text = "Print";
+            this.tsbPrint.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_PRINT;
             this.tsbPrint.Click += new System.EventHandler(this.tsbPrint_Click);
             // 
             // toolStripSeparator1
@@ -259,7 +259,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbWindowState.ImageTransparentColor = System.Drawing.SystemColors.ButtonFace;
             this.tsbWindowState.Name = "tsbWindowState";
             this.tsbWindowState.Size = new System.Drawing.Size(77, 22);
-            this.tsbWindowState.Text = "Maximize";
+            this.tsbWindowState.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_MAXIMIZE;
             this.tsbWindowState.Visible = false;
             this.tsbWindowState.Click += new System.EventHandler(this.tsbWindowState_Click);
             // 
@@ -269,7 +269,7 @@ namespace Epi.Windows.Analysis.Forms
             this.tsbClear.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbClear.Name = "tsbClear";
             this.tsbClear.Size = new System.Drawing.Size(79, 22);
-            this.tsbClear.Text = "Clear Output";
+            this.tsbClear.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_CLEAR;
             this.tsbClear.Click += new System.EventHandler(this.tsbClear_Click);
             // 
             // webBrowser1
@@ -298,7 +298,7 @@ namespace Epi.Windows.Analysis.Forms
             this.IsVisible = true;
             this.MinimizeBox = false;
             this.Name = "OutputWindow";
-            this.Text = "Output";
+            this.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_TITLE;
             this.ts1.ResumeLayout(false);
             this.ts1.PerformLayout();
             this.ResumeLayout(false);

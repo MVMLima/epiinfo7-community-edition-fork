@@ -153,4 +153,10 @@ CASE-CONTROL</value>
   <data name="STATCALC_VERSION" xml:space="preserve">
     <value>VERSION:</value>
   </data>
+  <data name="STATCALC_FOOTER_WEBSITE" xml:space="preserve">
+    <value>EPI INFO™ WEBSITE</value>
+  </data>
+  <data name="STATCALC_FOOTER_ABOUT" xml:space="preserve">
+    <value>ABOUT EPI INFO™</value>
+  </data>
 </root>

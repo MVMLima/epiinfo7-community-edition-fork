@@ -230,7 +230,7 @@ namespace Epi.Windows.Analysis.Dialogs
                 textFontColorName = e.ClickedItem.BackColor.Name;
             
             fontColorToolStripDDL.Text = textFontColorName;
-            fontColorToolStripDDL.ToolTipText = "Font Color " + textFontColorName;
+            fontColorToolStripDDL.ToolTipText = string.Format(global::Epi.SharedStrings.ANALYSIS_FONT_COLOR_TOOLTIP, textFontColorName);
             fontColorToolStripDDL.ForeColor = e.ClickedItem.BackColor;
         }
         #endregion Private Event

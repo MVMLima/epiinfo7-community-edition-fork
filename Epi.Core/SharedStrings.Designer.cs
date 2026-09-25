@@ -9349,5 +9349,635 @@ namespace Epi {
                 return ResourceManager.GetString("XML", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Previous.
+        /// </summary>
+        public static string OUTPUT_WINDOW_PREVIOUS {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_PREVIOUS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Next.
+        /// </summary>
+        public static string OUTPUT_WINDOW_NEXT {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_NEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last.
+        /// </summary>
+        public static string OUTPUT_WINDOW_LAST {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_LAST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to History.
+        /// </summary>
+        public static string OUTPUT_WINDOW_HISTORY {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_HISTORY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open.
+        /// </summary>
+        public static string OUTPUT_WINDOW_OPEN {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_OPEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bookmark.
+        /// </summary>
+        public static string OUTPUT_WINDOW_BOOKMARK {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_BOOKMARK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Print.
+        /// </summary>
+        public static string OUTPUT_WINDOW_PRINT {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_PRINT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maximize.
+        /// </summary>
+        public static string OUTPUT_WINDOW_MAXIMIZE {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_MAXIMIZE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restore.
+        /// </summary>
+        public static string OUTPUT_WINDOW_RESTORE {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_RESTORE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clear Output.
+        /// </summary>
+        public static string OUTPUT_WINDOW_CLEAR {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_CLEAR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Output.
+        /// </summary>
+        public static string OUTPUT_WINDOW_TITLE {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Analysis Output: {0}.
+        /// </summary>
+        public static string OUTPUT_WINDOW_TITLE_WITH_DOCUMENT {
+            get {
+                return ResourceManager.GetString("OUTPUT_WINDOW_TITLE_WITH_DOCUMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Make Interaction.
+        /// </summary>
+        public static string ANALYSIS_MAKE_INTERACTION {
+            get {
+                return ResourceManager.GetString("ANALYSIS_MAKE_INTERACTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Make Dummy.
+        /// </summary>
+        public static string ANALYSIS_MAKE_DUMMY {
+            get {
+                return ResourceManager.GetString("ANALYSIS_MAKE_DUMMY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Make Continuous.
+        /// </summary>
+        public static string ANALYSIS_MAKE_CONTINUOUS {
+            get {
+                return ResourceManager.GetString("ANALYSIS_MAKE_CONTINUOUS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Match Variables.
+        /// </summary>
+        public static string ANALYSIS_MATCH_VARIABLES {
+            get {
+                return ResourceManager.GetString("ANALYSIS_MATCH_VARIABLES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stratify By.
+        /// </summary>
+        public static string ANALYSIS_STRATIFY_BY {
+            get {
+                return ResourceManager.GetString("ANALYSIS_STRATIFY_BY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;From.
+        /// </summary>
+        public static string ANALYSIS_DISPLAY_FROM {
+            get {
+                return ResourceManager.GetString("ANALYSIS_DISPLAY_FROM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Database (Blank for current).
+        /// </summary>
+        public static string ANALYSIS_DISPLAY_DATABASE_BLANK {
+            get {
+                return ResourceManager.GetString("ANALYSIS_DISPLAY_DATABASE_BLANK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Destination Table.
+        /// </summary>
+        public static string ANALYSIS_DESTINATION_TABLE {
+            get {
+                return ResourceManager.GetString("ANALYSIS_DESTINATION_TABLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Destination File.
+        /// </summary>
+        public static string ANALYSIS_DESTINATION_FILE {
+            get {
+                return ResourceManager.GetString("ANALYSIS_DESTINATION_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Program.
+        /// </summary>
+        public static string ANALYSIS_SAVE_PROGRAM {
+            get {
+                return ResourceManager.GetString("ANALYSIS_SAVE_PROGRAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Program As.
+        /// </summary>
+        public static string ANALYSIS_SAVE_PROGRAM_AS {
+            get {
+                return ResourceManager.GetString("ANALYSIS_SAVE_PROGRAM_AS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Program.
+        /// </summary>
+        public static string ANALYSIS_OPEN_PROGRAM {
+            get {
+                return ResourceManager.GetString("ANALYSIS_OPEN_PROGRAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font Color {0}.
+        /// </summary>
+        public static string ANALYSIS_FONT_COLOR_TOOLTIP {
+            get {
+                return ResourceManager.GetString("ANALYSIS_FONT_COLOR_TOOLTIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filename.
+        /// </summary>
+        public static string ANALYSIS_OUTPUT_FILES_FILENAME {
+            get {
+                return ResourceManager.GetString("ANALYSIS_OUTPUT_FILES_FILENAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Results.
+        /// </summary>
+        public static string ANALYSIS_OUTPUT_FILES_RESULTS {
+            get {
+                return ResourceManager.GetString("ANALYSIS_OUTPUT_FILES_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Size(KB).
+        /// </summary>
+        public static string ANALYSIS_OUTPUT_FILES_SIZE_KB {
+            get {
+                return ResourceManager.GetString("ANALYSIS_OUTPUT_FILES_SIZE_KB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last Modified.
+        /// </summary>
+        public static string ANALYSIS_OUTPUT_FILES_LAST_MODIFIED {
+            get {
+                return ResourceManager.GetString("ANALYSIS_OUTPUT_FILES_LAST_MODIFIED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mode.
+        /// </summary>
+        public static string OPEN_WEB_PROJECT_MODE {
+            get {
+                return ResourceManager.GetString("OPEN_WEB_PROJECT_MODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start Date.
+        /// </summary>
+        public static string OPEN_WEB_PROJECT_START_DATE {
+            get {
+                return ResourceManager.GetString("OPEN_WEB_PROJECT_START_DATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close Date.
+        /// </summary>
+        public static string OPEN_WEB_PROJECT_CLOSE_DATE {
+            get {
+                return ResourceManager.GetString("OPEN_WEB_PROJECT_CLOSE_DATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Id.
+        /// </summary>
+        public static string OPEN_WEB_PROJECT_ID {
+            get {
+                return ResourceManager.GetString("OPEN_WEB_PROJECT_ID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string OPEN_WEB_PROJECT_NAME {
+            get {
+                return ResourceManager.GetString("OPEN_WEB_PROJECT_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Template Name.
+        /// </summary>
+        public static string TEMPLATE_TEMPLATE_NAME {
+            get {
+                return ResourceManager.GetString("TEMPLATE_TEMPLATE_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Creation Date.
+        /// </summary>
+        public static string TEMPLATE_CREATION_DATE {
+            get {
+                return ResourceManager.GetString("TEMPLATE_CREATION_DATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        public static string TEMPLATE_DESCRIPTION {
+            get {
+                return ResourceManager.GetString("TEMPLATE_DESCRIPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Path.
+        /// </summary>
+        public static string TEMPLATE_PATH {
+            get {
+                return ResourceManager.GetString("TEMPLATE_PATH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancelling....
+        /// </summary>
+        public static string TABLE_TO_FORM_CANCELLING {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_CANCELLING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Project.
+        /// </summary>
+        public static string IMPORT_PREFIX_PROJECT {
+            get {
+                return ResourceManager.GetString("IMPORT_PREFIX_PROJECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table-to-Form.
+        /// </summary>
+        public static string TABLE_TO_FORM_TITLE {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Convert.
+        /// </summary>
+        public static string TABLE_TO_FORM_CONVERT {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_CONVERT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;Cancel.
+        /// </summary>
+        public static string TABLE_TO_FORM_CANCEL {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_CANCEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Form Name:.
+        /// </summary>
+        public static string TABLE_TO_FORM_FORM_NAME {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_FORM_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table Name:.
+        /// </summary>
+        public static string TABLE_TO_FORM_TABLE_NAME {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_TABLE_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add List Source Table.
+        /// </summary>
+        public static string TABLE_TO_FORM_ADD_LIST_SOURCE_TABLE {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_ADD_LIST_SOURCE_TABLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set Field Font.
+        /// </summary>
+        public static string TABLE_TO_FORM_SET_FIELD_FONT {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_SET_FIELD_FONT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set Prompt Font.
+        /// </summary>
+        public static string TABLE_TO_FORM_SET_PROMPT_FONT {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_SET_PROMPT_FONT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_IMPORT {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_IMPORT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Column Name.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_COLUMN_NAME {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_COLUMN_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Field Name.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_FIELD_NAME {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_FIELD_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prompt.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_PROMPT {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_PROMPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Column Type.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_COLUMN_TYPE {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_COLUMN_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Field Type.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_FIELD_TYPE {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_FIELD_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_PAGE {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_PAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tab.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_TAB {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_TAB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tab Stop.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_TAB_STOP {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_TAB_STOP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read Only.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_READ_ONLY {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_READ_ONLY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Required.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_REQUIRED {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_REQUIRED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Repeat Last.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_REPEAT_LAST {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_REPEAT_LAST", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Range.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_RANGE {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_RANGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lower.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_LOWER {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_LOWER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upper.
+        /// </summary>
+        public static string TABLE_TO_FORM_COL_UPPER {
+            get {
+                return ResourceManager.GetString("TABLE_TO_FORM_COL_UPPER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tables.
+        /// </summary>
+        public static string ANALYSIS_TABLES_TITLE {
+            get {
+                return ResourceManager.GetString("ANALYSIS_TABLES_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Match.
+        /// </summary>
+        public static string ANALYSIS_MATCH_TITLE {
+            get {
+                return ResourceManager.GetString("ANALYSIS_MATCH_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Epi Info Views.
+        /// </summary>
+        public static string ANALYSIS_READ_GROUP_VIEWS {
+            get {
+                return ResourceManager.GetString("ANALYSIS_READ_GROUP_VIEWS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Epi Info Forms.
+        /// </summary>
+        public static string ANALYSIS_READ_GROUP_FORMS {
+            get {
+                return ResourceManager.GetString("ANALYSIS_READ_GROUP_FORMS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tables.
+        /// </summary>
+        public static string ANALYSIS_READ_GROUP_TABLES {
+            get {
+                return ResourceManager.GetString("ANALYSIS_READ_GROUP_TABLES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View.
+        /// </summary>
+        public static string ANALYSIS_READ_TYPE_VIEW {
+            get {
+                return ResourceManager.GetString("ANALYSIS_READ_TYPE_VIEW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Table.
+        /// </summary>
+        public static string ANALYSIS_READ_TYPE_TABLE {
+            get {
+                return ResourceManager.GetString("ANALYSIS_READ_TYPE_TABLE", resourceCulture);
+            }
+        }
     }
 }

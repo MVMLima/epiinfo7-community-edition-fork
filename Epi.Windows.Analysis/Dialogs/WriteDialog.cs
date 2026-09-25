@@ -622,15 +622,15 @@ namespace Epi.Windows.Analysis.Dialogs
         {
             if (cmbOutputFormat.Text.ToLowerInvariant().Contains("server"))
             {
-                lblDataTable.Text = "Destination Table";
+                lblDataTable.Text = global::Epi.SharedStrings.ANALYSIS_DESTINATION_TABLE;
             }
             else if (cmbOutputFormat.Text.ToLowerInvariant().Contains("file"))
             {
-                lblDataTable.Text = "Destination File";
+                lblDataTable.Text = global::Epi.SharedStrings.ANALYSIS_DESTINATION_FILE;
             }
             else
             {
-                lblDataTable.Text = "Destination Table";
+                lblDataTable.Text = global::Epi.SharedStrings.ANALYSIS_DESTINATION_TABLE;
             }
             txtFileName.Text = string.Empty;
             cmbDataTable.Text = string.Empty;

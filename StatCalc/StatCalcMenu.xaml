@@ -90,7 +90,7 @@
                 <StackPanel Orientation="Horizontal" Margin="15 7 15 0">
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
 
-                        <Button TabIndex="8" Style="{StaticResource buttonfooterLinks}" KeyUp="epiInfoWebsite_Keydown" Click="epiInfoWebsite_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="#d2dfee " >
+                        <Button x:Name="btnEpiInfoWebsite" TabIndex="8" Style="{StaticResource buttonfooterLinks}" KeyUp="epiInfoWebsite_Keydown" Click="epiInfoWebsite_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="#d2dfee " >
                             <Button.ToolTip>
                                 <ToolTip Visibility="Hidden">EPI INFO™ WEBSITE</ToolTip>
                             </Button.ToolTip>
@@ -101,7 +101,7 @@
                             <Button.ToolTip>
                                 <ToolTip Visibility="Hidden">ABOUT EPI INFO™</ToolTip>
                             </Button.ToolTip>
-                            <TextBlock Foreground="#d2dfee">ABOUT EPI INFO™</TextBlock>
+                            <TextBlock x:Name="txtAboutEpiInfo" Foreground="#d2dfee">ABOUT EPI INFO™</TextBlock>
                         </Button>
                     </StackPanel>
 

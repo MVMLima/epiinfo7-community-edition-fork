@@ -39,7 +39,7 @@ namespace Epi.ImportExport.Dialogs
             while (currentLine != null)
             {
                 currentLine = reader.ReadLine();
-                if (currentLine != null && (currentLine.ToLowerInvariant().Contains(SharedStrings.IMPORT_PREFIX_ERROR.ToLowerInvariant()) || currentLine.Contains(":  Project") || currentLine.ToLowerInvariant().Contains(SharedStrings.IMPORT_PREFIX_WARNING.ToLowerInvariant()) || currentLine.Contains(":  Import") || currentLine.ToLowerInvariant().Contains(SharedStrings.IMPORT_PREFIX_NOTICE.ToLowerInvariant()) || (currentLine.Contains(":  Project ") && currentLine.Contains("created in"))))
+                if (currentLine != null && (currentLine.ToLowerInvariant().Contains(SharedStrings.IMPORT_PREFIX_ERROR.ToLowerInvariant()) || currentLine.Contains(":  " + SharedStrings.IMPORT_PREFIX_PROJECT) || currentLine.ToLowerInvariant().Contains(SharedStrings.IMPORT_PREFIX_WARNING.ToLowerInvariant()) || currentLine.Contains(":  Import") || currentLine.ToLowerInvariant().Contains(SharedStrings.IMPORT_PREFIX_NOTICE.ToLowerInvariant()) || (currentLine.Contains(":  Project ") && currentLine.Contains("created in"))))
                 {
                     listBox.Items.Add(currentLine);
                 }

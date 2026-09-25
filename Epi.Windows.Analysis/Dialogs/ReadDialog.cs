@@ -203,22 +203,22 @@ namespace Epi.Windows.Analysis.Dialogs
 
                 if (chkViews.Checked)
                 {
-                    ListViewGroup viewGroup = new ListViewGroup("Epi Info Views");
+                    ListViewGroup viewGroup = new ListViewGroup(global::Epi.SharedStrings.ANALYSIS_READ_GROUP_VIEWS);
                     this.lvDataSourceObjects.Groups.Add(viewGroup);
 
                     foreach (string s in project.GetViewNames())
                     {
-                        ListViewItem newItem = new ListViewItem(new string[] { s, "View" }, viewGroup);
+                        ListViewItem newItem = new ListViewItem(new string[] { s, global::Epi.SharedStrings.ANALYSIS_READ_TYPE_VIEW }, viewGroup);
                         this.lvDataSourceObjects.Items.Add(newItem);
                     }
                 }
                 if (chkTables.Checked)
                 {
-                    ListViewGroup tablesGroup = new ListViewGroup("Tables");
+                    ListViewGroup tablesGroup = new ListViewGroup(global::Epi.SharedStrings.ANALYSIS_READ_GROUP_TABLES);
                     this.lvDataSourceObjects.Groups.Add(tablesGroup);
                     foreach (string s in project.GetNonViewTableNames())                    
                     {
-                        ListViewItem newItem = new ListViewItem(new string[] { s, "Table" }, tablesGroup);
+                        ListViewItem newItem = new ListViewItem(new string[] { s, global::Epi.SharedStrings.ANALYSIS_READ_TYPE_TABLE }, tablesGroup);
                         this.lvDataSourceObjects.Items.Add(newItem);
                     }
                 }

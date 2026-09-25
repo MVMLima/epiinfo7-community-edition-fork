@@ -360,14 +360,14 @@ namespace Epi.Windows.Analysis.Dialogs
         {
             if (cbxMatch.Checked)
             {
-                this.Text = "Match";
-                this.lblStratifyBy.Text = "Match Variables";
+                this.Text = global::Epi.SharedStrings.ANALYSIS_MATCH_TITLE;
+                this.lblStratifyBy.Text = global::Epi.SharedStrings.ANALYSIS_MATCH_VARIABLES;
                 this.lblStratifyBy.Font  = new Font(lblStratifyBy.Font, FontStyle.Bold);
             }
             else
             {
-                this.Text = "Tables";
-                this.lblStratifyBy.Text = "Stratify By";
+                this.Text = global::Epi.SharedStrings.ANALYSIS_TABLES_TITLE;
+                this.lblStratifyBy.Text = global::Epi.SharedStrings.ANALYSIS_STRATIFY_BY;
                 this.lblStratifyBy.Font = new Font(lblStratifyBy.Font, FontStyle.Regular);
             }
             CheckForInputSufficiency();

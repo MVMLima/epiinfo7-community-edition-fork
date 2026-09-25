@@ -701,7 +701,7 @@ namespace Epi.Windows.Analysis.Forms
             }
             else
             {
-                this.Text = "Analysis Output: " + webBrowser1.DocumentTitle;
+                this.Text = string.Format(global::Epi.SharedStrings.OUTPUT_WINDOW_TITLE_WITH_DOCUMENT, webBrowser1.DocumentTitle);
             }
 
             ModifyTitleWithHeader();
@@ -753,18 +753,18 @@ namespace Epi.Windows.Analysis.Forms
         /// <param name="e">.NET supplied WindowState event parameters</param>
         private void tsbWindowState_Click(object sender, EventArgs e)
         {
-            bool Restore = tsbWindowState.Text.Equals("Restore");
+            bool Restore = tsbWindowState.Text.Equals(global::Epi.SharedStrings.OUTPUT_WINDOW_RESTORE);
             if (MainForm is AnalysisMainForm)
             {
                 ((AnalysisMainForm)MainForm).ToggleToolWindows(Restore);
             }
             if (Restore)
             {
-                tsbWindowState.Text = "Maximize";
+                tsbWindowState.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_MAXIMIZE;
             }
             else
             {
-                tsbWindowState.Text = "Restore";
+                tsbWindowState.Text = global::Epi.SharedStrings.OUTPUT_WINDOW_RESTORE;
             }
         }
 

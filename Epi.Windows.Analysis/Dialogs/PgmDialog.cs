@@ -67,17 +67,17 @@ namespace Epi.Windows.Analysis.Dialogs
             if (mode == PgmDialogMode.SaveProgram)
             {
                 cmbPrograms.DropDownStyle = ComboBoxStyle.DropDown;
-                this.Text = "Save Program";         // form title
+                this.Text = global::Epi.SharedStrings.ANALYSIS_SAVE_PROGRAM;         // form title
             }
             else if (mode == PgmDialogMode.SaveProgramAs)
             {
                 cmbPrograms.DropDownStyle = ComboBoxStyle.DropDown;
-                this.Text = "Save Program As";      // form title
+                this.Text = global::Epi.SharedStrings.ANALYSIS_SAVE_PROGRAM_AS;      // form title
             }
             else 
             {
                 cmbPrograms.DropDownStyle = ComboBoxStyle.DropDownList;
-                this.Text = "Open Program";         // form title
+                this.Text = global::Epi.SharedStrings.ANALYSIS_OPEN_PROGRAM;         // form title
             }
             programName = name;
             this.isProjectBased = true;

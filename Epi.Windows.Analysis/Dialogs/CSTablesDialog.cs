@@ -514,12 +514,12 @@ namespace Epi.Windows.Analysis.Dialogs
         {
             if (cbxMatch.Checked)
             {
-                lblStratifyBy.Text = "Match Variables";
+                lblStratifyBy.Text = global::Epi.SharedStrings.ANALYSIS_MATCH_VARIABLES;
                 lblStratifyBy.Font = new Font(lblStratifyBy.Font, FontStyle.Bold);
             }
             else
             {
-                lblStratifyBy.Text = "Stratify By";
+                lblStratifyBy.Text = global::Epi.SharedStrings.ANALYSIS_STRATIFY_BY;
                 lblStratifyBy.Font = new Font(lblStratifyBy.Font, FontStyle.Regular);
             }
             CheckForInputSufficiency();

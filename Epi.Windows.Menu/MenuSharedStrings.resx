@@ -192,4 +192,10 @@
   <data name="MENU_VISUALDASHBOARD_DESCP" xml:space="preserve">
     <value>Visualize analytical results with gadgets, charts, and tables.</value>
   </data>
+  <data name="MENU_SYNC_TO_FILE" xml:space="preserve">
+    <value>SYNC TO FILE</value>
+  </data>
+  <data name="MENU_ADDITIONAL_OPTIONS" xml:space="preserve">
+    <value>Additional Menu Options</value>
+  </data>
 </root>

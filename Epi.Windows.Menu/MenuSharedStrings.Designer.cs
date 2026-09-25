@@ -284,5 +284,23 @@ namespace Epi.Windows.Menu {
                 return ResourceManager.GetString("MENU_VISUALDASHBOARD_DESCP", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SYNC TO FILE.
+        /// </summary>
+        public static string MENU_SYNC_TO_FILE {
+            get {
+                return ResourceManager.GetString("MENU_SYNC_TO_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Additional Menu Options.
+        /// </summary>
+        public static string MENU_ADDITIONAL_OPTIONS {
+            get {
+                return ResourceManager.GetString("MENU_ADDITIONAL_OPTIONS", resourceCulture);
+            }
+        }
     }
 }

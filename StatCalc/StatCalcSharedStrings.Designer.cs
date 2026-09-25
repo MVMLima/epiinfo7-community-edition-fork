@@ -158,5 +158,23 @@ namespace StatCalc {
                 return ResourceManager.GetString("STATCALC_VERSION", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EPI INFO™ WEBSITE.
+        /// </summary>
+        public static string STATCALC_FOOTER_WEBSITE {
+            get {
+                return ResourceManager.GetString("STATCALC_FOOTER_WEBSITE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ABOUT EPI INFO™.
+        /// </summary>
+        public static string STATCALC_FOOTER_ABOUT {
+            get {
+                return ResourceManager.GetString("STATCALC_FOOTER_ABOUT", resourceCulture);
+            }
+        }
     }
 }

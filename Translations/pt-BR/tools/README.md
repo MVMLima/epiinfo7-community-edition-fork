@@ -36,3 +36,9 @@ e da duplo clique em nos da arvore (coordenadas de tela) para fotografar dialogo
 
 Lote 7: `sim_filter.ps1` simula o filtro de `ImportMessagesDialog` (ingles x portugues) sobre as mensagens do `Epi.ImportExport` e lista as que
 passam a sumir ou a aparecer na lista de mensagens da importacao.
+
+Lote de codigo: `add_code_strings.ps1` cria chaves novas para textos que estavam fixos em ingles no codigo (grava o `<data>` no `.resx`
+ingles, o acessor no `.Designer.cs` e a linha na planilha; alvos Core/Menu/StatCalc/Dashboard; TSV `Alvo<TAB>CHAVE<TAB>Ingles<TAB>Portugues`).
+`code_replace.ps1` troca o literal no `.cs` pela chave (`Arquivo<TAB>Antigo<TAB>Novo<TAB>N`, `\q` = aspas; confere N ocorrencias; preserva BOM/CRLF).
+Depois: compilar (`MSBuild "Epi Info 7.sln" /p:Configuration=Release`, no PowerShell) e conferir as chaves por reflexao em PowerShell de 32 bits
+(o Epi.Core e x86; `C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe`).

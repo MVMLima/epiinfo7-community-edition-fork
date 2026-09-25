@@ -92,7 +92,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(90, 23);
             this.btnSave.TabIndex = 0;
-            this.btnSave.Text = "&Convert";
+            this.btnSave.Text = global::Epi.SharedStrings.TABLE_TO_FORM_CONVERT;
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -103,7 +103,7 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(90, 23);
             this.btnExit.TabIndex = 1;
-            this.btnExit.Text = "&Cancel";
+            this.btnExit.Text = global::Epi.SharedStrings.TABLE_TO_FORM_CANCEL;
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -165,7 +165,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(200, 13);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Form Name:";
+            this.label2.Text = global::Epi.SharedStrings.TABLE_TO_FORM_FORM_NAME;
             // 
             // label1
             // 
@@ -173,7 +173,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 13);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Table Name:";
+            this.label1.Text = global::Epi.SharedStrings.TABLE_TO_FORM_TABLE_NAME;
             // 
             // btnImportListValues
             // 
@@ -181,7 +181,7 @@
             this.btnImportListValues.Name = "btnImportListValues";
             this.btnImportListValues.Size = new System.Drawing.Size(178, 23);
             this.btnImportListValues.TabIndex = 6;
-            this.btnImportListValues.Text = "Add List Source Table";
+            this.btnImportListValues.Text = global::Epi.SharedStrings.TABLE_TO_FORM_ADD_LIST_SOURCE_TABLE;
             this.btnImportListValues.UseVisualStyleBackColor = true;
             this.btnImportListValues.Click += new System.EventHandler(this.btnImportListValues_Click);
             // 
@@ -297,7 +297,7 @@
             this.btnSetControlFont.Name = "btnSetControlFont";
             this.btnSetControlFont.Size = new System.Drawing.Size(178, 23);
             this.btnSetControlFont.TabIndex = 17;
-            this.btnSetControlFont.Text = "Set Field Font";
+            this.btnSetControlFont.Text = global::Epi.SharedStrings.TABLE_TO_FORM_SET_FIELD_FONT;
             this.btnSetControlFont.UseVisualStyleBackColor = true;
             this.btnSetControlFont.Click += new System.EventHandler(this.btnSetControlFont_Click);
             // 
@@ -307,14 +307,14 @@
             this.btnSetPromptFont.Name = "btnSetPromptFont";
             this.btnSetPromptFont.Size = new System.Drawing.Size(178, 23);
             this.btnSetPromptFont.TabIndex = 18;
-            this.btnSetPromptFont.Text = "Set Prompt Font";
+            this.btnSetPromptFont.Text = global::Epi.SharedStrings.TABLE_TO_FORM_SET_PROMPT_FONT;
             this.btnSetPromptFont.UseVisualStyleBackColor = true;
             this.btnSetPromptFont.Click += new System.EventHandler(this.btnSetPromptFont_Click);
             // 
             // Import
             // 
             this.Import.DataPropertyName = "Import";
-            this.Import.HeaderText = "Import";
+            this.Import.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_IMPORT;
             this.Import.Name = "Import";
             this.Import.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Import.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
@@ -322,87 +322,87 @@
             // SourceColumnName
             // 
             this.SourceColumnName.DataPropertyName = "SourceColumnName";
-            this.SourceColumnName.HeaderText = "Column Name";
+            this.SourceColumnName.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_COLUMN_NAME;
             this.SourceColumnName.Name = "SourceColumnName";
             this.SourceColumnName.ReadOnly = true;
             // 
             // DestinationColumnName
             // 
             this.DestinationColumnName.DataPropertyName = "DestinationColumnName";
-            this.DestinationColumnName.HeaderText = "Field Name";
+            this.DestinationColumnName.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_FIELD_NAME;
             this.DestinationColumnName.Name = "DestinationColumnName";
             // 
             // Prompt
             // 
             this.Prompt.DataPropertyName = "Prompt";
-            this.Prompt.HeaderText = "Prompt";
+            this.Prompt.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_PROMPT;
             this.Prompt.Name = "Prompt";
             // 
             // SourceColumnType
             // 
             this.SourceColumnType.DataPropertyName = "SourceColumnType";
-            this.SourceColumnType.HeaderText = "Column Type";
+            this.SourceColumnType.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_COLUMN_TYPE;
             this.SourceColumnType.Name = "SourceColumnType";
             this.SourceColumnType.ReadOnly = true;
             // 
             // FieldType
             // 
             this.FieldType.DataPropertyName = "FieldType";
-            this.FieldType.HeaderText = "Field Type";
+            this.FieldType.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_FIELD_TYPE;
             this.FieldType.Name = "FieldType";
             // 
             // PageNumber
             // 
             this.PageNumber.DataPropertyName = "PageNumber";
-            this.PageNumber.HeaderText = "Page";
+            this.PageNumber.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_PAGE;
             this.PageNumber.Name = "PageNumber";
             // 
             // TabIndex
             // 
             this.TabIndex.DataPropertyName = "TabIndex";
-            this.TabIndex.HeaderText = "Tab";
+            this.TabIndex.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_TAB;
             this.TabIndex.Name = "TabIndex";
             // 
             // IsTabStop
             // 
             this.IsTabStop.DataPropertyName = "IsTabStop";
-            this.IsTabStop.HeaderText = "Tab Stop";
+            this.IsTabStop.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_TAB_STOP;
             this.IsTabStop.Name = "IsTabStop";
             // 
             // IsReadOnly
             // 
             this.IsReadOnly.DataPropertyName = "IsReadOnly";
-            this.IsReadOnly.HeaderText = "Read Only";
+            this.IsReadOnly.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_READ_ONLY;
             this.IsReadOnly.Name = "IsReadOnly";
             // 
             // IsRequired
             // 
             this.IsRequired.DataPropertyName = "IsRequired";
-            this.IsRequired.HeaderText = "Required";
+            this.IsRequired.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_REQUIRED;
             this.IsRequired.Name = "IsRequired";
             // 
             // IsRepeatLast
             // 
             this.IsRepeatLast.DataPropertyName = "IsRepeatLast";
-            this.IsRepeatLast.HeaderText = "Repeat Last";
+            this.IsRepeatLast.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_REPEAT_LAST;
             this.IsRepeatLast.Name = "IsRepeatLast";
             // 
             // HasRange
             // 
             this.HasRange.DataPropertyName = "HasRange";
-            this.HasRange.HeaderText = "Range";
+            this.HasRange.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_RANGE;
             this.HasRange.Name = "HasRange";
             // 
             // LowerBound
             // 
             this.LowerBound.DataPropertyName = "LowerBound";
-            this.LowerBound.HeaderText = "Lower";
+            this.LowerBound.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_LOWER;
             this.LowerBound.Name = "LowerBound";
             // 
             // UpperBound
             // 
             this.UpperBound.DataPropertyName = "UpperBound";
-            this.UpperBound.HeaderText = "Upper";
+            this.UpperBound.HeaderText = global::Epi.SharedStrings.TABLE_TO_FORM_COL_UPPER;
             this.UpperBound.Name = "UpperBound";
             // 
             // ListSourceTableName
@@ -502,7 +502,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Table-to-Form";
+            this.Text = global::Epi.SharedStrings.TABLE_TO_FORM_TITLE;
             ((System.ComponentModel.ISupportInitialize)(this.dgvFormFields)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

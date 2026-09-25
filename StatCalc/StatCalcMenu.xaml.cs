@@ -46,6 +46,8 @@ namespace StatCalc
             txtMatchedPairCase.Text = StatCalcSharedStrings.STATCALC_MATCHED_PAIR_CASE;
             txtLanguage.Text = StatCalcSharedStrings.STATCALC_LANGUAGE;
             txtVersion.Text = StatCalcSharedStrings.STATCALC_VERSION;
+            btnEpiInfoWebsite.Content = StatCalcSharedStrings.STATCALC_FOOTER_WEBSITE;
+            txtAboutEpiInfo.Text = StatCalcSharedStrings.STATCALC_FOOTER_ABOUT;
             #endregion Translation
 
         }

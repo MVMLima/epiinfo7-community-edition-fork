@@ -138,19 +138,19 @@ namespace Epi.Windows.Dialogs
             SurveyList.HideSelection = false;
             SurveyList.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
 
-            isDraftModeHeader.Text = "Mode";
+            isDraftModeHeader.Text = global::Epi.SharedStrings.OPEN_WEB_PROJECT_MODE;
             isDraftModeHeader.Width = 80;
 
-            startDate.Text = "Start Date";
+            startDate.Text = global::Epi.SharedStrings.OPEN_WEB_PROJECT_START_DATE;
             startDate.Width = 80;
 
-            closeDate.Text = "Close Date";
+            closeDate.Text = global::Epi.SharedStrings.OPEN_WEB_PROJECT_CLOSE_DATE;
             closeDate.Width = 80;
 
-            surveyIdHeader.Text = "Id";
+            surveyIdHeader.Text = global::Epi.SharedStrings.OPEN_WEB_PROJECT_ID;
             surveyIdHeader.Width = 240;
 
-            surveyNameHeader.Text = "Name";
+            surveyNameHeader.Text = global::Epi.SharedStrings.OPEN_WEB_PROJECT_NAME;
             surveyNameHeader.Width = SurveyList.Width - 
                 isDraftModeHeader.Width -
                 startDate.Width -

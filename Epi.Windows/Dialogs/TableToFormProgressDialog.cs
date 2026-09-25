@@ -196,7 +196,7 @@ namespace Epi.Windows.Dialogs
                     worker.CancelAsync();
                     btnCancel.Enabled = false;
                     cancelled = true;
-                    txtStatus.Text = "Cancelling...";
+                    txtStatus.Text = global::Epi.SharedStrings.TABLE_TO_FORM_CANCELLING;
                 }
             }
         }
@@ -211,7 +211,7 @@ namespace Epi.Windows.Dialogs
                     worker.CancelAsync();
                     btnCancel.Enabled = false;
                     cancelled = true;
-                    txtStatus.Text = "Cancelling...";
+                    txtStatus.Text = global::Epi.SharedStrings.TABLE_TO_FORM_CANCELLING;
                 }
 
                 e.Cancel = true;

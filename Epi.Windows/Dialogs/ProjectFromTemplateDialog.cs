@@ -96,19 +96,19 @@ namespace Epi.Windows.Dialogs
             projectTemplateListView.HideSelection = false;
             
             ColumnHeader templateName = new ColumnHeader();
-            templateName.Text = "Template Name";
+            templateName.Text = global::Epi.SharedStrings.TEMPLATE_TEMPLATE_NAME;
             templateName.Width = -1;
 
             ColumnHeader creationDate = new ColumnHeader();
-            creationDate.Text = "Creation Date";
+            creationDate.Text = global::Epi.SharedStrings.TEMPLATE_CREATION_DATE;
             creationDate.Width = -1;
 
             ColumnHeader description = new ColumnHeader();
-            description.Text = "Description";
+            description.Text = global::Epi.SharedStrings.TEMPLATE_DESCRIPTION;
             description.Width = -1;
 
             ColumnHeader path = new ColumnHeader();
-            path.Text = "Path";
+            path.Text = global::Epi.SharedStrings.TEMPLATE_PATH;
             path.Width = -1;
 
             projectTemplateListView.Columns.AddRange(

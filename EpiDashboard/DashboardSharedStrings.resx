@@ -2263,4 +2263,13 @@ of records or select fewer fields for the group.</value>
   <data name="GADGET_EXAMPLE_MAPSERVER_TILE" xml:space="preserve">
     <value>Example: https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer</value>
   </data>
+  <data name="GADGET_COMBINE_MODE_AUTOMATIC" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="GADGET_COMBINE_MODE_BOOLEAN" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="GADGET_COMBINE_MODE_CATEGORICAL" xml:space="preserve">
+    <value>Categorical</value>
+  </data>
 </root>

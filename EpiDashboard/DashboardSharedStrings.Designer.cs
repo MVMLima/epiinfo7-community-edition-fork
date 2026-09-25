@@ -6421,5 +6421,32 @@ namespace EpiDashboard {
                 return ResourceManager.GetString("WARNING_CONFIRM_CLOSE", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Automatic.
+        /// </summary>
+        public static string GADGET_COMBINE_MODE_AUTOMATIC {
+            get {
+                return ResourceManager.GetString("GADGET_COMBINE_MODE_AUTOMATIC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Boolean.
+        /// </summary>
+        public static string GADGET_COMBINE_MODE_BOOLEAN {
+            get {
+                return ResourceManager.GetString("GADGET_COMBINE_MODE_BOOLEAN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Categorical.
+        /// </summary>
+        public static string GADGET_COMBINE_MODE_CATEGORICAL {
+            get {
+                return ResourceManager.GetString("GADGET_COMBINE_MODE_CATEGORICAL", resourceCulture);
+            }
+        }
     }
 }

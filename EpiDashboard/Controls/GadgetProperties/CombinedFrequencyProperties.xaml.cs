@@ -113,6 +113,9 @@ namespace EpiDashboard.Controls.GadgetProperties
             tblockAnyFilterGadgetOnlyTxt.Text = DashboardSharedStrings.GADGET_FILTER_GADGET_ONLY;
             tblockVariablesToDisplayTxt.Text = DashboardSharedStrings.GADGET_VARIABLES_TO_DISPLAY;
             tblockCombineMode.Text = DashboardSharedStrings.GADGET_COMBINE_MODE;
+            ((ComboBoxItem)cmbCombineMode.Items[0]).Content = DashboardSharedStrings.GADGET_COMBINE_MODE_AUTOMATIC;
+            ((ComboBoxItem)cmbCombineMode.Items[1]).Content = DashboardSharedStrings.GADGET_COMBINE_MODE_BOOLEAN;
+            ((ComboBoxItem)cmbCombineMode.Items[2]).Content = DashboardSharedStrings.GADGET_COMBINE_MODE_CATEGORICAL;
             checkboxShowDenominatorTxt.Text = DashboardSharedStrings.GADGET_SHOW_DENOMINATOR;
             lblConfigExpandedTitleTxt.Text = DashboardSharedStrings.GADGET_CONFIG_TITLE_COMBINEDFEQ;
             tblockPanelDataFilterTxt.Text = DashboardSharedStrings.GADGET_PANELHEADER_DATA_FILTER;
@@ -175,12 +178,12 @@ namespace EpiDashboard.Controls.GadgetProperties
             }
 
             Parameters.CombineMode = CombineModeTypes.Automatic;
-            switch (cmbCombineMode.Text)
+            switch (cmbCombineMode.SelectedIndex)
             {
-                case "Boolean":
+                case 1:
                     Parameters.CombineMode = CombineModeTypes.Boolean;                    
                     break;
-                case "Categorical":
+                case 2:
                     Parameters.CombineMode = CombineModeTypes.Categorical;
                     break;
             }
