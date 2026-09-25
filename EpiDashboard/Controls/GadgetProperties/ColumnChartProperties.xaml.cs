@@ -708,7 +708,8 @@ namespace EpiDashboard.Controls.GadgetProperties
             if (!String.IsNullOrEmpty(txtYAxisLabelValue.Text))
             {
                 Parameters.YAxisLabel = txtYAxisLabelValue.Text;
-                if (!txtYAxisLabelValue.Text.Equals("Count"))
+                // "Count" e o rotulo padrao gravado em ingles; DashboardSharedStrings.COUNT e o mesmo rotulo no idioma atual
+                if (!txtYAxisLabelValue.Text.Equals("Count") && !txtYAxisLabelValue.Text.Equals(DashboardSharedStrings.COUNT))
                     Parameters.YAxisStacked100Label = txtYAxisLabelValue.Text;
             }
 
